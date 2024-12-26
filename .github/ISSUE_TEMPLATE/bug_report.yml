@@ -43,3 +43,14 @@ body:
       description: Which operating system are you using (e.g., Windows 11/Linux Distro/Steam Deck)?
     validations:
       required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Chrome (including Arc, Brave, Opera, Vivaldi)
+        - Microsoft Edge
+        - Firefox
+        - Safari
+        - Other (please specify)
