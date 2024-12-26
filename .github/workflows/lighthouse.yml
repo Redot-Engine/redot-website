@@ -24,6 +24,8 @@ jobs:
           lhci autorun
       - name: Upload Lighthouse reports as artifacts
         uses: actions/upload-artifact@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           name: lighthouse-reports
           path: ./lighthouserc.cjs
