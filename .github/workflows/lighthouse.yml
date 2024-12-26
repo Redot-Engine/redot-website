@@ -20,7 +20,7 @@ jobs:
         run: bun run build
       - name: Run Lighthouse CI
         env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN  }}
         run: |
           npm install -g @lhci/cli
           lhci autorun
