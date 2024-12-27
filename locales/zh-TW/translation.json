@@ -1,8 +1,8 @@
 {
   "header": {
     "banner": {
-      "subMessage": "升級至最新版本。",
-      "mainMessage": "Redot Engine 現已穩定！"
+      "subMessage": "升級到最新版本。",
+      "mainMessage": "Redot 引擎現在穩定！"
     },
     "downloadButton": "下載",
     "links": {
@@ -14,58 +14,58 @@
   },
   "heroSection": {
     "heading": "遊戲引擎，<br />遊戲改變者",
-    "description": "使用 Redot Engine 創建 2D 和 3D 遊戲、跨平台專案，或探索 XR 技術中的創新想法！",
+    "description": "使用 Redot 引擎創建 2D 和 3D 遊戲、跨平台項目，或探索 XR 技術中的創新想法！",
     "buttons": {
-      "primary": "獲取 Redot 引擎適用於 {os}",
-      "secondary": "探索 Redot Engine 文件"
+      "primary": "下載 Redot 引擎 (Windows)",
+      "secondary": "探索 Redot 引擎文檔"
     },
-    "bannerMessage": "🎉 穩定版已經來臨"
+    "bannerMessage": "🎉 穩定版本已經到來"
   },
   "productShowcaseSection": {
-    "badge": "🪁 驅動您的遊戲開發",
-    "title": "驅動您的<br />遊戲開發",
-    "description": "利用我們靈活且高效能的遊戲引擎，開啟無盡可能性，為每位創作者提供支持。"
+    "badge": "🪁 支持你的遊戲開發",
+    "title": "支持你的<br />遊戲開發",
+    "description": "利用我們靈活且高效的遊戲引擎，為每個創作者開啟無盡可能性。"
   },
   "featuresSection": {
     "badge": "🤖 下一代遊戲設計",
-    "title": "Redot Engine 的 <br /> 強大功能",
-    "description": "發現最前沿的工具和功能，輕鬆將您的遊戲創意實現。",
+    "title": "Redot 引擎的 <br /> 強大功能",
+    "description": "發現設計來輕鬆實現你遊戲想法的前沿工具與能力。",
     "highlights": {
       "sceneDrivenDesign": {
         "header": "場景驅動設計",
-        "description": "透過節點層級結構創建可重用的場景，使用腳本和清晰的遊戲邏輯。"
+        "description": "通過節點層級創建可重用場景，使用腳本和清晰的遊戲邏輯。"
       },
       "crossPlatform": {
         "header": "跨平台",
-        "description": "在各種平台上開發。快速將您的遊戲部署到桌面、手機和網頁。"
+        "description": "在多個平台上開發。快速將你的遊戲部署到桌面、移動和網頁。"
       },
       "2D3DEngines": {
         "header": "2D 和 3D 引擎",
-        "description": "利用 Redot 的 2D 引擎創建高效能的 2D 遊戲，輕鬆構建豐富的 3D 世界。"
+        "description": "使用 Redot 的 2D 引擎創建高效的 2D 遊戲，輕鬆構建豐富的 3D 世界。"
       },
       "openSource": {
-        "header": "開放原始碼",
-        "description": "體驗 Redot Engine 的開放發展，所有貢獻者共享成果。"
+        "header": "開源",
+        "description": "體驗 Redot 引擎的開放開發，所有貢獻者共同分享成果。"
       }
     }
   },
   "reviewSection": {
-    "badge": "🎉 穩定版已經來臨",
+    "badge": "🎉 穩定版本已經到來",
     "title": "我們的用戶怎麼說",
-    "description": "Redot Engine 賦予開發者彈性和效能，創造出令人驚艷的遊戲。"
+    "description": "Redot 引擎為開發者提供靈活性和高效性能，幫助創建令人驚豔的遊戲。"
   },
   "startSection": {
     "title": "準備好創建了嗎？",
-    "description": "使用 Redot Engine 創建引人入勝的 2D 和 3D 遊戲，實現跨平台沉浸式體驗。",
+    "description": "使用 Redot 引擎創建引人入勝的 2D 和 3D 遊戲，打造跨平台沉浸式體驗。",
     "buttons": {
       "download": "下載",
-      "documentation": "探索 Redot Engine 文件"
+      "documentation": "探索 Redot 引擎文檔"
     }
   },
   "footer": {
     "languageSelector": {
       "searchPlaceholder": "搜尋語言...",
-      "noResults": "未找到語言。"
+      "noResults": "找不到語言。"
     },
     "copyright": {
       "text": "© 2024-present 由 Redot 社群提供。",
@@ -80,7 +80,7 @@
       "children": {
         "download": "下載",
         "status": "狀態",
-        "donate": "捐款",
+        "donate": "捐贈",
         "documentation": "文件",
         "sourceCode": "原始碼"
       }
@@ -89,18 +89,18 @@
       "title": "資源",
       "children": {
         "news": "新聞",
-        "feedback": "反饋",
+        "feedback": "回饋",
         "community": "社群",
-        "pressKit": "新聞稿套件",
-        "contact": "聯絡"
+        "pressKit": "媒體資料包",
+        "contact": "聯繫"
       }
     },
     "betaPrograms": {
-      "title": "Beta 計畫",
+      "title": "Beta 項目",
       "children": {
-        "launcher": "啟動程式",
+        "launcher": "啟動器",
         "academy": "學院",
-        "engineExperimental": "引擎實驗版"
+        "engineExperimental": "引擎實驗"
       }
     },
     "policies": {
@@ -109,83 +109,14 @@
         "terms": "條款",
         "privacy": "隱私",
         "cookieSettings": "Cookie 設定",
-        "licenses": "許可證",
+        "licenses": "授權",
         "contributionGuidelines": "貢獻指南"
       }
     }
   },
   "notFound": {
-    "title": "哎呀！找不到頁面",
-    "description": "看來您已經進入了未知領域……我們也不確定這個頁面去哪裡了！",
+    "title": "哎呀！頁面找不到",
+    "description": "看起來你進入了未知的領域…我們也不確定這個頁面跑去哪了！",
     "goBack": "返回"
-  },
-  "downloadHero": {
-    "downloadForOS": "下載 Redot 於 {platform}",
-    "igniteYourImagination": "點燃您的想像力",
-    "downloadDescription": "下載 Redot Engine，這個強大的平台可用於建立 2D 和 3D 跨平台遊戲及互動體驗。",
-    "buttons": {
-      "downloadLatest": "下載最新版本",
-      "downloadMono": "下載 Mono",
-      "moreDownloadOptions": "更多下載選項"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "用 Redot 創建",
-    "description": "輕鬆使用 Redot Engine 創建遊戲——快速、靈活且對所有開發者開放源碼。",
-    "steps": {
-      "step1": {
-        "title": "1. 選擇您的 Redot 版本",
-        "description": "您可以選擇最新的 Redot Engine、舊版本或試用 beta 版本。",
-        "links": {
-          "archive": "訪問下載存檔"
-        }
-      },
-      "step2": {
-        "title": "2. 下載 Redot Engine",
-        "description": "按照指示完成安裝與設置。",
-        "links": {
-          "windows": "下載 Windows 版",
-          "mac": "下載 Mac 版",
-          "linux": "下載 Linux 版",
-          "android": "下載 Android 版"
-        }
-      },
-      "step3": {
-        "title": "3. 開始您的專案",
-        "description": "從零開始您的專案或選擇範本。加入我們的 Discord 社群連接！",
-        "links": {
-          "discord": "加入我們的 Discord 社群"
-        }
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "支援的平臺",
-    "description": "Redot Engine 在各種平臺上運行順暢，確保兼容性。"
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "Redot Engine 系統需求",
-      "description": {
-        "general": "推薦：Vulkan 1.0 相容硬體。最低需求：OpenGL 3.3 / OpenGL ES 3.0 相容硬體。",
-        "dotnet": "對 .NET 版本的額外要求：",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "什麼是 Redot Engine？",
-      "description": "Redot Engine 是一個免費的開放源碼遊戲開發平台，適用於 2D 和 3D 專案。基於 Godot，為各個層次的開發者提供靈活性和易用性，並支援跨平台，擁有合作社群。",
-      "learnMoreButton": "了解更多關於 Redot Engine 的資訊"
-    }
-  },
-  "downloadHelp": {
-    "title": "需要幫助？",
-    "description": "加入我們的 Discord 伺服器，尋求幫助、分享想法並與我們的社群聯繫！",
-    "buttons": {
-      "discord": "加入 Discord",
-      "documentation": "探索 Redot Engine 文件"
-    }
   }
 }

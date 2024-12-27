@@ -13,64 +13,64 @@
     }
   },
   "heroSection": {
-    "heading": "Herní engine,<br />Revoluce v herním vývoji",
-    "description": "Vytvářejte své 2D a 3D hry, projekty napříč platformami nebo objevujte inovativní nápady v XR technologii s Redot Engine!",
+    "heading": "Herní Engine,<br />Změna hry",
+    "description": "Vytvářejte své 2D a 3D hry, multiplatformní projekty nebo objevujte inovativní nápady v XR technologii s Redot Engine!",
     "buttons": {
-      "primary": "Stáhněte si Redot Engine pro {os}",
-      "secondary": "Prozkoumat dokumentaci Redot Engine"
+      "primary": "Stáhněte si Redot Engine pro Windows",
+      "secondary": "Prozkoumejte dokumentaci Redot Engine"
     },
     "bannerMessage": "🎉 Stabilní verze je zde"
   },
   "productShowcaseSection": {
-    "badge": "🪁 Pohání váš herní vývoj",
-    "title": "Pohání váš<br />herní vývoj",
+    "badge": "🪁 Podpora vaší herní tvorby",
+    "title": "Podpora vaší<br />herní tvorby",
     "description": "Odemkněte nekonečné možnosti s naším flexibilním a výkonným herním enginem pro každého tvůrce."
   },
   "featuresSection": {
     "badge": "🤖 Herní design nové generace",
-    "title": "Výkonné funkce Redot Engine",
-    "description": "Objevte špičkové nástroje a možnosti navržené tak, aby vaše herní nápady ožily snadno.",
+    "title": "Výkonné funkce<br />Redot Engine",
+    "description": "Objevte špičkové nástroje a schopnosti navržené k tomu, aby vaše herní nápady ožily bez námahy.",
     "highlights": {
       "sceneDrivenDesign": {
-        "header": "Design založený na scénách",
-        "description": "Vytvářejte opakovaně použitelné scény s uzly, skripty a jasnou herní logikou prostřednictvím hierarchie uzlů."
+        "header": "Návrh založený na scénách",
+        "description": "Vytvářejte znovu použitelné scény s uzly, skripty a jasnou herní logikou díky hierarchii uzlů."
       },
       "crossPlatform": {
-        "header": "Přenositelnost",
-        "description": "Vyvíjejte na různých platformách. Rychle nasazujte svou hru na desktop, mobilní zařízení a web."
+        "header": "Multiplatformní",
+        "description": "Vyvíjejte na různých platformách. Rychle nasazujte svou hru na stolních počítačích, mobilních zařízeních i webu."
       },
       "2D3DEngines": {
-        "header": "2D a 3D enginy",
-        "description": "Vytvářejte výkonné 2D hry s 2D enginem Redot a snadno budujte bohaté 3D světy."
+        "header": "2D a 3D engine",
+        "description": "Vytvářejte výkonné 2D hry s enginem Redot a jednoduše stavte bohaté 3D světy."
       },
       "openSource": {
-        "header": "Open source",
-        "description": "Zažijte otevřený vývoj s Redot Engine, kde se všichni přispěvatelé dělí o stejnou roli."
+        "header": "Open Source",
+        "description": "Zažijte otevřený vývoj s Redot Engine, kde všichni přispěvatelé sdílejí rovnocenně."
       }
     }
   },
   "reviewSection": {
     "badge": "🎉 Stabilní verze je zde",
     "title": "Co říkají naši uživatelé",
-    "description": "Redot Engine dává vývojářům flexibilitu a výkon pro vytváření úžasných her."
+    "description": "Redot Engine dává vývojářům flexibilitu a výkon pro tvorbu úžasných her."
   },
   "startSection": {
-    "title": "Jste připraveni začít?",
-    "description": "Vytvářejte poutavé 2D a 3D hry s Redot Engine pro platformy s pohlcujícími zážitky.",
+    "title": "Připraveni tvořit?",
+    "description": "Vytvářejte poutavé 2D a 3D hry s Redot Engine pro multiplatformní pohlcující zážitky.",
     "buttons": {
       "download": "Stáhnout",
-      "documentation": "Prozkoumat dokumentaci Redot Engine"
+      "documentation": "Prozkoumejte dokumentaci Redot Engine"
     }
   },
   "footer": {
     "languageSelector": {
       "searchPlaceholder": "Hledat jazyk...",
-      "noResults": "Žádný jazyk nenalezen."
+      "noResults": "Jazyk nenalezen."
     },
     "copyright": {
-      "text": "© 2024-dosud komunitou Redot.",
-      "website": "Webová stránka",
-      "sourceCode": "zdrojový kód na Github"
+      "text": "© 2024-dosud Redot komunita.",
+      "website": "Webové stránky",
+      "sourceCode": "Webový zdrojový kód na Githubu"
     },
     "buttons": {
       "settings": "Nastavení"
@@ -80,7 +80,7 @@
       "children": {
         "download": "Stáhnout",
         "status": "Stav",
-        "donate": "Darovat",
+        "donate": "Přispět",
         "documentation": "Dokumentace",
         "sourceCode": "Zdrojový kód"
       }
@@ -91,101 +91,32 @@
         "news": "Novinky",
         "feedback": "Zpětná vazba",
         "community": "Komunita",
-        "pressKit": "Tiskový balíček",
+        "pressKit": "Tisková sada",
         "contact": "Kontakt"
       }
     },
     "betaPrograms": {
-      "title": "Beta programy",
+      "title": "Beta Programy",
       "children": {
-        "launcher": "Spouštěč",
+        "launcher": "Launcher",
         "academy": "Akademie",
-        "engineExperimental": "Experimentální engine"
+        "engineExperimental": "Experimentální Engine"
       }
     },
     "policies": {
-      "title": "Politiky",
+      "title": "Zásady",
       "children": {
         "terms": "Podmínky",
-        "privacy": "Ochrana soukromí",
+        "privacy": "Soukromí",
         "cookieSettings": "Nastavení cookies",
         "licenses": "Licence",
-        "contributionGuidelines": "Pokyny pro přispěvatele"
+        "contributionGuidelines": "Pravidla přispívání"
       }
     }
   },
   "notFound": {
-    "title": "Oops! Stránka nenalezena",
-    "description": "Vypadá to, že jste se dostali do neznámé oblasti... ani my nevíme, kam tato stránka zmizela!",
+    "title": "Ups! Stránka nebyla nalezena",
+    "description": "Vypadá to, že jste se vydali do neznáma... také nevíme, kam tato stránka zmizela!",
     "goBack": "Zpět"
-  },
-  "downloadHero": {
-    "downloadForOS": "Stáhnout Redot pro {platform}",
-    "igniteYourImagination": "Rozzářte svou představivost",
-    "downloadDescription": "Stáhněte Redot Engine, výkonnou platformu pro tvorbu 2D a 3D her a interaktivních zážitků napříč platformami.",
-    "buttons": {
-      "downloadLatest": "Stáhnout nejnovější verzi",
-      "downloadMono": "Stáhnout Mono",
-      "moreDownloadOptions": "Další možnosti stažení"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "Vytvářejte s Redot",
-    "description": "Vytvořte svou hru snadno s Redot Engine - rychlý, flexibilní a open-source pro všechny vývojáře.",
-    "steps": {
-      "step1": {
-        "title": "1. Vyberte verzi Redot",
-        "description": "Můžete si vybrat nejnovější Redot Engine, starší verzi nebo zkusit beta verzi.",
-        "links": {
-          "archive": "Navštivte archiv stažení"
-        }
-      },
-      "step2": {
-        "title": "2. Stáhněte Redot Engine",
-        "description": "Postupujte podle instrukcí pro dokončení instalace a nastavení.",
-        "links": {
-          "windows": "Stáhnout pro Windows",
-          "mac": "Stáhnout pro Mac",
-          "linux": "Stáhnout pro Linux",
-          "android": "Stáhnout pro Android"
-        }
-      },
-      "step3": {
-        "title": "3. Začněte svůj projekt",
-        "description": "Začněte svůj projekt od nuly nebo si vyberte šablonu. Připojte se k naší komunitě na Discordu!",
-        "links": {
-          "discord": "Připojte se k naší komunitě na Discordu"
-        }
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "Podporované platformy",
-    "description": "Redot Engine běží plynule na různých platformách, zajišťující kompatibilitu."
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "Požadavky na systém Redot Engine",
-      "description": {
-        "general": "Doporučeno: Hardware kompatibilní s Vulkan 1.0. Minimálně: Hardware kompatibilní s OpenGL 3.3 / OpenGL ES 3.0.",
-        "dotnet": "Další požadavky pro .NET verzi:",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "Co je Redot Engine?",
-      "description": "Redot Engine je zdarma, open-source herní vývojová platforma pro 2D a 3D projekty. Založen na Godot, nabízí flexibilitu a snadnost použití pro vývojáře všech úrovní, s podporou napříč platformami a komunitou pro spolupráci.",
-      "learnMoreButton": "Zjistit více o Redot Engine"
-    }
-  },
-  "downloadHelp": {
-    "title": "Potřebujete pomoc?",
-    "description": "Připojte se k našemu Discord serveru pro pomoc, sdílení nápadů a spojení s komunitou!",
-    "buttons": {
-      "discord": "Připojte se na Discord",
-      "documentation": "Prozkoumat dokumentaci Redot Engine"
-    }
   }
 }

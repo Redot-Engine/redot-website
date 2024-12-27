@@ -1,8 +1,8 @@
 {
   "header": {
     "banner": {
-      "subMessage": "Frissíts a legújabb verzióra.",
-      "mainMessage": "A Redot Engine most stabil!"
+      "subMessage": "Frissítsen a legújabb verzióra.",
+      "mainMessage": "A Redot Engine mostantól stabil!"
     },
     "downloadButton": "Letöltés",
     "links": {
@@ -13,64 +13,64 @@
     }
   },
   "heroSection": {
-    "heading": "Játék Engine,<br />Játék Kiváltoztató",
-    "description": "Készíts 2D és 3D játékokat, keresztplatformos projekteket, vagy fedezd fel az innovatív XR technológiát a Redot Engine segítségével!",
+    "heading": "Játékmotor,<br />Mérföldkő",
+    "description": "Készítsen 2D és 3D játékokat, cross-platform projekteket, vagy fedezze fel az innovatív XR technológiát a Redot Engine segítségével!",
     "buttons": {
-      "primary": "Szerezze be a Redot Engine-t a(z) {os} rendszerhez",
-      "secondary": "Fedezd fel a Redot Engine dokumentációt"
+      "primary": "Redot Engine letöltése Windowsra",
+      "secondary": "Redot Engine Dokumentáció felfedezése"
     },
-    "bannerMessage": "🎉 A stabil verzió itt van"
+    "bannerMessage": "🎉 Itt a stabil verzió"
   },
   "productShowcaseSection": {
-    "badge": "🪁 A Te Játékfejlesztésedet Erősíti",
-    "title": "Erősíti A<br />Játékfejlesztésedet",
-    "description": "Fedezd fel a végtelen lehetőségeket a rugalmas és nagy teljesítményű játék motorunkkal minden fejlesztő számára."
+    "badge": "🪁 Támogatjuk a játékfejlesztést",
+    "title": "Támogatjuk a<br />Játékfejlesztést",
+    "description": "Oldja fel a végtelen lehetőségeket rugalmas és nagy teljesítményű játékmotorunkkal minden alkotó számára."
   },
   "featuresSection": {
-    "badge": "🤖 Következő Generációs Játék Tervezés",
-    "title": "A Redot Engine<br />Erőteljes Funkciói",
-    "description": "Fedezd fel a legmodernebb eszközöket és képességeket, melyek könnyedén életre kelthetik a játékötleteidet.",
+    "badge": "🤖 Következő generációs játéktervezés",
+    "title": "A Redot Engine <br /> Erőteljes Funkciói",
+    "description": "Fedezze fel az innovatív eszközöket és képességeket, amelyekkel egyszerűen valóra válthatja játékötleteit.",
     "highlights": {
       "sceneDrivenDesign": {
-        "header": "Jelenet alapú tervezés",
-        "description": "Hozz létre újrahasználható jeleneteket csomópontokkal, szkriptekkel és tiszta játékmenet logikával csomópont hierarchián keresztül."
+        "header": "Jelenetvezérelt tervezés",
+        "description": "Készítsen újrahasznosítható jeleneteket csomópontokkal, szkriptekkel és világos játékmenet-logikával a csomóponti hierarchia segítségével."
       },
       "crossPlatform": {
-        "header": "Keresztplatform",
-        "description": "Fejlessz különböző platformokra. Gyorsan telepítheted játékodat asztali számítógépre, mobilra és webre."
+        "header": "Cross-platform",
+        "description": "Fejlesszen különféle platformokon. Telepítse játékát gyorsan asztali gépre, mobilra és webre."
       },
       "2D3DEngines": {
         "header": "2D és 3D motorok",
-        "description": "Hozz létre teljesítmény-orientált 2D játékokat a Redot 2D motorjával, és könnyedén építs gazdag 3D világokat."
+        "description": "Készítsen hatékony 2D játékokat a Redot 2D motorjával, és építsen könnyedén gazdag 3D világokat."
       },
       "openSource": {
-        "header": "Nyílt forráskód",
-        "description": "Tapasztald meg a nyílt fejlesztést a Redot Engine-nel, ahol minden hozzájáruló egyenlően osztozik."
+        "header": "Nyílt Forráskódú",
+        "description": "Tapasztalja meg a nyílt fejlesztést a Redot Engine-nel, ahol minden közreműködő egyenlően osztozik."
       }
     }
   },
   "reviewSection": {
-    "badge": "🎉 A stabil verzió itt van",
-    "title": "Mit mondanak a felhasználóink",
-    "description": "A Redot Engine lehetővé teszi a fejlesztők számára, hogy rugalmasan és nagy teljesítménnyel hozzanak létre lenyűgöző játékokat."
+    "badge": "🎉 Itt a stabil verzió",
+    "title": "Mit mondanak a felhasználóink?",
+    "description": "A Redot Engine rugalmasságot és teljesítményt kínál a lenyűgöző játékok létrehozásához."
   },
   "startSection": {
-    "title": "Készen állsz a kezdésre?",
-    "description": "Hozz létre lenyűgöző 2D és 3D játékokat a Redot Engine segítségével keresztplatformos interaktív élményekhez.",
+    "title": "Készen áll az alkotásra?",
+    "description": "Készítsen lenyűgöző 2D és 3D játékokat a Redot Engine-nel, és élvezze a cross-platform élményeket.",
     "buttons": {
       "download": "Letöltés",
-      "documentation": "Fedezd fel a Redot Engine dokumentációt"
+      "documentation": "Redot Engine Dokumentáció felfedezése"
     }
   },
   "footer": {
     "languageSelector": {
       "searchPlaceholder": "Nyelv keresése...",
-      "noResults": "Nem található nyelv."
+      "noResults": "Nincs találat."
     },
     "copyright": {
-      "text": "© 2024-jelen a Redot közösség által.",
+      "text": "© 2024-napjainkig a Redot közösség által.",
       "website": "Weboldal",
-      "sourceCode": "Forráskód a Github-on"
+      "sourceCode": "forráskód a Githubon"
     },
     "buttons": {
       "settings": "Beállítások"
@@ -80,7 +80,7 @@
       "children": {
         "download": "Letöltés",
         "status": "Állapot",
-        "donate": "Adományozás",
+        "donate": "Adomány",
         "documentation": "Dokumentáció",
         "sourceCode": "Forráskód"
       }
@@ -91,7 +91,7 @@
         "news": "Hírek",
         "feedback": "Visszajelzés",
         "community": "Közösség",
-        "pressKit": "Sajtócsomag",
+        "pressKit": "Sajtókészlet",
         "contact": "Kapcsolat"
       }
     },
@@ -100,89 +100,23 @@
       "children": {
         "launcher": "Indító",
         "academy": "Akadémia",
-        "engineExperimental": "Engine Kísérleti"
+        "engineExperimental": "Kísérleti Motor"
       }
     },
     "policies": {
-      "title": "Politikák",
+      "title": "Irányelvek",
       "children": {
-        "terms": "Felhasználási feltételek",
-        "privacy": "Adatvédelmi irányelvek",
-        "cookieSettings": "Cookie beállítások",
-        "licenses": "Licenc",
-        "contributionGuidelines": "Hozzájárulási irányelvek"
+        "terms": "Feltételek",
+        "privacy": "Adatvédelem",
+        "cookieSettings": "Süti Beállítások",
+        "licenses": "Licenszek",
+        "contributionGuidelines": "Hozzájárulási Útmutatók"
       }
     }
   },
   "notFound": {
-    "title": "Oops! Az oldal nem található",
-    "description": "Úgy tűnik, hogy a nem ismert területre kalandoztál... nem vagyunk biztosak, hová tűnt ez az oldal!",
+    "title": "Hoppá! Az oldal nem található",
+    "description": "Úgy tűnik, hogy a lehetetlenbe kalandoztál... mi sem vagyunk biztosak abban, hogy hová tűnt ez az oldal!",
     "goBack": "Vissza"
-  },
-  "downloadHero": {
-    "downloadForOS": "Töltsd le a Redot-ot {platform} rendszeren",
-    "igniteYourImagination": "Gyújtsd meg a Képzeleted",
-    "downloadDescription": "Töltsd le a Redot Engine-t, az erőteljes platformot, amellyel 2D és 3D keresztplatformos játékokat és interaktív élményeket készíthetsz.",
-    "buttons": {
-      "downloadLatest": "Legújabb letöltése",
-      "downloadMono": "Mono letöltése",
-      "moreDownloadOptions": "További letöltési lehetőségek"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "Készíts a Redot-tal",
-    "description": "Készítsd el a játékod könnyedén a Redot Engine-nel - gyorsan, rugalmasan és nyílt forráskóddal minden fejlesztő számára.",
-    "steps": {
-      "step1": {
-        "title": "1. Válaszd ki a Redot verziódat",
-        "description": "Kiválaszthatod a legújabb Redot Engine verziót, egy régebbi kiadást, vagy kipróbálhatod a béta verziót.",
-        "links": {
-          "archive": "Látogasd meg a letöltési archívumot"
-        }
-      },
-      "step2": {
-        "title": "2. Töltsd le a Redot Engine-t",
-        "description": "Kövessd az utasításokat a telepítés és beállítás befejezéséhez.",
-        "links": {
-          "windows": "Letöltés Windows-ra",
-          "mac": "Letöltés Mac-re",
-          "linux": "Letöltés Linux-ra",
-          "android": "Letöltés Android-ra"
-        }
-      },
-      "step3": {
-        "title": "3. Kezdd el a projekted",
-        "description": "Kezd el a projektet a nulláról, vagy válassz egy sablont. Csatlakozz a Discord közösségünkhöz!"
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "Támogatott platformok",
-    "description": "A Redot Engine simán működik különböző platformokon, biztosítva a kompatibilitást."
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "Redot Engine Rendszerkövetelmények",
-      "description": {
-        "general": "Ajánlott: Vulkan 1.0 kompatibilis hardver. Minimális: OpenGL 3.3 / OpenGL ES 3.0 kompatibilis hardver.",
-        "dotnet": "További követelmények a .NET verzióhoz:",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "Mi a Redot Engine?",
-      "description": "A Redot Engine egy ingyenes, nyílt forráskódú játékfejlesztési platform 2D és 3D projektekhez. A Godot alapú motor rugalmas és könnyen használható minden szintű fejlesztő számára, keresztplatformos támogatással és egy közösségi együttműködéssel.",
-      "learnMoreButton": "Tudd meg többet a Redot Engine-ról"
-    }
-  },
-  "downloadHelp": {
-    "title": "Segítségre van szükséged?",
-    "description": "Csatlakozz a Discord szerverünkhöz, hogy segítséget kérj, ötleteket ossz meg, és kapcsolatba lépj a közösséggel!",
-    "buttons": {
-      "discord": "Csatlakozz a Discordhoz",
-      "documentation": "Fedezd fel a Redot Engine dokumentációt"
-    }
   }
 }

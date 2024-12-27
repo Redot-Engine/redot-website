@@ -9,39 +9,39 @@
       "documentation": "Dokumentation",
       "blog": "Blogg",
       "proposals": "Förslag",
-      "community": "Community"
+      "community": "Gemenskap"
     }
   },
   "heroSection": {
-    "heading": "Game Engine,<br />Game Changer",
-    "description": "Skapa dina 2D- och 3D-spel, plattformsoberoende projekt, eller utforska innovativa idéer inom XR-teknologi med Redot Engine!",
+    "heading": "Spelmotor,<br />Spelväxlare",
+    "description": "Skapa dina 2D- och 3D-spel, plattformsövergripande projekt eller utforska innovativa idéer inom XR-teknologi med Redot Engine!",
     "buttons": {
-      "primary": "Hämta Redot Engine för {os}",
-      "secondary": "Utforska Redot Engine Docs"
+      "primary": "Hämta Redot Engine för Windows",
+      "secondary": "Utforska Redot Engine Dokumentation"
     },
     "bannerMessage": "🎉 Stabil version är här"
   },
   "productShowcaseSection": {
     "badge": "🪁 Driver din spelutveckling",
-    "title": "Driver din<br />spelutveckling",
-    "description": "Lås upp oändliga möjligheter med vår flexibla och högpresterande spelmotor för alla skapare."
+    "title": "Driver din<br />Spelutveckling",
+    "description": "Lås upp oändliga möjligheter med vår flexibla och högpresterande spelmotor för varje skapare."
   },
   "featuresSection": {
     "badge": "🤖 Nästa generations speldesign",
-    "title": "Redot Engines <br />kraftfulla funktioner",
-    "description": "Upptäck banbrytande verktyg och funktioner designade för att göra dina spelidéer till verklighet enkelt.",
+    "title": "Redot Engines <br /> Kraftfulla funktioner",
+    "description": "Upptäck banbrytande verktyg och funktioner designade för att föra dina spelidéer till liv enkelt.",
     "highlights": {
       "sceneDrivenDesign": {
         "header": "Scen-driven design",
         "description": "Skapa återanvändbara scener med noder, skript och tydlig spel-logik via nodhierarki."
       },
       "crossPlatform": {
-        "header": "Plattformsoberoende",
-        "description": "Utveckla på olika plattformar. Distribuera ditt spel snabbt på desktop, mobil och webben."
+        "header": "Plattformsövergripande",
+        "description": "Utveckla på olika plattformar. Distribuera ditt spel på skrivbord, mobil och web snabbt."
       },
       "2D3DEngines": {
-        "header": "2D- och 3D-motorer",
-        "description": "Skapa prestandaoptimala 2D-spel med Redots 2D-motor och bygg rika 3D-världar enkelt."
+        "header": "2D och 3D-motorer",
+        "description": "Skapa prestandaorienterade 2D-spel med Redots 2D-motor och bygg rika 3D-världar enkelt."
       },
       "openSource": {
         "header": "Öppen källkod",
@@ -56,21 +56,21 @@
   },
   "startSection": {
     "title": "Redo att skapa?",
-    "description": "Skapa fängslande 2D- och 3D-spel med Redot Engine för plattformsoberoende, uppslukande upplevelser.",
+    "description": "Skapa fängslande 2D- och 3D-spel med Redot Engine för plattformsövergripande uppslukande upplevelser.",
     "buttons": {
       "download": "Ladda ner",
-      "documentation": "Utforska Redot Engine Docs"
+      "documentation": "Utforska Redot Engine Dokumentation"
     }
   },
   "footer": {
     "languageSelector": {
       "searchPlaceholder": "Sök språk...",
-      "noResults": "Inget språk funnet."
+      "noResults": "Inget språk hittades."
     },
     "copyright": {
-      "text": "© 2024-present av Redot-communityn.",
+      "text": "© 2024-present av Redot-gemenskapen.",
       "website": "Webbplats",
-      "sourceCode": "källkod på Github"
+      "sourceCode": "källa kod på Github"
     },
     "buttons": {
       "settings": "Inställningar"
@@ -90,7 +90,7 @@
       "children": {
         "news": "Nyheter",
         "feedback": "Feedback",
-        "community": "Community",
+        "community": "Gemenskap",
         "pressKit": "Presskit",
         "contact": "Kontakt"
       }
@@ -107,7 +107,7 @@
       "title": "Policyer",
       "children": {
         "terms": "Villkor",
-        "privacy": "Sekretess",
+        "privacy": "Integritet",
         "cookieSettings": "Cookie-inställningar",
         "licenses": "Licenser",
         "contributionGuidelines": "Bidragsriktlinjer"
@@ -115,77 +115,8 @@
     }
   },
   "notFound": {
-    "title": "Oj! Sidan hittades inte",
-    "description": "Ser ut som du har kommit till en okänd plats... vi är inte säkra på var denna sida tagit vägen heller!",
-    "goBack": "Tillbaka"
-  },
-  "downloadHero": {
-    "downloadForOS": "Ladda ner Redot för {platform}",
-    "igniteYourImagination": "Tänd din fantasi",
-    "downloadDescription": "Ladda ner Redot Engine, den kraftfulla plattformen för att bygga 2D- och 3D-plattformsoberoende spel och interaktiva upplevelser.",
-    "buttons": {
-      "downloadLatest": "Ladda ner senaste",
-      "downloadMono": "Ladda ner Mono",
-      "moreDownloadOptions": "Fler nedladdningsalternativ"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "Skapa med Redot",
-    "description": "Bygg ditt spel enkelt med Redot Engine - snabbt, flexibelt och öppen källkod för alla utvecklare.",
-    "steps": {
-      "step1": {
-        "title": "1. Välj din Redot-version",
-        "description": "Du kan välja den senaste Redot Engine, en äldre version, eller prova en beta-version.",
-        "links": {
-          "archive": "Besök nedladdningsarkivet"
-        }
-      },
-      "step2": {
-        "title": "2. Ladda ner Redot Engine",
-        "description": "Följ instruktionerna för att slutföra installationen och inställningen.",
-        "links": {
-          "windows": "Ladda ner för Windows",
-          "mac": "Ladda ner för Mac",
-          "linux": "Ladda ner för Linux",
-          "android": "Ladda ner för Android"
-        }
-      },
-      "step3": {
-        "title": "3. Starta ditt projekt",
-        "description": "Starta ditt projekt från början eller välj en mall. Gå med i vårt Discord-community för att koppla upp!",
-        "links": {
-          "discord": "Gå med i vårt Discord-community"
-        }
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "Stödda plattformar",
-    "description": "Redot Engine körs smidigt på olika plattformar och säkerställer kompatibilitet."
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "Redot Engine Systemkrav",
-      "description": {
-        "general": "Rekommenderat: Vulkan 1.0-kompatibel hårdvara. Minimal: OpenGL 3.3 / OpenGL ES 3.0-kompatibel hårdvara.",
-        "dotnet": "Ytterligare krav för .NET-versionen:",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "Vad är Redot Engine?",
-      "description": "Redot Engine är en gratis, öppen källkod spelutvecklingsplattform för 2D- och 3D-projekt. Byggd på Godot, erbjuder den flexibilitet och användarvänlighet för utvecklare på alla nivåer, med plattformsoberoende stöd och ett samarbetsvilligt community.",
-      "learnMoreButton": "Lär dig mer om Redot Engine"
-    }
-  },
-  "downloadHelp": {
-    "title": "Behöver du hjälp?",
-    "description": "Gå med i vårt Discord-server för att få hjälp, dela idéer och koppla upp med vårt community!",
-    "buttons": {
-      "discord": "Gå med i Discord",
-      "documentation": "Utforska Redot Engine Docs"
-    }
+    "title": "Hoppsan! Sidan Hittades Inte",
+    "description": "Det verkar som om du har vandrat in i det okända... vi är inte heller säkra på var den här sidan tog vägen!",
+    "goBack": "Gå Tillbaka"
   }
 }

@@ -1,62 +1,62 @@
 {
   "header": {
     "banner": {
-      "subMessage": "En son sürüme geçin.",
+      "subMessage": "Son sürüme yükseltin.",
       "mainMessage": "Redot Engine artık stabil!"
     },
     "downloadButton": "İndir",
     "links": {
       "documentation": "Dokümantasyon",
       "blog": "Blog",
-      "proposals": "Teklifler",
+      "proposals": "Öneriler",
       "community": "Topluluk"
     }
   },
   "heroSection": {
     "heading": "Oyun Motoru,<br />Oyun Değiştirici",
-    "description": "Redot Engine ile 2D ve 3D oyunlarınızı, çapraz platform projelerinizi oluşturun veya XR teknolojilerinde yenilikçi fikirleri keşfedin!",
+    "description": "Redot Engine ile 2D ve 3D oyunlarınızı, çapraz platform projelerinizi oluşturun veya XR teknolojisinde yenilikçi fikirleri keşfedin!",
     "buttons": {
-      "primary": "Redot Engine'ı {os} için al",
+      "primary": "Redot Engine'i Windows için İndir",
       "secondary": "Redot Engine Dokümanlarını Keşfet"
     },
-    "bannerMessage": "🎉 Stabil sürüm geldi"
+    "bannerMessage": "🎉 Stabil sürüm burada"
   },
   "productShowcaseSection": {
     "badge": "🪁 Oyun Geliştirmenizi Güçlendiriyor",
-    "title": "Oyun Geliştirmenizi<br />Güçlendiriyor",
-    "description": "Esnek ve yüksek performanslı oyun motorumuzla her yaratıcı için sonsuz olasılıklar açın."
+    "title": "Oyun Geliştirmenizi Güçlendiriyor",
+    "description": "Her yaratıcının ihtiyaçlarına göre esnek ve yüksek performanslı oyun motorumuzla sonsuz olasılıkların kilidini açın."
   },
   "featuresSection": {
     "badge": "🤖 Yeni Nesil Oyun Tasarımı",
     "title": "Redot Engine'in <br />Güçlü Özellikleri",
-    "description": "Oyun fikirlerinizi zahmetsizce hayata geçirmek için tasarlanmış ileri düzey araçlar ve yetenekler keşfedin.",
+    "description": "Oyun fikirlerinizi zahmetsizce hayata geçirmek için tasarlanmış son teknoloji araçları ve özellikleri keşfedin.",
     "highlights": {
       "sceneDrivenDesign": {
         "header": "Sahne odaklı tasarım",
-        "description": "Düğümler, scriptler ve açık oyun mantığı ile yeniden kullanılabilir sahneler oluşturun."
+        "description": "Node'lar, script'ler ve açık oyun mantığı ile yeniden kullanılabilir sahneler oluşturun."
       },
       "crossPlatform": {
         "header": "Çapraz platform",
-        "description": "Farklı platformlarda geliştirin. Oyununuzu masaüstü, mobil ve webde hızlıca yayınlayın."
+        "description": "Farklı platformlarda geliştirin. Oyununuzu masaüstü, mobil ve web üzerinde hızla dağıtın."
       },
       "2D3DEngines": {
-        "header": "2D ve 3D motorları",
-        "description": "Redot'un 2D motoruyla performanslı 2D oyunlar oluşturun ve kolayca zengin 3D dünyalar inşa edin."
+        "header": "2D ve 3D motorlar",
+        "description": "Redot'un 2D motoru ile yüksek performanslı 2D oyunlar oluşturun ve kolayca zengin 3D dünyalar inşa edin."
       },
       "openSource": {
-        "header": "Açık kaynak",
-        "description": "Redot Engine ile açık geliştirme deneyimi yaşayın, tüm katılımcılar eşit şekilde katkıda bulunur."
+        "header": "Açık Kaynak",
+        "description": "Redot Engine ile açık gelişim deneyimi, tüm katkıcıların eşit şekilde paylaşıldığı bir ortamda."
       }
     }
   },
   "reviewSection": {
-    "badge": "🎉 Stabil sürüm geldi",
-    "title": "Kullanıcılarımız Ne Diyor",
-    "description": "Redot Engine, geliştiricilere oyun yaparken esneklik ve performans sağlar."
+    "badge": "🎉 Stabil sürüm burada",
+    "title": "Kullanıcılarımız Ne Diyor?",
+    "description": "Redot Engine, geliştiricilere esneklik ve performans sunarak harika oyunlar yaratmalarına olanak tanıyor."
   },
   "startSection": {
     "title": "Yaratmaya Hazır Mısınız?",
-    "description": "Redot Engine ile 2D ve 3D oyunlar yaratın ve çapraz platform sürükleyici deneyimler elde edin.",
+    "description": "Redot Engine ile çapraz platform etkileşimli 2D ve 3D oyunlar yaratın.",
     "buttons": {
       "download": "İndir",
       "documentation": "Redot Engine Dokümanlarını Keşfet"
@@ -64,13 +64,13 @@
   },
   "footer": {
     "languageSelector": {
-      "searchPlaceholder": "Dil arayın...",
+      "searchPlaceholder": "Dil ara...",
       "noResults": "Dil bulunamadı."
     },
     "copyright": {
       "text": "© 2024-günümüz Redot topluluğu tarafından.",
-      "website": "Web Sitesi",
-      "sourceCode": "GitHub'daki kaynak kodu"
+      "website": "Web sitesi",
+      "sourceCode": "Github'da kaynak kodu"
     },
     "buttons": {
       "settings": "Ayarlar"
@@ -81,8 +81,8 @@
         "download": "İndir",
         "status": "Durum",
         "donate": "Bağış Yap",
-        "documentation": "Doküman",
-        "sourceCode": "Kaynak Kodu"
+        "documentation": "Dokümantasyon",
+        "sourceCode": "Github'da kaynak kodu"
       }
     },
     "resources": {
@@ -115,77 +115,8 @@
     }
   },
   "notFound": {
-    "title": "Ops! Sayfa Bulunamadı",
-    "description": "Görünüşe göre bilinmeyen bir yere gitmişsiniz... Bu sayfanın nereye gittiğinden biz de emin değiliz!",
-    "goBack": "Geri Git"
-  },
-  "downloadHero": {
-    "downloadForOS": "{platform} için Redot İndir",
-    "igniteYourImagination": "Hayal Gücünüzü Ateşleyin",
-    "downloadDescription": "Redot Engine'i indirerek, 2D ve 3D çapraz platform oyunlar ve etkileşimli deneyimler oluşturun.",
-    "buttons": {
-      "downloadLatest": "Son sürümü indir",
-      "downloadMono": "Mono'yu indir",
-      "moreDownloadOptions": "Daha fazla indirme seçeneği"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "Redot ile Yarat",
-    "description": "Redot Engine ile oyununuza hızlı, esnek ve açık kaynaklı bir şekilde başlayın.",
-    "steps": {
-      "step1": {
-        "title": "1. Redot Sürümünü Seçin",
-        "description": "En son Redot Engine sürümünü, eski bir sürümü veya beta sürümünü seçebilirsiniz.",
-        "links": {
-          "archive": "İndirme arşivini ziyaret edin"
-        }
-      },
-      "step2": {
-        "title": "2. Redot Engine'i İndirin",
-        "description": "Yükleme ve kurulum talimatlarını takip edin.",
-        "links": {
-          "windows": "Windows için indir",
-          "mac": "Mac için indir",
-          "linux": "Linux için indir",
-          "android": "Android için indir"
-        }
-      },
-      "step3": {
-        "title": "3. Projenize Başlayın",
-        "description": "Projenizi sıfırdan başlatın veya bir şablon seçin. Topluluğumuza katılmak için Discord'a katılın!",
-        "links": {
-          "discord": "Discord Topluluğumuza Katıl"
-        }
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "Desteklenen platformlar",
-    "description": "Redot Engine çeşitli platformlarda sorunsuz çalışır ve uyumluluğu garanti eder."
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "Redot Engine Sistem Gereksinimleri",
-      "description": {
-        "general": "Tavsiye edilen: Vulkan 1.0 uyumlu donanım. Minimum: OpenGL 3.3 / OpenGL ES 3.0 uyumlu donanım.",
-        "dotnet": ".NET sürümü için ek gereksinimler:",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "Redot Engine Nedir?",
-      "description": "Redot Engine, 2D ve 3D projeler için ücretsiz, açık kaynaklı bir oyun geliştirme platformudur. Godot'tan türetilmiş olup, geliştiricilerin her seviyesine esneklik ve kullanım kolaylığı sunar, çapraz platform desteği ve bir işbirliği topluluğu ile.",
-      "learnMoreButton": "Redot Engine hakkında daha fazla bilgi"
-    }
-  },
-  "downloadHelp": {
-    "title": "Yardım mı gerekiyor?",
-    "description": "Yardım almak, fikir paylaşmak ve topluluğumuzla bağlantı kurmak için Discord sunucumuza katılın!",
-    "buttons": {
-      "discord": "Discord'a Katıl",
-      "documentation": "Redot Engine Dokümanlarını Keşfet"
-    }
+    "title": "Hups! Sayfa Bulunamadı",
+    "description": "Görünüşe göre bilinmeyene doğru bir yolculuğa çıktınız... Biz de bu sayfanın nereye gittiğini bilemiyoruz!",
+    "goBack": "Geri Dön"
   }
 }

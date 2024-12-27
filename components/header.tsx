@@ -5,7 +5,6 @@ import { header } from "@/constants/header";
 import { Button } from "@/components/ui/button";
 import { MobileSidebar } from "@/components/mobile-navbar";
 import { useTranslations } from "next-intl";
-import { IconArrowUpRight } from "@tabler/icons-react";
 
 export const Header = () => {
   const t = useTranslations("header");
@@ -32,19 +31,16 @@ export const Header = () => {
               />
             </Link>
             <div className="hidden md:block">
-              <nav className="flex items-center gap-4 md:gap-8">
+              <nav className="flex items-center gap-3 md:gap-6">
                 {header.map((link) => (
                   <Link
                     key={link.label}
-                    className="flex items-center text-base font-medium text-black/60 transition-colors duration-300 hover:text-black"
+                    className="text-base font-medium text-black/60 transition-colors duration-300 hover:text-black"
                     href={link.href}
-                    target={link.newTab ? "_blank" : "_self"}
-                    rel={link.newTab ? "noopener noreferrer" : undefined}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {t(link.label)}
-                    {link.newTab && (
-                      <IconArrowUpRight className="ml-2 h-4 w-4" />
-                    )}
                   </Link>
                 ))}
                 <Button asChild>

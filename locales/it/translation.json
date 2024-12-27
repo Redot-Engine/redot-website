@@ -1,191 +1,122 @@
 {
   "header": {
     "banner": {
-      "subMessage": "Aggiorna alla versione più recente.",
-      "mainMessage": "Redot Engine è ora stabile!"
+      "subMessage": "Atsisiųskite naujausią versiją.",
+      "mainMessage": "Redot Engine dabar stabilus!"
     },
-    "downloadButton": "Scarica",
+    "downloadButton": "Atsisiųsti",
     "links": {
-      "documentation": "Documentazione",
-      "blog": "Blog",
-      "proposals": "Proposte",
-      "community": "Community"
+      "documentation": "Dokumentacija",
+      "blog": "Blogas",
+      "proposals": "Pasiūlymai",
+      "community": "Bendruomenė"
     }
   },
   "heroSection": {
-    "heading": "Game Engine,<br />Game Changer",
-    "description": "Crea i tuoi giochi 2D e 3D, progetti cross-platform, o esplora idee innovative nella tecnologia XR con Redot Engine!",
+    "heading": "Žaidimų variklis,<br />Žaidimų keitiklis",
+    "description": "Kurkite savo 2D ir 3D žaidimus, tarpplatforminius projektus arba tyrinėkite inovatyvias XR technologijas su Redot Engine!",
     "buttons": {
-      "primary": "Ottieni Redot Engine per {os}",
-      "secondary": "Esplora la Documentazione di Redot Engine"
+      "primary": "Gaukite Redot Engine Windows sistemai",
+      "secondary": "Tyrinėti Redot Engine dokumentaciją"
     },
-    "bannerMessage": "🎉 La versione stabile è arrivata"
+    "bannerMessage": "🎉 Stabilus versija jau čia"
   },
   "productShowcaseSection": {
-    "badge": "🪁 Potenzia lo sviluppo del tuo gioco",
-    "title": "Potenzia lo sviluppo del tuo<br />gioco",
-    "description": "Sblocca infinite possibilità con il nostro motore di gioco flessibile e ad alte prestazioni per ogni creatore."
+    "badge": "🪁 Galia Jūsų Žaidimų Kūrimui",
+    "title": "Galia Jūsų<br />Žaidimų Kūrimui",
+    "description": "Atraskite beribes galimybes su mūsų lanksčiu ir aukštos kokybės žaidimų varikliu kiekvienam kūrėjui."
   },
   "featuresSection": {
-    "badge": "🤖 Game Design di nuova generazione",
-    "title": "Le potenti funzionalità di Redot Engine",
-    "description": "Scopri strumenti e capacità all'avanguardia progettati per dare vita facilmente alle tue idee di gioco.",
+    "badge": "🤖 Kitos kartos žaidimų dizainas",
+    "title": "Redot Engine<br />Galingos Funkcijos",
+    "description": "Atraskite pažangias priemones ir galimybes, skirtas lengvai įgyvendinti Jūsų žaidimų idėjas.",
     "highlights": {
       "sceneDrivenDesign": {
-        "header": "Design basato su scena",
-        "description": "Crea scene riutilizzabili con nodi, script e logica di gioco chiara tramite gerarchia di nodi."
+        "header": "Scenos pagrindu kuriamas dizainas",
+        "description": "Kurkite pernaudojamas scenas su mazgais, scenarijais ir aiškia žaidimo logika per mazgų hierarchiją."
       },
       "crossPlatform": {
-        "header": "Cross platform",
-        "description": "Sviluppa su diverse piattaforme. Distribuisci il tuo gioco rapidamente su desktop, mobile e web."
+        "header": "Tarpplatforminis",
+        "description": "Kurkite įvairiose platformose. Greitai diekite savo žaidimą staliniuose, mobiliuosiuose ir žiniatinklio įrenginiuose."
       },
       "2D3DEngines": {
-        "header": "Motori 2D e 3D",
-        "description": "Crea giochi 2D performanti con il motore 2D di Redot e costruisci mondi 3D ricchi con facilità."
+        "header": "2D ir 3D varikliai",
+        "description": "Kurkite našius 2D žaidimus su Redot 2D varikliu ir lengvai statykite turtingus 3D pasaulius."
       },
       "openSource": {
-        "header": "Open Source",
-        "description": "Vivi lo sviluppo aperto con Redot Engine, dove tutti i contributori condividono equamente."
+        "header": "Atviro kodo",
+        "description": "Patirkite atvirojo kūrimo procesą su Redot Engine, kur visi prisidedantys dalyviai dalijasi lygiomis teisėmis."
       }
     }
   },
   "reviewSection": {
-    "badge": "🎉 La versione stabile è arrivata",
-    "title": "Cosa dicono i nostri utenti",
-    "description": "Redot Engine dà ai sviluppatori flessibilità e prestazioni per creare giochi straordinari."
+    "badge": "🎉 Stabilus versija jau čia",
+    "title": "Ką sako mūsų vartotojai",
+    "description": "Redot Engine suteikia kūrėjams lankstumo ir našumo kuriant nuostabius žaidimus."
   },
   "startSection": {
-    "title": "Pronto a creare?",
-    "description": "Crea giochi 2D e 3D accattivanti con Redot Engine per esperienze immersive cross-platform.",
+    "title": "Pasiruošę kurti?",
+    "description": "Kurkite įspūdingus 2D ir 3D žaidimus su Redot Engine, skirtus tarpplatforminėms įtraukiančioms patirtims.",
     "buttons": {
-      "download": "Scarica",
-      "documentation": "Esplora la Documentazione di Redot Engine"
+      "download": "Atsisiųsti",
+      "documentation": "Tyrinėti Redot Engine dokumentaciją"
     }
   },
   "footer": {
     "languageSelector": {
-      "searchPlaceholder": "Cerca lingua...",
-      "noResults": "Lingua non trovata."
+      "searchPlaceholder": "Ieškoti kalbos...",
+      "noResults": "Kalba nerasta."
     },
     "copyright": {
-      "text": "© 2024-presente dalla comunità Redot.",
-      "website": "Sito web",
-      "sourceCode": "Codice sorgente su Github"
+      "text": "© 2024-iki šiol Redot bendruomenės.",
+      "website": "Svetainė",
+      "sourceCode": "Šaltinio kodas GitHub"
     },
     "buttons": {
-      "settings": "Impostazioni"
+      "settings": "Nustatymai"
     },
     "product": {
-      "title": "Prodotto",
+      "title": "Produktas",
       "children": {
-        "download": "Scarica",
-        "status": "Stato",
-        "donate": "Dona",
-        "documentation": "Documentazione",
-        "sourceCode": "Codice Sorgente"
+        "download": "Atsisiųsti",
+        "status": "Būklė",
+        "donate": "Paaukoti",
+        "documentation": "Dokumentacija",
+        "sourceCode": "Šaltinio kodas"
       }
     },
     "resources": {
-      "title": "Risorse",
+      "title": "Ištekliai",
       "children": {
-        "news": "Notizie",
-        "feedback": "Feedback",
-        "community": "Community",
-        "pressKit": "Press Kit",
-        "contact": "Contatto"
+        "news": "Naujienos",
+        "feedback": "Atsiliepimai",
+        "community": "Bendruomenė",
+        "pressKit": "Spaudos rinkinys",
+        "contact": "Kontaktai"
       }
     },
     "betaPrograms": {
-      "title": "Programmi Beta",
+      "title": "Beta programos",
       "children": {
-        "launcher": "Launcher",
-        "academy": "Academy",
-        "engineExperimental": "Engine Sperimentale"
+        "launcher": "Paleidiklis",
+        "academy": "Akademija",
+        "engineExperimental": "Eksperimentinė variklio versija"
       }
     },
     "policies": {
-      "title": "Politiche",
+      "title": "Politikos",
       "children": {
-        "terms": "Termini",
-        "privacy": "Privacy",
-        "cookieSettings": "Impostazioni Cookie",
-        "licenses": "Licenze",
-        "contributionGuidelines": "Linee guida per il contributo"
+        "terms": "Sąlygos",
+        "privacy": "Privatumas",
+        "cookieSettings": "Slapukų nustatymai",
+        "licenses": "Licencijos",
+        "contributionGuidelines": "Prisidėjimo gairės"
       }
     }
   },
   "notFound": {
-    "title": "Ops! Pagina non trovata",
-    "description": "Sembra che tu sia andato dove non dovevi... non sappiamo nemmeno dove sia finita questa pagina!",
-    "goBack": "Torna indietro"
-  },
-  "downloadHero": {
-    "downloadForOS": "Scarica Redot per {platform}",
-    "igniteYourImagination": "Accendi la tua immaginazione",
-    "downloadDescription": "Scarica Redot Engine, la potente piattaforma per costruire giochi e esperienze interattive 2D e 3D cross-platform.",
-    "buttons": {
-      "downloadLatest": "Scarica l'ultima versione",
-      "downloadMono": "Scarica Mono",
-      "moreDownloadOptions": "Altre opzioni di download"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "Crea con Redot",
-    "description": "Crea il tuo gioco facilmente con Redot Engine - veloce, flessibile e open-source per tutti gli sviluppatori.",
-    "steps": {
-      "step1": {
-        "title": "1. Scegli la tua versione di Redot",
-        "description": "Puoi scegliere l'ultima versione di Redot Engine, una versione precedente o provare una versione beta.",
-        "links": {
-          "archive": "Visita l'archivio download"
-        }
-      },
-      "step2": {
-        "title": "2. Scarica Redot Engine",
-        "description": "Segui le istruzioni per completare l'installazione e la configurazione.",
-        "links": {
-          "windows": "Scarica per Windows",
-          "mac": "Scarica per Mac",
-          "linux": "Scarica per Linux",
-          "android": "Scarica per Android"
-        }
-      },
-      "step3": {
-        "title": "3. Inizia il tuo progetto",
-        "description": "Inizia il tuo progetto da zero o scegli un modello. Unisciti alla nostra community su Discord per connetterti!",
-        "links": {
-          "discord": "Unisciti alla nostra community su Discord"
-        }
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "Piattaforme supportate",
-    "description": "Redot Engine funziona senza problemi su varie piattaforme, garantendo compatibilità."
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "Requisiti di sistema di Redot Engine",
-      "description": {
-        "general": "Raccomandato: hardware compatibile con Vulkan 1.0. Minimo: hardware compatibile con OpenGL 3.3 / OpenGL ES 3.0.",
-        "dotnet": "Requisiti aggiuntivi per la versione .NET:",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "Cos'è Redot Engine?",
-      "description": "Redot Engine è una piattaforma gratuita e open-source per lo sviluppo di giochi 2D e 3D. Basato su Godot, offre flessibilità e facilità d'uso per sviluppatori di tutti i livelli, con supporto cross-platform e una comunità collaborativa.",
-      "learnMoreButton": "Scopri di più su Redot Engine"
-    }
-  },
-  "downloadHelp": {
-    "title": "Hai bisogno di aiuto?",
-    "description": "Unisciti al nostro server Discord per ricevere aiuto, condividere idee e connetterti con la nostra community!",
-    "buttons": {
-      "discord": "Unisciti a Discord",
-      "documentation": "Esplora la Documentazione di Redot Engine"
-    }
+    "title": "Oho! Puslapis nerastas",
+    "description": "Atrodo, kad nuklydote į nežinomą... mes taip pat nesame tikri, kur dingo šis puslapis!",
+    "goBack": "Grįžti"
   }
 }

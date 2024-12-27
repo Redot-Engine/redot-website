@@ -13,50 +13,50 @@
     }
   },
   "heroSection": {
-    "heading": "Pelin moottori,<br />Pelin muutos",
-    "description": "Luo 2D- ja 3D-pelejä, monialustaisia projekteja tai tutki innovatiivisia ideoita XR-teknologiassa Redot Enginen kanssa!",
+    "heading": "Pelimoottori,<br />Muutoksen tekijä",
+    "description": "Luo 2D- ja 3D-pelejäsi, monialustaisia projekteja tai tutustu innovatiivisiin XR-teknologian ideoihin Redot Engine -moottorilla!",
     "buttons": {
-      "primary": "Hanki Redot Engine versiolle {os}",
+      "primary": "Hanki Redot Engine Windowsille",
       "secondary": "Tutustu Redot Engine -dokumentaatioon"
     },
     "bannerMessage": "🎉 Vakaa versio on täällä"
   },
   "productShowcaseSection": {
-    "badge": "🪁 Pelin kehityksesi voimaantulo",
-    "title": "Pelisi kehitys<br />Voimaantulo",
-    "description": "Avaa loputtomat mahdollisuudet joustavalla ja suorituskykyisellä pelimoottorilla kaikille luojille."
+    "badge": "🪁 Tukee pelinkehitystäsi",
+    "title": "Tukee<br />Pelinkehitystäsi",
+    "description": "Avaa loputtomat mahdollisuudet joustavalla ja suorituskykyisellä pelimoottorillamme jokaiselle luojalle."
   },
   "featuresSection": {
     "badge": "🤖 Seuraavan sukupolven pelisuunnittelu",
-    "title": "Redot Enginen <br />Tehokkaat ominaisuudet",
-    "description": "Tutustu huipputeknologisiin työkaluihin ja ominaisuuksiin, jotka on suunniteltu tuomaan peliaiheesi eloon vaivattomasti.",
+    "title": "Redot Engine:n<br />Tehokkaat ominaisuudet",
+    "description": "Tutustu huippuluokan työkaluihin ja ominaisuuksiin, jotka on suunniteltu tuomaan peli-ideasi eloon vaivattomasti.",
     "highlights": {
       "sceneDrivenDesign": {
-        "header": "Kohtauksesta ohjattu suunnittelu",
-        "description": "Luo uudelleenkäytettäviä kohtauksia solmuilla, skripteillä ja selkeällä pelilogialla solmu-hierarkian avulla."
+        "header": "Kohtaukseen perustuva suunnittelu",
+        "description": "Luo uudelleenkäytettäviä kohtauksia solmuilla, skripteillä ja selkeällä pelilogikalla solmuhierarkian kautta."
       },
       "crossPlatform": {
-        "header": "Monialustatuki",
-        "description": "Kehitä eri alustoilla. Julkaise pelisi nopeasti työpöydällä, mobiilissa ja verkossa."
+        "header": "Monialustainen",
+        "description": "Kehitä eri alustoilla. Julkaise pelisi nopeasti tietokoneille, mobiililaitteille ja verkkoon."
       },
       "2D3DEngines": {
-        "header": "2D ja 3D moottorit",
-        "description": "Luo suorituskykyisiä 2D-pelejä Redotin 2D-moottorilla ja rakenna rikkaat 3D-maailmat helposti."
+        "header": "2D- ja 3D-moottorit",
+        "description": "Luo suorituskykyisiä 2D-pelejä Redot Engine:n 2D-moottorilla ja rakenna helposti rikkaita 3D-maailmoja."
       },
       "openSource": {
         "header": "Avoin lähdekoodi",
-        "description": "Koe avoin kehitys Redot Enginen kanssa, jossa kaikki osallistujat jakavat tasavertaisesti."
+        "description": "Koe avoin kehitys Redot Engine -moottorilla, jossa kaikki osallistujat jakavat tasapuolisesti."
       }
     }
   },
   "reviewSection": {
     "badge": "🎉 Vakaa versio on täällä",
     "title": "Mitä käyttäjämme sanovat",
-    "description": "Redot Engine antaa kehittäjille joustavuutta ja suorituskykyä upeiden pelien luomiseen."
+    "description": "Redot Engine antaa kehittäjille joustavuutta ja suorituskykyä hämmästyttävien pelien luomiseen."
   },
   "startSection": {
     "title": "Valmis luomaan?",
-    "description": "Luo kiehtovia 2D- ja 3D-pelejä Redot Engine -moottorilla monialustaisiin immersiivisiin kokemuksiin.",
+    "description": "Luo vangitsevia 2D- ja 3D-pelejä Redot Engine -moottorilla ja tarjoa monialustaisia immersiivisiä kokemuksia.",
     "buttons": {
       "download": "Lataa",
       "documentation": "Tutustu Redot Engine -dokumentaatioon"
@@ -64,13 +64,13 @@
   },
   "footer": {
     "languageSelector": {
-      "searchPlaceholder": "Etsi kieli...",
+      "searchPlaceholder": "Hae kieltä...",
       "noResults": "Kieltä ei löytynyt."
     },
     "copyright": {
-      "text": "© 2024-nykyhetki Redot-yhteisöltä.",
+      "text": "© 2024-nykypäivä Redot-yhteisön toimesta.",
       "website": "Verkkosivusto",
-      "sourceCode": "lähdekoodi GitHubissa"
+      "sourceCode": "Lähdekoodi GitHubissa"
     },
     "buttons": {
       "settings": "Asetukset"
@@ -91,101 +91,32 @@
         "news": "Uutiset",
         "feedback": "Palaute",
         "community": "Yhteisö",
-        "pressKit": "Lehdistötiedote",
-        "contact": "Yhteydenotto"
+        "pressKit": "Lehdistöpaketti",
+        "contact": "Yhteystiedot"
       }
     },
     "betaPrograms": {
-      "title": "Betaohjelmat",
+      "title": "Beta-ohjelmat",
       "children": {
-        "launcher": "Käynnistin",
+        "launcher": "Käynnistysohjelma",
         "academy": "Akatemia",
-        "engineExperimental": "Moottori kokeellinen"
+        "engineExperimental": "Moottorin kokeiluversio"
       }
     },
     "policies": {
-      "title": "Politiikat",
+      "title": "Käytännöt",
       "children": {
         "terms": "Ehdot",
-        "privacy": "Tietosuoja",
+        "privacy": "Yksityisyys",
         "cookieSettings": "Evästeasetukset",
         "licenses": "Lisenssit",
-        "contributionGuidelines": "Osallistumisohjeet"
+        "contributionGuidelines": "Osallistumissuositukset"
       }
     }
   },
   "notFound": {
-    "title": "Hups! Sivua ei löydy",
-    "description": "Näyttää siltä, että olet päätynyt tuntemattomaan paikkaan... emme ole varmoja, mihin tämä sivu meni!",
+    "title": "Hups! Sivua ei löytynyt",
+    "description": "Näyttää siltä, että olet eksynyt tuntemattomaan... emme ole varmoja, minne tämä sivu meni!",
     "goBack": "Palaa takaisin"
-  },
-  "downloadHero": {
-    "downloadForOS": "Lataa Redot {platform}lle",
-    "igniteYourImagination": "Sytytä mielikuvituksesi",
-    "downloadDescription": "Lataa Redot Engine, tehokas alusta 2D- ja 3D-monialustapelien ja interaktiivisten kokemusten luomiseen.",
-    "buttons": {
-      "downloadLatest": "Lataa uusin",
-      "downloadMono": "Lataa Mono",
-      "moreDownloadOptions": "Lisää latausvaihtoehtoja"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "Luo Redotilla",
-    "description": "Luo peli helposti Redot Engine -moottorilla – nopea, joustava ja avoimen lähdekoodin kaikille kehittäjille.",
-    "steps": {
-      "step1": {
-        "title": "1. Valitse Redot-versio",
-        "description": "Voit valita uusimman Redot Engine -version, vanhemman julkaisun tai kokeilla beta-versiota.",
-        "links": {
-          "archive": "Käy latausarkistossa"
-        }
-      },
-      "step2": {
-        "title": "2. Lataa Redot Engine",
-        "description": "Seuraa ohjeita asennuksen ja asetusten loppuunsaattamiseksi.",
-        "links": {
-          "windows": "Lataa Windowsille",
-          "mac": "Lataa Macille",
-          "linux": "Lataa Linuxille",
-          "android": "Lataa Androidille"
-        }
-      },
-      "step3": {
-        "title": "3. Aloita projektisi",
-        "description": "Aloita projektisi alusta tai valitse malli. Liity Discord-yhteisöömme ollaksesi yhteydessä!",
-        "links": {
-          "discord": "Liity Discord-yhteisöömme"
-        }
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "Tuetut alustat",
-    "description": "Redot Engine toimii sujuvasti eri alustoilla varmistaen yhteensopivuuden."
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "Redot Engine -järjestelmävaatimukset",
-      "description": {
-        "general": "Suositeltu: Vulkan 1.0 -yhteensopiva laitteisto. Minimivaatimus: OpenGL 3.3 / OpenGL ES 3.0 -yhteensopiva laitteisto.",
-        "dotnet": "Lisävaatimukset .NET-version osalta:",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "Mikä on Redot Engine?",
-      "description": "Redot Engine on ilmainen, avoimen lähdekoodin pelinkehitysalusta 2D- ja 3D-projekteille. Godot-pohjainen, se tarjoaa joustavuutta ja helppokäyttöisyyttä kaikentasoisille kehittäjille, monialustatuen ja yhteistyökykyisen yhteisön.",
-      "learnMoreButton": "Lue lisää Redot Enginestä"
-    }
-  },
-  "downloadHelp": {
-    "title": "Tarvitsetko apua?",
-    "description": "Liity Discord-palvelimellemme saadaksesi apua, jakaa ideoita ja olla yhteydessä yhteisöömme!",
-    "buttons": {
-      "discord": "Liity Discordiin",
-      "documentation": "Tutustu Redot Engine -dokumentaatioon"
-    }
   }
 }

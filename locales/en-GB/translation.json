@@ -16,7 +16,7 @@
     "heading": "Game Engine,<br />Game Changer",
     "description": "Create your 2D and 3D games, cross-platform projects, or explore innovative ideas in XR technology with Redot Engine!",
     "buttons": {
-      "primary": "Get Redot Engine for {os}",
+      "primary": "Get Redot Engine for Windows",
       "secondary": "Explore Redot Engine Docs"
     },
     "bannerMessage": "🎉 Stable version is here"
@@ -70,7 +70,7 @@
     "copyright": {
       "text": "© 2024-present by the Redot community.",
       "website": "Website",
-      "sourceCode": "source code on Github"
+      "sourceCode": "Website source code on GitHub"
     },
     "buttons": {
       "settings": "Settings"
@@ -116,76 +116,7 @@
   },
   "notFound": {
     "title": "Oops! Page Not Found",
-    "description": "Looks like you’ve ventured into the unknown... we’re not sure where this page went either!",
+    "description": "It seems you've wandered into uncharted territory... we're not sure where this page has gone either!",
     "goBack": "Go Back"
-  },
-  "downloadHero": {
-    "downloadForOS": "Download Redot for {platform}",
-    "igniteYourImagination": "Ignite Your Imagination",
-    "downloadDescription": "Download Redot Engine, the powerful platform for building 2D and 3D cross-platform games and interactive experiences.",
-    "buttons": {
-      "downloadLatest": "Download latest",
-      "downloadMono": "Download Mono",
-      "moreDownloadOptions": "More download options"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "Create with Redot",
-    "description": "Build your game easily with Redot Engine - fast, flexible, and open-source for all developers.",
-    "steps": {
-      "step1": {
-        "title": "1. Choose Your Redot Version",
-        "description": "You can choose the latest Redot Engine, an older release, or try a beta version.",
-        "links": {
-          "archive": "Visit the download archive"
-        }
-      },
-      "step2": {
-        "title": "2. Download Redot Engine",
-        "description": "Follow the instructions to complete installation and setup.",
-        "links": {
-          "windows": "Download for Windows",
-          "mac": "Download for Mac",
-          "linux": "Download for Linux",
-          "android": "Download for Android"
-        }
-      },
-      "step3": {
-        "title": "3. Start Your Project",
-        "description": "Start your project from scratch or choose a template. Join our Discord community to connect!",
-        "links": {
-          "discord": "Join Our Discord Community"
-        }
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "Supported platforms",
-    "description": "Redot Engine runs smoothly on various platforms, ensuring compatibility."
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "Redot Engine System Requirements",
-      "description": {
-        "general": "Recommended: Vulkan 1.0 compatible hardware. Minimum: OpenGL 3.3 / OpenGL ES 3.0 compatible hardware.",
-        "dotnet": "Additional requirements for the .NET version:",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "What is Redot Engine?",
-      "description": "Redot Engine is a free, open-source game development platform for 2D and 3D projects. Based on Godot, it offers flexibility and ease of use for developers of all levels, with cross-platform support and a collaborative community.",
-      "learnMoreButton": "Learn More About Redot Engine"
-    }
-  },
-  "downloadHelp": {
-    "title": "Need Help?",
-    "description": "Join our Discord server to get help, share ideas, and connect with our community!",
-    "buttons": {
-      "discord": "Join Discord",
-      "documentation": "Explore Redot Engine Docs"
-    }
   }
 }

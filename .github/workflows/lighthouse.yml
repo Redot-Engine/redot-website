@@ -1,0 +1,29 @@
+name: Lighthouse CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - name: Install dependencies
+        run: bun install
+      - name: Build Next.js app
+        run: bun run build
+      - name: Run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli
+          lhci autorun
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+      - name: Upload Lighthouse reports as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: ./lighthouserc.cjs

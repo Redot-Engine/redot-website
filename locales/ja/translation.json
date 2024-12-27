@@ -1,8 +1,8 @@
 {
   "header": {
     "banner": {
-      "subMessage": "最新バージョンにアップグレード。",
-      "mainMessage": "Redot Engineは現在安定版です！"
+      "subMessage": "最新バージョンにアップグレードしてください。",
+      "mainMessage": "Redot Engineはついに安定版になりました！"
     },
     "downloadButton": "ダウンロード",
     "links": {
@@ -13,64 +13,64 @@
     }
   },
   "heroSection": {
-    "heading": "ゲームエンジン、<br />ゲームチェンジャー",
-    "description": "Redot Engineで2Dおよび3Dゲーム、クロスプラットフォームプロジェクト、またはXR技術の革新的なアイデアを作成しよう！",
+    "heading": "ゲームエンジン,<br />ゲームチェンジャー",
+    "description": "2D・3Dゲーム、クロスプラットフォームプロジェクトの作成や、XR技術の革新的なアイデアをRedot Engineで探求しましょう！",
     "buttons": {
-      "primary": "Redotエンジンを{os}用に取得",
-      "secondary": "Redot Engineのドキュメントを探索"
+      "primary": "Redot EngineをWindows用にダウンロード",
+      "secondary": "Redot Engineのドキュメントを探す"
     },
-    "bannerMessage": "🎉 安定版が登場"
+    "bannerMessage": "🎉 安定版リリース"
   },
   "productShowcaseSection": {
-    "badge": "🪁 あなたのゲーム開発をサポート",
-    "title": "あなたの<br />ゲーム開発をサポート",
-    "description": "柔軟で高性能なゲームエンジンで、すべてのクリエイターに無限の可能性を開きます。"
+    "badge": "🪁 ゲーム開発を支える",
+    "title": "ゲーム開発を<br />支える力",
+    "description": "柔軟で高性能なゲームエンジンで、すべてのクリエイターに無限の可能性を提供します。"
   },
   "featuresSection": {
     "badge": "🤖 次世代のゲームデザイン",
     "title": "Redot Engineの<br />強力な機能",
-    "description": "ゲームアイデアを簡単に実現するための最先端のツールと機能を発見しよう。",
+    "description": "ゲームアイデアを簡単に具現化するための最先端のツールと機能を発見しましょう。",
     "highlights": {
       "sceneDrivenDesign": {
-        "header": "シーン駆動型デザイン",
-        "description": "ノード、スクリプト、明確なゲームロジックで再利用可能なシーンを作成。"
+        "header": "シーン駆動の設計",
+        "description": "ノード階層を使った再利用可能なシーン、スクリプト、明確なゲームロジックを作成。"
       },
       "crossPlatform": {
         "header": "クロスプラットフォーム",
-        "description": "さまざまなプラットフォームで開発。デスクトップ、モバイル、ウェブに迅速にゲームを展開。"
+        "description": "様々なプラットフォームで開発。デスクトップ、モバイル、Webへの迅速なデプロイが可能。"
       },
       "2D3DEngines": {
-        "header": "2Dおよび3Dエンジン",
-        "description": "Redotの2Dエンジンでパフォーマンスの高い2Dゲームを作成し、リッチな3D世界を簡単に構築。"
+        "header": "2Dと3Dエンジン",
+        "description": "Redotの2Dエンジンで高性能な2Dゲームを作成し、リッチな3Dワールドを簡単に構築可能。"
       },
       "openSource": {
         "header": "オープンソース",
-        "description": "Redot Engineでのオープンな開発体験。すべての貢献者が平等にシェア。"
+        "description": "Redot Engineの開発はオープンで、すべての貢献者が平等に共有します。"
       }
     }
   },
   "reviewSection": {
-    "badge": "🎉 安定版が登場",
+    "badge": "🎉 安定版リリース",
     "title": "ユーザーの声",
-    "description": "Redot Engineは、素晴らしいゲームを作るための柔軟性とパフォーマンスを開発者に提供します。"
+    "description": "Redot Engineは、柔軟性と性能を備えたツールで素晴らしいゲームを作る力を開発者に与えます。"
   },
   "startSection": {
-    "title": "作成準備はできましたか？",
-    "description": "Redot Engineで魅力的な2Dおよび3Dゲームを作成し、クロスプラットフォームの没入型体験を提供しよう。",
+    "title": "制作を始める準備はできていますか？",
+    "description": "Redot Engineでクロスプラットフォームの没入型体験を提供する魅力的な2D・3Dゲームを作成しましょう。",
     "buttons": {
       "download": "ダウンロード",
-      "documentation": "Redot Engineのドキュメントを探索"
+      "documentation": "Redot Engineのドキュメントを探す"
     }
   },
   "footer": {
     "languageSelector": {
       "searchPlaceholder": "言語を検索...",
-      "noResults": "言語が見つかりません。"
+      "noResults": "該当する言語が見つかりませんでした。"
     },
     "copyright": {
-      "text": "© 2024-present Redotコミュニティ。",
+      "text": "© 2024年以降 Redot コミュニティによる。",
       "website": "ウェブサイト",
-      "sourceCode": "Githubでのソースコード"
+      "sourceCode": "Githubでソースコードを見る"
     },
     "buttons": {
       "settings": "設定"
@@ -100,7 +100,7 @@
       "children": {
         "launcher": "ランチャー",
         "academy": "アカデミー",
-        "engineExperimental": "エンジン実験"
+        "engineExperimental": "実験的エンジン"
       }
     },
     "policies": {
@@ -108,7 +108,7 @@
       "children": {
         "terms": "利用規約",
         "privacy": "プライバシー",
-        "cookieSettings": "Cookie設定",
+        "cookieSettings": "クッキー設定",
         "licenses": "ライセンス",
         "contributionGuidelines": "貢献ガイドライン"
       }
@@ -116,76 +116,7 @@
   },
   "notFound": {
     "title": "おっと！ページが見つかりません",
-    "description": "どうやら未知の領域に足を踏み入れてしまったようです...このページはどこに行ったのか私たちも分かりません！",
+    "description": "どうやら未知の世界に足を踏み入れてしまったようです...このページがどこに行ったのか、私たちにもわかりません！",
     "goBack": "戻る"
-  },
-  "downloadHero": {
-    "downloadForOS": "{platform} 用Redotをダウンロード",
-    "igniteYourImagination": "想像力を燃やせ",
-    "downloadDescription": "2Dおよび3Dクロスプラットフォームゲームやインタラクティブな体験を作成するための強力なプラットフォーム、Redot Engineをダウンロード。",
-    "buttons": {
-      "downloadLatest": "最新をダウンロード",
-      "downloadMono": "Monoをダウンロード",
-      "moreDownloadOptions": "さらにダウンロードオプション"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "Redotで作成",
-    "description": "Redot Engineでゲームを簡単に作成 - 開発者のために迅速、柔軟、オープンソース。",
-    "steps": {
-      "step1": {
-        "title": "1. Redotバージョンを選択",
-        "description": "最新のRedot Engine、古いリリース、またはベータバージョンを選ぶことができます。",
-        "links": {
-          "archive": "ダウンロードアーカイブを訪問"
-        }
-      },
-      "step2": {
-        "title": "2. Redot Engineをダウンロード",
-        "description": "インストールとセットアップの手順に従ってください。",
-        "links": {
-          "windows": "Windows用ダウンロード",
-          "mac": "Mac用ダウンロード",
-          "linux": "Linux用ダウンロード",
-          "android": "Android用ダウンロード"
-        }
-      },
-      "step3": {
-        "title": "3. プロジェクトを開始",
-        "description": "プロジェクトをゼロから始めるか、テンプレートを選択。Discordコミュニティに参加してつながろう！",
-        "links": {
-          "discord": "Discordコミュニティに参加"
-        }
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "サポートされているプラットフォーム",
-    "description": "Redot Engineはさまざまなプラットフォームでスムーズに動作し、互換性を確保します。"
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "Redot Engineシステム要件",
-      "description": {
-        "general": "推奨: Vulkan 1.0対応ハードウェア。最小: OpenGL 3.3 / OpenGL ES 3.0対応ハードウェア。",
-        "dotnet": ".NETバージョンの追加要件:",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "Redot Engineとは？",
-      "description": "Redot Engineは、2Dおよび3Dプロジェクト用の無料オープンソースゲーム開発プラットフォームです。Godotをベースにしており、すべての開発者に柔軟性と使いやすさを提供し、クロスプラットフォーム対応と共同作業のコミュニティが特徴です。",
-      "learnMoreButton": "Redot Engineについてもっと学ぶ"
-    }
-  },
-  "downloadHelp": {
-    "title": "ヘルプが必要ですか？",
-    "description": "Discordサーバーに参加して、ヘルプを受けたり、アイデアを共有したり、コミュニティとつながろう！",
-    "buttons": {
-      "discord": "Discordに参加",
-      "documentation": "Redot Engineのドキュメントを探索"
-    }
   }
 }

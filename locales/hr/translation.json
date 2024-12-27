@@ -1,7 +1,7 @@
 {
   "header": {
     "banner": {
-      "subMessage": "Ažurirajte na najnoviju verziju.",
+      "subMessage": "Nadogradite na najnoviju verziju.",
       "mainMessage": "Redot Engine je sada stabilan!"
     },
     "downloadButton": "Preuzmi",
@@ -13,64 +13,64 @@
     }
   },
   "heroSection": {
-    "heading": "Game Engine,<br />Revolucija u igrama",
-    "description": "Kreirajte svoje 2D i 3D igre, cross-platform projekte ili istražujte inovativne ideje u XR tehnologiji s Redot Engine!",
+    "heading": "Igraći engine,<br />Promjena igre",
+    "description": "Stvarajte svoje 2D i 3D igre, cross-platform projekte ili istražujte inovativne ideje u XR tehnologiji s Redot Engineom!",
     "buttons": {
-      "primary": "Preuzmi Redot Engine za {os}",
-      "secondary": "Istraži Redot Engine Dokumentaciju"
+      "primary": "Preuzmi Redot Engine za Windows",
+      "secondary": "Istraži dokumentaciju Redot Enginea"
     },
-    "bannerMessage": "🎉 Stabilna verzija je tu"
+    "bannerMessage": "🎉 Stabilna verzija je ovdje"
   },
   "productShowcaseSection": {
-    "badge": "🪁 Pokreće Vaš Razvoj Igra",
-    "title": "Pokreće Vaš<br />Razvoj Igra",
-    "description": "Otključajte beskrajne mogućnosti s našim fleksibilnim i visokoučinkovitim game engineom za svakog kreatora."
+    "badge": "🪁 Pokreće vašu razvoj igara",
+    "title": "Pokreće vaš<br />Razvoj igara",
+    "description": "Otključajte beskrajne mogućnosti s našim fleksibilnim i visokoučinkovitim engineom za svakog kreatora."
   },
   "featuresSection": {
-    "badge": "🤖 Next-Gen Dizajn Igra",
-    "title": "Redot Engine's <br /> Moćne Karakteristike",
-    "description": "Otkrijte najsuvremenije alate i mogućnosti dizajnirane za jednostavno donošenje vaših ideja za igre u život.",
+    "badge": "🤖 Dizajn igara nove generacije",
+    "title": "Snažne značajke<br />Redot Enginea",
+    "description": "Otkrijte najnovije alate i mogućnosti dizajnirane za jednostavno oživljavanje vaših ideja za igre.",
     "highlights": {
       "sceneDrivenDesign": {
-        "header": "Dizajn temeljen na scenama",
-        "description": "Kreirajte ponovo upotrebljive scene s čvorovima, skriptama i jasnom logikom igre putem hijerarhije čvorova."
+        "header": "Dizajn vođen scenama",
+        "description": "Kreirajte višekratno upotrebljive scene s čvorovima, skriptama i jasnom logikom igre putem hijerarhije čvorova."
       },
       "crossPlatform": {
-        "header": "Cross platform",
-        "description": "Razvijajte na različitim platformama. Brzo implementirajte svoju igru na desktop, mobilne uređaje i web."
+        "header": "Cross-platforma",
+        "description": "Razvijajte na raznim platformama. Brzo implementirajte svoju igru na desktop, mobilne uređaje i web."
       },
       "2D3DEngines": {
         "header": "2D i 3D engine",
-        "description": "Kreirajte visokoučinkovite 2D igre s Redotovim 2D engineom i lako izgradite bogate 3D svjetove."
+        "description": "Stvarajte učinkovite 2D igre s 2D engineom Redota i lako gradite bogate 3D svjetove."
       },
       "openSource": {
-        "header": "Otvoreni izvor",
-        "description": "Iskusite otvoreni razvoj s Redot Engine, gdje svi suradnici ravnopravno dijele."
+        "header": "Otvoreni kod",
+        "description": "Doživite otvoreni razvoj s Redot Engineom, gdje svi suradnici dijele jednako."
       }
     }
   },
   "reviewSection": {
-    "badge": "🎉 Stabilna verzija je tu",
-    "title": "Što naši korisnici kažu",
-    "description": "Redot Engine osnažuje programere s fleksibilnošću i performansama za kreiranje nevjerojatnih igara."
+    "badge": "🎉 Stabilna verzija je ovdje",
+    "title": "Što kažu naši korisnici",
+    "description": "Redot Engine omogućuje programerima fleksibilnost i performanse za stvaranje nevjerojatnih igara."
   },
   "startSection": {
     "title": "Spremni za stvaranje?",
-    "description": "Kreirajte privlačne 2D i 3D igre s Redot Engine za cross-platform immersivne doživljaje.",
+    "description": "Stvarajte privlačne 2D i 3D igre s Redot Engineom za cross-platform iskustva.",
     "buttons": {
       "download": "Preuzmi",
-      "documentation": "Istraži Redot Engine Dokumentaciju"
+      "documentation": "Istraži dokumentaciju Redot Enginea"
     }
   },
   "footer": {
     "languageSelector": {
       "searchPlaceholder": "Pretraži jezik...",
-      "noResults": "Jezik nije pronađen."
+      "noResults": "Nije pronađen nijedan jezik."
     },
     "copyright": {
-      "text": "© 2024-present by the Redot community.",
+      "text": "© 2024-danas od strane zajednice Redot.",
       "website": "Web stranica",
-      "sourceCode": "izvorni kod na Githubu"
+      "sourceCode": "Izvorni kod na Githubu"
     },
     "buttons": {
       "settings": "Postavke"
@@ -82,7 +82,7 @@
         "status": "Status",
         "donate": "Doniraj",
         "documentation": "Dokumentacija",
-        "sourceCode": "Izvorni Kod"
+        "sourceCode": "Izvorni kod"
       }
     },
     "resources": {
@@ -96,11 +96,11 @@
       }
     },
     "betaPrograms": {
-      "title": "Beta Programi",
+      "title": "Beta programi",
       "children": {
         "launcher": "Launcher",
         "academy": "Akademija",
-        "engineExperimental": "Eksperimentalni Engine"
+        "engineExperimental": "Eksperimentalni engine"
       }
     },
     "policies": {
@@ -109,83 +109,14 @@
         "terms": "Uvjeti",
         "privacy": "Privatnost",
         "cookieSettings": "Postavke kolačića",
-        "licenses": "Licenciranje",
+        "licenses": "Licence",
         "contributionGuidelines": "Smjernice za doprinos"
       }
     }
   },
   "notFound": {
     "title": "Ups! Stranica nije pronađena",
-    "description": "Izgleda da ste zalutali... nismo sigurni kamo je otišla ova stranica!",
+    "description": "Izgleda da ste zalutali... ni mi nismo sigurni kamo je ova stranica nestala!",
     "goBack": "Vrati se"
-  },
-  "downloadHero": {
-    "downloadForOS": "Preuzmi redot za {platform}",
-    "igniteYourImagination": "Upalite Svoju Maštu",
-    "downloadDescription": "Preuzmite Redot Engine, moćnu platformu za izradu 2D i 3D cross-platform igara i interaktivnih iskustava.",
-    "buttons": {
-      "downloadLatest": "Preuzmi najnoviju verziju",
-      "downloadMono": "Preuzmi Mono",
-      "moreDownloadOptions": "Više opcija za preuzimanje"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "Kreirajte s Redot",
-    "description": "Izradite svoju igru jednostavno s Redot Engine - brzo, fleksibilno i open-source za sve programere.",
-    "steps": {
-      "step1": {
-        "title": "1. Odaberite svoju Redot verziju",
-        "description": "Možete odabrati najnoviju verziju Redot Engine, stariju verziju ili isprobati beta verziju.",
-        "links": {
-          "archive": "Posjetite arhivu preuzimanja"
-        }
-      },
-      "step2": {
-        "title": "2. Preuzmite Redot Engine",
-        "description": "Slijedite upute za dovršetak instalacije i postavki.",
-        "links": {
-          "windows": "Preuzmi za Windows",
-          "mac": "Preuzmi za Mac",
-          "linux": "Preuzmi za Linux",
-          "android": "Preuzmi za Android"
-        }
-      },
-      "step3": {
-        "title": "3. Započnite svoj projekt",
-        "description": "Započnite svoj projekt od nule ili odaberite predložak. Pridružite se našoj Discord zajednici!",
-        "links": {
-          "discord": "Pridružite se našoj Discord zajednici"
-        }
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "Podržane platforme",
-    "description": "Redot Engine besprijekorno radi na raznim platformama, osiguravajući kompatibilnost."
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "Sistemski zahtjevi za Redot Engine",
-      "description": {
-        "general": "Preporučeno: Vulkan 1.0 kompatibilni hardver. Minimalno: OpenGL 3.3 / OpenGL ES 3.0 kompatibilni hardver.",
-        "dotnet": "Dodatni zahtjevi za .NET verziju:",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "Što je Redot Engine?",
-      "description": "Redot Engine je besplatan, open-source game development platforma za 2D i 3D projekte. Temeljen na Godotu, nudi fleksibilnost i jednostavnost korištenja za programere svih razina, s podrškom za više platformi i suradničkom zajednicom.",
-      "learnMoreButton": "Saznajte više o Redot Engine"
-    }
-  },
-  "downloadHelp": {
-    "title": "Trebate pomoć?",
-    "description": "Pridružite se našem Discord serveru kako biste dobili pomoć, podijelili ideje i povezali se s našom zajednicom!",
-    "buttons": {
-      "discord": "Pridružite se Discordu",
-      "documentation": "Istraži Redot Engine Dokumentaciju"
-    }
   }
 }

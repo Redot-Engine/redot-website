@@ -1,7 +1,7 @@
 {
   "header": {
     "banner": {
-      "subMessage": "Upgrade naar de laatste versie.",
+      "subMessage": "Upgrade naar de nieuwste versie.",
       "mainMessage": "Redot Engine is nu stabiel!"
     },
     "downloadButton": "Downloaden",
@@ -13,26 +13,26 @@
     }
   },
   "heroSection": {
-    "heading": "Game Engine,<br />Game Veranderaar",
+    "heading": "Game Engine,<br />Game Changer",
     "description": "Maak je 2D- en 3D-games, cross-platform projecten, of verken innovatieve ideeën in XR-technologie met Redot Engine!",
     "buttons": {
-      "primary": "Krijg de Redot Engine voor {os}",
-      "secondary": "Verken Redot Engine Docs"
+      "primary": "Krijg Redot Engine voor Windows",
+      "secondary": "Verken de Redot Engine Docs"
     },
-    "bannerMessage": "🎉 Stabiele versie is hier"
+    "bannerMessage": "🎉 De stabiele versie is hier"
   },
   "productShowcaseSection": {
-    "badge": "🪁 Je Game Ontwikkeling Aansteken",
-    "title": "Aansteken Je<br />Game Ontwikkeling",
-    "description": "Ontgrendel eindeloze mogelijkheden met onze flexibele en krachtige game engine voor elke maker."
+    "badge": "🪁 Kracht voor je Game-ontwikkeling",
+    "title": "Kracht voor je<br />Game-ontwikkeling",
+    "description": "Ontgrendel eindeloze mogelijkheden met onze flexibele en krachtige game-engine voor elke maker."
   },
   "featuresSection": {
-    "badge": "🤖 Volgende Generatie Game Design",
-    "title": "Redot Engine's <br /> Krachtige Kenmerken",
-    "description": "Ontdek baanbrekende tools en mogelijkheden die zijn ontworpen om je game-ideeën moeiteloos tot leven te brengen.",
+    "badge": "🤖 Next-Gen Game Design",
+    "title": "De Krachtige Features van Redot Engine",
+    "description": "Ontdek geavanceerde tools en mogelijkheden die zijn ontworpen om je game-ideeën moeiteloos tot leven te brengen.",
     "highlights": {
       "sceneDrivenDesign": {
-        "header": "Scene-gedreven ontwerp",
+        "header": "Scène-gedreven ontwerp",
         "description": "Maak herbruikbare scènes met knooppunten, scripts en duidelijke game-logica via knooppunthierarchie."
       },
       "crossPlatform": {
@@ -40,8 +40,8 @@
         "description": "Ontwikkel op verschillende platforms. Zet je game snel in op desktop, mobiel en web."
       },
       "2D3DEngines": {
-        "header": "2D en 3D engines",
-        "description": "Maak performante 2D-games met de 2D-engine van Redot en bouw gemakkelijk rijke 3D-werelden."
+        "header": "2D- en 3D-engines",
+        "description": "Maak krachtige 2D-games met de 2D-engine van Redot en bouw rijke 3D-werelden eenvoudig."
       },
       "openSource": {
         "header": "Open Source",
@@ -50,16 +50,16 @@
     }
   },
   "reviewSection": {
-    "badge": "🎉 Stabiele versie is hier",
-    "title": "Wat zeggen onze gebruikers",
-    "description": "Redot Engine geeft ontwikkelaars de flexibiliteit en prestaties om geweldige games te maken."
+    "badge": "🎉 De stabiele versie is hier",
+    "title": "Wat onze gebruikers zeggen",
+    "description": "Redot Engine biedt ontwikkelaars flexibiliteit en prestaties voor het creëren van geweldige games."
   },
   "startSection": {
-    "title": "Klaar om te maken?",
+    "title": "Klaar om te creëren?",
     "description": "Maak boeiende 2D- en 3D-games met Redot Engine voor cross-platform meeslepende ervaringen.",
     "buttons": {
       "download": "Downloaden",
-      "documentation": "Verken Redot Engine Docs"
+      "documentation": "Verken de Redot Engine Docs"
     }
   },
   "footer": {
@@ -68,9 +68,9 @@
       "noResults": "Geen taal gevonden."
     },
     "copyright": {
-      "text": "© 2024-heden door de Redot-gemeente.",
+      "text": "© 2024-present door de Redot-gemeenschap.",
       "website": "Website",
-      "sourceCode": "broncode op Github"
+      "sourceCode": "source code op Github"
     },
     "buttons": {
       "settings": "Instellingen"
@@ -82,25 +82,25 @@
         "status": "Status",
         "donate": "Doneren",
         "documentation": "Documentatie",
-        "sourceCode": "Broncode"
+        "sourceCode": "Source code op Github"
       }
     },
     "resources": {
-      "title": "Middelen",
+      "title": "Hulpbronnen",
       "children": {
         "news": "Nieuws",
         "feedback": "Feedback",
         "community": "Gemeenschap",
-        "pressKit": "Perskit",
+        "pressKit": "Press Kit",
         "contact": "Contact"
       }
     },
     "betaPrograms": {
-      "title": "Beta Programma's",
+      "title": "Beta-programma's",
       "children": {
         "launcher": "Launcher",
         "academy": "Academy",
-        "engineExperimental": "Engine Experimenteel"
+        "engineExperimental": "Engine Experimental"
       }
     },
     "policies": {
@@ -108,84 +108,15 @@
       "children": {
         "terms": "Voorwaarden",
         "privacy": "Privacy",
-        "cookieSettings": "Cookie Instellingen",
+        "cookieSettings": "Cookie-instellingen",
         "licenses": "Licenties",
-        "contributionGuidelines": "Bijdrage Richtlijnen"
+        "contributionGuidelines": "Bijdrage-richtlijnen"
       }
     }
   },
   "notFound": {
     "title": "Oeps! Pagina Niet Gevonden",
-    "description": "Het lijkt erop dat je het onbekende bent ingegaan... we weten niet waar deze pagina heen is!",
+    "description": "Het lijkt erop dat je in het onbekende terecht bent gekomen... we weten ook niet waar deze pagina heen is!",
     "goBack": "Teruggaan"
-  },
-  "downloadHero": {
-    "downloadForOS": "Download redot voor {platform}",
-    "igniteYourImagination": "Ontsteek Je Verbeelding",
-    "downloadDescription": "Download Redot Engine, het krachtige platform voor het bouwen van 2D- en 3D-cross-platformgames en interactieve ervaringen.",
-    "buttons": {
-      "downloadLatest": "Download laatste",
-      "downloadMono": "Download Mono",
-      "moreDownloadOptions": "Meer downloadopties"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "Maak met Redot",
-    "description": "Bouw je game eenvoudig met Redot Engine - snel, flexibel en open-source voor alle ontwikkelaars.",
-    "steps": {
-      "step1": {
-        "title": "1. Kies je Redot Versie",
-        "description": "Je kunt de nieuwste Redot Engine kiezen, een oudere versie of een beta-versie proberen.",
-        "links": {
-          "archive": "Bezoek het downloadarchief"
-        }
-      },
-      "step2": {
-        "title": "2. Download Redot Engine",
-        "description": "Volg de instructies om de installatie en setup te voltooien.",
-        "links": {
-          "windows": "Download voor Windows",
-          "mac": "Download voor Mac",
-          "linux": "Download voor Linux",
-          "android": "Download voor Android"
-        }
-      },
-      "step3": {
-        "title": "3. Begin je Project",
-        "description": "Begin je project vanaf nul of kies een sjabloon. Sluit je aan bij onze Discord-gemeente om verbinding te maken!",
-        "links": {
-          "discord": "Sluit je aan bij onze Discord-gemeente"
-        }
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "Ondersteunde platforms",
-    "description": "Redot Engine draait soepel op verschillende platforms, wat compatibiliteit garandeert."
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "Systeemvereisten Redot Engine",
-      "description": {
-        "general": "Aanbevolen: Vulkan 1.0 compatibel hardware. Minimaal: OpenGL 3.3 / OpenGL ES 3.0 compatibel hardware.",
-        "dotnet": "Aanvullende vereisten voor de .NET-versie:",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "Wat is Redot Engine?",
-      "description": "Redot Engine is een gratis, open-source game-ontwikkelingsplatform voor 2D- en 3D-projecten. Gebaseerd op Godot, biedt het flexibiliteit en gebruiksgemak voor ontwikkelaars van alle niveaus, met ondersteuning voor meerdere platforms en een samenwerkende gemeenschap.",
-      "learnMoreButton": "Leer meer over Redot Engine"
-    }
-  },
-  "downloadHelp": {
-    "title": "Hulp Nodig?",
-    "description": "Sluit je aan bij onze Discord-server om hulp te krijgen, ideeën te delen en verbinding te maken met onze gemeenschap!",
-    "buttons": {
-      "discord": "Sluit je aan bij Discord",
-      "documentation": "Verken Redot Engine Docs"
-    }
   }
 }

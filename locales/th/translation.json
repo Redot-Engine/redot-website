@@ -1,79 +1,9 @@
 {
-  "header": {
-    "banner": {
-      "subMessage": "อัปเกรดเป็นเวอร์ชันล่าสุด",
-      "mainMessage": "Redot Engine ตอนนี้เสถียรแล้ว!"
-    },
-    "downloadButton": "ดาวน์โหลด",
-    "links": {
-      "documentation": "เอกสาร",
-      "blog": "บล็อก",
-      "proposals": "ข้อเสนอ",
-      "community": "ชุมชน"
-    }
-  },
-  "heroSection": {
-    "heading": "เอนจินเกม,<br />เปลี่ยนเกม",
-    "description": "สร้างเกม 2D และ 3D โปรเจ็กต์ข้ามแพลตฟอร์มหรือสำรวจไอเดียใหม่ๆ ในเทคโนโลยี XR กับ Redot Engine!",
-    "buttons": {
-      "primary": "ดาวน์โหลด Redot Engine สำหรับ {os}",
-      "secondary": "สำรวจเอกสารของ Redot Engine"
-    },
-    "bannerMessage": "🎉 เวอร์ชันเสถียรพร้อมแล้ว"
-  },
-  "productShowcaseSection": {
-    "badge": "🪁 พลังขับเคลื่อนการพัฒนาเกมของคุณ",
-    "title": "ขับเคลื่อนการพัฒนา<br />เกมของคุณ",
-    "description": "ปลดล็อกความเป็นไปได้ที่ไม่สิ้นสุดด้วยเอนจินเกมที่ยืดหยุ่นและมีประสิทธิภาพสูงสำหรับทุกผู้สร้าง"
-  },
-  "featuresSection": {
-    "badge": "🤖 การออกแบบเกมยุคหน้า",
-    "title": "คุณสมบัติที่ทรงพลังของ<br />Redot Engine",
-    "description": "ค้นพบเครื่องมือและความสามารถล้ำสมัยที่ออกแบบมาเพื่อช่วยให้ไอเดียเกมของคุณเกิดขึ้นอย่างง่ายดาย",
-    "highlights": {
-      "sceneDrivenDesign": {
-        "header": "การออกแบบที่ขับเคลื่อนด้วยฉาก",
-        "description": "สร้างฉากที่สามารถนำกลับมาใช้ใหม่ได้ด้วยโหนด สคริปต์ และตรรกะเกมที่ชัดเจนผ่านลำดับชั้นของโหนด"
-      },
-      "crossPlatform": {
-        "header": "ข้ามแพลตฟอร์ม",
-        "description": "พัฒนาในหลายแพลตฟอร์ม. ติดตั้งเกมของคุณบนเดสก์ท็อป มือถือ และเว็บได้อย่างรวดเร็ว"
-      },
-      "2D3DEngines": {
-        "header": "เอนจิน 2D และ 3D",
-        "description": "สร้างเกม 2D ที่มีประสิทธิภาพด้วยเอนจิน 2D ของ Redot และสร้างโลก 3D ได้ง่ายๆ"
-      },
-      "openSource": {
-        "header": "โอเพ่นซอร์ส",
-        "description": "สัมผัสการพัฒนาแบบเปิดกับ Redot Engine ซึ่งผู้ร่วมพัฒนาทุกคนมีส่วนร่วมเท่าเทียมกัน"
-      }
-    }
-  },
-  "reviewSection": {
-    "badge": "🎉 เวอร์ชันเสถียรพร้อมแล้ว",
-    "title": "ความคิดเห็นจากผู้ใช้ของเรา",
-    "description": "Redot Engine มอบพลังให้กับนักพัฒนาด้วยความยืดหยุ่นและประสิทธิภาพในการสร้างเกมที่น่าทึ่ง"
-  },
-  "startSection": {
-    "title": "พร้อมที่จะสร้างแล้วหรือยัง?",
-    "description": "สร้างเกม 2D และ 3D ที่น่าสนใจด้วย Redot Engine สำหรับประสบการณ์ข้ามแพลตฟอร์มที่สมจริง",
-    "buttons": {
-      "download": "ดาวน์โหลด",
-      "documentation": "สำรวจเอกสารของ Redot Engine"
-    }
-  },
   "footer": {
-    "languageSelector": {
-      "searchPlaceholder": "ค้นหาภาษา...",
-      "noResults": "ไม่พบภาษาที่ค้นหา"
-    },
     "copyright": {
-      "text": "© 2024-present โดยชุมชน Redot",
+      "text": "© 2024-present โดยชุมชน Redot.",
       "website": "เว็บไซต์",
-      "sourceCode": "โค้ดแหล่งที่มาบน Github"
-    },
-    "buttons": {
-      "settings": "การตั้งค่า"
+      "sourceCode": "โค้ดต้นฉบับบน Github"
     },
     "product": {
       "title": "ผลิตภัณฑ์",
@@ -82,13 +12,13 @@
         "status": "สถานะ",
         "donate": "บริจาค",
         "documentation": "เอกสาร",
-        "sourceCode": "โค้ดแหล่งที่มา"
+        "sourceCode": "โค้ดต้นฉบับ"
       }
     },
     "resources": {
-      "title": "ทรัพยากร",
+      "title": "แหล่งข้อมูล",
       "children": {
-        "news": "ข่าว",
+        "news": "ข่าวสาร",
         "feedback": "ข้อเสนอแนะ",
         "community": "ชุมชน",
         "pressKit": "ชุดสื่อ",
@@ -98,9 +28,9 @@
     "betaPrograms": {
       "title": "โปรแกรมเบต้า",
       "children": {
-        "launcher": "ตัวโหลด",
+        "launcher": "ตัวเปิด",
         "academy": "อคาเดมี",
-        "engineExperimental": "เอนจินทดลอง"
+        "engineExperimental": "เครื่องมือทดลอง"
       }
     },
     "policies": {
@@ -115,78 +45,8 @@
     }
   },
   "notFound": {
-    "title": "อุ๊ปส์! ไม่พบหน้านี้",
-    "description": "ดูเหมือนว่าคุณจะไปที่ที่ไม่รู้จัก... เราก็ไม่แน่ใจว่าหน้านี้หายไปไหน!",
+    "title": "อุ๊ปส์! ไม่พบหน้าที่คุณต้องการ",
+    "description": "ดูเหมือนว่าคุณจะหลงทางไปยังที่ที่ไม่มีอยู่... เราก็ไม่แน่ใจว่าหน้านี้หายไปไหนเหมือนกัน!",
     "goBack": "กลับไป"
-  },
-  "downloadHero": {
-    "downloadForOS": "ดาวน์โหลด Redot สำหรับ {platform}",
-    "igniteYourImagination": "จุดประกายจินตนาการของคุณ",
-    "downloadDescription": "ดาวน์โหลด Redot Engine, แพลตฟอร์มที่ทรงพลังในการสร้างเกม 2D และ 3D ข้ามแพลตฟอร์มและประสบการณ์อินเทอร์แอกทีฟ",
-    "buttons": {
-      "downloadLatest": "ดาวน์โหลดล่าสุด",
-      "downloadMono": "ดาวน์โหลด Mono",
-      "moreDownloadOptions": "ตัวเลือกดาวน์โหลดเพิ่มเติม"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "สร้างด้วย Redot",
-    "description": "สร้างเกมของคุณได้อย่างง่ายดายด้วย Redot Engine - รวดเร็ว ยืดหยุ่น และโอเพ่นซอร์สสำหรับนักพัฒนาทุกคน",
-    "steps": {
-      "step1": {
-        "title": "1. เลือกเวอร์ชัน Redot ของคุณ",
-        "description": "คุณสามารถเลือกเวอร์ชันล่าสุดของ Redot Engine, เวอร์ชันเก่า หรือทดลองใช้เวอร์ชันเบต้า",
-        "links": {
-          "archive": "ไปที่คลังดาวน์โหลด"
-        }
-      },
-      "step2": {
-        "title": "2. ดาวน์โหลด Redot Engine",
-        "description": "ทำตามคำแนะนำในการติดตั้งและตั้งค่าให้เสร็จสมบูรณ์",
-        "links": {
-          "windows": "ดาวน์โหลดสำหรับ Windows",
-          "mac": "ดาวน์โหลดสำหรับ Mac",
-          "linux": "ดาวน์โหลดสำหรับ Linux",
-          "android": "ดาวน์โหลดสำหรับ Android"
-        }
-      },
-
-      "step3": {
-        "title": "3. เริ่มโปรเจกต์ของคุณ",
-        "description": "เริ่มโปรเจกต์จากศูนย์หรือเลือกแม่แบบ. เข้าร่วมชุมชน Discord ของเราเพื่อเชื่อมต่อ!",
-        "links": {
-          "discord": "เข้าร่วมชุมชน Discord ของเรา"
-        }
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "แพลตฟอร์มที่รองรับ",
-    "description": "Redot Engine ทำงานได้อย่างราบรื่นบนหลายแพลตฟอร์มเพื่อให้แน่ใจว่าเข้ากันได้"
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "ข้อกำหนดระบบสำหรับ Redot Engine",
-      "description": {
-        "general": "แนะนำ: ฮาร์ดแวร์ที่รองรับ Vulkan 1.0. ขั้นต่ำ: ฮาร์ดแวร์ที่รองรับ OpenGL 3.3 / OpenGL ES 3.0",
-        "dotnet": "ข้อกำหนดเพิ่มเติมสำหรับเวอร์ชัน .NET:",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "Redot Engine คืออะไร?",
-      "description": "Redot Engine คือแพลตฟอร์มพัฒนาเกมโอเพ่นซอร์สฟรีสำหรับโปรเจ็กต์ 2D และ 3D. อิงจาก Godot มันมอบความยืดหยุ่นและความง่ายในการใช้งานสำหรับนักพัฒนาทุกระดับ, พร้อมรองรับหลายแพลตฟอร์มและชุมชนที่ร่วมมือกัน",
-      "learnMoreButton": "เรียนรู้เพิ่มเติมเกี่ยวกับ Redot Engine"
-    }
-  },
-  "downloadHelp": {
-    "title": "ต้องการความช่วยเหลือ?",
-    "description": "เข้าร่วมเซิร์ฟเวอร์ Discord ของเราเพื่อขอความช่วยเหลือ แบ่งปันไอเดีย และเชื่อมต่อกับชุมชนของเรา!",
-    "buttons": {
-      "discord": "เข้าร่วม Discord",
-      "documentation": "สำรวจเอกสารของ Redot Engine"
-    }
   }
 }

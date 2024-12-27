@@ -33,15 +33,3 @@ export const socials: SocialLink[] = [
     icon: "reddit.svg",
   },
 ];
-
-export const socialsLinks = {
-  discord: "https://discord.gg/redot",
-  reddit: "https://www.reddit.com/r/RedotGameEngineMain",
-  youtube: "https://www.youtube.com/@ReDotEngine",
-  linkedin: "https://www.linkedin.com/company/redot-engine/",
-  x: "https://x.com/Redot_Engine",
-  xCommunity: "https://x.com/i/communities/1857126566775730450",
-  kofi: "https://ko-fi.com/redotengine",
-  bsky: "https://bsky.app/profile/redotengine.org",
-  itch: "https://redotengine.itch.io/",
-};

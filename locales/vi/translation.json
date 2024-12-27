@@ -2,9 +2,9 @@
   "header": {
     "banner": {
       "subMessage": "Nâng cấp lên phiên bản mới nhất.",
-      "mainMessage": "Redot Engine hiện đã ổn định!"
+      "mainMessage": "Redot Engine đã ổn định!"
     },
-    "downloadButton": "Tải xuống",
+    "downloadButton": "Tải về",
     "links": {
       "documentation": "Tài liệu",
       "blog": "Blog",
@@ -13,52 +13,52 @@
     }
   },
   "heroSection": {
-    "heading": "Game Engine,<br />Thay Đổi Cách Chơi Game",
-    "description": "Tạo trò chơi 2D và 3D, các dự án đa nền tảng, hoặc khám phá ý tưởng sáng tạo trong công nghệ XR với Redot Engine!",
+    "heading": "Game Engine,<br />Thay đổi Cách Chơi",
+    "description": "Tạo game 2D và 3D, dự án đa nền tảng, hoặc khám phá những ý tưởng sáng tạo trong công nghệ XR với Redot Engine!",
     "buttons": {
-      "primary": "Tải Redot Engine cho {os}",
+      "primary": "Tải Redot Engine cho Windows",
       "secondary": "Khám phá Tài liệu Redot Engine"
     },
     "bannerMessage": "🎉 Phiên bản ổn định đã có mặt"
   },
   "productShowcaseSection": {
-    "badge": "🪁 Tiếp Nối Sự Phát Triển Game Của Bạn",
-    "title": "Tiếp Nối Sự Phát Triển<br />Game Của Bạn",
-    "description": "Mở khóa vô vàn khả năng với engine game linh hoạt và hiệu suất cao dành cho mọi nhà sáng tạo."
+    "badge": "🪁 Đẩy mạnh phát triển game của bạn",
+    "title": "Đẩy mạnh phát triển<br />game của bạn",
+    "description": "Mở khóa vô vàn khả năng với game engine linh hoạt và hiệu suất cao của chúng tôi dành cho mọi nhà sáng tạo."
   },
   "featuresSection": {
-    "badge": "🤖 Thiết Kế Game Thế Hệ Mới",
-    "title": "Các Tính Năng Mạnh Mẽ Của Redot Engine",
-    "description": "Khám phá các công cụ và tính năng tiên tiến được thiết kế để biến ý tưởng game của bạn thành hiện thực một cách dễ dàng.",
+    "badge": "🤖 Thiết kế game thế hệ mới",
+    "title": "Các tính năng mạnh mẽ của Redot Engine",
+    "description": "Khám phá các công cụ tiên tiến và khả năng được thiết kế để mang lại ý tưởng game của bạn một cách dễ dàng.",
     "highlights": {
       "sceneDrivenDesign": {
-        "header": "Thiết Kế Dựa Trên Cảnh",
-        "description": "Tạo các cảnh tái sử dụng với các nút, kịch bản và logic game rõ ràng qua cấu trúc cây nút."
+        "header": "Thiết kế dựa trên cảnh",
+        "description": "Tạo cảnh tái sử dụng với các nút, kịch bản và logic game rõ ràng thông qua cấu trúc phân cấp nút."
       },
       "crossPlatform": {
-        "header": "Đa Nền Tảng",
-        "description": "Phát triển trên nhiều nền tảng. Triển khai trò chơi của bạn trên máy tính để bàn, thiết bị di động và web nhanh chóng."
+        "header": "Đa nền tảng",
+        "description": "Phát triển trên nhiều nền tảng. Triển khai game của bạn nhanh chóng trên desktop, di động và web."
       },
       "2D3DEngines": {
-        "header": "Công Cụ 2D và 3D",
-        "description": "Tạo trò chơi 2D hiệu suất cao với engine 2D của Redot và xây dựng thế giới 3D phong phú một cách dễ dàng."
+        "header": "Công cụ 2D và 3D",
+        "description": "Tạo game 2D hiệu suất cao với công cụ 2D của Redot và xây dựng thế giới 3D phong phú một cách dễ dàng."
       },
       "openSource": {
-        "header": "Mã Nguồn Mở",
-        "description": "Trải nghiệm phát triển mở với Redot Engine, nơi tất cả các cộng tác viên chia sẻ đều nhau."
+        "header": "Mã nguồn mở",
+        "description": "Trải nghiệm phát triển mở với Redot Engine, nơi tất cả người đóng góp đều chia sẻ công bằng."
       }
     }
   },
   "reviewSection": {
     "badge": "🎉 Phiên bản ổn định đã có mặt",
-    "title": "Người Dùng Nói Gì Về Chúng Tôi",
-    "description": "Redot Engine trao quyền cho các nhà phát triển với sự linh hoạt và hiệu suất để tạo ra những trò chơi tuyệt vời."
+    "title": "Nhận xét từ người dùng",
+    "description": "Redot Engine mang lại cho các nhà phát triển sự linh hoạt và hiệu suất để tạo ra những game tuyệt vời."
   },
   "startSection": {
-    "title": "Sẵn Sàng Để Tạo Ra?",
-    "description": "Tạo ra những trò chơi 2D và 3D hấp dẫn với Redot Engine cho các trải nghiệm đa nền tảng nhập vai.",
+    "title": "Sẵn sàng để sáng tạo?",
+    "description": "Tạo ra các game 2D và 3D hấp dẫn với Redot Engine cho những trải nghiệm đa nền tảng đầy ấn tượng.",
     "buttons": {
-      "download": "Tải xuống",
+      "download": "Tải về",
       "documentation": "Khám phá Tài liệu Redot Engine"
     }
   },
@@ -68,9 +68,9 @@
       "noResults": "Không tìm thấy ngôn ngữ."
     },
     "copyright": {
-      "text": "© 2024-hiện tại bởi cộng đồng Redot.",
-      "website": "Website",
-      "sourceCode": "mã nguồn trên Github"
+      "text": "© 2024-nay bởi cộng đồng Redot.",
+      "website": "Trang web",
+      "sourceCode": "Mã nguồn trên Github"
     },
     "buttons": {
       "settings": "Cài đặt"
@@ -78,36 +78,36 @@
     "product": {
       "title": "Sản phẩm",
       "children": {
-        "download": "Tải xuống",
+        "download": "Tải về",
         "status": "Trạng thái",
-        "donate": "Ủng hộ",
+        "donate": "Quyên góp",
         "documentation": "Tài liệu",
         "sourceCode": "Mã nguồn"
       }
     },
     "resources": {
-      "title": "Tài Nguyên",
+      "title": "Tài nguyên",
       "children": {
         "news": "Tin tức",
         "feedback": "Phản hồi",
         "community": "Cộng đồng",
-        "pressKit": "Bộ công cụ báo chí",
+        "pressKit": "Bộ công cụ truyền thông",
         "contact": "Liên hệ"
       }
     },
     "betaPrograms": {
-      "title": "Chương Trình Beta",
+      "title": "Chương trình Beta",
       "children": {
         "launcher": "Trình khởi động",
         "academy": "Học viện",
-        "engineExperimental": "Engine Experimental"
+        "engineExperimental": "Redot Engine Experimental"
       }
     },
     "policies": {
-      "title": "Chính Sách",
+      "title": "Chính sách",
       "children": {
         "terms": "Điều khoản",
-        "privacy": "Chính sách bảo mật",
+        "privacy": "Quyền riêng tư",
         "cookieSettings": "Cài đặt cookie",
         "licenses": "Giấy phép",
         "contributionGuidelines": "Hướng dẫn đóng góp"
@@ -115,77 +115,8 @@
     }
   },
   "notFound": {
-    "title": "Rất tiếc! Trang không tìm thấy",
-    "description": "Có vẻ như bạn đã đi vào một nơi chưa biết... chúng tôi cũng không biết trang này đã đi đâu!",
+    "title": "Ôi! Trang không tìm thấy",
+    "description": "Có vẻ như bạn đã lạc vào nơi không xác định... chúng tôi cũng không chắc trang này đi đâu!",
     "goBack": "Quay lại"
-  },
-  "downloadHero": {
-    "downloadForOS": "Tải Redot cho {platform}",
-    "igniteYourImagination": "Khơi Dậy Sự Tưởng Tượng Của Bạn",
-    "downloadDescription": "Tải Redot Engine, nền tảng mạnh mẽ để xây dựng các trò chơi 2D và 3D đa nền tảng và trải nghiệm tương tác.",
-    "buttons": {
-      "downloadLatest": "Tải bản mới nhất",
-      "downloadMono": "Tải Mono",
-      "moreDownloadOptions": "Thêm lựa chọn tải xuống"
-    }
-  },
-  "downloadThreeSteps": {
-    "badge": "",
-    "title": "Tạo Ra Với Redot",
-    "description": "Xây dựng trò chơi của bạn một cách dễ dàng với Redot Engine - nhanh chóng, linh hoạt và mã nguồn mở dành cho tất cả các nhà phát triển.",
-    "steps": {
-      "step1": {
-        "title": "1. Chọn Phiên Bản Redot Của Bạn",
-        "description": "Bạn có thể chọn Redot Engine phiên bản mới nhất, một phiên bản cũ hơn, hoặc thử phiên bản beta.",
-        "links": {
-          "archive": "Truy cập kho lưu trữ tải xuống"
-        }
-      },
-      "step2": {
-        "title": "2. Tải Redot Engine",
-        "description": "Làm theo hướng dẫn để hoàn tất việc cài đặt và thiết lập.",
-        "links": {
-          "windows": "Tải cho Windows",
-          "mac": "Tải cho Mac",
-          "linux": "Tải cho Linux",
-          "android": "Tải cho Android"
-        }
-      },
-      "step3": {
-        "title": "3. Bắt Đầu Dự Án Của Bạn",
-        "description": "Bắt đầu dự án của bạn từ đầu hoặc chọn một mẫu. Tham gia cộng đồng Discord của chúng tôi để kết nối!",
-        "links": {
-          "discord": "Tham gia Cộng Đồng Discord Của Chúng Tôi"
-        }
-      }
-    }
-  },
-  "downloadSupportedPlatform": {
-    "badge": "",
-    "title": "Các nền tảng hỗ trợ",
-    "description": "Redot Engine hoạt động mượt mà trên nhiều nền tảng, đảm bảo tính tương thích."
-  },
-  "downloadInformation": {
-    "systemRequirements": {
-      "title": "Yêu cầu hệ thống Redot Engine",
-      "description": {
-        "general": "Khuyến nghị: Phần cứng tương thích Vulkan 1.0. Tối thiểu: Phần cứng tương thích OpenGL 3.3 / OpenGL ES 3.0.",
-        "dotnet": "Yêu cầu bổ sung cho phiên bản .NET:",
-        "dotnetLink": ".NET SDK"
-      }
-    },
-    "about": {
-      "title": "Redot Engine là gì?",
-      "description": "Redot Engine là một nền tảng phát triển game mã nguồn mở miễn phí dành cho các dự án 2D và 3D. Dựa trên Godot, nó cung cấp tính linh hoạt và dễ sử dụng cho các nhà phát triển ở mọi cấp độ, với hỗ trợ đa nền tảng và cộng đồng hợp tác.",
-      "learnMoreButton": "Tìm hiểu thêm về Redot Engine"
-    }
-  },
-  "downloadHelp": {
-    "title": "Cần trợ giúp?",
-    "description": "Tham gia server Discord của chúng tôi để nhận sự trợ giúp, chia sẻ ý tưởng và kết nối với cộng đồng!",
-    "buttons": {
-      "discord": "Tham gia Discord",
-      "documentation": "Khám phá Tài liệu Redot Engine"
-    }
   }
 }
