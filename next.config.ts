@@ -29,6 +29,12 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  experimental: {
+    staleTimes: {
+      dynamic: 30,
+      static: 180,
+    },
+  },
 };
 
 export default withSentryConfig(withNextIntl(nextConfig), {
@@ -69,4 +75,8 @@ export default withSentryConfig(withNextIntl(nextConfig), {
   // https://docs.sentry.io/product/crons/
   // https://vercel.com/docs/cron-jobs
   automaticVercelMonitors: true,
+  telemetry: false,
+  sourcemaps: {
+    deleteSourcemapsAfterUpload: true,
+  },
 });
