@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Înapoi"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Contactează-ne",
-    "description": "Ne-ar plăcea să auzim de la tine! Contactează-ne cu întrebările, feedback-ul sau ideile tale de colaborare.",
-    "faqTitle": "Întrebări frecvente",
-    "faq": {
-      "whatIsRedot": "Ce este Redot?",
-      "redotExplanation": "Redot este un fork al Godot care se concentrează pe îmbunătățirea stabilității și performanței motorului.",
-      "whyWasRedotMade": "De ce a fost creat Redot?",
-      "redotMadeExplanation": "Redot a fost creat pentru a răspunde nevoilor specifice pe care unii dezvoltatori le-au simțit neadresate complet de Godot, în ceea ce privește modul în care gestionează motorul și comunitatea de dezvoltare de jocuri.",
-      "antiWoke": "Este Redot un proiect sau server anti-woke?",
-      "antiWokeExplanation": "Nu. Redot se concentrează pe dezvoltarea de jocuri. Dorim să creăm o comunitate pentru toți dezvoltatorii de jocuri, indiferent de ideologiile lor politice.",
-      "platformsSupported": "Ce platforme sunt suportate de Redot?",
-      "platformsExplanation": "Redot 4.3 este disponibil pe Windows, Linux și Mac.\nRedot 4.4 este disponibil pe Windows, Linux și Android.",
-      "transferFromGodot": "Pot să transfer proiectul meu de la Godot la Redot?",
-      "transferExplanation": "Versiunile actuale ale Redot au fost fork-uite din Godot 4.3 și 4.4, așa că, dacă proiectul tău funcționează cu oricare dintre acestea, vei putea să-l transferi la Redot."
-    },
-    "contactCard": {
-      "emailUs": "Trimite-ne un email",
-      "emailDescription": "Suport rapid prin email.",
-      "joinDiscord": "Alătură-te Discord-ului nostru",
-      "discordDescription": "Chat în timp real cu noi.",
-      "followUs": "Urmărește-ne",
-      "followDescription": "Actualizări, știri și sfaturi.",
-      "forum": "Forum",
-      "forumDescription": "Interacționează, împărtășește și primește ajutor."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Licențe",
-    "description": "Redot Engine folosește biblioteci și fonturi open-source, fiecare cu licența sa proprie, listată pe această pagină."
   }
 }

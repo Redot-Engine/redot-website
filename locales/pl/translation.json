@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Wróć"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Skontaktuj się z nami",
-    "description": "Chętnie Cię wysłuchamy! Skontaktuj się z nami z pytaniami, opiniami lub pomysłami na współpracę.",
-    "faqTitle": "Najczęściej zadawane pytania",
-    "faq": {
-      "whatIsRedot": "Czym jest Redot?",
-      "redotExplanation": "Redot to fork Godot, który koncentruje się na poprawie stabilności i wydajności silnika.",
-      "whyWasRedotMade": "Dlaczego powstał Redot?",
-      "redotMadeExplanation": "Redot został stworzony, aby odpowiedzieć na konkretne potrzeby, które nie zostały w pełni zaspokojone przez Godot, szczególnie w zakresie obsługi silnika i społeczności deweloperów gier.",
-      "antiWoke": "Czy Redot to projekt lub serwer anty-woke?",
-      "antiWokeExplanation": "Nie. Redot koncentruje się na tworzeniu gier. Chcemy stworzyć społeczność dla wszystkich deweloperów gier, niezależnie od ich ideologii politycznych.",
-      "platformsSupported": "Na jakich platformach działa Redot?",
-      "platformsExplanation": "Redot 4.3 jest dostępny na Windows, Linux i Mac.\nRedot 4.4 jest dostępny na Windows, Linux i Android.",
-      "transferFromGodot": "Czy mogę przenieść swój projekt z Godot do Redot?",
-      "transferExplanation": "Aktualne wersje Redot zostały forkowane z Godot 4.3 i 4.4, więc jeśli twój projekt działa na jednej z tych wersji, będziesz mógł przenieść go do Redot."
-    },
-    "contactCard": {
-      "emailUs": "Napisz do nas",
-      "emailDescription": "Szybka pomoc poprzez e-mail.",
-      "joinDiscord": "Dołącz do naszego Discorda",
-      "discordDescription": "Czat na żywo z nami.",
-      "followUs": "Śledź nas",
-      "followDescription": "Aktualizacje, wiadomości i porady.",
-      "forum": "Forum",
-      "forumDescription": "Zaangażuj się, dziel się i uzyskaj pomoc."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Licencje",
-    "description": "Silnik Redot korzysta z bibliotek open-source i czcionek, z których każda ma swoją własną licencję, wymienioną na tej stronie."
   }
 }

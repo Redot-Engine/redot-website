@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Geri"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Bize Ulaşın",
-    "description": "Sizden haber almak isteriz! Sorularınız, geri bildirimleriniz veya iş birliği fikirlerinizle bizimle iletişime geçin.",
-    "faqTitle": "Sıkça Sorulan Sorular",
-    "faq": {
-      "whatIsRedot": "Redot nedir?",
-      "redotExplanation": "Redot, motorun kararlılığını ve performansını iyileştirmeye odaklanmış bir Godot çatallamasıdır.",
-      "whyWasRedotMade": "Redot neden yapıldı?",
-      "redotMadeExplanation": "Redot, bazı geliştiricilerin, Godot'un motoru ve oyun geliştirme topluluğunu nasıl ele aldığına dair tam olarak karşılanmayan ihtiyaçları ele almak için yaratıldı.",
-      "antiWoke": "Redot, anti-woke bir proje veya sunucu mudur?",
-      "antiWokeExplanation": "Hayır. Redot, oyun geliştirmeye odaklanmıştır. Herhangi bir politik ideolojiden bağımsız olarak tüm oyun geliştiriciler için bir topluluk yaratmak istiyoruz.",
-      "platformsSupported": "Redot hangi platformları destekliyor?",
-      "platformsExplanation": "Redot 4.3, Windows, Linux ve Mac'te kullanılabilir.\nRedot 4.4, Windows, Linux ve Android'de kullanılabilir.",
-      "transferFromGodot": "Projemi Godot'tan Redot'a aktarabilir miyim?",
-      "transferExplanation": "Mevcut Redot sürümleri, Godot 4.3 ve 4.4'ten çatallanmıştır, bu nedenle projeniz bu sürümlerle uyumluysa Redot'a aktarabilirsiniz."
-    },
-    "contactCard": {
-      "emailUs": "Bize E-posta Gönderin",
-      "emailDescription": "E-posta ile hızlı destek.",
-      "joinDiscord": "Discord'a Katılın",
-      "discordDescription": "Bizimle gerçek zamanlı sohbet.",
-      "followUs": "Bizi Takip Edin",
-      "followDescription": "Güncellemeler, haberler ve ipuçları.",
-      "forum": "Forum",
-      "forumDescription": "Katılın, paylaşın ve yardım alın."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Lisanslar",
-    "description": "Redot Engine, her biri kendi lisansına sahip açık kaynaklı kütüphaneler ve yazı tipleri kullanmaktadır. Bu sayfada listelenmiştir."
   }
 }

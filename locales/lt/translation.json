@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Atgal"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Susisiekite su mumis",
-    "description": "Norėtume išgirsti iš jūsų! Susisiekite su klausimais, atsiliepimais ar bendradarbiavimo idėjomis.",
-    "faqTitle": "Dažnai užduodami klausimai",
-    "faq": {
-      "whatIsRedot": "Kas yra Redot?",
-      "redotExplanation": "Redot yra Godot šakutė, orientuota į variklio stabilumo ir našumo gerinimą.",
-      "whyWasRedotMade": "Kodėl buvo sukurtas Redot?",
-      "redotMadeExplanation": "Redot buvo sukurtas siekiant patenkinti tam tikras poreikius, kuriuos kai kurie kūrėjai manė, kad Godot nesugebėjo visiškai patenkinti, ypač kalbant apie variklio valdymą ir žaidimų kūrimo bendruomenę.",
-      "antiWoke": "Ar Redot yra prieš woke projektas ar serveris?",
-      "antiWokeExplanation": "Ne. Redot yra orientuotas į žaidimų kūrimą. Mes norime sukurti bendruomenę visiems žaidimų kūrėjams, nepriklausomai nuo jų politinių ideologijų.",
-      "platformsSupported": "Kokias platformas palaiko Redot?",
-      "platformsExplanation": "Redot 4.3 yra prieinamas Windows, Linux ir Mac.\nRedot 4.4 yra prieinamas Windows, Linux ir Android.",
-      "transferFromGodot": "Ar galiu perkelti savo projektą iš Godot į Redot?",
-      "transferExplanation": "Dabartiniai Redot leidimai buvo sukurti kaip šakos iš Godot 4.3 ir 4.4, todėl jei jūsų projektas veikia su viena iš šių versijų, galėsite jį perkelti į Redot."
-    },
-    "contactCard": {
-      "emailUs": "Rašykite mums el. paštu",
-      "emailDescription": "Greita pagalba el. paštu.",
-      "joinDiscord": "Prisijunkite prie mūsų Discord",
-      "discordDescription": "Realiojo laiko pokalbiai su mumis.",
-      "followUs": "Sekite mus",
-      "followDescription": "Atnaujinimai, naujienos ir patarimai.",
-      "forum": "Forumas",
-      "forumDescription": "Bendraukite, dalinkitės ir gaukite pagalbą."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Licencijos",
-    "description": "Redot Engine naudoja atvirojo kodo bibliotekas ir šriftus, kiekvienas turi savo licenciją, kuri pateikta šioje puslapio dalyje."
   }
 }

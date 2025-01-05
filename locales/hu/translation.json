@@ -202,38 +202,5 @@
   },
   "articleSplash": {
     "backButton": "Vissza"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Lépj velünk kapcsolatba",
-    "description": "Örömmel hallanánk rólad! Keress minket kérdésekkel, visszajelzésekkel vagy együttműködési ötletekkel.",
-    "faqTitle": "Gyakran Ismételt Kérdések",
-    "faq": {
-      "whatIsRedot": "Mi az a Redot?",
-      "redotExplanation": "A Redot a Godot egy forkja, amely a motor stabilitásának és teljesítményének javítására összpontosít.",
-      "whyWasRedotMade": "Miért készült a Redot?",
-      "redotMadeExplanation": "A Redotot azért hozták létre, hogy olyan fejlesztői igényeket elégítsen ki, amelyeket a Godot nem teljesen kielégítően kezelt, különösen a motor és a játékmotoros közösség kezelésében.",
-      "antiWoke": "A Redot egy anti-woke projekt vagy szerver?",
-      "antiWokeExplanation": "Nem. A Redot a játékfejlesztésre összpontosít. Egy olyan közösséget szeretnénk létrehozni, amely minden játékmotoros számára nyitott, politikai ideológiáktól függetlenül.",
-      "platformsSupported": "Milyen platformokat támogat a Redot?",
-      "platformsExplanation": "A Redot 4.3 Windows, Linux és Mac rendszeren elérhető.\nA Redot 4.4 Windows, Linux és Android rendszereken érhető el.",
-      "transferFromGodot": "Át tudom vinni a projektemet a Godot-ból a Redot-ba?",
-      "transferExplanation": "A jelenlegi Redot verziók a Godot 4.3 és 4.4 forkjaiból származnak, így ha a projekted működik bármelyik verzióval, akkor át tudod vinni a Redot-ba."
-    },
-    "contactCard": {
-      "emailUs": "Írj nekünk",
-      "emailDescription": "Gyors támogatás emailben.",
-      "joinDiscord": "Csatlakozz a Discord-hoz",
-      "discordDescription": "Valós idejű chat velünk.",
-      "followUs": "Kövess minket",
-      "followDescription": "Frissítések, hírek és tippek.",
-      "forum": "Fórum",
-      "forumDescription": "Képzeld el, oszd meg és kérj segítséget."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Licenszek",
-    "description": "A Redot Engine nyílt forráskódú könyvtárakat és betűtípusokat használ, mindegyik saját licenccel, amelyeket ezen az oldalon találhatsz."
   }
 }

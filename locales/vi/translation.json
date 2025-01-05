@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Quay lại"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Liên hệ",
-    "description": "Chúng tôi rất mong được nghe từ bạn! Hãy liên lạc với chúng tôi về câu hỏi, phản hồi, hoặc ý tưởng hợp tác của bạn.",
-    "faqTitle": "Câu hỏi thường gặp",
-    "faq": {
-      "whatIsRedot": "Redot là gì?",
-      "redotExplanation": "Redot là một nhánh của Godot, tập trung vào việc cải thiện sự ổn định và hiệu suất của engine.",
-      "whyWasRedotMade": "Tại sao Redot được tạo ra?",
-      "redotMadeExplanation": "Redot được tạo ra để giải quyết những nhu cầu cụ thể mà một số nhà phát triển cảm thấy chưa được Godot đáp ứng đầy đủ, đặc biệt là trong cách họ quản lý engine và cộng đồng phát triển game.",
-      "antiWoke": "Redot có phải là một dự án hoặc máy chủ chống chủ nghĩa thức tỉnh không?",
-      "antiWokeExplanation": "Không. Redot tập trung vào phát triển game. Chúng tôi muốn tạo ra một cộng đồng cho tất cả các nhà phát triển game, bất kể họ có hệ tư tưởng chính trị như thế nào.",
-      "platformsSupported": "Redot hỗ trợ những nền tảng nào?",
-      "platformsExplanation": "Redot 4.3 có sẵn trên Windows, Linux và Mac.\nRedot 4.4 có sẵn trên Windows, Linux và Android.",
-      "transferFromGodot": "Tôi có thể chuyển dự án của mình từ Godot sang Redot không?",
-      "transferExplanation": "Các bản build hiện tại của Redot được nhánh từ Godot 4.3 và 4.4, vì vậy nếu dự án của bạn hoạt động với một trong hai phiên bản đó, bạn sẽ có thể chuyển nó sang Redot."
-    },
-    "contactCard": {
-      "emailUs": "Gửi email cho chúng tôi",
-      "emailDescription": "Hỗ trợ nhanh qua email.",
-      "joinDiscord": "Tham gia Discord của chúng tôi",
-      "discordDescription": "Chat trực tiếp với chúng tôi.",
-      "followUs": "Theo dõi chúng tôi",
-      "followDescription": "Cập nhật, tin tức và mẹo.",
-      "forum": "Diễn đàn",
-      "forumDescription": "Tham gia, chia sẻ và nhận trợ giúp."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Giấy phép",
-    "description": "Redot Engine sử dụng các thư viện mã nguồn mở và phông chữ, mỗi thư viện có giấy phép riêng, được liệt kê trên trang này."
   }
 }

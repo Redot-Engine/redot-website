@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Terug"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Neem contact op",
-    "description": "We horen graag van je! Neem contact op met je vragen, feedback of samenwerkingsideeën.",
-    "faqTitle": "Veelgestelde vragen",
-    "faq": {
-      "whatIsRedot": "Wat is Redot?",
-      "redotExplanation": "Redot is een fork van Godot die zich richt op het verbeteren van de stabiliteit en prestaties van de engine.",
-      "whyWasRedotMade": "Waarom is Redot gemaakt?",
-      "redotMadeExplanation": "Redot is gemaakt om in specifieke behoeften te voorzien die sommige ontwikkelaars niet volledig vervuld zagen door Godot, met betrekking tot hoe de engine wordt behandeld en de game-ontwikkelaarsgemeenschap.",
-      "antiWoke": "Is Redot een anti-woke project of server?",
-      "antiWokeExplanation": "Nee. Redot richt zich op game-ontwikkeling. We willen een gemeenschap creëren voor alle game-ontwikkelaars, ongeacht hun politieke ideologieën.",
-      "platformsSupported": "Welke platforms ondersteunt Redot?",
-      "platformsExplanation": "Redot 4.3 is beschikbaar op Windows, Linux en Mac.\nRedot 4.4 is beschikbaar op Windows, Linux en Android.",
-      "transferFromGodot": "Kan ik mijn project van Godot naar Redot overzetten?",
-      "transferExplanation": "De huidige Redot-builds zijn geforkt van Godot 4.3 en 4.4, dus als je project werkt met een van deze versies, kun je het naar Redot overzetten."
-    },
-    "contactCard": {
-      "emailUs": "Stuur ons een e-mail",
-      "emailDescription": "Snelle ondersteuning via e-mail.",
-      "joinDiscord": "Sluit je aan bij onze Discord",
-      "discordDescription": "Real-time chat met ons.",
-      "followUs": "Volg ons",
-      "followDescription": "Updates, nieuws en tips.",
-      "forum": "Forum",
-      "forumDescription": "Deel, engageer en krijg hulp."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Licenties",
-    "description": "Redot Engine maakt gebruik van open-source bibliotheken en lettertypen, elk met zijn eigen licentie, vermeld op deze pagina."
   }
 }

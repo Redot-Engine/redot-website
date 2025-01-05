@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Natrag"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Kontaktirajte nas",
-    "description": "Voljeli bismo čuti od vas! Obratite nam se s vašim pitanjima, povratnim informacijama ili idejama za suradnju.",
-    "faqTitle": "Često postavljana pitanja",
-    "faq": {
-      "whatIsRedot": "Što je Redot?",
-      "redotExplanation": "Redot je fork Godot engine-a fokusiran na poboljšanje stabilnosti i performansi engine-a.",
-      "whyWasRedotMade": "Zašto je Redot napravljen?",
-      "redotMadeExplanation": "Redot je stvoren kako bi udovoljio specifičnim potrebama koje neki developeri smatraju da Godot nije u potpunosti ispunio u načinu na koji upravlja engine-om i zajednicom game developera.",
-      "antiWoke": "Je li Redot anti-woke projekt ili server?",
-      "antiWokeExplanation": "Ne. Redot je fokusiran na razvoj igara. Želimo stvoriti zajednicu za sve game developere, bez obzira na njihove političke ideologije.",
-      "platformsSupported": "Koje platforme podržava Redot?",
-      "platformsExplanation": "Redot 4.3 je dostupan na Windows, Linux i Mac.\nRedot 4.4 je dostupan na Windows, Linux i Android.",
-      "transferFromGodot": "Mogu li prenijeti svoj projekt s Godota na Redot?",
-      "transferExplanation": "Trenutne Redot verzije su forkirane s Godot 4.3 i 4.4, pa ako vaš projekt radi s bilo kojom od tih verzija, moći ćete ga prenijeti na Redot."
-    },
-    "contactCard": {
-      "emailUs": "Pošaljite nam email",
-      "emailDescription": "Brza podrška putem email-a.",
-      "joinDiscord": "Pridružite nam se na Discordu",
-      "discordDescription": "Razgovarajte s nama u stvarnom vremenu.",
-      "followUs": "Pratite nas",
-      "followDescription": "Ažuriranja, novosti i savjeti.",
-      "forum": "Forum",
-      "forumDescription": "Sudjelujte, dijelite i zatražite pomoć."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Licence",
-    "description": "Redot Engine koristi open-source biblioteke i fontove, svaki s vlastitom licencom, navedenim na ovoj stranici."
   }
 }

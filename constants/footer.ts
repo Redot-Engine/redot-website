@@ -66,7 +66,7 @@ export const footer: Footer[] = [
         title: "policies.children.cookieSettings",
         href: "/cookie-settings",
       },
-      { title: "policies.children.licenses", href: "/licenses" },
+      { title: "policies.children.licenses", href: "/license" },
       {
         title: "policies.children.contributionGuidelines",
         href: links.contribute,

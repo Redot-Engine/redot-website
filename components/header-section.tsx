@@ -1,121 +1,49 @@
-"use client";
-
 import { useTranslations } from "next-intl";
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
-import { cn } from "@/lib/utils";
 
 interface HeaderSelectionProps {
-  section?: string;
-  badge?: string;
-  title?: string;
-  description?: string;
-  badgeAlignment?: "left" | "center" | "right";
-  titleAlignment?: "left" | "center" | "right";
-  descriptionAlignment?: "left" | "center" | "right";
-  maxWidth?: string | number;
+  section: string;
 }
 
-export default function HeaderSection({
-  section,
-  badge,
-  title,
-  description,
-  badgeAlignment = "center",
-  titleAlignment = "center",
-  descriptionAlignment = "center",
-  maxWidth = 540,
-}: HeaderSelectionProps) {
+export default function HeaderSection({ section }: HeaderSelectionProps) {
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,
   });
 
-  const t = useTranslations(section || "");
-
-  const getTranslation = (key: string) => {
-    if (t) {
-      try {
-        return t(key);
-      } catch {
-        console.warn(
-          `Translation key "${key}" not found in section "${section}"`
-        );
-        return null;
-      }
-    }
-    return null;
-  };
-
-  const badgeContent = getTranslation("badge") || badge;
-  const titleContent = getTranslation("title") || title;
-  const descriptionContent = getTranslation("description") || description;
-
-  const badgeJustifyClass = cn({
-    "justify-start": badgeAlignment === "left",
-    "justify-center": badgeAlignment === "center",
-    "justify-end": badgeAlignment === "right",
-  });
-
-  const titleTextAlignClass = cn({
-    "text-left": titleAlignment === "left",
-    "text-center": titleAlignment === "center",
-    "text-right": titleAlignment === "right",
-  });
-
-  const descriptionTextAlignClass = cn({
-    "text-left": descriptionAlignment === "left",
-    "text-center": descriptionAlignment === "center",
-    "text-right": descriptionAlignment === "right",
-  });
-
-  const maxWidthClass =
-    typeof maxWidth === "number"
-      ? `max-w-[${maxWidth}px]`
-      : `max-w-[${maxWidth}]`;
+  const t = useTranslations(section);
 
   return (
     <>
-      <div className={cn("mx-auto", maxWidthClass)} ref={ref}>
-        {badgeContent && (
-          <div className={cn("flex", badgeJustifyClass)}>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="flex h-9 items-center rounded-md border border-input bg-background px-3 text-sm font-medium hover:bg-accent"
-            >
-              {badgeContent}
-            </motion.div>
-          </div>
-        )}
-
-        {titleContent && (
-          <motion.h2
+      <div className="mx-auto max-w-[540px]" ref={ref}>
+        <div className="flex justify-center">
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className={cn(
-              "mt-5 text-4xl font-bold tracking-tighter md:text-[54px] md:leading-[60px]",
-              titleTextAlignClass
-            )}
-            dangerouslySetInnerHTML={{ __html: titleContent }}
-          />
-        )}
-
-        {descriptionContent && (
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.6 }}
-            className={cn(
-              "mt-5 text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]",
-              descriptionTextAlignClass
-            )}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="flex h-9 items-center rounded-md border border-input bg-background px-3 text-center text-sm font-medium hover:bg-accent"
           >
-            {descriptionContent}
-          </motion.p>
-        )}
+            {t("badge")}
+          </motion.div>
+        </div>
+
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="mt-5 text-center text-4xl font-bold tracking-tighter md:text-[54px] md:leading-[60px]"
+          dangerouslySetInnerHTML={{ __html: t("title") }}
+        />
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.5, delay: 0.6 }}
+          className="mt-5 text-center text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]"
+        >
+          {t("description")}
+        </motion.p>
       </div>
     </>
   );

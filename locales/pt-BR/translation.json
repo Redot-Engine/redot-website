@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Voltar"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Entre em Contato",
-    "description": "Adoraríamos ouvir de você! Entre em contato com suas perguntas, feedback ou ideias de colaboração.",
-    "faqTitle": "Perguntas frequentes",
-    "faq": {
-      "whatIsRedot": "O que é o Redot?",
-      "redotExplanation": "Redot é um fork do Godot focado em melhorar a estabilidade e o desempenho do motor.",
-      "whyWasRedotMade": "Por que o Redot foi criado?",
-      "redotMadeExplanation": "O Redot foi criado para atender a necessidades específicas que alguns desenvolvedores sentiram que não eram totalmente atendidas pelo Godot, com relação à forma como lidam com o motor e a comunidade de desenvolvedores de jogos.",
-      "antiWoke": "O Redot é um projeto ou servidor anti-woke?",
-      "antiWokeExplanation": "Não. O Redot é focado em desenvolvimento de jogos. Queremos criar uma comunidade para todos os desenvolvedores de jogos, independentemente de suas ideologias políticas.",
-      "platformsSupported": "Quais plataformas o Redot suporta?",
-      "platformsExplanation": "O Redot 4.3 está disponível para Windows, Linux e Mac.\nO Redot 4.4 está disponível para Windows, Linux e Android.",
-      "transferFromGodot": "Posso transferir meu projeto do Godot para o Redot?",
-      "transferExplanation": "As versões atuais do Redot foram feitas a partir do Godot 4.3 e 4.4, então, se o seu projeto funciona com qualquer uma dessas versões, você poderá transferi-lo para o Redot."
-    },
-    "contactCard": {
-      "emailUs": "Envie-nos um e-mail",
-      "emailDescription": "Suporte rápido por e-mail.",
-      "joinDiscord": "Entre no nosso Discord",
-      "discordDescription": "Bate-papo em tempo real conosco.",
-      "followUs": "Siga-nos",
-      "followDescription": "Atualizações, notícias e dicas.",
-      "forum": "Fórum",
-      "forumDescription": "Interaja, compartilhe e peça ajuda."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Licenças",
-    "description": "O Redot Engine usa bibliotecas e fontes open-source, cada uma com sua própria licença, listada nesta página."
   }
 }

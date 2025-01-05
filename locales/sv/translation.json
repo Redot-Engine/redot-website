@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Tillbaka"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Kom i kontakt",
-    "description": "Vi vill gärna höra från dig! Tveka inte att höra av dig med frågor, feedback eller idéer om samarbete.",
-    "faqTitle": "Vanliga frågor",
-    "faq": {
-      "whatIsRedot": "Vad är Redot?",
-      "redotExplanation": "Redot är en fork av Godot som fokuserar på att förbättra stabiliteten och prestandan i motorn.",
-      "whyWasRedotMade": "Varför skapades Redot?",
-      "redotMadeExplanation": "Redot skapades för att adressera specifika behov som vissa utvecklare kände inte tillgodosågs fullt ut av Godot när det gäller hur de hanterar motorn och spelutvecklargemenskapen.",
-      "antiWoke": "Är Redot ett anti-woke projekt eller server?",
-      "antiWokeExplanation": "Nej. Redot fokuserar på spelutveckling. Vi vill skapa en gemenskap för alla spelutvecklare, oavsett politisk ideologi.",
-      "platformsSupported": "Vilka plattformar stöder Redot?",
-      "platformsExplanation": "Redot 4.3 finns tillgängligt för Windows, Linux och Mac.\nRedot 4.4 finns tillgängligt för Windows, Linux och Android.",
-      "transferFromGodot": "Kan jag överföra mitt projekt från Godot till Redot?",
-      "transferExplanation": "De nuvarande Redot-versionerna är forknade från Godot 4.3 och 4.4, så om ditt projekt fungerar med någon av dessa versioner kommer du kunna överföra det till Redot."
-    },
-    "contactCard": {
-      "emailUs": "E-posta oss",
-      "emailDescription": "Snabb support via e-post.",
-      "joinDiscord": "Gå med i vår Discord",
-      "discordDescription": "Chatt i realtid med oss.",
-      "followUs": "Följ oss",
-      "followDescription": "Uppdateringar, nyheter och tips.",
-      "forum": "Forum",
-      "forumDescription": "Engagera dig, dela och få hjälp."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Licenser",
-    "description": "Redot Engine använder öppen källkodsbibliotek och teckensnitt, var och en med sin egen licens, listade på den här sidan."
   }
 }

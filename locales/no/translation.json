@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Tilbake"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Kom i kontakt",
-    "description": "Vi vil gjerne høre fra deg! Ta kontakt med spørsmål, tilbakemeldinger eller samarbeidstips.",
-    "faqTitle": "Vanlige spørsmål",
-    "faq": {
-      "whatIsRedot": "Hva er Redot?",
-      "redotExplanation": "Redot er en fork av Godot som fokuserer på å forbedre stabiliteten og ytelsen til motoren.",
-      "whyWasRedotMade": "Hvorfor ble Redot laget?",
-      "redotMadeExplanation": "Redot ble laget for å møte spesifikke behov som noen utviklere mente ikke ble fullt ut ivaretatt av Godot i hvordan de håndterer motoren og spillutviklingssamfunnet.",
-      "antiWoke": "Er Redot et anti-woke prosjekt eller server?",
-      "antiWokeExplanation": "Nei. Redot er fokusert på spillutvikling. Vi ønsker å skape et fellesskap for alle spillutviklere, uavhengig av politiske ideologier.",
-      "platformsSupported": "Hvilke plattformer støtter Redot?",
-      "platformsExplanation": "Redot 4.3 er tilgjengelig på Windows, Linux og Mac.\nRedot 4.4 er tilgjengelig på Windows, Linux og Android.",
-      "transferFromGodot": "Kan jeg overføre prosjektet mitt fra Godot til Redot?",
-      "transferExplanation": "De nåværende Redot-buildene er forgreinet fra Godot 4.3 og 4.4, så hvis prosjektet ditt fungerer med en av disse, vil du kunne overføre det til Redot."
-    },
-    "contactCard": {
-      "emailUs": "Send oss en e-post",
-      "emailDescription": "Rask støtte via e-post.",
-      "joinDiscord": "Bli med på vår Discord",
-      "discordDescription": "Chat med oss i sanntid.",
-      "followUs": "Følg oss",
-      "followDescription": "Oppdateringer, nyheter og tips.",
-      "forum": "Forum",
-      "forumDescription": "Engasjer deg, del og få hjelp."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Lisenser",
-    "description": "Redot Engine bruker åpne kildebiblioteker og skrifttyper, hver med sin egen lisens, som er oppført på denne siden."
   }
 }

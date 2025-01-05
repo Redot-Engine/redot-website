@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "返回"
-  },
-  "contact": {
-    "badge": "",
-    "title": "聯絡我們",
-    "description": "我們很樂意聽取您的聲音！有任何問題、反饋或合作想法，請與我們聯繫。",
-    "faqTitle": "常見問題",
-    "faq": {
-      "whatIsRedot": "什麼是 Redot？",
-      "redotExplanation": "Redot 是 Godot 的一個分支，專注於提高引擎的穩定性和性能。",
-      "whyWasRedotMade": "為什麼要製作 Redot？",
-      "redotMadeExplanation": "Redot 是為了解決一些開發者認為 Godot 在處理引擎和遊戲開發社群方面未能完全滿足的特定需求。",
-      "antiWoke": "Redot 是反覺醒（anti-woke）專案或伺服器嗎？",
-      "antiWokeExplanation": "不是的。Redot 專注於遊戲開發。我們希望為所有遊戲開發者創建一個社群，無論他們的政治理念為何。",
-      "platformsSupported": "Redot 支援哪些平台？",
-      "platformsExplanation": "Redot 4.3 支援 Windows、Linux 和 Mac。\nRedot 4.4 支援 Windows、Linux 和 Android。",
-      "transferFromGodot": "我可以將我的專案從 Godot 轉移到 Redot 嗎？",
-      "transferExplanation": "目前的 Redot 版本是從 Godot 4.3 和 4.4 分支出來的，因此如果您的專案適用於這些版本，您可以將其轉移到 Redot。"
-    },
-    "contactCard": {
-      "emailUs": "發送電子郵件",
-      "emailDescription": "通過電子郵件快速獲得支持。",
-      "joinDiscord": "加入我們的 Discord",
-      "discordDescription": "與我們進行實時聊天。",
-      "followUs": "關注我們",
-      "followDescription": "更新、新聞和技巧。",
-      "forum": "論壇",
-      "forumDescription": "互動、分享和獲得幫助。"
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "許可證",
-    "description": "Redot 引擎使用開源庫和字體，每個都有自己的許可證，詳情請見此頁面。"
   }
 }

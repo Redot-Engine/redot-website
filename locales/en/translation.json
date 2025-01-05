@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Back"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Get in Touch",
-    "description": "We'd love to hear from you! Reach out with your questions, feedback, or collaboration ideas.",
-    "faqTitle": "Frequently asked questions",
-    "faq": {
-      "whatIsRedot": "What is Redot?",
-      "redotExplanation": "Redot is a fork of Godot that is focused on improving the stability and performance of the engine.",
-      "whyWasRedotMade": "Why was Redot made?",
-      "redotMadeExplanation": "Redot was created to address specific needs that some developers felt were not fully met by Godot with how they handle the engine and the game dev community.",
-      "antiWoke": "Is Redot an anti-woke project or server?",
-      "antiWokeExplanation": "No. Redot is focused on game development. We want to create a community for all game devs, regardless of their political ideologies.",
-      "platformsSupported": "What platforms does Redot support?",
-      "platformsExplanation": "Redot 4.3 is available on Windows, Linux, and Mac.\nRedot 4.4 is available on Windows, Linux, and Android.",
-      "transferFromGodot": "Can I transfer my project from Godot to Redot?",
-      "transferExplanation": "The current Redot builds were forked from Godot 4.3 and 4.4, so if your project works with either of those you'll be able to transfer it to Redot."
-    },
-    "contactCard": {
-      "emailUs": "Email Us",
-      "emailDescription": "Quick support via email.",
-      "joinDiscord": "Join Our Discord",
-      "discordDescription": "Real-time chat with us.",
-      "followUs": "Follow Us",
-      "followDescription": "Updates, news, and tips.",
-      "forum": "Forum",
-      "forumDescription": "Engage, share, and get help."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Licenses",
-    "description": "Redot Engine uses open-source libraries and fonts, each with its own license, listed on this page."
   }
 }

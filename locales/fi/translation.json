@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Takaisin"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Ota yhteyttä",
-    "description": "Haluaisimme kuulla sinusta! Ota yhteyttä kysymyksilläsi, palautteellasi tai yhteistyöehdotuksillasi.",
-    "faqTitle": "Usein kysytyt kysymykset",
-    "faq": {
-      "whatIsRedot": "Mitä on Redot?",
-      "redotExplanation": "Redot on Godot-pelimoottorin haara, joka keskittyy moottorin vakauden ja suorituskyvyn parantamiseen.",
-      "whyWasRedotMade": "Miksi Redot tehtiin?",
-      "redotMadeExplanation": "Redot luotiin vastaamaan tiettyihin tarpeisiin, jotka jotkut kehittäjät kokivat jäävän täyttämättömiksi Godotissa, erityisesti siinä, miten he käsittelevät moottoria ja pelikehittäjäyhteisöä.",
-      "antiWoke": "Onko Redot anti-woke projekti tai palvelin?",
-      "antiWokeExplanation": "Ei. Redot keskittyy pelinkehitykseen. Haluamme luoda yhteisön kaikille pelinkehittäjille, riippumatta heidän poliittisista ideologioistaan.",
-      "platformsSupported": "Mitä alustoja Redot tukee?",
-      "platformsExplanation": "Redot 4.3 on saatavilla Windowsille, Linuxille ja Macille.\nRedot 4.4 on saatavilla Windowsille, Linuxille ja Androidille.",
-      "transferFromGodot": "Voinko siirtää projektini Godotista Redotiin?",
-      "transferExplanation": "Nykyiset Redot-rakennelmat on haaroistettu Godot 4.3:sta ja 4.4:stä, joten jos projektisi toimii jommassakummassa, voit siirtää sen Redotiin."
-    },
-    "contactCard": {
-      "emailUs": "Lähetä sähköpostia",
-      "emailDescription": "Pikainen tuki sähköpostitse.",
-      "joinDiscord": "Liity Discordiimme",
-      "discordDescription": "Reaaliaikainen keskustelu kanssamme.",
-      "followUs": "Seuraa meitä",
-      "followDescription": "Päivitykset, uutiset ja vinkit.",
-      "forum": "Foorumi",
-      "forumDescription": "Osallistu, jaa ja saa apua."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Lisenssit",
-    "description": "Redot Engine käyttää avoimen lähdekoodin kirjastoja ja fontteja, joilla kaikilla on oma lisenssinsä, jotka on lueteltu tällä sivulla."
   }
 }

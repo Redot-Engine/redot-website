@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "뒤로 가기"
-  },
-  "contact": {
-    "badge": "",
-    "title": "연락하기",
-    "description": "우리는 여러분의 의견을 듣고 싶습니다! 질문, 피드백 또는 협업 아이디어가 있으면 연락 주세요.",
-    "faqTitle": "자주 묻는 질문",
-    "faq": {
-      "whatIsRedot": "레돗이란 무엇인가요?",
-      "redotExplanation": "레돗은 Godot의 포크로, 엔진의 안정성과 성능을 개선하는 데 집중하고 있습니다.",
-      "whyWasRedotMade": "왜 레돗이 만들어졌나요?",
-      "redotMadeExplanation": "레돗은 Godot이 엔진과 게임 개발 커뮤니티를 다루는 방식에서 일부 개발자들이 완전히 충족되지 않았다고 느낀 특정 요구를 해결하기 위해 만들어졌습니다.",
-      "antiWoke": "레돗은 반 woke 프로젝트 또는 서버인가요?",
-      "antiWokeExplanation": "아니요. 레돗은 게임 개발에 집중하고 있습니다. 우리는 정치적 이념에 관계없이 모든 게임 개발자를 위한 커뮤니티를 만들고자 합니다.",
-      "platformsSupported": "레돗은 어떤 플랫폼을 지원하나요?",
-      "platformsExplanation": "레돗 4.3은 Windows, Linux, Mac에서 사용 가능합니다.\n레돗 4.4는 Windows, Linux, Android에서 사용 가능합니다.",
-      "transferFromGodot": "Godot에서 레돗으로 프로젝트를 이전할 수 있나요?",
-      "transferExplanation": "현재 레돗 빌드는 Godot 4.3과 4.4에서 포크되었으므로, 해당 버전에서 프로젝트가 작동하면 레돗으로 이전할 수 있습니다."
-    },
-    "contactCard": {
-      "emailUs": "이메일 보내기",
-      "emailDescription": "이메일을 통한 빠른 지원.",
-      "joinDiscord": "디스코드 참여하기",
-      "discordDescription": "실시간 채팅으로 지원 받기.",
-      "followUs": "팔로우 하기",
-      "followDescription": "업데이트, 뉴스, 팁.",
-      "forum": "포럼",
-      "forumDescription": "참여하고, 공유하고, 도움 받기."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "라이센스",
-    "description": "레돗 엔진은 각기 다른 라이센스를 가진 오픈 소스 라이브러리와 폰트를 사용하며, 이 페이지에서 확인할 수 있습니다."
   }
 }

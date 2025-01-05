@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Zpět"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Spojte se s námi",
-    "description": "Rádi vás uslyšíme! Kontaktujte nás s vašimi dotazy, zpětnou vazbou nebo nápady na spolupráci.",
-    "faqTitle": "Často kladené otázky",
-    "faq": {
-      "whatIsRedot": "Co je Redot?",
-      "redotExplanation": "Redot je fork Godotu, zaměřený na zlepšení stability a výkonu enginu.",
-      "whyWasRedotMade": "Proč byl Redot vytvořen?",
-      "redotMadeExplanation": "Redot byl vytvořen pro řešení specifických potřeb, které někteří vývojáři cítili, že nebyly plně splněny Godotem, zejména v oblasti správy enginu a herní vývojářské komunity.",
-      "antiWoke": "Je Redot anti-woke projekt nebo server?",
-      "antiWokeExplanation": "Ne. Redot je zaměřen na vývoj her. Chceme vytvořit komunitu pro všechny herní vývojáře bez ohledu na jejich politické ideologie.",
-      "platformsSupported": "Jaké platformy Redot podporuje?",
-      "platformsExplanation": "Redot 4.3 je k dispozici na Windows, Linuxu a Macu.\nRedot 4.4 je k dispozici na Windows, Linuxu a Androidu.",
-      "transferFromGodot": "Mohu převést svůj projekt z Godotu do Redotu?",
-      "transferExplanation": "Aktuální verze Redotu byly forknuty z Godotu 4.3 a 4.4, takže pokud váš projekt funguje s jednou z těchto verzí, můžete jej převést do Redotu."
-    },
-    "contactCard": {
-      "emailUs": "Napište nám e-mail",
-      "emailDescription": "Rychlá podpora přes e-mail.",
-      "joinDiscord": "Připojte se na náš Discord",
-      "discordDescription": "Reálný čas chatování s námi.",
-      "followUs": "Sledujte nás",
-      "followDescription": "Novinky, aktuality a tipy.",
-      "forum": "Fórum",
-      "forumDescription": "Zapojte se, sdílejte a získejte pomoc."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Licence",
-    "description": "Redot Engine využívá open-source knihovny a fonty, z nichž každá má vlastní licenci, uvedenou na této stránce."
   }
 }

@@ -5,6 +5,7 @@ import AnimatedShinyText from "@/components/ui/animated-shiny-text";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "motion/react";
 import Head from "next/head";
 import { links } from "@/constants/links";
@@ -104,22 +105,15 @@ export const Hero = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
             >
-              <video
+              <Image
+                src="https://image.redotengine.org/cover.webp"
+                alt="Hero cover"
+                className="h-auto w-full rounded-lg object-cover md:h-full"
+                priority
                 width="1200"
                 height="800"
-                className="h-auto w-full rounded-lg object-cover md:h-full"
-                loop
-                autoPlay
-                muted
-                controls={false}
-                preload="none"
-              >
-                <source
-                  src="https://image.redotengine.org/Games%20are%20made%20with%20Redot%20Engine%202024%20Without%20outro.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
             </motion.div>
           </div>
         </div>

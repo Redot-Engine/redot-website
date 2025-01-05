@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "戻る"
-  },
-  "contact": {
-    "badge": "",
-    "title": "お問い合わせ",
-    "description": "ご意見、ご質問、またはコラボレーションのアイデアをお聞かせください。",
-    "faqTitle": "よくある質問",
-    "faq": {
-      "whatIsRedot": "Redotとは何ですか？",
-      "redotExplanation": "RedotはGodotのフォークで、エンジンの安定性とパフォーマンスの向上に焦点を当てています。",
-      "whyWasRedotMade": "なぜRedotが作られたのですか？",
-      "redotMadeExplanation": "Redotは、いくつかの開発者がGodotのエンジンやゲーム開発コミュニティに対するニーズが十分に満たされていないと感じ、特定のニーズに対応するために作られました。",
-      "antiWoke": "Redotは反覚醒主義のプロジェクトやサーバーですか？",
-      "antiWokeExplanation": "いいえ。Redotはゲーム開発に焦点を当てています。私たちは、政治的イデオロギーに関係なく、すべてのゲーム開発者のためのコミュニティを作りたいと考えています。",
-      "platformsSupported": "Redotはどのプラットフォームをサポートしていますか？",
-      "platformsExplanation": "Redot 4.3はWindows、Linux、Macで利用可能です。\nRedot 4.4はWindows、Linux、Androidで利用可能です。",
-      "transferFromGodot": "GodotからRedotにプロジェクトを移行できますか？",
-      "transferExplanation": "現在のRedotのビルドはGodot 4.3および4.4からフォークされたもので、これらのバージョンでプロジェクトが動作すれば、Redotへの移行が可能です。"
-    },
-    "contactCard": {
-      "emailUs": "メールでお問い合わせ",
-      "emailDescription": "メールで迅速にサポート。",
-      "joinDiscord": "Discordに参加",
-      "discordDescription": "リアルタイムでのチャット。",
-      "followUs": "フォローする",
-      "followDescription": "最新情報、ニュース、ヒント。",
-      "forum": "フォーラム",
-      "forumDescription": "交流、共有、サポートを得る。"
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "ライセンス",
-    "description": "Redot Engineはオープンソースのライブラリとフォントを使用しており、それぞれに独自のライセンスがあります。詳細はこのページに記載されています。"
   }
 }

@@ -205,38 +205,5 @@
   },
   "articleSplash": {
     "backButton": "Tilbage"
-  },
-  "contact": {
-    "badge": "",
-    "title": "Kom i kontakt",
-    "description": "Vi vil gerne høre fra dig! Kontakt os med dine spørgsmål, feedback eller samarbejdsidéer.",
-    "faqTitle": "Ofte stillede spørgsmål",
-    "faq": {
-      "whatIsRedot": "Hvad er Redot?",
-      "redotExplanation": "Redot er en fork af Godot, der fokuserer på at forbedre stabiliteten og ydeevnen af motoren.",
-      "whyWasRedotMade": "Hvorfor blev Redot lavet?",
-      "redotMadeExplanation": "Redot blev skabt for at imødekomme specifikke behov, som nogle udviklere følte ikke blev fuldt opfyldt af Godot, med hvordan de håndterer motoren og spiludviklingsfællesskabet.",
-      "antiWoke": "Er Redot et anti-woke projekt eller server?",
-      "antiWokeExplanation": "Nej. Redot fokuserer på spiludvikling. Vi ønsker at skabe et fællesskab for alle spiludviklere, uanset deres politiske ideologier.",
-      "platformsSupported": "Hvilke platforme understøtter Redot?",
-      "platformsExplanation": "Redot 4.3 er tilgængelig på Windows, Linux og Mac.\nRedot 4.4 er tilgængelig på Windows, Linux og Android.",
-      "transferFromGodot": "Kan jeg overføre mit projekt fra Godot til Redot?",
-      "transferExplanation": "De nuværende Redot builds blev forked fra Godot 4.3 og 4.4, så hvis dit projekt fungerer med en af dem, vil du kunne overføre det til Redot."
-    },
-    "contactCard": {
-      "emailUs": "Send os en e-mail",
-      "emailDescription": "Hurtig support via e-mail.",
-      "joinDiscord": "Deltag i vores Discord",
-      "discordDescription": "Chat med os i realtid.",
-      "followUs": "Følg os",
-      "followDescription": "Opdateringer, nyheder og tips.",
-      "forum": "Forum",
-      "forumDescription": "Deltag, del og få hjælp."
-    }
-  },
-  "licenses": {
-    "badge": "",
-    "title": "Licenser",
-    "description": "Redot Engine bruger open-source biblioteker og skrifttyper, hver med deres egen licens, som er angivet på denne side."
   }
 }
