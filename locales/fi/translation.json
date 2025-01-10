@@ -10,7 +10,8 @@
       "blog": "Blogi",
       "proposals": "Ehdotukset",
       "community": "Yhteisö"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "heroSection": {
     "heading": "Pelin moottori,<br />Pelin muutos",

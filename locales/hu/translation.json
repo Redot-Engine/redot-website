@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Szerezze be a Redot Engine-t a(z) {os} rendszerhez",
       "secondary": "Fedezd fel a Redot Engine dokumentációt"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ Felturbózva",

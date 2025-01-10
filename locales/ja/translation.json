@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Redotエンジンを{os}用に取得",
       "secondary": "Redot Engineのドキュメントを探索"
-    }
+    },
+    "bannerMessage": "🎉 安定版がリリースされました"
   },
   "productShowcaseSection": {
     "badge": "⚡ パワーアップ",

@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Krijg de Redot Engine voor {os}",
       "secondary": "Verken Redot Engine Docs"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ Opgevoerd",

@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Obtener Redot Engine para {os}",
       "secondary": "Explora la Documentación de Redot Engine"
-    }
+    },
+    "bannerMessage": "🎉 La versión estable ya está aquí"
   },
   "productShowcaseSection": {
     "badge": "⚡ Potenciado",

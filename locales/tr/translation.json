@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Redot Engine'ı {os} için al",
       "secondary": "Redot Engine Dokümanlarını Keşfet"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ Güçlendirilmiş",

@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Redot Engine {os} के लिए प्राप्त करें",
       "secondary": "Redot Engine दस्तावेज़ एक्सप्लोर करें"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ पावर से भरपूर",

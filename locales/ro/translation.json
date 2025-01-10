@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Obține Redot Engine pentru {os}",
       "secondary": "Explorează Documentația Redot Engine"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ Îmbunătățit",

@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Πάρε το Redot Engine για {os}",
       "secondary": "Εξερευνήστε την Τεκμηρίωση της Redot Engine"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ Ενισχυμένο",

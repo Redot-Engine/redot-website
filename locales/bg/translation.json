@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Вземете Redot Engine за {os}",
       "secondary": "Изследвайте документацията на Redot Engine"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ Захранено",

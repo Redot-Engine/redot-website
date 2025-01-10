@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "获取 Redot 引擎以适配 {os}",
       "secondary": "探索 Redot Engine 文档"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ 增强",

@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Redot 엔진 가져오기 {os}",
       "secondary": "Redot Engine 문서 탐색"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ 강화됨",

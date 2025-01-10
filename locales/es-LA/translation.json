@@ -10,7 +10,8 @@
       "blog": "Blog",
       "proposals": "Propuestas",
       "community": "Comunidad"
-    }
+    },
+    "bannerMessage": "🎉 La versión estable ya está aquí"
   },
   "heroSection": {
     "heading": "Motor de Juegos,<br />Cambio de Juego",

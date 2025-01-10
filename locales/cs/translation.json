@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Stáhněte si Redot Engine pro {os}",
       "secondary": "Prozkoumat dokumentaci Redot Engine"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ Nabito",

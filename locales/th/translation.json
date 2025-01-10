@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "ดาวน์โหลด Redot Engine สำหรับ {os}",
       "secondary": "สำรวจเอกสารของ Redot Engine"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ เพิ่มพลัง",

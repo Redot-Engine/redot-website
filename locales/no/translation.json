@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Hent Redot Engine for {os}",
       "secondary": "Utforsk Redot Engine Docs"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ Oppgradert",

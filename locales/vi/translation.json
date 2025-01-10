@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Tải Redot Engine cho {os}",
       "secondary": "Khám phá Tài liệu Redot Engine"
-    }
+    },
+    "bannerMessage": "🎉 Đã ra mắt phiên bản ổn định"
   },
   "productShowcaseSection": {
     "badge": "⚡ Tăng cường",

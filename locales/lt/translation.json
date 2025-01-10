@@ -18,7 +18,8 @@
     "buttons": {
       "primary": "Gaukite Redot Engine for {os}",
       "secondary": "Tyrinėti Redot Engine Dokumentaciją"
-    }
+    },
+    "bannerMessage": "🎉 Stable version is here"
   },
   "productShowcaseSection": {
     "badge": "⚡ Sustiprinta",
