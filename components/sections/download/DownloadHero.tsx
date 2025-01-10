@@ -34,7 +34,7 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
     <div className="px-5 lg:px-40">
       <section
         ref={ref}
-        className="rounded-xl bg-[url('https://image.redotengine.org/darkCover.png')] bg-cover bg-center text-white"
+        className="rinvert rounded-xl bg-[url('https://image.redotengine.org/darkCover.png')] bg-cover bg-center text-white"
       >
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -90,7 +90,6 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
                     alt="OS Logo"
                     width={16}
                     height={16}
-                    style={{ filter: "invert(100%)" }}
                   />
                 </div>
               </Button>
@@ -101,7 +100,11 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
               transition={{ duration: 0.5, delay: 0.8 }}
               className="w-full md:w-auto"
             >
-              <Button className="w-full md:w-auto" size="sm">
+              <Button
+                variant="secondary"
+                className="w-full invert md:w-auto"
+                size="sm"
+              >
                 <Link href={getMonoPlatformDownloadLink(platform)}>
                   {t("buttons.downloadMono")}
                 </Link>

@@ -16,7 +16,7 @@ export const CommunityCard = ({
 }: Readonly<CommunityCardProps>) => {
   return (
     <Link href={href} target="_blank" rel="noopener noreferrer">
-      <div className="relative h-full cursor-pointer overflow-hidden rounded-xl border border-gray-950/[.1] p-4 hover:bg-gray-950/[.01]">
+      <div className="relative h-full cursor-pointer overflow-hidden rounded-xl border border-gray-950/[.1] p-4 transition-transform duration-300 hover:scale-105 hover:bg-gray-950/[.01]">
         <div className="flex flex-col gap-4">
           <div className="relative aspect-video w-full">
             <Image
