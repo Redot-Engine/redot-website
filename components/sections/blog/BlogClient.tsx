@@ -124,7 +124,7 @@ export default function BlogClient({
               <h2 className="mt-5 text-center text-4xl font-bold tracking-tighter md:text-[54px] md:leading-[60px]">
                 {t("noPostsFound.title")}
               </h2>
-              <p className="mt-5 text-center text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]">
+              <p className="mt-5 text-center text-xl tracking-tighter text-muted-foreground md:text-[22px] md:leading-[30px]">
                 {t("noPostsFound.description")}
               </p>
             </div>

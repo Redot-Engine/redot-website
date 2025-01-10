@@ -18,8 +18,10 @@ export default function Banner({
   if (!mainMessage) return null;
 
   return (
-    <div className="flex items-center justify-center gap-3 bg-black py-3 text-sm font-medium text-white">
-      <p className="hidden text-white/60 md:block">{subMessage}</p>
+    <div className="flex items-center justify-center gap-3 bg-black py-3 text-sm font-medium text-white dark:bg-white dark:text-black">
+      <p className="hidden text-white/60 dark:text-black/60 md:block">
+        {subMessage}
+      </p>
       {subMessage && (
         <div>
           {link ? (

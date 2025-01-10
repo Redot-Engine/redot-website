@@ -14,7 +14,7 @@ export const ThreeStepsItem = ({
   return (
     <div className="flex flex-col gap-4 p-6">
       <h3 className="text-xl font-medium">{title}</h3>
-      <p className="text-black/60">{description}</p>
+      <p className="text-muted-foreground">{description}</p>
       <div className="flex flex-col gap-2">
         {links.map((link) => (
           <Link

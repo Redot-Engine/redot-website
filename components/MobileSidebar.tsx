@@ -32,7 +32,7 @@ export const MobileSidebar = () => {
               alt="Redot Engine Logo"
               width={160}
               height={50}
-              className="invert"
+              className="invert dark:invert-0"
               priority
             />
             <SheetPrimitive.Close className="rounded-sm opacity-70 ring-offset-background transition-opacity data-[state=open]:bg-secondary hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none">

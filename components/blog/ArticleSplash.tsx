@@ -61,7 +61,7 @@ export const ArticleSplash = ({ article }: { article: Post }) => {
           <p className="text-sm font-medium">
             {article.author?.name || "Unknown Author"}
           </p>
-          <p className="text-xs font-medium text-black/60">
+          <p className="text-xs font-medium text-muted-foreground">
             {formatDate(article.publishedAt)}
           </p>
         </div>

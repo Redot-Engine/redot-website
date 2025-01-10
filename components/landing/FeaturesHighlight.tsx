@@ -12,7 +12,9 @@ export default function FeaturesHighlight({
       </div>
       <div className="space-y-2">
         <p className="text-3xl font-bold tracking-[-5%]">{header}</p>
-        <p className="text-base text-black/60">{description}</p>
+        <p className="text-base text-zinc-500 dark:text-zinc-400">
+          {description}
+        </p>
       </div>
     </div>
   );

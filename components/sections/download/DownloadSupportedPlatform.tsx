@@ -13,7 +13,7 @@ export const DownloadSupportedPlatform = () => {
   });
 
   return (
-    <section ref={ref} className="overflow-x-clip bg-background pt-24">
+    <section ref={ref} className="overflow-x-clip pt-24">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}

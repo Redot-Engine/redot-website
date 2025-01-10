@@ -75,12 +75,7 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
               transition={{ duration: 0.5, delay: 0.6 }}
               className="w-full md:w-auto"
             >
-              <Button
-                variant="secondary"
-                size="sm"
-                className="w-full md:w-auto"
-                asChild
-              >
+              <Button size="sm" className="dark w-full md:w-auto" asChild>
                 <div className="flex items-center">
                   <Link href={getPlatformDownloadLink(platform)}>
                     {t("buttons.downloadLatest")}
@@ -90,7 +85,7 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
                     alt="OS Logo"
                     width={16}
                     height={16}
-                    style={{ filter: "invert(100%)" }}
+                    className="invert-0 dark:invert"
                   />
                 </div>
               </Button>
@@ -101,7 +96,11 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
               transition={{ duration: 0.5, delay: 0.8 }}
               className="w-full md:w-auto"
             >
-              <Button className="w-full md:w-auto" size="sm">
+              <Button
+                className="dark w-full md:w-auto"
+                variant="secondary"
+                size="sm"
+              >
                 <Link href={getMonoPlatformDownloadLink(platform)}>
                   {t("buttons.downloadMono")}
                 </Link>

@@ -7,7 +7,7 @@ export const FeatureItem = ({ icon, label }: FeaturesList) => {
         <div className="flex h-6 w-6 items-center justify-center rounded border border-rose-800 bg-rose-950 text-white">
           {icon}
         </div>
-        <p className="text-sm font-medium">{label}</p>
+        <p className="text-sm font-medium dark:text-white">{label}</p>
       </div>
     </figure>
   );
