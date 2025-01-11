@@ -6,12 +6,12 @@ import { Post } from "@/sanity/schemaTypes/postType";
 
 export async function getLatestArticle() {
   const query = `*[_type == "post"] | order(publishedAt desc) [0] {
-    title,
+    "title": title[_key == "en"][0].value,
     slug,
     image,
     "imageUrl": image.asset->url,
     publishedAt,
-    excerpt,
+    "excerpt": excerpt[_key == "en"][0].value,
     author,
     tags[]->{name, slug}
   }`;
@@ -82,12 +82,12 @@ export async function getPosts(tag: string = "", search: string = "") {
   }
 
   query += `] | order(publishedAt desc) {
-    title,
+    "title": title[_key == "en"][0].value,
     slug,
     image,
     "imageUrl": image.asset->url,
     publishedAt,
-    excerpt,
+    "excerpt": excerpt[_key == "en"][0].value,
     author-> {
       _id,
       name,
@@ -104,15 +104,15 @@ export async function getPosts(tag: string = "", search: string = "") {
   return await client.fetch(query);
 }
 
-export async function getPostBySlug(slug: string) {
+export async function getPostBySlug(slug: string, language: string) {
   const query = `*[_type == "post" && slug.current == "${slug}"] {
-    title,
+    "title": title[_key == "${language}"][0].value,
     slug,
     image,
     "imageUrl": image.asset->url,
     publishedAt,
-    excerpt,
-    body,
+    "excerpt": excerpt[_key == "${language}"][0].value,
+    "body": body[_key == "${language}"][0].value,
     author-> {
       _id,
       name,

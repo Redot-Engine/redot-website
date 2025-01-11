@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArticleContent } from "@/components/blog/ArticleContent";
 import { Post } from "@/sanity/schemaTypes/postType";
+import { getLanguage } from "@/actions/language";
 
 export async function generateStaticParams() {
   const posts = await getPosts();
@@ -18,7 +19,7 @@ export async function generateMetadata(props: {
 }): Promise<Metadata> {
   const params = await props.params;
   const slug = await params.slug;
-  const post = await getPostBySlug(slug);
+  const post = await getPostBySlug(slug, "en");
 
   if (!post || post.length === 0) {
     return {
@@ -60,7 +61,7 @@ export default async function Article({
 }) {
   const slug = (await params).slug;
 
-  const post = await getPostBySlug(slug);
+  const post = await getPostBySlug(slug, await getLanguage());
 
   if (!post || post.length === 0) {
     notFound();
