@@ -17,7 +17,7 @@ export const DownloadInformation = () => {
   const t = useTranslations("downloadInformation");
 
   return (
-    <section ref={ref} className="overflow-x-clip bg-background pb-12 pt-28">
+    <section ref={ref} className="overflow-x-clip pb-12 pt-28">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -52,12 +52,12 @@ export const DownloadInformation = () => {
                 <h3 className="text-2xl font-bold md:text-3xl">
                   {t("systemRequirements.title")}
                 </h3>
-                <p className="flex flex-col gap-2 text-base text-black/60">
+                <p className="flex flex-col gap-2 text-base text-muted-foreground">
                   {t("systemRequirements.description.general")}
                   {t("systemRequirements.description.dotnet")}
                   <Link
                     aria-label={t("systemRequirements.description.dotnetLink")}
-                    className="underline underline-offset-4 transition-all duration-300 hover:text-black/70"
+                    className="underline underline-offset-4 transition-all duration-300 hover:text-black/80 dark:hover:text-white/80"
                     href="https://dotnet.microsoft.com/en-us/download"
                   >
                     {t("systemRequirements.description.dotnetLink")}
@@ -94,7 +94,7 @@ export const DownloadInformation = () => {
                 <h3 className="w-full text-2xl font-bold md:text-3xl">
                   {t("about.title")}
                 </h3>
-                <p className="flex flex-col gap-2 text-base text-black/60">
+                <p className="flex flex-col gap-2 text-base text-muted-foreground">
                   {t("about.description")}
                 </p>
                 <motion.div

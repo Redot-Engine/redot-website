@@ -45,7 +45,7 @@ export const SectionWithButtons = ({
     <section
       ref={ref}
       className={cn(
-        "overflow-x-clip bg-gradient-to-b from-[#ffffff] to-[#FFD2D2] py-20 md:py-36",
+        "overflow-x-clip bg-gradient-to-b from-[#ffffff] to-[#1F0000] to-[#FFD2D2] py-20 dark:from-transparent dark:to-[#1F0000] md:py-36",
         additionalClassNames
       )}
     >
@@ -60,7 +60,7 @@ export const SectionWithButtons = ({
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="mt-5 bg-gradient-to-b from-black to-[#7F0000] bg-clip-text text-center text-4xl font-bold tracking-tighter text-transparent md:text-[54px] md:leading-[60px]"
+            className="mt-5 bg-gradient-to-b from-black to-[#7F0000] bg-clip-text text-center text-4xl font-bold tracking-tighter text-transparent dark:from-white dark:to-white md:text-[54px] md:leading-[60px]"
           >
             {t(titleKey)}
           </motion.h2>
@@ -69,7 +69,7 @@ export const SectionWithButtons = ({
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="mt-5 text-center text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]"
+            className="mt-5 text-center text-xl tracking-tighter text-zinc-500 dark:text-zinc-400 md:text-[22px] md:leading-[30px]"
           >
             {t(descriptionKey)}
           </motion.p>

@@ -24,12 +24,12 @@ export const Hero = () => {
           type="image/webp"
         />
       </Head>
-      <section className="bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#FF4E40,#FFFFFF_80%)] pb-20 pt-8">
+      <section className="bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#FF4E40,#FFFFFF_80%)] pb-20 pt-8 dark:bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#7D0000,transparent_56%)]">
         <div className="px-5 lg:px-40">
           <div className="grid grid-cols-1 place-content-between gap-10 md:grid-cols-12 md:items-center">
             <div className="md:col-span-6">
               <motion.h1
-                className="mt-6 bg-gradient-to-b from-black to-[#7F0000] bg-clip-text pb-6 text-5xl font-bold tracking-tighter text-transparent md:text-7xl"
+                className="mt-6 bg-gradient-to-b from-black to-[#7F0000] bg-clip-text pb-6 text-5xl font-bold tracking-tighter text-transparent dark:from-white dark:to-white md:text-7xl"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4 }}
@@ -37,7 +37,7 @@ export const Hero = () => {
               />
 
               <motion.p
-                className="text-xl tracking-tight"
+                className="text-xl tracking-tight dark:text-white"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}

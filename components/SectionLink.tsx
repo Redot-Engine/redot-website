@@ -30,7 +30,7 @@ export const SectionLink = ({
           <p className="text-zinc-500 dark:text-zinc-400">{description}</p>
         </div>
       </div>
-      <IconArrowRight className="text-zinc-400 transition-all duration-300 group-hover:text-zinc-900" />
+      <IconArrowRight className="text-zinc-400 transition-all duration-300 group-hover:text-zinc-900 dark:group-hover:text-white" />
     </div>
   </Link>
 );

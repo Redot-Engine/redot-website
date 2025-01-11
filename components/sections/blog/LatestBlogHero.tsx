@@ -86,14 +86,14 @@ export const LatestBlogHero = ({
                       />
                     ))}
                   </div>
-                  <p className="text-xs font-medium text-black/60 md:text-sm">
+                  <p className="text-xs font-medium text-muted-foreground md:text-sm">
                     {formatDate(latestBlog.publishedAt)}
                   </p>
                 </div>
                 <h3 className="text-3xl font-bold md:text-5xl">
                   {latestBlog.title}
                 </h3>
-                <p className="line-clamp-3 text-base text-black/60 md:text-xl">
+                <p className="line-clamp-3 text-base text-muted-foreground md:text-xl">
                   {latestBlog.excerpt}
                 </p>
                 <motion.div

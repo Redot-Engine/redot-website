@@ -43,14 +43,14 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <div className="dark">
+    <div className="">
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
           <button
             role="combobox"
             aria-expanded={open}
             aria-controls="language-selector-list"
-            className="flex items-center justify-between gap-2 text-white/80"
+            className="flex items-center justify-between gap-2 text-white dark:text-zinc-900"
             disabled={!value}
           >
             <Image

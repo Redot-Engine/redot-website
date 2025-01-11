@@ -43,8 +43,15 @@ export default async function RootLayout({
         <link rel="preconnect" href="https://image.redotengine.org" />
       </head>
       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID ?? ""} />
-      <body className={`${inter.className} bg-background antialiased`}>
-        <ThemeProvider attribute="class" defaultTheme="light">
+      <body
+        className={`${inter.className} bg-background antialiased dark:bg-black`}
+      >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           <NextIntlClientProvider messages={messages}>
             {children}
           </NextIntlClientProvider>

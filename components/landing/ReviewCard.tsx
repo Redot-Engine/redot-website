@@ -19,7 +19,7 @@ export const ReviewCard = ({
   return (
     <div
       className={cn(
-        "relative cursor-pointer overflow-hidden rounded-xl border border-gray-950/[.1] bg-gray-950/[.01] p-4 hover:bg-gray-950/[.05]",
+        "relative cursor-pointer overflow-hidden rounded-xl border border-zinc-950/[.1] bg-zinc-950/[.01] p-4 hover:bg-zinc-950/[.05] dark:border-zinc-50/[.1] dark:bg-zinc-50/[.10] dark:hover:bg-zinc-50/[.15]",
         className
       )}
     >

@@ -36,7 +36,7 @@ export const Header = () => {
                 {header.map((link) => (
                   <Link
                     key={link.label}
-                    className="flex items-center text-base font-medium text-black/60 transition-colors duration-300 hover:text-black"
+                    className="flex items-center text-base font-medium text-black/60 transition-colors duration-300 hover:text-black dark:text-white/60 dark:hover:text-white"
                     href={link.href}
                     target={link.newTab ? "_blank" : "_self"}
                     rel={link.newTab ? "noopener noreferrer" : undefined}

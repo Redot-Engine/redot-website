@@ -110,7 +110,7 @@ export default function SectionHeader({
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.6 }}
           className={cn(
-            "mt-5 text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]",
+            "mt-5 text-xl tracking-tighter text-zinc-500 dark:text-zinc-400 md:text-[22px] md:leading-[30px]",
             descriptionTextAlignClass
           )}
         >

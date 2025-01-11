@@ -17,13 +17,13 @@ export const ArticleCard = ({
     "text-base": size === "small",
   });
 
-  const excerptClasses = cn("line-clamp-3 text-base text-black/60", {
+  const excerptClasses = cn("line-clamp-3 text-base text-muted-foreground", {
     "text-sm": size === "small",
   });
 
   return (
     <Link href={`blog/${article.slug.current}`}>
-      <div className="relative h-full cursor-pointer overflow-hidden rounded-xl border border-gray-950/[.1] p-4 hover:bg-gray-950/[.01]">
+      <div className="relative h-full cursor-pointer overflow-hidden rounded-xl border border-zinc-950/[.1] p-4 hover:bg-zinc-950/[.01] dark:border-zinc-50/[.1] dark:hover:bg-zinc-50/[.1]">
         <div className="flex flex-col gap-4">
           {article.imageUrl && (
             <div className="relative aspect-video w-full">
@@ -51,7 +51,7 @@ export const ArticleCard = ({
               <p className="text-sm font-medium">
                 {article.author?.name || "Unknown Author"}
               </p>
-              <p className="text-xs font-medium text-black/60">
+              <p className="text-xs font-medium text-muted-foreground">
                 {formatDate(article.publishedAt)}
               </p>
             </div>
