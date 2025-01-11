@@ -7,7 +7,7 @@ export default function FeaturesHighlight({
 }: Readonly<FeaturesHighlightList>) {
   return (
     <div className="mx-auto flex max-w-sm flex-col items-center space-y-2.5 text-center">
-      <div className="flex h-8 w-8 items-center justify-center rounded border border-rose-800 bg-rose-950 text-white">
+      <div className="rinvert flex h-8 w-8 items-center justify-center rounded border border-red-900 bg-red-950/75 text-white">
         {icon}
       </div>
       <div className="space-y-2">

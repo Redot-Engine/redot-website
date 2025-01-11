@@ -61,7 +61,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
   }
 }
 
@@ -1210,4 +1210,11 @@
 
 .article .highlight pre:has(+ .zeroclipboard-container) {
   min-height: 52px;
+}
+
+html,
+img,
+video,
+.rinvert {
+  filter: invert(1) hue-rotate(180deg) brightness(105%) contrast(105%);
 }

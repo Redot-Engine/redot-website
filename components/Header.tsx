@@ -22,7 +22,7 @@ export const Header = () => {
           <div className="flex items-center justify-between">
             <Link
               href="/"
-              className="rounded-md border border-slate-800 bg-black p-2"
+              className="border-white-800 rounded-md border bg-white p-2"
             >
               <Image
                 src="/logo.webp"

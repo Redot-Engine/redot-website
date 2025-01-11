@@ -14,7 +14,7 @@ export const ProductShowcase = () => {
   return (
     <section
       ref={ref}
-      className="overflow-x-clip bg-gradient-to-b from-[#ffffff] to-[#FFD2D2] py-24"
+      className="overflow-x-clip bg-gradient-to-b from-[#FFD2D2] to-[#fff] py-24"
     >
       <motion.div
         initial={{ opacity: 0, y: 50 }}
