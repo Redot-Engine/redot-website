@@ -17,7 +17,7 @@
     "heading": "游戏引擎,<br />游戏新境",
     "description": "使用 Redot 引擎 创建 2D 和 3D 游戏、跨平台项目，或探索 XR 技术的创新理念！",
     "buttons": {
-      "primary": "获取 {os} 版 Redot 引擎 ",
+      "primary": "获取 {os} 版 Redot 引擎",
       "secondary": "探索 Redot 引擎 文档"
     }
   },
@@ -230,7 +230,7 @@
       "whatIsRedot": "什么是Redot？",
       "redotExplanation": "Redot 是一个基于 Godot 的分支，专注于提升引擎的稳定性和性能。",
       "whyWasRedotMade": "为什么要制作Redot？",
-      "redotMadeExplanation": "Redot 的诞生是为了满足一些开发者所提出的特定需求。他们认为在引擎的管理以及与游戏开发社区的互动方面，Godot 并没有完全满足这些需求。。",
+      "redotMadeExplanation": "Redot 的诞生是为了满足一些开发者所提出的特定需求。他们认为在引擎的管理以及与游戏开发社区的互动方面，Godot 并没有完全满足这些需求。",
       "antiWoke": "Redot是一个反觉醒项目或服务器吗？",
       "antiWokeExplanation": "不是。Redot 专注于游戏开发。我们希望为所有游戏开发者提供一个社区，不论他们的政治立场如何。",
       "platformsSupported": "Redot支持哪些平台？",
