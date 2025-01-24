@@ -2,7 +2,7 @@
   "header": {
     "banner": {
       "subMessage": "升级到最新版本。",
-      "mainMessage": "Redot Engine 现已稳定！"
+      "mainMessage": "Redot 引擎 现已稳定！"
     },
     "downloadButton": "下载",
     "discordButton": "加入 Discord",
@@ -14,30 +14,30 @@
     }
   },
   "heroSection": {
-    "heading": "游戏引擎,<br />游戏改变者",
-    "description": "使用 Redot Engine 创建 2D 和 3D 游戏、跨平台项目，或探索 XR 技术中的创新想法！",
+    "heading": "游戏引擎,<br />游戏新境",
+    "description": "使用 Redot 引擎 创建 2D 和 3D 游戏、跨平台项目，或探索 XR 技术的创新理念！",
     "buttons": {
-      "primary": "获取 Redot 引擎以适配 {os}",
-      "secondary": "探索 Redot Engine 文档"
+      "primary": "获取 {os} 版 Redot 引擎 ",
+      "secondary": "探索 Redot 引擎 文档"
     }
   },
   "productShowcaseSection": {
-    "badge": "⚡ 增强",
-    "title": "驱动您的<br />游戏开发",
-    "description": "解锁无限可能，使用我们灵活高效的游戏引擎，为每位创作者提供支持。"
+    "badge": "⚡ 火力全开",
+    "title": "助力您的<br />游戏开发",
+    "description": "用我们灵活且高性能的游戏引擎，为每一位创作者解锁无限可能。"
   },
   "featuresSection": {
-    "badge": "🤖 下一代游戏设计",
-    "title": "Redot Engine 的 <br /> 强大功能",
-    "description": "探索设计来轻松实现您的游戏创意的前沿工具和功能。",
+    "badge": "🤖 次世代游戏设计",
+    "title": "Redot 引擎 <br /> 强大功能",
+    "description": "探索专为轻松实现游戏创意而打造的尖端工具与功能。",
     "highlights": {
       "sceneDrivenDesign": {
         "header": "场景驱动设计",
-        "description": "通过节点、脚本和清晰的游戏逻辑创建可重用的场景，采用节点层次结构。"
+        "description": "通过节点、脚本以及节点层级中清晰的游戏逻辑，创建可复用的场景。"
       },
       "crossPlatform": {
         "header": "跨平台",
-        "description": "在多个平台上开发。快速将您的游戏部署到桌面、移动设备和 Web。"
+        "description": "在多种平台上进行开发，并可快速将游戏部署到桌面、移动端和网页端。"
       },
       "2D3DEngines": {
         "header": "2D 和 3D 引擎",
@@ -45,21 +45,21 @@
       },
       "openSource": {
         "header": "开源",
-        "description": "体验 Redot Engine 的开放开发，所有贡献者共享成果。"
+        "description": "在 Redot 引擎 中体验开放式开发，所有贡献者都能平等共享成果。"
       }
     }
   },
   "reviewSection": {
-    "badge": "🎉 稳定版本已发布",
+    "badge": "🎉 稳定版已发布",
     "title": "用户评价",
-    "description": "Redot Engine 为开发者提供了灵活性和性能，助力创造出色的游戏。"
+    "description": "Redot 引擎 为开发者提供灵活性与高性能，助力创建出色的游戏。"
   },
   "startSection": {
-    "title": "准备好创作了吗？",
-    "description": "使用 Redot Engine 创建引人入胜的 2D 和 3D 游戏，带来跨平台的沉浸式体验。",
+    "title": "准备好开始创作了吗？",
+    "description": "使用 Redot 引擎 打造迷人的 2D 和 3D 游戏，实现跨平台的沉浸式体验。",
     "buttons": {
       "download": "下载",
-      "documentation": "探索 Redot Engine 文档"
+      "documentation": "探索 Redot 引擎 文档"
     }
   },
   "footer": {
@@ -88,10 +88,10 @@
     "resources": {
       "title": "资源",
       "children": {
-        "blog": "新闻",
+        "blog": "博客",
         "feedback": "反馈",
         "community": "社区",
-        "pressKit": "新闻稿",
+        "pressKit": "媒体资料包",
         "contact": "联系我们"
       }
     },
@@ -104,12 +104,12 @@
       }
     },
     "policies": {
-      "title": "政策",
+      "title": "相关政策",
       "children": {
-        "terms": "条款",
-        "privacy": "隐私",
+        "terms": "服务条款",
+        "privacy": "隐私政策",
         "cookieSettings": "Cookie 设置",
-        "licenses": "许可证",
+        "licenses": "许可协议",
         "contributionGuidelines": "贡献指南"
       }
     }
@@ -134,9 +134,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "为 {platform} 下载 Redot",
+    "downloadForOS": "下载 {platform} 版 Redot",
     "igniteYourImagination": "点燃你的想象力",
-    "downloadDescription": "下载 Redot Engine，这是一个强大的平台，用于构建 2D 和 3D 跨平台游戏和互动体验。",
+    "downloadDescription": "下载 Redot 引擎，这款功能强大的平台可用于构建 2D 和 3D 跨平台游戏及交互式体验。",
     "buttons": {
       "downloadLatest": "下载最新版本",
       "downloadMono": "下载 Mono 版本",
@@ -146,17 +146,17 @@
   "downloadThreeSteps": {
     "badge": "",
     "title": "使用 Redot 创建",
-    "description": "使用 Redot Engine 快速、灵活、开源地构建您的游戏。",
+    "description": "使用 Redot 引擎 快速、灵活、开源地构建您的游戏。",
     "steps": {
       "step1": {
         "title": "1. 选择您的 Redot 版本",
-        "description": "您可以选择最新版本的 Redot Engine，旧版或测试版。",
+        "description": "您可以选择最新版本的 Redot 引擎，旧版或测试版。",
         "links": {
           "archive": "访问下载档案"
         }
       },
       "step2": {
-        "title": "2. 下载 Redot Engine",
+        "title": "2. 下载 Redot 引擎",
         "description": "按照说明完成安装和设置。",
         "links": {
           "windows": "下载 Windows 版",
@@ -167,7 +167,7 @@
       },
       "step3": {
         "title": "3. 开始您的项目",
-        "description": "从头开始创建项目或选择一个模板。加入我们的 Discord 社区连接更多开发者！",
+        "description": "从头开始创建项目或选择一个模板。加入我们的 Discord 社区联系更多开发者！",
         "links": {
           "discord": "加入我们的 Discord 社区"
         }
@@ -177,29 +177,29 @@
   "downloadSupportedPlatform": {
     "badge": "",
     "title": "支持的平台",
-    "description": "Redot Engine 在各种平台上运行流畅，确保兼容性。"
+    "description": "Redot 引擎 能在多种平台上流畅运行，确保兼容性。"
   },
   "downloadInformation": {
     "systemRequirements": {
-      "title": "Redot Engine 系统要求",
+      "title": "Redot 引擎 系统要求",
       "description": {
         "general": "推荐：支持 Vulkan 1.0 的硬件。最低：支持 OpenGL 3.3 / OpenGL ES 3.0 的硬件。",
-        "dotnet": "额外要求：.NET 版本的要求：",
+        "dotnet": ".NET 版本的额外要求：",
         "dotnetLink": ".NET SDK"
       }
     },
     "about": {
-      "title": "什么是 Redot Engine？",
-      "description": "Redot Engine 是一个免费的开源游戏开发平台，适用于 2D 和 3D 项目。基于 Godot，它为各级开发者提供灵活性和易用性，支持跨平台开发，并拥有一个协作社区。",
-      "learnMoreButton": "了解更多关于 Redot Engine"
+      "title": "什么是 Redot 引擎？",
+      "description": "Redot 引擎 是一个免费、开源的游戏开发平台，支持 2D 和 3D 项目。它基于 Godot，为不同水平的开发者提供灵活且易于使用的功能，支持跨平台部署，并拥有一个协作友好的社区。",
+      "learnMoreButton": "了解更多关于 Redot 引擎"
     }
   },
   "downloadHelp": {
     "title": "需要帮助吗？",
-    "description": "加入我们的 Discord 服务器，获取帮助，分享想法，并与我们的社区互动！",
+    "description": "加入我们的 Discord 服务器获取帮助、分享想法并与我们的社区互动！",
     "buttons": {
       "discord": "加入 Discord",
-      "documentation": "探索 Redot Engine 文档"
+      "documentation": "探索 Redot 引擎 文档"
     }
   },
   "blog": {
@@ -224,29 +224,29 @@
   "contact": {
     "badge": "",
     "title": "联系我们",
-    "description": "我们很想听到您的声音！随时联系我们，分享您的问题、反馈或合作想法。",
+    "description": "我们很想听到您的声音！如果您有任何问题、反馈或合作想法，欢迎随时与我们联系。",
     "faqTitle": "常见问题",
     "faq": {
       "whatIsRedot": "什么是Redot？",
-      "redotExplanation": "Redot是Godot的一个分支，专注于提高引擎的稳定性和性能。",
+      "redotExplanation": "Redot 是一个基于 Godot 的分支，专注于提升引擎的稳定性和性能。",
       "whyWasRedotMade": "为什么要制作Redot？",
-      "redotMadeExplanation": "Redot的创建旨在解决一些开发者认为Godot在引擎处理和游戏开发社区方面未能完全满足的特定需求。",
+      "redotMadeExplanation": "Redot 的诞生是为了满足一些开发者所提出的特定需求。他们认为在引擎的管理以及与游戏开发社区的互动方面，Godot 并没有完全满足这些需求。。",
       "antiWoke": "Redot是一个反觉醒项目或服务器吗？",
-      "antiWokeExplanation": "不是。Redot专注于游戏开发。我们希望为所有游戏开发者创建一个社区，无论他们的政治意识形态如何。",
+      "antiWokeExplanation": "不是。Redot 专注于游戏开发。我们希望为所有游戏开发者提供一个社区，不论他们的政治立场如何。",
       "platformsSupported": "Redot支持哪些平台？",
-      "platformsExplanation": "Redot 4.3 可在Windows、Linux和Mac上使用。\nRedot 4.4 可在Windows、Linux和Android上使用。",
-      "transferFromGodot": "我可以将我的项目从Godot转移到Redot吗？",
-      "transferExplanation": "当前的Redot版本是从Godot 4.3和4.4分支出来的，所以如果您的项目在这两个版本上能运行，您就可以将其转移到Redot上。"
+      "platformsExplanation": "Redot 4.3 可在 Windows、Linux 和 Mac 上使用。\nRedot 4.4 可在 Windows、Linux 和 Android 上使用。",
+      "transferFromGodot": "我可以将项目从 Godot 转移到 Redot 吗？",
+      "transferExplanation": "目前的 Redot 版本分别从 Godot 4.3 和 Godot 4.4 分支而来，因此如果您的项目能够在这两个版本中的任意一个版本正常运行，就可以将其转移到 Redot。"
     },
     "contactCard": {
-      "emailUs": "联系我们",
-      "emailDescription": "通过电子邮件提供快速支持。",
+      "emailUs": "邮件联系我们",
+      "emailDescription": "通过电子邮件获取快速支持。",
       "joinDiscord": "加入我们的Discord",
-      "discordDescription": "与我们实时聊天。",
+      "discordDescription": "与我们进行实时聊天。",
       "followUs": "关注我们",
-      "followDescription": "获取更新、新闻和小贴士。",
+      "followDescription": "获取最新动态、新闻和小贴士。",
       "forum": "论坛",
-      "forumDescription": "参与、分享并获得帮助。"
+      "forumDescription": "参与讨论、分享观点并寻求帮助。"
     }
   },
   "licenses": {
@@ -257,7 +257,7 @@
   "community": {
     "badge": "",
     "title": "社区",
-    "description": "Redot Engine 拥有一个充满活力的社区，开发者们在这里分享想法。",
+    "description": "Redot 引擎 拥有一个充满活力的社区，开发者们在这里分享想法。",
     "socialPlatforms": "社交平台",
     "communitySpaces": "社区空间",
     "supportAndContributions": "支持与贡献",
