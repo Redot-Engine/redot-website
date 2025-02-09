@@ -91,7 +91,7 @@ export const communityLinks: CommunityCardProps[] = [
 
 export const communitySpaces: CommunityCardProps[] = [
   {
-    imageUrl: "https://image.redotengine.org/socials/discord.png",
+    imageUrl: "https://image.redotengine.org/socials/discordInvite.webp",
     label: "Discord (Invite)",
     description: "communitySpacesLinks.discord",
     href: socialsLinks.discord,
