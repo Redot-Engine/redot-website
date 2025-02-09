@@ -48,6 +48,6 @@ jobs:
         run: bun run build
         env:
           NEXT_PUBLIC_GTM_ID: ${{ secrets.NEXT_PUBLIC_GTM_ID }}
-          NEXT_PUBLIC_SANITY_PROJECT_ID: ${{ secrets.NEXT_PUBLIC_SANITY_PROJECT_ID }}
-          NEXT_PUBLIC_SANITY_DATASET: ${{ secrets.NEXT_PUBLIC_SANITY_DATASET }}
-          NEXT_PUBLIC_BASE_URL: ${{ secrets.NEXT_PUBLIC_BASE_URL }}
+          NEXT_PUBLIC_SANITY_PROJECT_ID: qqvmmpgb
+          NEXT_PUBLIC_SANITY_DATASET: test
+          NEXT_PUBLIC_BASE_URL: https://www.redotengine.org

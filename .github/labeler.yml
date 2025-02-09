@@ -1,4 +1,6 @@
 # See https://github.com/actions/labeler
 
-translation:
-  - locales/**
+translation: locales/**
+
+feature:
+  - head-branch: ['^feature', 'feature']
