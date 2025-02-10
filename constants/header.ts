@@ -17,6 +17,11 @@ export const header: HeaderLink[] = [
     href: "/blog/",
   },
   {
+    label: "links.forum",
+    href: links.forum,
+    newTab: true,
+  },
+  {
     label: "links.proposals",
     href: links.proposals,
     newTab: true,
