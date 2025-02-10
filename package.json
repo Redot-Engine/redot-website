@@ -39,6 +39,7 @@
     "@sanity/vision": "3",
     "@tabler/icons-react": "^3.22.0",
     "axios": "^1.7.9",
+    "chromedriver": "^132.0.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "1.0.0",
@@ -50,6 +51,7 @@
     "next-intl": "^3.26.3",
     "next-sanity": "^9.8.30",
     "next-themes": "^0.4.3",
+    "nightwatch": "^3.11.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-flagpack": "^2.0.6",
@@ -78,6 +80,8 @@
     "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwind-scrollbar": "^3.1.0",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
-  }
+    "typescript": "^5",
+    "@types/bun": "latest"
+  },
+  "module": "index.ts"
 }
