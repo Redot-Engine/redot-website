@@ -37,7 +37,7 @@ export const Features = () => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="mt-10"
         >
-          <div className="relative flex w-full select-none flex-col items-center justify-center overflow-hidden">
+          <div className="relative flex w-full flex-col items-center justify-center overflow-hidden select-none">
             <Marquee pauseOnHover className="[--duration:15s]">
               {firstRow.map((feature) => (
                 <FeatureItem key={feature.label} {...feature} />
@@ -48,14 +48,14 @@ export const Features = () => {
                 <FeatureItem key={feature.label} {...feature} />
               ))}
             </Marquee>
-            <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
-            <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div>
+            <div className="dark:from-background pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-linear-to-r from-white"></div>
+            <div className="dark:from-background pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-linear-to-l from-white"></div>
           </div>
         </motion.div>
 
         <div className="mt-6">
-          <div className="relative flex w-full items-center justify-center bg-white bg-grid-black/[0.2] dark:bg-background dark:bg-grid-white/[0.2]">
-            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-background"></div>
+          <div className="bg-grid-black/[0.2] dark:bg-background dark:bg-grid-white/[0.2] relative flex w-full items-center justify-center bg-white">
+            <div className="dark:bg-background pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
             <div className="relative grid h-full place-items-center gap-20 p-12 md:grid-cols-2 lg:gap-32 lg:p-32">
               {featuresHighlightLists.map((feature, index) => (
                 <motion.div

@@ -37,7 +37,7 @@ export const AppearanceForm = () => {
     <div className="space-y-8">
       <div className="space-y-1">
         <Label>Blog Layout</Label>
-        <p className="text-sm text-muted-foreground">
+        <p className="text-muted-foreground text-sm">
           Choose how your blog posts are displayed
         </p>
         <RadioGroup
@@ -53,8 +53,8 @@ export const AppearanceForm = () => {
             onKeyDown={(event) => handleKeyDown(event, "new")}
           >
             <RadioGroupItem value="new" className="sr-only" />
-            <div className="items-center rounded-md border-2 border-muted p-1 hover:border-accent">
-              <div className="space-y-2 rounded-sm bg-white p-2 shadow-sm">
+            <div className="border-muted hover:border-accent items-center rounded-md border-2 p-1">
+              <div className="space-y-2 rounded-sm bg-white p-2 shadow-xs">
                 <div className="flex flex-col items-center gap-2 p-2">
                   <div className="h-4 w-[80px] rounded-lg bg-[#ecedef]" />
                   <div className="h-4 w-[100px] rounded-lg bg-[#ecedef]" />
@@ -66,7 +66,7 @@ export const AppearanceForm = () => {
                 <div className="flex justify-center gap-2 p-2">
                   <div className="h-16 w-[200px] rounded-lg bg-[#ecedef]" />
                 </div>
-                <div className="flex flex-col gap-1 rounded-md bg-white p-2 shadow-sm">
+                <div className="flex flex-col gap-1 rounded-md bg-white p-2 shadow-xs">
                   <div className="h-2 w-[130px] rounded-lg bg-[#ecedef]" />
                   <div className="h-2 w-[100px] rounded-lg bg-[#ecedef]" />
                   <div className="h-2 w-[80px] rounded-lg bg-[#ecedef]" />
@@ -86,8 +86,8 @@ export const AppearanceForm = () => {
             onKeyDown={(event) => handleKeyDown(event, "old")}
           >
             <RadioGroupItem value="old" className="sr-only" />
-            <div className="items-center rounded-md border-2 border-muted p-1 hover:border-accent">
-              <div className="space-y-2 rounded-sm bg-white p-2 shadow-sm">
+            <div className="border-muted hover:border-accent items-center rounded-md border-2 p-1">
+              <div className="space-y-2 rounded-sm bg-white p-2 shadow-xs">
                 <div className="flex justify-center gap-2 p-2">
                   <div className="h-16 w-[200px] rounded-lg bg-[#ecedef]" />
                 </div>
@@ -98,7 +98,7 @@ export const AppearanceForm = () => {
                   <div className="h-4 w-4 rounded-full bg-[#ecedef]" />
                   <div className="h-3 w-[40px] rounded-lg bg-[#ecedef]" />
                 </div>
-                <div className="flex flex-col gap-1 rounded-md bg-white p-2 shadow-sm">
+                <div className="flex flex-col gap-1 rounded-md bg-white p-2 shadow-xs">
                   <div className="h-2 w-[130px] rounded-lg bg-[#ecedef]" />
                   <div className="h-2 w-[100px] rounded-lg bg-[#ecedef]" />
                   <div className="h-2 w-[80px] rounded-lg bg-[#ecedef]" />

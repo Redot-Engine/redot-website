@@ -48,16 +48,16 @@ export default function CookieConsent({
   return (
     <div
       className={cn(
-        "fixed bottom-0 left-0 right-0 z-[200] w-full duration-700 md:bottom-4 md:left-4 md:max-w-md",
+        "fixed right-0 bottom-0 left-0 z-200 w-full duration-700 md:bottom-4 md:left-4 md:max-w-md",
         !isOpen
           ? "translate-y-8 opacity-0 transition-[opacity,transform]"
           : "translate-y-0 opacity-100 transition-[opacity,transform]",
         hide && "hidden"
       )}
     >
-      <div className="m-3 rounded-md border border-border bg-background shadow-lg dark:bg-card">
+      <div className="border-border bg-background dark:bg-card m-3 rounded-md border shadow-lg">
         <div className="grid gap-2">
-          <div className="flex h-14 items-center justify-between border-b border-border p-4">
+          <div className="border-border flex h-14 items-center justify-between border-b p-4">
             <h1 className="text-lg font-medium">We use cookies</h1>
             <IconCookie className="h-[1.2rem] w-[1.2rem]" />
           </div>
@@ -79,7 +79,7 @@ export default function CookieConsent({
               </Link>
             </p>
           </div>
-          <div className="flex gap-2 border-t border-border p-4 py-5 dark:bg-background/20">
+          <div className="border-border dark:bg-background/20 flex gap-2 border-t p-4 py-5">
             <Button onClick={accept} className="w-full">
               Accept
             </Button>

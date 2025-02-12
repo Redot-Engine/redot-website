@@ -11,18 +11,18 @@ export const Header = () => {
   const t = useTranslations("header");
 
   return (
-    <header className="sticky top-0 z-[50] w-full backdrop-blur-sm">
+    <header className="sticky top-0 z-50 w-full backdrop-blur-xs">
       <Banner
         subMessage={t("banner.subMessage")}
         mainMessage={t("banner.mainMessage")}
         link="https://www.redotengine.org/news/release-4-3-stable"
       />
       <div className="py-5">
-        <div className="w-full px-5 lg:px-40">
+        <div className="border-grid w-full px-5 lg:px-40">
           <div className="flex items-center justify-between">
             <Link
               href="/"
-              className="select-none rounded-md border border-slate-800 bg-black p-2"
+              className="rounded-md border border-slate-800 bg-black p-2 select-none"
             >
               <Image
                 src="/logo.webp"
@@ -36,7 +36,7 @@ export const Header = () => {
                 {header.map((link) => (
                   <Link
                     key={link.label}
-                    className="flex items-center text-base font-medium text-muted-foreground transition-colors duration-300 hover:text-primary"
+                    className="text-muted-foreground hover:text-primary flex items-center text-base font-medium transition-colors duration-300"
                     href={link.href}
                     target={link.newTab ? "_blank" : "_self"}
                     rel={link.newTab ? "noopener noreferrer" : undefined}

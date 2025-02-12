@@ -89,10 +89,10 @@ export default function DownloadDialog({
                     />
                     <Label
                       htmlFor={v.id}
-                      className="flex-grow cursor-pointer space-y-1"
+                      className="grow cursor-pointer space-y-1"
                     >
                       <div className="font-semibold">{t(`${v.id}.name`)}</div>
-                      <div className="text-sm text-muted-foreground">
+                      <div className="text-muted-foreground text-sm">
                         {t(`${v.id}.description`)}
                       </div>
                     </Label>
