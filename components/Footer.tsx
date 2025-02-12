@@ -18,7 +18,7 @@ export const Footer = () => {
   const t = useTranslations("footer");
 
   return (
-    <footer className="relative bottom-0 z-[50] w-full bg-black text-white">
+    <footer className="relative bottom-0 z-50 w-full bg-black text-white">
       <div className="px-10 py-16 lg:px-40">
         <div className="flex flex-col gap-10">
           <div className="mb-2 flex flex-col justify-between gap-6 md:flex-row">

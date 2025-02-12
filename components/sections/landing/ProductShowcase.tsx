@@ -14,13 +14,13 @@ export const ProductShowcase = () => {
   return (
     <section
       ref={ref}
-      className="overflow-x-clip bg-gradient-to-b from-[#ffffff] to-[#FFD2D2] py-24 dark:from-background dark:to-[#9F1E1E]/10"
+      className="dark:from-background overflow-x-clip bg-linear-to-b from-[#ffffff] to-[#FFD2D2] py-24 dark:to-[#9F1E1E]/10"
     >
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6 }}
-        className="px-5 lg:px-40"
+        className="border-grid border-x px-5 lg:px-40"
       >
         <SectionHeader section="productShowcaseSection" />
 

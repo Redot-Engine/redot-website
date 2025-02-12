@@ -10,7 +10,7 @@ export default function NotFound() {
 
   return (
     <section className="flex min-h-screen flex-col">
-      <div className="flex-grow overflow-x-clip bg-gradient-to-b from-[#ffffff] to-[#FFD2D2] py-32 dark:from-background dark:to-[#9F1E1E]/20">
+      <div className="dark:from-background grow overflow-x-clip bg-linear-to-b from-[#ffffff] to-[#FFD2D2] py-32 dark:to-[#9F1E1E]/20">
         <div className="mx-auto max-w-[540px]">
           <div className="flex flex-col items-center justify-center gap-4">
             <Image
@@ -23,7 +23,7 @@ export default function NotFound() {
               <h2 className="mt-5 text-center text-4xl font-bold tracking-tighter md:text-[54px] md:leading-[60px]">
                 {t("title")}
               </h2>
-              <p className="mt-5 text-center text-xl tracking-tighter text-muted-foreground md:text-[22px] md:leading-[30px]">
+              <p className="text-muted-foreground mt-5 text-center text-xl tracking-tighter md:text-[22px] md:leading-[30px]">
                 {t("description")}
               </p>
             </div>

@@ -45,7 +45,7 @@ export const CTA = ({
     <section
       ref={ref}
       className={cn(
-        "overflow-x-clip bg-gradient-to-b from-[#ffffff] to-[#FFD2D2] py-20 dark:from-background dark:to-[#9F1E1E]/20 md:py-36",
+        "dark:from-background overflow-x-clip bg-linear-to-b from-[#ffffff] to-[#FFD2D2] py-20 md:py-36 dark:to-[#9F1E1E]/20",
         additionalClassNames
       )}
     >
@@ -61,7 +61,7 @@ export const CTA = ({
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="bg-gradient-to-b from-black to-[#7F0000] bg-clip-text py-1 text-center text-4xl font-bold tracking-tighter text-transparent dark:from-white dark:to-white md:text-6xl"
+              className="bg-linear-to-b from-black to-[#7F0000] bg-clip-text py-1 text-center text-4xl font-bold tracking-tighter text-transparent md:text-6xl dark:from-white dark:to-white"
             >
               {t(titleKey)}
             </motion.h2>
@@ -70,7 +70,7 @@ export const CTA = ({
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.6 }}
-              className="text-center text-lg tracking-tighter text-muted-foreground md:text-xl"
+              className="text-muted-foreground text-center text-lg tracking-tighter md:text-xl"
             >
               {t(descriptionKey)}
             </motion.p>

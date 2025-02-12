@@ -13,12 +13,12 @@ export const Hero = () => {
   const os = useOS();
 
   return (
-    <section className="bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#FF4E40,#FFFFFF_80%)] pb-20 pt-8 dark:bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#9F1E1E,#09090b_80%)]">
+    <section className="bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#FF4E40,#FFFFFF_80%)] pt-8 pb-20 dark:bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#9F1E1E,#09090b_80%)]">
       <div className="px-5 lg:px-40">
         <div className="grid grid-cols-1 place-content-between gap-10 md:grid-cols-12 md:items-center">
           <div className="md:col-span-6">
             <motion.h1
-              className="mt-6 select-none bg-gradient-to-b from-black to-[#7F0000] bg-clip-text pb-6 text-5xl font-bold tracking-tighter text-transparent dark:from-white dark:to-white md:text-7xl"
+              className="mt-6 bg-linear-to-b from-black to-[#7F0000] bg-clip-text pb-6 text-5xl font-bold tracking-tighter text-transparent select-none md:text-7xl dark:from-white dark:to-white"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}

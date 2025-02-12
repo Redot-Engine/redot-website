@@ -30,7 +30,7 @@ export const Review = () => {
   const secondRow = reviews.slice(reviews.length / 2);
 
   return (
-    <section ref={ref} className="overflow-x-clip bg-background pt-24">
+    <section ref={ref} className="bg-background overflow-x-clip pt-24">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -65,10 +65,10 @@ export const Review = () => {
                   />
                 ))}
               </Marquee>
-              <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
-              <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div>
-              <div className="-z-5 absolute left-1/4 top-1/4 h-28 w-28 rounded-full bg-rose-500/80 blur-[6rem]"></div>
-              <div className="-z-5 absolute right-1/4 top-1/4 h-28 w-28 rounded-full bg-rose-500/80 blur-[6rem]"></div>
+              <div className="dark:from-background pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-linear-to-r from-white"></div>
+              <div className="dark:from-background pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-linear-to-l from-white"></div>
+              <div className="absolute top-1/4 left-1/4 -z-5 h-28 w-28 rounded-full bg-rose-500/80 blur-[6rem]"></div>
+              <div className="absolute top-1/4 right-1/4 -z-5 h-28 w-28 rounded-full bg-rose-500/80 blur-[6rem]"></div>
             </div>
           </div>
           <div className="block md:hidden">
@@ -86,8 +86,8 @@ export const Review = () => {
                   />
                 ))}
               </Marquee>
-              <div className="pointer-events-none absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-white dark:from-background"></div>
-              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-white dark:from-background"></div>
+              <div className="dark:from-background pointer-events-none absolute inset-x-0 top-0 h-1/3 bg-linear-to-b from-white"></div>
+              <div className="dark:from-background pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-linear-to-t from-white"></div>
             </div>
           </div>
         </motion.div>
