@@ -67,7 +67,7 @@
     "@commitlint/cli": "^19.6.0",
     "@commitlint/config-conventional": "^19.6.0",
     "@tailwindcss/typography": "^0.5.16",
-    "@types/node": "^20",
+    "@types/node": "^22",
     "@types/react": "19.0.2",
     "@types/react-dom": "19.0.2",
     "eslint": "^8",
