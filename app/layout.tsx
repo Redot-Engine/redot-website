@@ -49,11 +49,6 @@ export const metadata: Metadata = {
     images: ["/homepage.webp"], //! change image path here to the actual image
     creator: "@Redot_Engine",
   },
-  icons: {
-    icon: "/logo.svg",
-    shortcut: "/logo.svg",
-    apple: "/logo.webp",
-  },
 };
 
 export default async function RootLayout({
