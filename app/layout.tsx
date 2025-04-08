@@ -13,14 +13,42 @@ const inter = Inter({
   display: "swap",
 });
 
+const baseUrl =
+  process.env.NEXT_PUBLIC_BASE_URL || "https://www.redotengine.org";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.redotengine.org"),
+  metadataBase: new URL(baseUrl),
   title: {
     default: "Redot Engine: Open source game engine for everyone.",
     template: "%s - Redot Engine",
   },
   description:
     "Redot Engine is an open-source game engine that enables developers to create stunning games with ease, offering powerful features, an active community, and a seamless development experience.",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: baseUrl,
+    siteName: "Redot Engine",
+    title: "Redot Engine: Open source game engine for everyone.",
+    description:
+      "Redot Engine is an open-source game engine that enables developers to create stunning games with ease, offering powerful features, an active community, and a seamless development experience.",
+    images: [
+      {
+        url: "/homepage.webp", //! change image path here to the actual image
+        width: 1200,
+        height: 630,
+        alt: "Redot Engine - Open source game engine for everyone",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Redot Engine: Open source game engine for everyone.",
+    description:
+      "Redot Engine is an open-source game engine that enables developers to create stunning games with ease, offering powerful features, an active community, and a seamless development experience.",
+    images: ["/homepage.webp"], //! change image path here to the actual image
+    creator: "@Redot_Engine",
+  },
 };
 
 export default async function RootLayout({

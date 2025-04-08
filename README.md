@@ -17,6 +17,8 @@ This is the official website for the **Redot Engine**, providing information, re
 
 ## Build from source
 
+Bun, Node.js, Deno and others can be used, but we are using Bun.
+
 ### Install Bun
 
 Bun is a fast JavaScript runtime like Node.js, but with a built-in package manager. If you haven't installed it yet, you can do so by running:
@@ -59,6 +61,10 @@ Build the Next.js application for production using the following command:
 ```bash
 bun build
 ```
+
+## Hardware Requirement
+
+Unfortunately this project does not work with old hardwares. We recommend to use recent hardware.
 
 ## Contributors
 
