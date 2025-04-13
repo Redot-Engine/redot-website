@@ -6,17 +6,22 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { IconCookie } from "@tabler/icons-react";
 
+interface CookieConsentProps {
+  readonly onAcceptCallback?: () => void;
+  readonly onDeclineCallback?: () => void;
+}
+
 export default function CookieConsent({
   onAcceptCallback = () => {},
   onDeclineCallback = () => {},
-}) {
+}: Readonly<CookieConsentProps>) {
   const [isOpen, setIsOpen] = useState(false);
   const [hide, setHide] = useState(false);
 
   const accept = () => {
     setIsOpen(false);
     document.cookie =
-      "cookieConsent=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+      "cookieConsent=true; path=/; max-age=31536000; SameSite=Lax";
     setTimeout(() => {
       setHide(true);
     }, 700);
@@ -32,46 +37,58 @@ export default function CookieConsent({
   };
 
   useEffect(() => {
+    let consentGiven = false;
     try {
-      if (!document.cookie.includes("cookieConsent=true")) {
-        setIsOpen(true);
-      } else {
-        setTimeout(() => {
-          setHide(true);
-        }, 700);
-      }
+      consentGiven = document.cookie.includes("cookieConsent=true");
     } catch (e) {
-      console.log("Error: ", e);
+      console.error("Error accessing document.cookie:", e);
+    }
+
+    if (!consentGiven) {
+      setIsOpen(true);
+    } else {
+      setHide(true);
     }
   }, []);
 
+  if (hide) {
+    return null;
+  }
+
   return (
     <div
+      aria-labelledby="cookie-consent-title"
+      aria-describedby="cookie-consent-description"
       className={cn(
         "fixed bottom-0 left-0 right-0 z-[200] w-full duration-700 md:bottom-4 md:left-4 md:max-w-md",
         !isOpen
           ? "translate-y-8 opacity-0 transition-[opacity,transform]"
-          : "translate-y-0 opacity-100 transition-[opacity,transform]",
-        hide && "hidden"
+          : "translate-y-0 opacity-100 transition-[opacity,transform]"
       )}
     >
       <div className="m-3 rounded-md border border-border bg-background shadow-lg dark:bg-card">
         <div className="grid gap-2">
           <div className="flex h-14 items-center justify-between border-b border-border p-4">
-            <h1 className="text-lg font-medium">We use cookies</h1>
-            <IconCookie className="h-[1.2rem] w-[1.2rem]" />
+            <h3
+              id="cookie-consent-title"
+              className="text-lg font-medium text-foreground"
+            >
+              We use cookies
+            </h3>
+            <IconCookie className="h-[1.2rem] w-[1.2rem]" aria-hidden="true" />
           </div>
           <div className="p-4">
-            <p className="text-start text-sm font-normal">
+            <p
+              id="cookie-consent-description"
+              className="text-start text-sm font-normal"
+            >
               We use cookies to ensure you get the best experience on our
               website. For more information on how we use cookies, please see
               our cookie policy.
               <br />
               <br />
               <span className="text-xs">
-                By clicking &quot;
-                <span className="font-medium opacity-80">Accept</span>&quot;,
-                you agree to our use of cookies.
+                By clicking &quot;Accept&quot;, you agree to our use of cookies.
               </span>
               <br />
               <Link href="/privacy" className="text-xs underline">
@@ -79,11 +96,16 @@ export default function CookieConsent({
               </Link>
             </p>
           </div>
-          <div className="flex gap-2 border-t border-border p-4 py-5 dark:bg-background/20">
-            <Button onClick={accept} className="w-full">
+          <div className="flex gap-3 border-t border-border p-4 dark:bg-muted/50">
+            <Button onClick={accept} className="w-full" size="sm">
               Accept
             </Button>
-            <Button onClick={decline} className="w-full" variant="secondary">
+            <Button
+              onClick={decline}
+              className="w-full"
+              variant="outline"
+              size="sm"
+            >
               Decline
             </Button>
           </div>
