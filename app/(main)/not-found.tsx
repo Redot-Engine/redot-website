@@ -5,5 +5,5 @@ import { DefaultNotFound } from "@/components/DefaultNotFound";
 export const runtime = "edge";
 
 export default function NotFound() {
-  return <DefaultNotFound />;
+  return <DefaultNotFound showHeader={false} showFooter={false} />;
 }
