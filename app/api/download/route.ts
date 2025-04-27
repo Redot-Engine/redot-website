@@ -51,9 +51,9 @@ export async function GET(request: NextRequest) {
   const platform = searchParams.get("platform");
   const arch = searchParams.get("arch");
 
-  if (!platform || !arch) {
+  if (!platform || !arch || !channel) {
     return NextResponse.json(
-      { error: "Platform and architecture are required" },
+      { error: "Platform, architecture, and channel are required" },
       { status: 400 }
     );
   }
