@@ -151,19 +151,27 @@
   },
   "downloadDialog": {
     "downloadButton": "立即下载",
+    "downloading": "正在下载...",
     "title": "选择下载版本",
     "description": "选择最适合您需求的版本。",
+    "currentVersions": "当前版本",
     "stable": {
       "name": "稳定版本",
-      "description": "推荐给大多数用户"
+      "description": "推荐大多数用户使用"
     },
     "latest": {
       "name": "最新版本",
-      "description": "前沿功能，可能有错误"
+      "description": "尖端功能，可能存在问题"
     },
     "mono": {
-      "name": "Mono版本",
-      "description": "包括对C#的支持"
+      "name": "Mono 版本",
+      "description": "包括对 C# 的支持"
+    },
+    "archive": {
+      "name": "存档",
+      "note": "注意：存档版本可能没有最新功能和安全更新。",
+      "loadError": "无法加载版本信息",
+      "downloadArchive": "下载 {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +210,16 @@
     "title": "支持的平台",
     "description": "Redot Engine 在各种平台上运行流畅，确保兼容性。"
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
       "title": "Redot Engine 系统要求",
-      "description": {
-        "general": "推荐：支持 Vulkan 1.0 的硬件。最低：支持 OpenGL 3.3 / OpenGL ES 3.0 的硬件。",
-        "dotnet": "额外要求：.NET 版本的要求：",
-        "dotnetLink": ".NET SDK"
-      }
+      "description": "推荐：支持 Vulkan 1.0 的硬件。最低：支持 OpenGL 3.3 / OpenGL ES 3.0 的硬件。 .NET 版本的附加要求：",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "什么是 Redot Engine？",
-      "description": "Redot Engine 是一个免费的开源游戏开发平台，适用于 2D 和 3D 项目。基于 Godot，它为各级开发者提供灵活性和易用性，支持跨平台开发，并拥有一个协作社区。",
-      "learnMoreButton": "了解更多关于 Redot Engine"
+      "description": "Redot Engine 是一个免费的开源 2D 和 3D 游戏开发平台，基于 Godot，提供灵活性、易用性和跨平台支持。",
+      "learnMoreButton": "关于 Redot Engine"
     }
   },
   "downloadHelp": {

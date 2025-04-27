@@ -12,6 +12,10 @@ export const formatDate = (date: string | Date): string =>
     year: "numeric",
   });
 
-export function sanitizeInput(input: string) {
+export const sanitizeInput = (input: string) => {
   return input.replace(/[^\w\s-]/g, "");
-}
+};
+
+export const capitalizeFirstLetter = (string: string) => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+};

@@ -151,19 +151,27 @@
   },
   "downloadDialog": {
     "downloadButton": "今すぐダウンロード",
-    "title": "ダウンロードバージョンを選択",
-    "description": "ニーズに最も適したバージョンを選択してください。",
+    "downloading": "ダウンロード中...",
+    "title": "ダウンロードするバージョンを選択",
+    "description": "ニーズに最適なバージョンを選択してください。",
+    "currentVersions": "現在のバージョン",
     "stable": {
       "name": "安定版",
-      "description": "ほとんどのユーザーに推奨されます"
+      "description": "ほとんどのユーザーに推奨"
     },
     "latest": {
       "name": "最新バージョン",
-      "description": "最先端の機能、不具合がある可能性があります"
+      "description": "最先端の機能、バグがある可能性があります"
     },
     "mono": {
-      "name": "モノバージョン",
-      "description": "C# のサポートを含みます"
+      "name": "Monoバージョン",
+      "description": "C# のサポートを含む"
+    },
+    "archive": {
+      "name": "アーカイブ",
+      "note": "注意: アーカイブされたバージョンには最新の機能やセキュリティ更新が含まれない場合があります。",
+      "loadError": "バージョン情報を読み込めませんでした",
+      "downloadArchive": "{version} をダウンロード"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +210,16 @@
     "title": "サポートされているプラットフォーム",
     "description": "Redot Engineはさまざまなプラットフォームでスムーズに動作し、互換性を確保します。"
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Redot Engineシステム要件",
-      "description": {
-        "general": "推奨: Vulkan 1.0対応ハードウェア。最小: OpenGL 3.3 / OpenGL ES 3.0対応ハードウェア。",
-        "dotnet": ".NETバージョンの追加要件:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Redot Engine システム要件",
+      "description": "推奨：Vulkan 1.0 互換のハードウェア。最小：OpenGL 3.3 / OpenGL ES 3.0 互換のハードウェア。 .NET バージョンの追加要件：",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Redot Engineとは？",
-      "description": "Redot Engineは、2Dおよび3Dプロジェクト用の無料オープンソースゲーム開発プラットフォームです。Godotをベースにしており、すべての開発者に柔軟性と使いやすさを提供し、クロスプラットフォーム対応と共同作業のコミュニティが特徴です。",
-      "learnMoreButton": "Redot Engineについてもっと学ぶ"
+      "description": "Redot Engineは、Godotをベースにした無料でオープンソースの2Dおよび3Dゲーム開発プラットフォームで、柔軟性、使いやすさ、クロスプラットフォーム対応を提供します。",
+      "learnMoreButton": "Redot Engineについて"
     }
   },
   "downloadHelp": {

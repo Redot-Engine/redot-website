@@ -149,9 +149,11 @@
     "description": "Download Redot Engine, the powerful platform for building 2D and 3D cross-platform games and interactive experiences."
   },
   "downloadDialog": {
-    "downloadButton": "Download now",
+    "downloadButton": "Download Now",
+    "downloading": "Downloading...",
     "title": "Choose Download Version",
     "description": "Select the version that best suits your needs.",
+    "currentVersions": "Current Versions",
     "stable": {
       "name": "Stable Version",
       "description": "Recommended for most users"
@@ -163,6 +165,12 @@
     "mono": {
       "name": "Mono Version",
       "description": "Includes support for C#"
+    },
+    "archive": {
+      "name": "Archive",
+      "note": "Note: Archived versions may not have the latest features and security updates.",
+      "loadError": "Unable to load version information",
+      "downloadArchive": "Download {version}"
     }
   },
   "downloadThreeSteps": {
@@ -198,22 +206,19 @@
   },
   "downloadSupportedPlatform": {
     "badge": "",
-    "title": "Supported platforms",
+    "title": "Supported Platforms",
     "description": "Redot Engine runs smoothly on various platforms, ensuring compatibility."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
       "title": "Redot Engine System Requirements",
-      "description": {
-        "general": "Recommended: Vulkan 1.0 compatible hardware. Minimal: OpenGL 3.3 / OpenGL ES 3.0 compatible hardware.",
-        "dotnet": "Additional requirements for the .NET version:",
-        "dotnetLink": ".NET SDK"
-      }
+      "description": "Recommended: Vulkan 1.0 compatible hardware. Minimal: OpenGL 3.3 / OpenGL ES 3.0 compatible hardware. Additional requirements for the .NET version:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "What is Redot Engine?",
-      "description": "Redot Engine is a free, open-source game development platform for 2D and 3D projects. Based on Godot, it offers flexibility and ease of use for developers of all levels, with cross-platform support and a collaborative community.",
-      "learnMoreButton": "Learn More About Redot Engine"
+      "description": "Redot Engine is a free, open-source platform for 2D and 3D game development, based on Godot, offering flexibility, ease of use, and cross-platform support.",
+      "learnMoreButton": "About Redot Engine"
     }
   },
   "downloadHelp": {

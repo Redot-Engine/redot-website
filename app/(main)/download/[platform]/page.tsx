@@ -1,20 +1,24 @@
 import { DownloadHero } from "@/components/sections/download/DownloadHero";
 import { DownloadThreeSteps } from "@/components/sections/download/DownloadThreeSteps";
 import { DownloadSupportedPlatform } from "@/components/sections/download/DownloadSupportedPlatform";
-import { DownloadInformation } from "@/components/sections/download/DownloadInformation";
+import { DownloadOverview } from "@/components/sections/download/DownloadOverview";
 import { Metadata } from "next";
 import { links } from "@/constants/links";
 import { CTA } from "@/components/CTA";
-
-const capitalizeFirstLetter = (string: string) => {
-  return string.charAt(0).toUpperCase() + string.slice(1);
-};
+import { capitalizeFirstLetter } from "@/lib/utils";
+import { platformMapping } from "@/constants/platformMapping";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata(props: {
   readonly params: Promise<{ platform: string }>;
 }): Promise<Metadata> {
   const params = await props.params;
   const platform = params.platform;
+
+  if (!Object.keys(platformMapping).includes(platform)) {
+    notFound();
+  }
+
   const capitalizedPlatform = capitalizeFirstLetter(platform);
 
   return {
@@ -24,16 +28,21 @@ export async function generateMetadata(props: {
 
 export default async function DownloadPlatform({
   params,
-}: {
+}: Readonly<{
   params: Promise<{ platform: string }>;
-}) {
+}>) {
   const platform = (await params).platform;
+
+  if (!Object.keys(platformMapping).includes(platform)) {
+    notFound();
+  }
+
   return (
     <div>
       <DownloadHero platform={platform} />
       <DownloadThreeSteps />
       <DownloadSupportedPlatform />
-      <DownloadInformation />
+      <DownloadOverview />
       <CTA
         titleKey="downloadHelp.title"
         descriptionKey="downloadHelp.description"

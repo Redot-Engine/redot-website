@@ -1,18 +1,22 @@
 import Link from "next/link";
 
-interface ThreeStepsItemProps {
+interface StepsItemProps {
   title: string;
   description: string;
-  links: { text: string; url: string }[];
+  links: {
+    text: string;
+    url: string;
+    icon?: React.ReactNode;
+  }[];
 }
 
-export const ThreeStepsItem = ({
+export const StepsItem = ({
   title,
   description,
   links,
-}: ThreeStepsItemProps) => {
+}: Readonly<StepsItemProps>) => {
   return (
-    <div className="flex flex-col gap-4 p-6">
+    <div className="flex flex-col gap-4 text-pretty p-3 md:p-6">
       <h3 className="text-xl font-medium">{title}</h3>
       <p className="text-muted-foreground">{description}</p>
       <div className="flex flex-col gap-2">
@@ -22,8 +26,9 @@ export const ThreeStepsItem = ({
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 underline underline-offset-4 transition-all duration-200 hover:text-blue-600"
+            className="flex items-center gap-2 text-orange-400 underline-offset-4 hover:underline"
           >
+            {link.icon}
             {link.text}
           </Link>
         ))}

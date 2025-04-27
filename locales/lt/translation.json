@@ -151,19 +151,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Atsisiųsti dabar",
+    "downloading": "Atsisiunčiama...",
     "title": "Pasirinkite atsisiuntimo versiją",
     "description": "Pasirinkite versiją, kuri geriausiai atitinka jūsų poreikius.",
+    "currentVersions": "Dabartinės versijos",
     "stable": {
       "name": "Stabili versija",
-      "description": "Rekomenduojama daugeliui vartotojų"
+      "description": "Rekomenduojama daugumai vartotojų"
     },
     "latest": {
       "name": "Naujausia versija",
-      "description": "Pirmaujančios funkcijos, gali turėti klaidų"
+      "description": "Naujausios funkcijos, gali būti klaidų"
     },
     "mono": {
       "name": "Mono versija",
-      "description": "Apima C# palaikymą"
+      "description": "Įtraukia C# palaikymą"
+    },
+    "archive": {
+      "name": "Archyvas",
+      "note": "Pastaba: Archyvinės versijos gali neturėti naujausių funkcijų ir saugos atnaujinimų.",
+      "loadError": "Nepavyko įkelti versijos informacijos",
+      "downloadArchive": "Atsisiųsti {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +210,16 @@
     "title": "Palaikomos platformos",
     "description": "Redot Engine veikia sklandžiai įvairiose platformose, užtikrinant suderinamumą."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Redot Engine sistemos reikalavimai",
-      "description": {
-        "general": "Rekomenduojama: Vulkan 1.0 suderinama aparatinė įranga. Minimalūs reikalavimai: OpenGL 3.3 / OpenGL ES 3.0 suderinama aparatinė įranga.",
-        "dotnet": "Papildomi reikalavimai .NET versijai:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Redot Engine Sistemos reikalavimai",
+      "description": "Rekomenduojama: Vulkan 1.0 suderinama aparatinė įranga. Minimalūs reikalavimai: OpenGL 3.3 / OpenGL ES 3.0 suderinama aparatinė įranga. Papildomi reikalavimai .NET versijai:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Kas yra Redot Engine?",
-      "description": "Redot Engine yra nemokama, atvirojo kodo žaidimų kūrimo platforma 2D ir 3D projektams. Pagal Godot variklį, jis suteikia lankstumą ir lengvumą visiems kūrėjams, su kryžminiu palaikymu ir bendradarbiavimo bendruomene.",
-      "learnMoreButton": "Sužinokite daugiau apie Redot Engine"
+      "description": "Redot Engine yra nemokama atviro kodo platforma 2D ir 3D žaidimų kūrimui, pagrįsta Godot, siūlanti lankstumą, lengvumą naudoti ir kryžminę platformų palaikymą.",
+      "learnMoreButton": "Apie Redot Engine"
     }
   },
   "downloadHelp": {

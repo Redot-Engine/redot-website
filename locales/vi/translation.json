@@ -151,8 +151,10 @@
   },
   "downloadDialog": {
     "downloadButton": "Tải xuống ngay",
+    "downloading": "Đang tải xuống...",
     "title": "Chọn phiên bản tải xuống",
     "description": "Chọn phiên bản phù hợp nhất với nhu cầu của bạn.",
+    "currentVersions": "Phiên bản hiện tại",
     "stable": {
       "name": "Phiên bản ổn định",
       "description": "Khuyến nghị cho hầu hết người dùng"
@@ -164,6 +166,12 @@
     "mono": {
       "name": "Phiên bản Mono",
       "description": "Bao gồm hỗ trợ C#"
+    },
+    "archive": {
+      "name": "Lưu trữ",
+      "note": "Lưu ý: Các phiên bản lưu trữ có thể không có các tính năng và cập nhật bảo mật mới nhất.",
+      "loadError": "Không thể tải thông tin phiên bản",
+      "downloadArchive": "Tải xuống {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +210,16 @@
     "title": "Các nền tảng hỗ trợ",
     "description": "Redot Engine hoạt động mượt mà trên nhiều nền tảng, đảm bảo tính tương thích."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Yêu cầu hệ thống Redot Engine",
-      "description": {
-        "general": "Khuyến nghị: Phần cứng tương thích Vulkan 1.0. Tối thiểu: Phần cứng tương thích OpenGL 3.3 / OpenGL ES 3.0.",
-        "dotnet": "Yêu cầu bổ sung cho phiên bản .NET:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Yêu cầu hệ thống cho Redot Engine",
+      "description": "Khuyến nghị: Phần cứng tương thích Vulkan 1.0. Tối thiểu: Phần cứng tương thích OpenGL 3.3 / OpenGL ES 3.0. Yêu cầu bổ sung cho phiên bản .NET:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Redot Engine là gì?",
-      "description": "Redot Engine là một nền tảng phát triển game mã nguồn mở miễn phí dành cho các dự án 2D và 3D. Dựa trên Godot, nó cung cấp tính linh hoạt và dễ sử dụng cho các nhà phát triển ở mọi cấp độ, với hỗ trợ đa nền tảng và cộng đồng hợp tác.",
-      "learnMoreButton": "Tìm hiểu thêm về Redot Engine"
+      "description": "Redot Engine là một nền tảng mã nguồn mở miễn phí dành cho phát triển game 2D và 3D, dựa trên Godot, cung cấp tính linh hoạt, dễ sử dụng và hỗ trợ đa nền tảng.",
+      "learnMoreButton": "Về Redot Engine"
     }
   },
   "downloadHelp": {

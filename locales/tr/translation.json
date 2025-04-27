@@ -150,20 +150,28 @@
     "downloadButton": "Hemen indir"
   },
   "downloadDialog": {
-    "downloadButton": "Şimdi indir",
-    "title": "İndirilecek sürümü seçin",
+    "downloadButton": "Şimdi İndir",
+    "downloading": "İndiriliyor...",
+    "title": "İndirme Sürümünü Seç",
     "description": "İhtiyaçlarınıza en uygun sürümü seçin.",
+    "currentVersions": "Mevcut Sürümler",
     "stable": {
-      "name": "Kararlı sürüm",
+      "name": "Kararlı Sürüm",
       "description": "Çoğu kullanıcı için önerilir"
     },
     "latest": {
-      "name": "En son sürüm",
-      "description": "Öncü özellikler, hatalar içerebilir"
+      "name": "En Son Sürüm",
+      "description": "En yeni özellikler, hatalar olabilir"
     },
     "mono": {
-      "name": "Mono sürümü",
+      "name": "Mono Sürümü",
       "description": "C# desteği içerir"
+    },
+    "archive": {
+      "name": "Arşiv",
+      "note": "Not: Arşivlenmiş sürümler en yeni özellikleri ve güvenlik güncellemelerini içermeyebilir.",
+      "loadError": "Sürüm bilgisi yüklenemedi",
+      "downloadArchive": "{version} İndir"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +210,16 @@
     "title": "Desteklenen platformlar",
     "description": "Redot Engine, çeşitli platformlarda sorunsuz çalışır ve uyumluluk sağlar."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
       "title": "Redot Engine Sistem Gereksinimleri",
-      "description": {
-        "general": "Önerilen: Vulkan 1.0 uyumlu donanım. Minimum: OpenGL 3.3 / OpenGL ES 3.0 uyumlu donanım.",
-        "dotnet": ".NET sürümü için ek gereksinimler:",
-        "dotnetLink": ".NET SDK"
-      }
+      "description": "Tavsiye edilen: Vulkan 1.0 uyumlu donanım. Minimum: OpenGL 3.3 / OpenGL ES 3.0 uyumlu donanım. .NET sürümü için ek gereksinimler:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Redot Engine Nedir?",
-      "description": "Redot Engine, 2D ve 3D projeler için ücretsiz ve açık kaynaklı bir oyun geliştirme platformudur. Godot’a dayalı olan Redot, geliştiricilere esneklik ve kolaylık sağlar, çapraz platform desteği ve işbirliğine dayalı bir topluluk sunar.",
-      "learnMoreButton": "Redot Engine Hakkında Daha Fazla Bilgi Edinin"
+      "description": "Redot Engine, Godot'a dayalı, 2D ve 3D oyun geliştirme için ücretsiz açık kaynaklı bir platformdur. Esneklik, kullanım kolaylığı ve çapraz platform desteği sunar.",
+      "learnMoreButton": "Redot Engine Hakkında"
     }
   },
   "downloadHelp": {

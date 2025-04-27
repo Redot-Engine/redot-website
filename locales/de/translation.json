@@ -151,19 +151,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Jetzt herunterladen",
-    "title": "Wähle die Download-Version",
-    "description": "Wähle die Version, die deinen Anforderungen am besten entspricht.",
+    "downloading": "Herunterladen...",
+    "title": "Download-Version wählen",
+    "description": "Wählen Sie die Version, die am besten zu Ihren Bedürfnissen passt.",
+    "currentVersions": "Aktuelle Versionen",
     "stable": {
       "name": "Stabile Version",
       "description": "Empfohlen für die meisten Benutzer"
     },
     "latest": {
       "name": "Neueste Version",
-      "description": "Topaktuelle Funktionen, möglicherweise mit Fehlern"
+      "description": "Neueste Funktionen, möglicherweise mit Fehlern"
     },
     "mono": {
       "name": "Mono-Version",
-      "description": "Beinhaltet Unterstützung für C#"
+      "description": "Enthält Unterstützung für C#"
+    },
+    "archive": {
+      "name": "Archiv",
+      "note": "Hinweis: Archivierte Versionen enthalten möglicherweise nicht die neuesten Funktionen und Sicherheitsupdates.",
+      "loadError": "Versionsinformationen konnten nicht geladen werden",
+      "downloadArchive": "Herunterladen {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +210,16 @@
     "title": "Unterstützte Plattformen",
     "description": "Redot Engine läuft reibungslos auf verschiedenen Plattformen und gewährleistet Kompatibilität."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Redot Engine Systemanforderungen",
-      "description": {
-        "general": "Empfohlen: Vulkan 1.0 kompatible Hardware. Minimal: OpenGL 3.3 / OpenGL ES 3.0 kompatible Hardware.",
-        "dotnet": "Zusätzliche Anforderungen für die .NET-Version:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Systemanforderungen für Redot Engine",
+      "description": "Empfohlen: Hardware kompatibel mit Vulkan 1.0. Minimal: Hardware kompatibel mit OpenGL 3.3 / OpenGL ES 3.0. Zusätzliche Anforderungen für die .NET-Version:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Was ist Redot Engine?",
-      "description": "Redot Engine ist eine kostenlose, Open-Source-Spielentwicklungsplattform für 2D- und 3D-Projekte. Basierend auf Godot, bietet sie Flexibilität und Benutzerfreundlichkeit für Entwickler aller Erfahrungsstufen, mit plattformübergreifender Unterstützung und einer kollaborativen Community.",
-      "learnMoreButton": "Mehr über Redot Engine erfahren"
+      "description": "Redot Engine ist eine kostenlose Open-Source-Plattform für die Entwicklung von 2D- und 3D-Spielen, basierend auf Godot, die Flexibilität, Benutzerfreundlichkeit und plattformübergreifende Unterstützung bietet.",
+      "learnMoreButton": "Über Redot Engine"
     }
   },
   "downloadHelp": {
