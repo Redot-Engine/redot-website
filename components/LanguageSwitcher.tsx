@@ -14,17 +14,18 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
+import { useState, useEffect } from "react";
 import { Check } from "lucide-react";
 import { cn } from "@/lib/utils";
-import * as React from "react";
 import { useTranslations } from "next-intl";
 import { setLanguage, getLanguage } from "@/actions/language";
+import { Button } from "@/components/ui/button";
 
 export default function LanguageSwitcher() {
-  const [open, setOpen] = React.useState(false);
-  const [value, setValue] = React.useState("en");
+  const [open, setOpen] = useState(false);
+  const [value, setValue] = useState("en");
 
-  React.useEffect(() => {
+  useEffect(() => {
     const fetchLanguage = async () => {
       const currentLanguage = await getLanguage();
       setValue(currentLanguage);
@@ -46,12 +47,10 @@ export default function LanguageSwitcher() {
     <div className="dark">
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
-          <button
-            role="combobox"
+          <Button
+            variant="outline"
+            className="justify-between"
             aria-expanded={open}
-            aria-controls="language-selector-list"
-            className="flex items-center justify-between gap-2 text-white/80"
-            disabled={!value}
           >
             <Image
               src={`/flags/${language.find((lang) => lang.value === value)?.code}.svg`}
@@ -61,19 +60,24 @@ export default function LanguageSwitcher() {
               width="20"
               height="15"
               className="mr-2 rounded"
+              priority
             />
             {value
               ? language.find((lang) => lang.value === value)?.label
               : t("languageSelector.searchPlaceholder")}
             <IconChevronDown className="h-4 w-4 opacity-80" />
-          </button>
+          </Button>
         </PopoverTrigger>
         <PopoverContent className="w-[220px] p-0">
           <Command>
             <CommandInput
               placeholder={t("languageSelector.searchPlaceholder")}
             />
-            <CommandList>
+            <CommandList
+              onWheel={(e) => {
+                e.stopPropagation();
+              }}
+            >
               <CommandEmpty>{t("languageSelector.noResults")}</CommandEmpty>
               <CommandGroup>
                 {language.map((lang) => (
