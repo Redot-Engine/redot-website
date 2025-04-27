@@ -151,19 +151,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Letöltés most",
-    "title": "Válassza ki a letölthető verziót",
-    "description": "Válassza ki az Ön igényeinek leginkább megfelelő verziót.",
+    "downloading": "Letöltés folyamatban...",
+    "title": "Válassza ki a letöltési verziót",
+    "description": "Válassza ki azt a verziót, amely legjobban megfelel az igényeinek.",
+    "currentVersions": "Jelenlegi verziók",
     "stable": {
       "name": "Stabil verzió",
-      "description": "Ajánlott a legtöbb felhasználó számára"
+      "description": "Ajánlott a legtöbb felhasználónak"
     },
     "latest": {
       "name": "Legújabb verzió",
-      "description": "Legújabb funkciók, lehetnek hibák"
+      "description": "Legfrissebb funkciók, hibák előfordulhatnak"
     },
     "mono": {
       "name": "Mono verzió",
       "description": "Tartalmazza a C# támogatást"
+    },
+    "archive": {
+      "name": "Archívum",
+      "note": "Megjegyzés: Az archív verziók nem tartalmazhatják a legújabb funkciókat és biztonsági frissítéseket.",
+      "loadError": "Nem sikerült betölteni a verzióinformációkat",
+      "downloadArchive": "Letöltés {version}"
     }
   },
   "downloadThreeSteps": {
@@ -199,19 +207,16 @@
     "title": "Támogatott platformok",
     "description": "A Redot Engine simán működik különböző platformokon, biztosítva a kompatibilitást."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
       "title": "Redot Engine Rendszerkövetelmények",
-      "description": {
-        "general": "Ajánlott: Vulkan 1.0 kompatibilis hardver. Minimális: OpenGL 3.3 / OpenGL ES 3.0 kompatibilis hardver.",
-        "dotnet": "További követelmények a .NET verzióhoz:",
-        "dotnetLink": ".NET SDK"
-      }
+      "description": "Ajánlott: Vulkan 1.0 kompatibilis hardver. Minimális: OpenGL 3.3 / OpenGL ES 3.0 kompatibilis hardver. További követelmények a .NET verzióhoz:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
-      "title": "Mi a Redot Engine?",
-      "description": "A Redot Engine egy ingyenes, nyílt forráskódú játékfejlesztési platform 2D és 3D projektekhez. A Godot alapú motor rugalmas és könnyen használható minden szintű fejlesztő számára, keresztplatformos támogatással és egy közösségi együttműködéssel.",
-      "learnMoreButton": "Tudd meg többet a Redot Engine-ról"
+      "title": "Mi az a Redot Engine?",
+      "description": "A Redot Engine egy ingyenes, nyílt forráskódú platform 2D és 3D játékok fejlesztéséhez, amely a Godotra épül, és rugalmasságot, könnyű használatot és több platformon való támogatást kínál.",
+      "learnMoreButton": "A Redot Engine-ről"
     }
   },
   "downloadHelp": {

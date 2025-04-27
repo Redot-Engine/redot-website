@@ -151,19 +151,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Lataa nyt",
-    "title": "Valitse ladattava versio",
+    "downloading": "Ladataan...",
+    "title": "Valitse latausversio",
     "description": "Valitse versio, joka parhaiten vastaa tarpeitasi.",
+    "currentVersions": "Nykyiset versiot",
     "stable": {
       "name": "Vakaa versio",
       "description": "Suositellaan useimmille käyttäjille"
     },
     "latest": {
       "name": "Uusin versio",
-      "description": "Uusimmat ominaisuudet, voi sisältää virheitä"
+      "description": "Viimeisimmät ominaisuudet, saattaa sisältää virheitä"
     },
     "mono": {
       "name": "Mono-versio",
       "description": "Sisältää tuen C#:lle"
+    },
+    "archive": {
+      "name": "Arkisto",
+      "note": "Huomio: Arkistoidut versiot eivät välttämättä sisällä uusimpia ominaisuuksia ja tietoturvapäivityksiä.",
+      "loadError": "Versiotietojen lataaminen epäonnistui",
+      "downloadArchive": "Lataa {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +210,16 @@
     "title": "Tuetut alustat",
     "description": "Redot Engine toimii sujuvasti eri alustoilla varmistaen yhteensopivuuden."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Redot Engine -järjestelmävaatimukset",
-      "description": {
-        "general": "Suositeltu: Vulkan 1.0 -yhteensopiva laitteisto. Minimivaatimus: OpenGL 3.3 / OpenGL ES 3.0 -yhteensopiva laitteisto.",
-        "dotnet": "Lisävaatimukset .NET-version osalta:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Redot Engine Järjestelmävaatimukset",
+      "description": "Suositeltu: Vulkan 1.0 yhteensopiva laitteisto. Vähimmäisvaatimus: OpenGL 3.3 / OpenGL ES 3.0 yhteensopiva laitteisto. Lisävaatimukset .NET-versiolle:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Mikä on Redot Engine?",
-      "description": "Redot Engine on ilmainen, avoimen lähdekoodin pelinkehitysalusta 2D- ja 3D-projekteille. Godot-pohjainen, se tarjoaa joustavuutta ja helppokäyttöisyyttä kaikentasoisille kehittäjille, monialustatuen ja yhteistyökykyisen yhteisön.",
-      "learnMoreButton": "Lue lisää Redot Enginestä"
+      "description": "Redot Engine on ilmainen, avoimen lähdekoodin alusta 2D- ja 3D-pelien kehittämiseen, joka on rakennettu Godotin päälle ja tarjoaa joustavuutta, helppokäyttöisyyttä ja tuki monille alustoille.",
+      "learnMoreButton": "Tietoa Redot Enginestä"
     }
   },
   "downloadHelp": {

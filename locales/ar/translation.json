@@ -150,19 +150,27 @@
   },
   "downloadDialog": {
     "downloadButton": "تحميل الآن",
-    "title": "اختر إصدار التحميل",
-    "description": "اختر الإصدار الذي يناسب احتياجاتك.",
+    "downloading": "جارٍ التنزيل...",
+    "title": "اختر إصدار التنزيل",
+    "description": "حدد الإصدار الذي يناسب احتياجاتك.",
+    "currentVersions": "الإصدارات الحالية",
     "stable": {
       "name": "الإصدار المستقر",
       "description": "موصى به لمعظم المستخدمين"
     },
     "latest": {
       "name": "أحدث إصدار",
-      "description": "ميزات متطورة، قد تحتوي على أخطاء"
+      "description": "ميزات جديدة قد تحتوي على أخطاء"
     },
     "mono": {
-      "name": "إصدار مونو",
+      "name": "إصدار Mono",
       "description": "يتضمن دعم C#"
+    },
+    "archive": {
+      "name": "الأرشيف",
+      "note": "ملاحظة: قد لا تحتوي الإصدارات المؤرشفة على أحدث الميزات والتحديثات الأمنية.",
+      "loadError": "تعذر تحميل معلومات الإصدار",
+      "downloadArchive": "تحميل {version}"
     }
   },
   "downloadThreeSteps": {
@@ -201,19 +209,16 @@
     "title": "المنصات المدعومة",
     "description": "يعمل محرك Redot بسلاسة على منصات متنوعة، مما يضمن التوافق."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "متطلبات النظام لمحرك Redot",
-      "description": {
-        "general": "الموصى به: أجهزة متوافقة مع Vulkan 1.0. الحد الأدنى: أجهزة متوافقة مع OpenGL 3.3 / OpenGL ES 3.0.",
-        "dotnet": "متطلبات إضافية لإصدار .NET:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "متطلبات نظام Redot Engine",
+      "description": "موصى به: أجهزة متوافقة مع Vulkan 1.0. الحد الأدنى: أجهزة متوافقة مع OpenGL 3.3 / OpenGL ES 3.0. متطلبات إضافية لإصدار .NET:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
-      "title": "ما هو محرك Redot؟",
-      "description": "محرك Redot هو منصة تطوير ألعاب مجانية ومفتوحة المصدر للمشاريع ثنائية وثلاثية الأبعاد. مبني على جودوت، يوفر المرونة وسهولة الاستخدام للمطورين من جميع المستويات، مع دعم متعدد المنصات ومجتمع تعاوني.",
-      "learnMoreButton": "تعرف أكثر على محرك Redot"
+      "title": "ما هو Redot Engine؟",
+      "description": "Redot Engine هو منصة مجانية ومفتوحة المصدر لتطوير الألعاب ثنائية وثلاثية الأبعاد، مبنية على Godot، وتوفر المرونة وسهولة الاستخدام ودعم متعدد الأنظمة.",
+      "learnMoreButton": "حول Redot Engine"
     }
   },
   "downloadHelp": {

@@ -151,19 +151,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Descarcă acum",
-    "title": "Alege versiunea de descărcat",
-    "description": "Selectează versiunea care se potrivește cel mai bine nevoilor tale.",
+    "downloading": "Se descarcă...",
+    "title": "Alege versiunea de descărcare",
+    "description": "Selectați versiunea care se potrivește cel mai bine nevoilor dvs.",
+    "currentVersions": "Versiuni curente",
     "stable": {
       "name": "Versiune stabilă",
-      "description": "Recomandat pentru majoritatea utilizatorilor"
+      "description": "Recomandată pentru majoritatea utilizatorilor"
     },
     "latest": {
-      "name": "Ultima versiune",
-      "description": "Funcții de ultimă oră, poate conține erori"
+      "name": "Cea mai recentă versiune",
+      "description": "Funcții de ultimă generație, pot exista erori"
     },
     "mono": {
       "name": "Versiune Mono",
       "description": "Include suport pentru C#"
+    },
+    "archive": {
+      "name": "Arhivă",
+      "note": "Notă: Versiunile arhivate pot să nu conțină cele mai recente funcții și actualizări de securitate.",
+      "loadError": "Nu s-a putut încărca informația despre versiune",
+      "downloadArchive": "Descarcă {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +210,16 @@
     "title": "Platforme suportate",
     "description": "Redot Engine rulează perfect pe diverse platforme, asigurând compatibilitatea."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Cerințe de sistem Redot Engine",
-      "description": {
-        "general": "Recomandat: Hardware compatibil Vulkan 1.0. Minim: Hardware compatibil OpenGL 3.3 / OpenGL ES 3.0.",
-        "dotnet": "Cerințe suplimentare pentru versiunea .NET:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Cerințe de sistem pentru Redot Engine",
+      "description": "Recomandat: Hardware compatibil cu Vulkan 1.0. Minim: Hardware compatibil cu OpenGL 3.3 / OpenGL ES 3.0. Cerințe suplimentare pentru versiunea .NET:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Ce este Redot Engine?",
-      "description": "Redot Engine este o platformă de dezvoltare de jocuri gratuită și open-source pentru proiecte 2D și 3D. Bazată pe Godot, oferă flexibilitate și ușurință în utilizare pentru dezvoltatori de toate nivelele, cu suport cross-platform și o comunitate colaborativă.",
-      "learnMoreButton": "Află mai multe despre Redot Engine"
+      "description": "Redot Engine este o platformă gratuită și open-source pentru dezvoltarea de jocuri 2D și 3D, bazată pe Godot, oferind flexibilitate, ușurință în utilizare și suport multi-platformă.",
+      "learnMoreButton": "Despre Redot Engine"
     }
   },
   "downloadHelp": {

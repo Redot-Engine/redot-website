@@ -151,8 +151,10 @@
   },
   "downloadDialog": {
     "downloadButton": "Download nu",
+    "downloading": "Downloader...",
     "title": "Vælg downloadversion",
     "description": "Vælg den version, der passer bedst til dine behov.",
+    "currentVersions": "Nuværende versioner",
     "stable": {
       "name": "Stabil version",
       "description": "Anbefales til de fleste brugere"
@@ -163,7 +165,13 @@
     },
     "mono": {
       "name": "Mono version",
-      "description": "Inkluderer support til C#"
+      "description": "Inkluderer understøttelse af C#"
+    },
+    "archive": {
+      "name": "Arkiv",
+      "note": "Bemærk: Arkiverede versioner indeholder måske ikke de nyeste funktioner og sikkerhedsopdateringer.",
+      "loadError": "Kunne ikke indlæse versionsoplysninger",
+      "downloadArchive": "Download {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +210,16 @@
     "title": "Understøttede platforme",
     "description": "Redot Engine kører problemfrit på forskellige platforme og sikrer kompatibilitet."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
       "title": "Redot Engine Systemkrav",
-      "description": {
-        "general": "Anbefalet: Vulkan 1.0 kompatibelt hardware. Minimal: OpenGL 3.3 / OpenGL ES 3.0 kompatibelt hardware.",
-        "dotnet": "Yderligere krav til .NET versionen:",
-        "dotnetLink": ".NET SDK"
-      }
+      "description": "Anbefalet: Vulkan 1.0 kompatibel hardware. Minimum: OpenGL 3.3 / OpenGL ES 3.0 kompatibel hardware. Yderligere krav til .NET-versionen:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Hvad er Redot Engine?",
-      "description": "Redot Engine er en gratis, open-source spiludviklingsplatform for 2D og 3D projekter. Baseret på Godot tilbyder den fleksibilitet og brugervenlighed for udviklere på alle niveauer, med tværplatform understøttelse og et samarbejdende fællesskab.",
-      "learnMoreButton": "Lær mere om Redot Engine"
+      "description": "Redot Engine er en gratis open-source platform til 2D- og 3D-spiludvikling, baseret på Godot, som tilbyder fleksibilitet, brugervenlighed og platformunderstøttelse.",
+      "learnMoreButton": "Om Redot Engine"
     }
   },
   "downloadHelp": {

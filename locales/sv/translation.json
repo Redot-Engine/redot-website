@@ -151,19 +151,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Ladda ner nu",
+    "downloading": "Laddar ner...",
     "title": "Välj nedladdningsversion",
     "description": "Välj den version som bäst passar dina behov.",
+    "currentVersions": "Nuvarande versioner",
     "stable": {
       "name": "Stabil version",
       "description": "Rekommenderas för de flesta användare"
     },
     "latest": {
       "name": "Senaste versionen",
-      "description": "Banbrytande funktioner, kan innehålla buggar"
+      "description": "Avancerade funktioner, kan ha buggar"
     },
     "mono": {
-      "name": "Mono version",
-      "description": "Inkluderar stöd för C#"
+      "name": "Mono-version",
+      "description": "Innehåller stöd för C#"
+    },
+    "archive": {
+      "name": "Arkiv",
+      "note": "Obs: Arkiverade versioner kanske inte har de senaste funktionerna och säkerhetsuppdateringarna.",
+      "loadError": "Kunde inte ladda versionsinformation",
+      "downloadArchive": "Ladda ner {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +210,16 @@
     "title": "Stödda plattformar",
     "description": "Redot Engine körs smidigt på olika plattformar och säkerställer kompatibilitet."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Redot Engine Systemkrav",
-      "description": {
-        "general": "Rekommenderat: Vulkan 1.0-kompatibel hårdvara. Minimal: OpenGL 3.3 / OpenGL ES 3.0-kompatibel hårdvara.",
-        "dotnet": "Ytterligare krav för .NET-versionen:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Systemkrav för Redot Engine",
+      "description": "Rekommenderat: Vulkan 1.0 kompatibel hårdvara. Minimal: OpenGL 3.3 / OpenGL ES 3.0 kompatibel hårdvara. Ytterligare krav för .NET-versionen:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Vad är Redot Engine?",
-      "description": "Redot Engine är en gratis, öppen källkod spelutvecklingsplattform för 2D- och 3D-projekt. Byggd på Godot, erbjuder den flexibilitet och användarvänlighet för utvecklare på alla nivåer, med plattformsoberoende stöd och ett samarbetsvilligt community.",
-      "learnMoreButton": "Lär dig mer om Redot Engine"
+      "description": "Redot Engine är en gratis, öppen källkod plattform för utveckling av 2D och 3D-spel, baserat på Godot, som erbjuder flexibilitet, användarvänlighet och plattformsoberoende stöd.",
+      "learnMoreButton": "Om Redot Engine"
     }
   },
   "downloadHelp": {

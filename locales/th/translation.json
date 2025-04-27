@@ -151,19 +151,27 @@
   },
   "downloadDialog": {
     "downloadButton": "ดาวน์โหลดตอนนี้",
+    "downloading": "กำลังดาวน์โหลด...",
     "title": "เลือกเวอร์ชันดาวน์โหลด",
-    "description": "เลือกเวอร์ชันที่เหมาะสมที่สุดกับความต้องการของคุณ",
+    "description": "เลือกเวอร์ชันที่เหมาะสมกับความต้องการของคุณ",
+    "currentVersions": "เวอร์ชันปัจจุบัน",
     "stable": {
       "name": "เวอร์ชันเสถียร",
       "description": "แนะนำสำหรับผู้ใช้ส่วนใหญ่"
     },
     "latest": {
       "name": "เวอร์ชันล่าสุด",
-      "description": "คุณสมบัติที่ล้ำสมัย อาจมีข้อบกพร่อง"
+      "description": "คุณสมบัติใหม่ล่าสุด อาจมีข้อผิดพลาด"
     },
     "mono": {
       "name": "เวอร์ชัน Mono",
-      "description": "รองรับ C#"
+      "description": "รวมการสนับสนุนสำหรับ C#"
+    },
+    "archive": {
+      "name": "คลังข้อมูล",
+      "note": "หมายเหตุ: เวอร์ชันที่ถูกจัดเก็บอาจไม่มีคุณสมบัติใหม่ล่าสุดและการอัปเดตความปลอดภัย",
+      "loadError": "ไม่สามารถโหลดข้อมูลเวอร์ชัน",
+      "downloadArchive": "ดาวน์โหลด {version}"
     }
   },
   "downloadThreeSteps": {
@@ -203,19 +211,16 @@
     "title": "แพลตฟอร์มที่รองรับ",
     "description": "Redot Engine ทำงานได้อย่างราบรื่นบนหลายแพลตฟอร์มเพื่อให้แน่ใจว่าเข้ากันได้"
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "ข้อกำหนดระบบสำหรับ Redot Engine",
-      "description": {
-        "general": "แนะนำ: ฮาร์ดแวร์ที่รองรับ Vulkan 1.0. ขั้นต่ำ: ฮาร์ดแวร์ที่รองรับ OpenGL 3.3 / OpenGL ES 3.0",
-        "dotnet": "ข้อกำหนดเพิ่มเติมสำหรับเวอร์ชัน .NET:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "ข้อกำหนดของระบบสำหรับ Redot Engine",
+      "description": "แนะนำ: ฮาร์ดแวร์ที่รองรับ Vulkan 1.0. ขั้นต่ำ: ฮาร์ดแวร์ที่รองรับ OpenGL 3.3 / OpenGL ES 3.0. ข้อกำหนดเพิ่มเติมสำหรับเวอร์ชัน .NET:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Redot Engine คืออะไร?",
-      "description": "Redot Engine คือแพลตฟอร์มพัฒนาเกมโอเพ่นซอร์สฟรีสำหรับโปรเจ็กต์ 2D และ 3D. อิงจาก Godot มันมอบความยืดหยุ่นและความง่ายในการใช้งานสำหรับนักพัฒนาทุกระดับ, พร้อมรองรับหลายแพลตฟอร์มและชุมชนที่ร่วมมือกัน",
-      "learnMoreButton": "เรียนรู้เพิ่มเติมเกี่ยวกับ Redot Engine"
+      "description": "Redot Engine เป็นแพลตฟอร์มโอเพนซอร์สฟรีสำหรับการพัฒนาเกม 2D และ 3D ที่สร้างจาก Godot ซึ่งมีความยืดหยุ่น ใช้งานง่าย และรองรับหลายแพลตฟอร์ม",
+      "learnMoreButton": "เกี่ยวกับ Redot Engine"
     }
   },
   "downloadHelp": {

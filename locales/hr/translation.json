@@ -151,19 +151,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Preuzmi sada",
+    "downloading": "Preuzimanje...",
     "title": "Odaberite verziju za preuzimanje",
     "description": "Odaberite verziju koja najbolje odgovara vašim potrebama.",
+    "currentVersions": "Trenutne verzije",
     "stable": {
       "name": "Stabilna verzija",
-      "description": "Preporučuje se za većinu korisnika"
+      "description": "Preporučeno za većinu korisnika"
     },
     "latest": {
       "name": "Najnovija verzija",
-      "description": "Najnovije značajke, moguće greške"
+      "description": "Najnovije značajke, mogući bugovi"
     },
     "mono": {
       "name": "Mono verzija",
       "description": "Uključuje podršku za C#"
+    },
+    "archive": {
+      "name": "Arhiva",
+      "note": "Napomena: Arhivirane verzije možda ne sadrže najnovije značajke i sigurnosne nadogradnje.",
+      "loadError": "Nije moguće učitati informacije o verziji",
+      "downloadArchive": "Preuzmi {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +210,16 @@
     "title": "Podržane platforme",
     "description": "Redot Engine besprijekorno radi na raznim platformama, osiguravajući kompatibilnost."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
       "title": "Sistemski zahtjevi za Redot Engine",
-      "description": {
-        "general": "Preporučeno: Vulkan 1.0 kompatibilni hardver. Minimalno: OpenGL 3.3 / OpenGL ES 3.0 kompatibilni hardver.",
-        "dotnet": "Dodatni zahtjevi za .NET verziju:",
-        "dotnetLink": ".NET SDK"
-      }
+      "description": "Preporučeno: Hardver kompatibilan s Vulkan 1.0. Minimalno: Hardver kompatibilan s OpenGL 3.3 / OpenGL ES 3.0. Dodatni zahtjevi za .NET verziju:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Što je Redot Engine?",
-      "description": "Redot Engine je besplatan, open-source game development platforma za 2D i 3D projekte. Temeljen na Godotu, nudi fleksibilnost i jednostavnost korištenja za programere svih razina, s podrškom za više platformi i suradničkom zajednicom.",
-      "learnMoreButton": "Saznajte više o Redot Engine"
+      "description": "Redot Engine je besplatna platforma otvorenog koda za razvoj 2D i 3D igara, temeljena na Godotu, koja nudi fleksibilnost, jednostavnost upotrebe i podršku za više platformi.",
+      "learnMoreButton": "O Redot Engine"
     }
   },
   "downloadHelp": {
