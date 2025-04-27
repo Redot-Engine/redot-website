@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 type Alignment = "left" | "center" | "right";
 
 interface SectionHeaderProps {
+  readonly id?: string;
   readonly section?: string;
   readonly badge?: string;
   readonly title?: string;
@@ -19,6 +20,7 @@ interface SectionHeaderProps {
 }
 
 export default function SectionHeader({
+  id,
   section,
   badge,
   title,
@@ -77,7 +79,7 @@ export default function SectionHeader({
       : `max-w-[${maxWidth}]`;
 
   return (
-    <div className={cn("mx-auto", maxWidthClass)} ref={ref}>
+    <div id={id} className={cn("mx-auto", maxWidthClass)} ref={ref}>
       {badgeContent && (
         <div className={cn("flex", badgeJustifyClass)}>
           <motion.div
