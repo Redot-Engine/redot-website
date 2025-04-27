@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import axios from "axios";
 
+export const runtime = "edge";
+
 const GITHUB_API_URL = "https://api.github.com/repos/Redot-Engine/redot-engine";
 const GITHUB_RELEASES_URL = `${GITHUB_API_URL}/releases`;
 
