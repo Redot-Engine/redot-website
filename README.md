@@ -9,7 +9,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/Redot-Engine/redot-website">
     <img src=".github/assets/logo.png" alt="Logo" width="60" height="60">
   </a>
   <h1 align="center">Redot Website</h1>
