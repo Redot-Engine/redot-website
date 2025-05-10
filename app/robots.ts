@@ -1,4 +1,7 @@
 import type { MetadataRoute } from "next";
+import { getBaseUrl } from "@/lib/base-url";
+
+const baseUrl = getBaseUrl();
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -7,6 +10,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/studio/**",
     },
-    sitemap: `${process.env.NEXT_PUBLIC_BASE_URL}/sitemap.xml`,
+    sitemap: `${baseUrl}/sitemap.xml`,
   };
 }
