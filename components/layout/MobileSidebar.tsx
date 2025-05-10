@@ -6,15 +6,16 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import Link from "next/link";
-import { header } from "@/constants/header";
-import { IconArrowRight, IconMenu, IconX } from "@tabler/icons-react";
+import { header } from "@/constants/layout/header";
+import { IconMenu, IconX } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 import * as React from "react";
-import { socialsLinks } from "@/constants/socials";
+import { SOCIALS_LINKS } from "@/constants/common/socials";
+import { SharedNavLink } from "@/components/shared/SharedNavLink";
 
 export const MobileSidebar = () => {
   const t = useTranslations("header");
@@ -46,15 +47,13 @@ export const MobileSidebar = () => {
           <div className="flex w-full flex-col">
             {header.map((link) => (
               <SheetClose key={link.label} asChild>
-                <Link
+                <SharedNavLink
+                  key={link.label}
+                  className="justify-between py-2 text-base font-medium hover:underline sm:px-4"
                   href={link.href}
-                  className="flex items-center justify-between py-2 text-base font-medium hover:underline sm:px-4"
-                  target={link.newTab ? "_blank" : "_self"}
-                  rel={link.newTab ? "noopener noreferrer" : undefined}
-                >
-                  {t(link.label)}
-                  {link.newTab && <IconArrowRight className="h-4 w-4" />}
-                </Link>
+                  label={t(link.label)}
+                  newTab={link.newTab}
+                />
               </SheetClose>
             ))}
           </div>
@@ -62,7 +61,7 @@ export const MobileSidebar = () => {
           <div className="flex w-full flex-col gap-4">
             <SheetClose asChild>
               <Button variant="outline" asChild>
-                <Link className="w-full" href={socialsLinks.discord}>
+                <Link className="w-full" href={SOCIALS_LINKS.discord}>
                   {t("discordButton")}
                 </Link>
               </Button>
