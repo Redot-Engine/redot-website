@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { remark } from "remark";
 import html from "remark-html";
+import { IconLoader2 } from "@tabler/icons-react";
 
 interface TextFetcherProps {
   readonly url: string;
@@ -49,7 +50,13 @@ const TextFetcher = ({
   }, [url]);
 
   if (!textContent) {
-    return loadingComponent || <div>Loading...</div>;
+    return (
+      loadingComponent || (
+        <div className="py-10 text-center">
+          <IconLoader2 className="mx-auto h-6 w-6 animate-spin text-gray-500 dark:text-gray-400" />
+        </div>
+      )
+    );
   }
 
   return (
