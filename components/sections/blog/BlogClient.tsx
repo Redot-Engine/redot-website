@@ -34,9 +34,9 @@ export default function BlogClient({
 
   const [latestBlog] = useState<Post | null>(initialLatestBlog);
   const [posts, setPosts] = useState<Post[]>(initialPosts);
-  const [search, setSearch] = useState(searchParams.get("search") || "");
+  const [search, setSearch] = useState(searchParams.get("search") ?? "");
   const [selectedTag, setSelectedTag] = useState<string>(
-    searchParams.get("tag") || ""
+    searchParams.get("tag") ?? ""
   );
 
   useEffect(() => {
