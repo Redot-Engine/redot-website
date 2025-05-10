@@ -1,4 +1,4 @@
-import { links } from "@/constants/links";
+import { LINKS } from "@/constants/common/links";
 
 interface Footer {
   title: string;
@@ -12,15 +12,16 @@ export const footer: Footer[] = [
     title: "product.title",
     children: [
       { title: "product.children.download", href: "/download" },
-      { title: "product.children.status", href: links.status },
-      { title: "product.children.donate", href: links.donation, newTab: true },
+      { title: "product.children.status", href: LINKS.status, newTab: true },
+      { title: "product.children.donate", href: LINKS.donation, newTab: true },
       {
         title: "product.children.documentation",
-        href: links.documentation,
+        href: LINKS.documentation,
+        newTab: true,
       },
       {
         title: "product.children.sourceCode",
-        href: links.github,
+        href: LINKS.github,
         newTab: true,
       },
     ],
@@ -31,33 +32,19 @@ export const footer: Footer[] = [
       { title: "resources.children.blog", href: "/blog" },
       {
         title: "resources.children.feedback",
-        href: links.feedback,
+        href: LINKS.feedback,
         newTab: true,
       },
       { title: "resources.children.community", href: "/community" },
-      { title: "resources.children.pressKit", href: links.pressKit },
+      {
+        title: "resources.children.pressKit",
+        href: LINKS.pressKit,
+        newTab: true,
+      },
       { title: "resources.children.contact", href: "/contact" },
       { title: "resources.children.rss", href: "/api/feed.xml", newTab: true },
     ],
   },
-  // {
-  //   title: "betaPrograms.title",
-  //   children: [
-  //     {
-  //       title: "betaPrograms.children.launcher",
-  //       href: "https://github.com/Redot-Experimental/launcher",
-  //     },
-  //     {
-  //       title: "betaPrograms.children.academy",
-  //       href: links.academy,
-  //       newTab: true,
-  //     },
-  //     {
-  //       title: "betaPrograms.children.engineExperimental",
-  //       href: links.engineExperimental,
-  //     },
-  //   ],
-  // },
   {
     title: "policies.title",
     children: [
@@ -70,7 +57,7 @@ export const footer: Footer[] = [
       { title: "policies.children.licenses", href: "/licenses" },
       {
         title: "policies.children.contributionGuidelines",
-        href: links.contribute,
+        href: LINKS.contribute,
         newTab: true,
       },
     ],
