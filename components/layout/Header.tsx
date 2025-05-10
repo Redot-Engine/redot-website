@@ -1,11 +1,11 @@
-import Banner from "@/components/Banner";
+import Banner from "@/components/layout/Banner";
 import Link from "next/link";
 import Image from "next/image";
-import { header } from "@/constants/header";
+import { header } from "@/constants/layout/header";
 import { Button } from "@/components/ui/button";
-import { MobileSidebar } from "@/components/MobileSidebar";
+import { MobileSidebar } from "@/components/layout/MobileSidebar";
 import { useTranslations } from "next-intl";
-import { IconArrowUpRight } from "@tabler/icons-react";
+import { SharedNavLink } from "@/components/shared/SharedNavLink";
 
 export const Header = () => {
   const t = useTranslations("header");
@@ -34,18 +34,13 @@ export const Header = () => {
             <div className="hidden md:block">
               <nav className="flex items-center gap-4 md:gap-8">
                 {header.map((link) => (
-                  <Link
+                  <SharedNavLink
                     key={link.label}
-                    className="flex items-center text-base font-medium text-muted-foreground transition-colors duration-300 hover:text-primary"
                     href={link.href}
-                    target={link.newTab ? "_blank" : "_self"}
-                    rel={link.newTab ? "noopener noreferrer" : undefined}
-                  >
-                    {t(link.label)}
-                    {link.newTab && (
-                      <IconArrowUpRight className="ml-2 h-4 w-4" />
-                    )}
-                  </Link>
+                    className="text-base font-medium text-muted-foreground transition-colors duration-300 hover:text-primary"
+                    label={t(link.label)}
+                    newTab={link.newTab}
+                  />
                 ))}
                 <Button asChild>
                   <Link href="/download">{t("downloadButton")}</Link>

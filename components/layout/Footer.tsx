@@ -6,13 +6,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { socials } from "@/constants/socials";
-import { links } from "@/constants/links";
-import { footer } from "@/constants/footer";
+import { FOOTER_SOCIALS } from "@/constants/common/socials";
+import { LINKS } from "@/constants/common/links";
+import { footer } from "@/constants/layout/footer";
 import { useTranslations } from "next-intl";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
-import { IconArrowUpRight } from "@tabler/icons-react";
-import { ModeToggle } from "@/components/ModeToggle";
+import LanguageSwitcher from "@/components/layout/LanguageSwitcher";
+import { ModeToggle } from "@/components/layout/ModeToggle";
+import { SharedNavLink } from "@/components/shared/SharedNavLink";
 
 export const Footer = () => {
   const t = useTranslations("footer");
@@ -25,7 +25,7 @@ export const Footer = () => {
             <div className="flex flex-col gap-8">
               <LanguageSwitcher />
               <div className="flex flex-row gap-4">
-                {socials.map((social) => (
+                {FOOTER_SOCIALS.map((social) => (
                   <Link
                     key={social.url}
                     href={social.url}
@@ -52,17 +52,12 @@ export const Footer = () => {
                   <ul className="mt-4 space-y-2">
                     {category.children?.map((item) => (
                       <li key={item.title}>
-                        <Link
+                        <SharedNavLink
                           href={item.href ?? "#"}
-                          className="flex items-center text-white/60 transition duration-300 hover:text-white"
-                          target={item.newTab ? "_blank" : "_self"}
-                          rel={item.newTab ? "noopener noreferrer" : undefined}
-                        >
-                          {t(item.title)}
-                          {item.newTab && (
-                            <IconArrowUpRight className="ml-2 h-4 w-4" />
-                          )}
-                        </Link>
+                          className="text-white/60 transition duration-300 hover:text-white"
+                          label={t(item.title)}
+                          newTab={item.newTab}
+                        />
                       </li>
                     ))}
                   </ul>
@@ -87,7 +82,7 @@ export const Footer = () => {
                 <span className="block lg:inline">
                   {t("copyright.website")}&nbsp;
                   <Link
-                    href={links.websiteGithub}
+                    href={LINKS.websiteGithub}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="underline underline-offset-4 transition-all duration-300 hover:text-white/70"
