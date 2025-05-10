@@ -16,7 +16,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Card, CardContent } from "@/components/ui/card";
 import { useTranslations } from "next-intl";
 import { IconArchive, IconDownload } from "@tabler/icons-react";
-import { versions } from "@/constants/versions";
+import { VERSIONS } from "@/constants/download/versions";
 import { AnimatedButton } from "@/components/ui/animated-button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -154,34 +154,34 @@ export default function DownloadDialog({
               onValueChange={setVersion}
               className="space-y-4"
             >
-              {versions
-                .filter((v) => !(platform === "android" && v.id === "mono"))
-                .map((v) => (
-                  <Card
-                    key={v.id}
-                    className={`transition-all ${version === v.id ? "border-primary" : "hover:border-primary/50"}`}
-                  >
-                    <CardContent className="flex items-center space-x-4 p-4">
-                      <RadioGroupItem
-                        value={v.id}
-                        id={v.id}
-                        className="sr-only"
-                      />
-                      <v.icon
-                        className={`h-6 w-6 ${version === v.id ? "text-primary" : "text-muted-foreground"}`}
-                      />
-                      <Label
-                        htmlFor={v.id}
-                        className="flex-grow cursor-pointer space-y-1"
-                      >
-                        <div className="font-semibold">{t(`${v.id}.name`)}</div>
-                        <div className="text-sm text-muted-foreground">
-                          {t(`${v.id}.description`)}
-                        </div>
-                      </Label>
-                    </CardContent>
-                  </Card>
-                ))}
+              {VERSIONS.filter(
+                (v) => !(platform === "android" && v.id === "mono")
+              ).map((v) => (
+                <Card
+                  key={v.id}
+                  className={`transition-all ${version === v.id ? "border-primary" : "hover:border-primary/50"}`}
+                >
+                  <CardContent className="flex items-center space-x-4 p-4">
+                    <RadioGroupItem
+                      value={v.id}
+                      id={v.id}
+                      className="sr-only"
+                    />
+                    <v.icon
+                      className={`h-6 w-6 ${version === v.id ? "text-primary" : "text-muted-foreground"}`}
+                    />
+                    <Label
+                      htmlFor={v.id}
+                      className="flex-grow cursor-pointer space-y-1"
+                    >
+                      <div className="font-semibold">{t(`${v.id}.name`)}</div>
+                      <div className="text-sm text-muted-foreground">
+                        {t(`${v.id}.description`)}
+                      </div>
+                    </Label>
+                  </CardContent>
+                </Card>
+              ))}
             </RadioGroup>
           </TabsContent>
 

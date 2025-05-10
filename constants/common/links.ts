@@ -1,4 +1,4 @@
-export const links = {
+export const LINKS = {
   github: "https://github.com/Redot-Engine",
   engineExperimental: "https://github.com/Redot-Experimental",
   releasePage: "https://github.com/Redot-Engine/redot-engine/releases",

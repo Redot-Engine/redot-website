@@ -14,12 +14,12 @@ import {
 } from "@tabler/icons-react";
 import React from "react";
 
-export interface FeaturesList {
+export interface Features {
   icon: React.ReactNode;
   label: string;
 }
 
-export const featuresList: FeaturesList[] = [
+export const FEATURES_LIST: Features[] = [
   {
     icon: <IconDeviceDesktop className="h-4 w-4" />,
     label: "Cross-Platform",

@@ -1,4 +1,4 @@
-import { links } from "@/constants/links";
+import { LINKS } from "@/constants/common/links";
 
 interface HeaderLink {
   label: string;
@@ -9,7 +9,7 @@ interface HeaderLink {
 export const header: HeaderLink[] = [
   {
     label: "links.documentation",
-    href: links.documentation,
+    href: LINKS.documentation,
     newTab: true,
   },
   {
@@ -18,12 +18,12 @@ export const header: HeaderLink[] = [
   },
   {
     label: "links.proposals",
-    href: links.proposals,
+    href: LINKS.proposals,
     newTab: true,
   },
   {
     label: "links.forum",
-    href: links.forum,
+    href: LINKS.forum,
     newTab: true,
   },
   {

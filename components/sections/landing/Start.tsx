@@ -1,5 +1,5 @@
-import { CTA } from "@/components/CTA";
-import { links } from "@/constants/links";
+import { CTA } from "@/components/shared/CTA";
+import { LINKS } from "@/constants/common/links";
 
 export const Start = () => {
   return (
@@ -9,7 +9,7 @@ export const Start = () => {
       buttonLinks={[
         { href: "/download", labelKey: "startSection.buttons.download" },
         {
-          href: links.documentation,
+          href: LINKS.documentation,
           labelKey: "startSection.buttons.documentation",
           variant: "link",
         },

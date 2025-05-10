@@ -1,9 +1,9 @@
-import { links } from "@/constants/links";
-import { socialsLinks } from "@/constants/socials";
-import { getPlatformDownloadLink } from "@/lib/platformDownloadLink";
 import { IconDownload, IconExternalLink } from "@tabler/icons-react";
+import { LINKS } from "@/constants/common/links";
+import { getPlatformDownloadLink } from "@/lib/platform-download-link";
+import { SOCIALS_LINKS } from "@/constants/common/socials";
 
-export const stepsData = [
+export const STEPS_DATA = [
   {
     titleKey: "steps.step1.title",
     descriptionKey: "steps.step1.description",
@@ -11,7 +11,7 @@ export const stepsData = [
       {
         icon: <IconExternalLink className="h-4 w-4" />,
         textKey: "steps.step1.links.archive",
-        url: links.releasePage,
+        url: LINKS.releasePage,
       },
     ],
   },
@@ -48,31 +48,8 @@ export const stepsData = [
       {
         icon: <IconExternalLink className="h-4 w-4" />,
         textKey: "steps.step3.links.discord",
-        url: socialsLinks.discord,
+        url: SOCIALS_LINKS.discord,
       },
     ],
-  },
-];
-
-export const supportedPlatformsData = [
-  {
-    label: "Android",
-    href: "/download/android",
-    icon: "/platform/android.svg",
-  },
-  {
-    label: "Windows",
-    href: "/download/windows",
-    icon: "/platform/windows.svg",
-  },
-  {
-    label: "macOS",
-    href: "/download/mac",
-    icon: "/platform/apple.svg",
-  },
-  {
-    label: "Linux",
-    href: "/download/linux",
-    icon: "/platform/linux.svg",
   },
 ];

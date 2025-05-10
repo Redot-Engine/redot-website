@@ -6,13 +6,13 @@ import {
 } from "@tabler/icons-react";
 import React from "react";
 
-export interface FeaturesHighlightList {
+export interface Highlights {
   readonly header: string;
   readonly description: string;
   readonly icon?: React.ReactNode;
 }
 
-export const featuresHighlightLists: Readonly<FeaturesHighlightList[]> = [
+export const FEATURES_HIGHLIGHT_LIST: Readonly<Highlights[]> = [
   {
     header: "highlights.sceneDrivenDesign.header",
     description: "highlights.sceneDrivenDesign.description",

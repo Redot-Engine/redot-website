@@ -19,10 +19,10 @@ interface ContactCardData {
   links: ContactCardLink[];
 }
 
-export const contactCardsData: ContactCardData[] = [
+export const CONTACT_CARDS_DATA: ContactCardData[] = [
   {
     id: "email",
-    icon: <IconMail className="h-[18px] w-[18px]" />,
+    icon: <IconMail className="h-5 w-5" />,
     title: "emailUs",
     description: "emailDescription",
     links: [
@@ -32,14 +32,14 @@ export const contactCardsData: ContactCardData[] = [
   },
   {
     id: "discord",
-    icon: <IconBrandDiscord className="h-[18px] w-[18px]" />,
+    icon: <IconBrandDiscord className="h-5 w-5" />,
     title: "joinDiscord",
     description: "discordDescription",
     links: [{ label: "Join the Community", url: "https://discord.gg/redot" }],
   },
   {
     id: "socials",
-    icon: <IconSend className="h-[18px] w-[18px]" />,
+    icon: <IconSend className="h-5 w-5" />,
     title: "followUs",
     description: "followDescription",
     links: [
@@ -56,7 +56,7 @@ export const contactCardsData: ContactCardData[] = [
   },
   {
     id: "forum",
-    icon: <IconBrandThreads className="h-[18px] w-[18px]" />,
+    icon: <IconBrandThreads className="h-5 w-5" />,
     title: "forum",
     description: "forumDescription",
     links: [

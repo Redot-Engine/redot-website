@@ -1,10 +1,10 @@
-import { FeaturesHighlightList } from "@/constants/featuresHighlightList";
+import { Highlights } from "@/constants/landing/highlights";
 
 export default function FeaturesHighlight({
   icon,
   header,
   description,
-}: Readonly<FeaturesHighlightList>) {
+}: Readonly<Highlights>) {
   return (
     <div className="mx-auto flex max-w-sm flex-col items-center space-y-2.5 text-center">
       <div className="flex h-8 w-8 items-center justify-center rounded border border-rose-800 bg-rose-950 text-white">

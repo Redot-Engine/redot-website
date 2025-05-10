@@ -1,10 +1,10 @@
-interface Language {
+interface Languages {
   value: string;
   label: string;
   code: string;
 }
 
-export const language: Language[] = [
+export const languages: Languages[] = [
   { value: "ar", label: "العربية", code: "SA" },
   { value: "cs", label: "Čeština", code: "CZ" },
   { value: "da", label: "Dansk", code: "DK" },

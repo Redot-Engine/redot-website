@@ -1,9 +1,9 @@
 "use client";
 
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import CookieConsent from "@/components/CookieConsent";
-import Lenis from "@/components/Lenis";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import CookieConsent from "@/components/layout/CookieConsent";
+import Lenis from "@/components/layout/Lenis";
 
 export default function MainLayout({
   children,
@@ -12,18 +12,14 @@ export default function MainLayout({
 }>) {
   return (
     <Lenis>
-      <section className="scroll-smooth">
+      <main className="scroll-smooth">
         <div className="absolute">
-          <CookieConsent
-            onAcceptCallback={() => {}}
-            onDeclineCallback={() => {}}
-          />
+          <CookieConsent />
         </div>
-
         <Header />
         {children}
         <Footer />
-      </section>
+      </main>
     </Lenis>
   );
 }

@@ -3,13 +3,13 @@
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
 import Marquee from "@/components/ui/marquee";
-import { featuresList } from "@/constants/featuresList";
+import { FEATURES_LIST } from "@/constants/landing/features";
 import { FeatureItem } from "@/components/landing/FeatureItem";
 import FeaturesHighlight from "@/components/landing/FeaturesHighlight";
 import { IconCommand } from "@tabler/icons-react";
-import { featuresHighlightLists } from "@/constants/featuresHighlightList";
+import { FEATURES_HIGHLIGHT_LIST } from "@/constants/landing/highlights";
 import { useTranslations } from "next-intl";
-import SectionHeader from "@/components/SectionHeader";
+import SectionHeader from "@/components/shared/SectionHeader";
 
 export const Features = () => {
   const { inView, ref } = useInView({
@@ -19,7 +19,7 @@ export const Features = () => {
 
   const t = useTranslations("featuresSection");
 
-  const firstRow = featuresList.slice(0, featuresList.length / 2);
+  const firstRow = FEATURES_LIST.slice(0, FEATURES_LIST.length / 2);
 
   return (
     <section ref={ref} className="overflow-x-clip pt-24">
@@ -57,7 +57,7 @@ export const Features = () => {
           <div className="relative flex w-full items-center justify-center bg-white bg-grid-black/[0.2] dark:bg-background dark:bg-grid-white/[0.2]">
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-background"></div>
             <div className="relative grid h-full place-items-center gap-20 p-12 md:grid-cols-2 lg:gap-32 lg:p-32">
-              {featuresHighlightLists.map((feature, index) => (
+              {FEATURES_HIGHLIGHT_LIST.map((feature, index) => (
                 <motion.div
                   key={feature.header}
                   initial={{ opacity: 0, y: 50 }}

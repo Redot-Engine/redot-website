@@ -1,12 +1,12 @@
 import { CommunityCardProps } from "@/components/community/CommunityCard";
-import { links } from "@/constants/links";
+import { LINKS } from "@/constants/common/links";
 
 export interface SocialLink {
   url: string;
   icon: string;
 }
 
-export const socials: SocialLink[] = [
+export const FOOTER_SOCIALS: SocialLink[] = [
   {
     url: "https://x.com/Redot_Engine",
     icon: "x.svg",
@@ -29,7 +29,7 @@ export const socials: SocialLink[] = [
   },
 ];
 
-export const socialsLinks = {
+export const SOCIALS_LINKS = {
   discord: "https://discord.gg/redot",
   discordCommunity:
     "https://discord.com/servers/redot-community-1290063237223551046",
@@ -44,95 +44,95 @@ export const socialsLinks = {
   tiktok: "https://www.tiktok.com/@redotengine",
 };
 
-export const communityLinks: CommunityCardProps[] = [
+export const COMMUNITY_LINKS: CommunityCardProps[] = [
   {
     imageUrl: "https://image.redotengine.org/socials/reddit.png",
     label: "Reddit",
     description: "socialLinks.reddit",
-    href: socialsLinks.reddit,
+    href: SOCIALS_LINKS.reddit,
   },
   {
     imageUrl: "https://image.redotengine.org/socials/youtube.png",
     label: "YouTube",
     description: "socialLinks.youtube",
-    href: socialsLinks.youtube,
+    href: SOCIALS_LINKS.youtube,
   },
   {
     imageUrl: "https://image.redotengine.org/socials/x.png",
     label: "Twitter (X)",
     description: "socialLinks.x",
-    href: socialsLinks.x,
+    href: SOCIALS_LINKS.x,
   },
   {
     imageUrl: "https://image.redotengine.org/socials/xCommunity.png",
     label: "X Community",
     description: "socialLinks.xCommunity",
-    href: socialsLinks.xCommunity,
+    href: SOCIALS_LINKS.xCommunity,
   },
   {
     imageUrl: "https://image.redotengine.org/socials/linkedin.png",
     label: "LinkedIn",
     description: "socialLinks.linkedin",
-    href: socialsLinks.linkedin,
+    href: SOCIALS_LINKS.linkedin,
   },
   {
     imageUrl: "https://image.redotengine.org/socials/bsky.png",
     label: "Bluesky",
     description: "socialLinks.bsky",
-    href: socialsLinks.bsky,
+    href: SOCIALS_LINKS.bsky,
   },
   {
     imageUrl: "https://image.redotengine.org/socials/tiktok.png",
     label: "Tiktok",
     description: "socialLinks.tiktok",
-    href: socialsLinks.tiktok,
+    href: SOCIALS_LINKS.tiktok,
   },
 ];
 
-export const communitySpaces: CommunityCardProps[] = [
+export const COMMUNITY_SPACES: CommunityCardProps[] = [
   {
     imageUrl: "https://image.redotengine.org/socials/discordInvite.webp",
     label: "Discord (Invite)",
     description: "communitySpacesLinks.discord",
-    href: socialsLinks.discord,
+    href: SOCIALS_LINKS.discord,
   },
   {
     imageUrl: "https://image.redotengine.org/socials/discordCommunity.png",
     label: "Discord Community",
     description: "communitySpacesLinks.discord",
-    href: socialsLinks.discordCommunity,
+    href: SOCIALS_LINKS.discordCommunity,
   },
   {
     imageUrl: "https://image.redotengine.org/socials/forum.png",
     label: "Forum",
     description: "communitySpacesLinks.forum",
-    href: links.forum,
+    href: LINKS.forum,
   },
 ];
 
-export const supportContributions: CommunityCardProps[] = [
+export const SUPPORT_CONTRIBUTIONS: CommunityCardProps[] = [
   {
     imageUrl: "https://image.redotengine.org/socials/ko-fi.png",
     label: "Ko-fi",
     description: "contributionsLinks.kofi",
-    href: socialsLinks.kofi,
+    href: SOCIALS_LINKS.kofi,
   },
   {
     imageUrl: "https://image.redotengine.org/socials/itch.png",
     label: "Itch.io",
     description: "contributionsLinks.itch",
-    href: socialsLinks.itch,
+    href: SOCIALS_LINKS.itch,
   },
   {
     imageUrl: "https://image.redotengine.org/socials/github.png",
     label: "GitHub - Redot Engine",
     description: "contributionsLinks.github",
-    href: links.github,
+    href: LINKS.github,
   },
   {
     imageUrl: "https://image.redotengine.org/socials/engineExperimental.png",
     label: "GitHub - Redot Experimental",
     description: "contributionsLinks.engineExperimental",
-    href: links.engineExperimental,
+    href: LINKS.engineExperimental,
   },
 ];
