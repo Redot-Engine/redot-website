@@ -1,50 +1,52 @@
 import type { MetadataRoute } from "next";
 import { getPosts } from "@/lib/blog";
-import { platformMapping } from "@/constants/platformMapping";
+import { PLATFORM_MAPPING } from "@/constants/download/platforms";
 import { Post } from "@/sanity/schemaTypes/postType";
+import { getBaseUrl } from "@/lib/base-url";
+
+export const revalidate = 86400;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  if (!process.env.NEXT_PUBLIC_BASE_URL) {
-    throw new Error("NEXT_PUBLIC_BASE_URL environment variable is not set");
-  }
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+  const baseUrl = getBaseUrl();
+
+  const now = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "yearly",
       priority: 1,
     },
     {
       url: `${baseUrl}/contact`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/download`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "yearly",
-      priority: 0.8,
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/community`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "yearly",
-      priority: 0.8,
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/licenses`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "yearly",
       priority: 0.5,
     },
     {
       url: `${baseUrl}/blog`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "weekly",
-      priority: 0.5,
+      priority: 0.7,
     },
   ];
 
@@ -55,16 +57,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: `${baseUrl}/blog/${post.slug.current}`,
       lastModified: new Date(post.publishedAt),
       changeFrequency: "weekly",
-      priority: 0.7,
+      priority: 0.6,
     }));
 
-    const uniquePlatforms = Array.from(new Set(Object.values(platformMapping)));
+    const uniquePlatforms = Array.from(
+      new Set(Object.values(PLATFORM_MAPPING))
+    );
 
     const platformDownloadRoutes = uniquePlatforms.map((platform) => ({
       url: `${baseUrl}/download/${platform}`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.6,
     }));
 
     return [...staticRoutes, ...blogPostRoutes, ...platformDownloadRoutes];
