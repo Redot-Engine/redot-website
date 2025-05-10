@@ -2,15 +2,15 @@
 
 import { useInView } from "react-intersection-observer";
 import { useTranslations } from "next-intl";
-import SectionHeader from "@/components/SectionHeader";
 import { Start } from "@/components/sections/landing/Start";
 import { CommunityCard } from "@/components/community/CommunityCard";
 import { motion } from "motion/react";
 import {
-  communityLinks,
-  communitySpaces,
-  supportContributions,
-} from "@/constants/socials";
+  COMMUNITY_LINKS,
+  COMMUNITY_SPACES,
+  SUPPORT_CONTRIBUTIONS,
+} from "@/constants/common/socials";
+import { SectionHero } from "@/components/shared/SectionHero";
 
 export default function Community() {
   const { ref, inView } = useInView({
@@ -32,14 +32,7 @@ export default function Community() {
 
   return (
     <div ref={ref}>
-      <div className="relative flex w-full items-start justify-center bg-white bg-grid-black/[0.1] dark:bg-background dark:bg-grid-white/[0.1]">
-        {/* Radial gradient for the container to give a faded look */}
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-background"></div>
-        <div className="relative z-20 px-5 pb-5 pt-10 lg:px-40">
-          <SectionHeader section="community" />
-        </div>
-      </div>
-
+      <SectionHero section="community" />
       <motion.div
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
@@ -54,7 +47,7 @@ export default function Community() {
               {t("socialPlatforms")}
             </h2>
             <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-              {communityLinks.map(({ imageUrl, label, description, href }) => (
+              {COMMUNITY_LINKS.map(({ imageUrl, label, description, href }) => (
                 <motion.div
                   key={label}
                   initial="hidden"
@@ -82,25 +75,27 @@ export default function Community() {
               {t("communitySpaces")}
             </h2>
             <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-              {communitySpaces.map(({ imageUrl, label, description, href }) => (
-                <motion.div
-                  key={label}
-                  initial="hidden"
-                  animate={inView ? "visible" : "hidden"}
-                  variants={cardVariants}
-                  transition={{
-                    duration: 0.6,
-                    delay: 0.4,
-                  }}
-                >
-                  <CommunityCard
-                    imageUrl={imageUrl}
-                    label={label}
-                    description={t(description)}
-                    href={href}
-                  />
-                </motion.div>
-              ))}
+              {COMMUNITY_SPACES.map(
+                ({ imageUrl, label, description, href }) => (
+                  <motion.div
+                    key={label}
+                    initial="hidden"
+                    animate={inView ? "visible" : "hidden"}
+                    variants={cardVariants}
+                    transition={{
+                      duration: 0.6,
+                      delay: 0.4,
+                    }}
+                  >
+                    <CommunityCard
+                      imageUrl={imageUrl}
+                      label={label}
+                      description={t(description)}
+                      href={href}
+                    />
+                  </motion.div>
+                )
+              )}
             </div>
           </div>
 
@@ -110,7 +105,7 @@ export default function Community() {
               {t("supportAndContributions")}
             </h2>
             <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-              {supportContributions.map(
+              {SUPPORT_CONTRIBUTIONS.map(
                 ({ imageUrl, label, description, href }) => (
                   <motion.div
                     key={label}

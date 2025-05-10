@@ -3,10 +3,10 @@ import { DownloadThreeSteps } from "@/components/sections/download/DownloadThree
 import { DownloadSupportedPlatform } from "@/components/sections/download/DownloadSupportedPlatform";
 import { DownloadOverview } from "@/components/sections/download/DownloadOverview";
 import { Metadata } from "next";
-import { links } from "@/constants/links";
-import { CTA } from "@/components/CTA";
+import { LINKS } from "@/constants/common/links";
+import { CTA } from "@/components/shared/CTA";
 import { capitalizeFirstLetter } from "@/lib/utils";
-import { platformMapping } from "@/constants/platformMapping";
+import { PLATFORM_MAPPING } from "@/constants/download/platforms";
 import { notFound } from "next/navigation";
 
 export async function generateMetadata(props: {
@@ -15,7 +15,7 @@ export async function generateMetadata(props: {
   const params = await props.params;
   const platform = params.platform;
 
-  if (!Object.keys(platformMapping).includes(platform)) {
+  if (!Object.keys(PLATFORM_MAPPING).includes(platform)) {
     notFound();
   }
 
@@ -33,7 +33,7 @@ export default async function DownloadPlatform({
 }>) {
   const platform = (await params).platform;
 
-  if (!Object.keys(platformMapping).includes(platform)) {
+  if (!Object.keys(PLATFORM_MAPPING).includes(platform)) {
     notFound();
   }
 
@@ -49,7 +49,7 @@ export default async function DownloadPlatform({
         buttonLinks={[
           { href: "/discord", labelKey: "downloadHelp.buttons.discord" },
           {
-            href: links.documentation,
+            href: LINKS.documentation,
             labelKey: "downloadHelp.buttons.documentation",
             variant: "link",
           },

@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { ArticleContent } from "@/components/blog/ArticleContent";
 import { Post } from "@/sanity/schemaTypes/postType";
 import { getLanguage } from "@/actions/language";
-import { getSettingsBlogLayout } from "@/actions/settings";
+import { getSettings } from "@/actions/settings";
 import { ArticleSplashOld } from "@/components/blog/ArticleSplashOld";
 
 export async function generateStaticParams() {
@@ -70,7 +70,8 @@ export default async function Article({
   }
 
   const postData = post[0];
-  const layout = await getSettingsBlogLayout();
+  const settings = await getSettings();
+  const layout = settings.blogLayout;
 
   return (
     <div className="px-5 py-12 lg:px-40">
