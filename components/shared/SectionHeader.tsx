@@ -38,17 +38,14 @@ export default function SectionHeader({
   const t = useTranslations(section ?? "");
 
   const getTranslation = (key: string) => {
-    if (t) {
-      try {
-        return t(key);
-      } catch {
-        console.warn(
-          `Translation key "${key}" not found in section "${section}"`
-        );
-        return null;
-      }
+    try {
+      return t?.(key);
+    } catch {
+      console.warn(
+        `Translation key "${key}" not found in section "${section}"`
+      );
+      return null;
     }
-    return null;
   };
 
   const badgeContent = getTranslation("badge") ?? badge;
@@ -99,7 +96,7 @@ export default function SectionHeader({
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.4 }}
           className={cn(
-            "mt-5 text-4xl font-bold tracking-tighter md:text-[54px] md:leading-[60px]",
+            "mt-5 text-pretty text-4xl font-bold tracking-tighter md:text-[54px] md:leading-[60px]",
             titleTextAlignClass
           )}
           dangerouslySetInnerHTML={{ __html: titleContent }}
@@ -112,7 +109,7 @@ export default function SectionHeader({
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.6 }}
           className={cn(
-            "mt-5 text-xl tracking-tighter text-muted-foreground md:text-[22px] md:leading-[30px]",
+            "mt-5 text-balance text-xl tracking-tighter text-muted-foreground md:text-[22px] md:leading-[30px]",
             descriptionTextAlignClass
           )}
         >
