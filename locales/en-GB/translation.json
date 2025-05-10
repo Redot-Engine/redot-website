@@ -106,14 +106,6 @@
         "rss": "RSS"
       }
     },
-    "betaPrograms": {
-      "title": "Beta Programs",
-      "children": {
-        "launcher": "Launcher",
-        "academy": "Academy",
-        "engineExperimental": "Engine Experimental"
-      }
-    },
     "policies": {
       "title": "Policies",
       "children": {
@@ -124,6 +116,12 @@
         "contributionGuidelines": "Contribution Guidelines"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggleLabel": "Toggle theme"
   },
   "notFound": {
     "code": "404 error",
@@ -252,8 +250,8 @@
   "contact": {
     "badge": "",
     "title": "Get in Touch",
-    "description": "We'd love to hear from you! Reach out with your questions, feedback, or collaboration ideas.",
-    "faqTitle": "Frequently Asked Questions",
+    "description": "We'd love to hear from you! Reach out with your questionKeys, feedback, or collaboration ideas.",
+    "faqTitle": "Frequently Asked questionKeys",
     "faq": {
       "whatIsRedot": "What is Redot?",
       "redotExplanation": "Redot is a fork of Godot focused on improving the stability and performance of the engine.",

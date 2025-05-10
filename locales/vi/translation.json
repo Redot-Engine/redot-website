@@ -106,14 +106,6 @@
         "rss": "RSS"
       }
     },
-    "betaPrograms": {
-      "title": "Chương Trình Beta",
-      "children": {
-        "launcher": "Trình khởi động",
-        "academy": "Học viện",
-        "engineExperimental": "Engine Experimental"
-      }
-    },
     "policies": {
       "title": "Chính Sách",
       "children": {
@@ -124,6 +116,12 @@
         "contributionGuidelines": "Hướng dẫn đóng góp"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống",
+    "toggleLabel": "Chuyển đổi chủ đề"
   },
   "notFound": {
     "code": "Lỗi 404",

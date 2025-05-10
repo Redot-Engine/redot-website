@@ -106,14 +106,6 @@
         "rss": "RSS"
       }
     },
-    "betaPrograms": {
-      "title": "बीटा कार्यक्रम",
-      "children": {
-        "launcher": "लॉन्चर",
-        "academy": "अकादमी",
-        "engineExperimental": "इंजन एक्सपेरिमेंटल"
-      }
-    },
     "policies": {
       "title": "नीतियाँ",
       "children": {
@@ -124,6 +116,12 @@
         "contributionGuidelines": "योगदान दिशानिर्देश"
       }
     }
+  },
+  "themeToggle": {
+    "light": "हल्का",
+    "dark": "गहरा",
+    "system": "प्रणाली",
+    "toggleLabel": "थीम बदलें"
   },
   "notFound": {
     "code": "404 त्रुटि",

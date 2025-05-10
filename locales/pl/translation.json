@@ -106,14 +106,6 @@
         "rss": "RSS"
       }
     },
-    "betaPrograms": {
-      "title": "Programy Beta",
-      "children": {
-        "launcher": "Rozruchowiec",
-        "academy": "Akademia",
-        "engineExperimental": "Silnik eksperymentalny "
-      }
-    },
     "policies": {
       "title": "Polityka",
       "children": {
@@ -124,6 +116,12 @@
         "contributionGuidelines": "Wytyczne współpracy"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "system": "System",
+    "toggleLabel": "Zmień motyw"
   },
   "notFound": {
     "code": "błąd 404 ",
