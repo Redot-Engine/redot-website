@@ -73,6 +73,32 @@ feature/#1-init
 
 - https://gist.github.com/seunggabi/87f8c722d35cd07deb3f649d45a31082
 
+### Constant Naming
+
+We follow specific patterns for naming constants based on their structure and usage:
+
+#### Interface Names
+
+- Use PascalCase
+- Descriptive of the data structure
+- Example: `HeaderLink`, `SettingsSidebarItem`, `Footer`
+
+#### Constant Arrays/Objects
+
+- Use UPPER_SNAKE_CASE for global constants
+- Use camelCase for exported object instances
+- Examples:
+
+  ```typescript
+  // Global constants
+  export const SETTINGS_SIDEBAR_ITEMS: SettingsSidebarItem[];
+  export const LINKS: Record<string, string>;
+
+  // Object instances
+  export const header: HeaderLink[];
+  export const footer: Footer[];
+  ```
+
 ## Development Environmental Variables
 
 Place .env file in the root of project. File content:
