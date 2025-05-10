@@ -1,6 +1,6 @@
 "use client";
 
-import { DefaultNotFound } from "@/components/DefaultNotFound";
+import { DefaultNotFound } from "@/components/shared/DefaultNotFound";
 
 export const runtime = "edge";
 
