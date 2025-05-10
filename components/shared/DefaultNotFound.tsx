@@ -3,8 +3,8 @@
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
 import {
   IconArrowLeft,
   IconBook,
@@ -14,9 +14,9 @@ import {
 } from "@tabler/icons-react";
 import { Separator } from "@/components/ui/separator";
 import React from "react";
-import { links } from "@/constants/links";
+import { LINKS } from "@/constants/common/links";
 import { useRouter } from "next/navigation";
-import { SectionLink } from "@/components/SectionLink";
+import { SectionLink } from "@/components/shared/SectionLink";
 
 interface DefaultNotFoundProps {
   showHeader?: boolean;
@@ -78,7 +78,7 @@ export const DefaultNotFound = ({
               <Separator />
               <SectionLink
                 icon={<IconCube className="h-6 w-6" />}
-                href={links.documentation}
+                href={LINKS.documentation}
                 title={t("documentation.title")}
                 description={t("documentation.description")}
               />
