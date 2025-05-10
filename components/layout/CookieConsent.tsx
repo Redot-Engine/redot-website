@@ -1,10 +1,11 @@
 "use client";
 
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { IconCookie } from "@tabler/icons-react";
+import { setCookieConsent } from "@/actions/cookieConsent";
 
 interface CookieConsentProps {
   readonly onAcceptCallback?: () => void;
@@ -20,8 +21,7 @@ export default function CookieConsent({
 
   const accept = () => {
     setIsOpen(false);
-    document.cookie =
-      "cookieConsent=true; path=/; max-age=31536000; SameSite=Lax";
+    setCookieConsent();
     setTimeout(() => {
       setHide(true);
     }, 700);
