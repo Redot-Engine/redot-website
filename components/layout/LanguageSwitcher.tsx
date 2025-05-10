@@ -4,7 +4,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import Image from "next/image";
-import { language } from "@/constants/language";
+import { languages } from "@/constants/common/languages";
 import { IconChevronDown } from "@tabler/icons-react";
 import {
   Command,
@@ -53,9 +53,9 @@ export default function LanguageSwitcher() {
             aria-expanded={open}
           >
             <Image
-              src={`/flags/${language.find((lang) => lang.value === value)?.code}.svg`}
+              src={`/flags/${languages.find((lang) => lang.value === value)?.code}.svg`}
               alt={
-                language.find((lang) => lang.value === value)?.label as string
+                languages.find((lang) => lang.value === value)?.label as string
               }
               width="20"
               height="15"
@@ -63,7 +63,7 @@ export default function LanguageSwitcher() {
               priority
             />
             {value
-              ? language.find((lang) => lang.value === value)?.label
+              ? languages.find((lang) => lang.value === value)?.label
               : t("languageSelector.searchPlaceholder")}
             <IconChevronDown className="h-4 w-4 opacity-80" />
           </Button>
@@ -80,7 +80,7 @@ export default function LanguageSwitcher() {
             >
               <CommandEmpty>{t("languageSelector.noResults")}</CommandEmpty>
               <CommandGroup>
-                {language.map((lang) => (
+                {languages.map((lang) => (
                   <CommandItem
                     key={lang.value}
                     value={lang.value}
