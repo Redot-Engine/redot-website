@@ -1,4 +1,5 @@
-import Banner from "@/components/layout/Banner";
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { header } from "@/constants/layout/header";
@@ -6,17 +7,14 @@ import { Button } from "@/components/ui/button";
 import { MobileSidebar } from "@/components/layout/MobileSidebar";
 import { useTranslations } from "next-intl";
 import { SharedNavLink } from "@/components/shared/SharedNavLink";
+import LatestBanner from "@/components/layout/LatestBanner";
 
 export const Header = () => {
   const t = useTranslations("header");
 
   return (
     <header className="sticky top-0 z-[50] w-full backdrop-blur-sm">
-      <Banner
-        subMessage={t("banner.subMessage")}
-        mainMessage={t("banner.mainMessage")}
-        link="https://www.redotengine.org/news/release-4-3-stable"
-      />
+      <LatestBanner />
       <div className="py-5">
         <div className="w-full px-5 lg:px-40">
           <div className="flex items-center justify-between">
