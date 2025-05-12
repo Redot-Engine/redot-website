@@ -28,6 +28,6 @@ export const fadeInMotion = { opacity: 0, y: 50 };
 export const fadeOutMotion = { opacity: 1, y: 0 };
 
 export const cardVariants = {
-  hidden: { opacity: 0, scale: 0.9 },
-  visible: { opacity: 1, scale: 1 },
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 },
 };
