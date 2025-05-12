@@ -4,8 +4,20 @@ import { cookies } from "next/headers";
 import { getCookieConsent } from "@/actions/cookieConsent";
 import { SETTINGS_COOKIE_MAX_AGE } from "@/constants/common/cookie";
 
+type Settings = {
+  blogLayout: string;
+};
+
+type CookieOptions = {
+  httpOnly: boolean;
+  secure: boolean;
+  sameSite: "strict" | "lax" | "none";
+  path: string;
+  maxAge?: number;
+};
+
 const SETTINGS_COOKIE = "settings";
-const DEFAULT_SETTINGS = {
+const DEFAULT_SETTINGS: Settings = {
   blogLayout: "new",
 };
 
@@ -16,7 +28,7 @@ export async function saveSettings(
   const cookieStore = await cookies();
   const current = await getSettings();
   const updated = { ...current, ...newSettings };
-  const cookieOptions: any = {
+  const cookieOptions: CookieOptions = {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "strict",
