@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
-import SectionHeader from "@/components/SectionHeader";
+import SectionHeader from "@/components/shared/SectionHeader";
 
 export const ProductShowcase = () => {
   const { ref, inView } = useInView({

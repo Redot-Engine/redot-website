@@ -4,7 +4,7 @@ import { IconArrowRight } from "@tabler/icons-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { motion } from "motion/react";
-import { links } from "@/constants/links";
+import { LINKS } from "@/constants/common/links";
 import { useTranslations } from "next-intl";
 import useOS from "@/hooks/useOS";
 
@@ -58,7 +58,7 @@ export const Hero = () => {
                 className="w-full md:w-auto"
               >
                 <Button variant="link" asChild className="w-full md:w-auto">
-                  <Link href={links.documentation}>
+                  <Link href={LINKS.documentation}>
                     {t("buttons.secondary")}
                     <IconArrowRight className="h-5 w-5" />
                   </Link>

@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 import Link from "next/link";
-import { links } from "@/constants/links";
+import { LINKS } from "@/constants/common/links";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 import { ExternalLink } from "lucide-react";
@@ -108,7 +108,7 @@ export const DownloadOverview = () => {
                   <Link
                     className="inline-flex items-center gap-2"
                     href={
-                      links.documentation +
+                      LINKS.documentation +
                       "en/stable/about/introduction#about-redot-engine"
                     }
                     target="_blank"

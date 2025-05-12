@@ -106,14 +106,6 @@
         "rss": "RSS"
       }
     },
-    "betaPrograms": {
-      "title": "Бета программы",
-      "children": {
-        "launcher": "Запускатель",
-        "academy": "Академия",
-        "engineExperimental": "Экспериментальная версия движка"
-      }
-    },
     "policies": {
       "title": "Политики",
       "children": {
@@ -124,6 +116,12 @@
         "contributionGuidelines": "Руководство по вкладу"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Светлая",
+    "dark": "Тёмная",
+    "system": "Системная",
+    "toggleLabel": "Переключить тему"
   },
   "notFound": {
     "code": "Ошибка 404",

@@ -1,19 +1,52 @@
 "use server";
 
 import { cookies } from "next/headers";
+import { getCookieConsent } from "@/actions/cookieConsent";
+import { SETTINGS_COOKIE_MAX_AGE } from "@/constants/common/cookie";
 
-export async function saveSettingsBlogLayout(layout: string) {
+type Settings = {
+  blogLayout: string;
+};
+
+type CookieOptions = {
+  httpOnly: boolean;
+  secure: boolean;
+  sameSite: "strict" | "lax" | "none";
+  path: string;
+  maxAge?: number;
+};
+
+const SETTINGS_COOKIE = "settings";
+const DEFAULT_SETTINGS: Settings = {
+  blogLayout: "new",
+};
+
+export async function saveSettings(
+  newSettings: Partial<typeof DEFAULT_SETTINGS>
+) {
+  const consent = (await getCookieConsent()) === "true";
   const cookieStore = await cookies();
-  cookieStore.set("blogLayout", layout, {
+  const current = await getSettings();
+  const updated = { ...current, ...newSettings };
+  const cookieOptions: CookieOptions = {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "strict",
-    maxAge: 60 * 60 * 24 * 30,
     path: "/",
-  });
+  };
+  if (consent) {
+    cookieOptions.maxAge = SETTINGS_COOKIE_MAX_AGE;
+  }
+  cookieStore.set(SETTINGS_COOKIE, JSON.stringify(updated), cookieOptions);
 }
 
-export async function getSettingsBlogLayout() {
+export async function getSettings(): Promise<typeof DEFAULT_SETTINGS> {
   const cookieStore = await cookies();
-  return cookieStore.get("blogLayout")?.value || "new";
+  const raw = cookieStore.get(SETTINGS_COOKIE)?.value;
+  if (!raw) return { ...DEFAULT_SETTINGS };
+  try {
+    return { ...DEFAULT_SETTINGS, ...JSON.parse(raw) };
+  } catch {
+    return { ...DEFAULT_SETTINGS };
+  }
 }

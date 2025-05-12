@@ -3,25 +3,22 @@
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { useEffect, useState } from "react";
-import {
-  getSettingsBlogLayout,
-  saveSettingsBlogLayout,
-} from "@/actions/settings";
+import { saveSettings, getSettings } from "@/actions/settings";
 
 export const AppearanceForm = () => {
   const [selectedLayout, setSelectedLayout] = useState<string>("new");
 
   useEffect(() => {
     const fetchLayout = async () => {
-      const layout = await getSettingsBlogLayout();
-      setSelectedLayout(layout);
+      const settings = await getSettings();
+      setSelectedLayout(settings.blogLayout);
     };
     fetchLayout();
   }, []);
 
   const handleLayoutChange = async (value: string) => {
     setSelectedLayout(value);
-    await saveSettingsBlogLayout(value);
+    await saveSettings({ blogLayout: value });
   };
 
   const handleKeyDown = (
@@ -46,7 +43,6 @@ export const AppearanceForm = () => {
           onValueChange={handleLayoutChange}
         >
           <div
-            role="button"
             tabIndex={0}
             className="[&:has([data-state=checked])>div]:border-primary"
             onClick={() => handleLayoutChange("new")}

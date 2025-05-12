@@ -106,14 +106,6 @@
         "rss": "RSS"
       }
     },
-    "betaPrograms": {
-      "title": "Beta-programmer",
-      "children": {
-        "launcher": "Launcher",
-        "academy": "Akademi",
-        "engineExperimental": "Engine Experimental"
-      }
-    },
     "policies": {
       "title": "Retningslinjer",
       "children": {
@@ -124,6 +116,12 @@
         "contributionGuidelines": "Retningslinjer for bidrag"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Lys",
+    "dark": "Mørk",
+    "system": "System",
+    "toggleLabel": "Bytt tema"
   },
   "notFound": {
     "code": "404-feil",

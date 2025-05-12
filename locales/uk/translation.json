@@ -106,14 +106,6 @@
         "rss": "RSS"
       }
     },
-    "betaPrograms": {
-      "title": "Бета програми",
-      "children": {
-        "launcher": "Завантажувач",
-        "academy": "Академія",
-        "engineExperimental": "Експериментальний движок"
-      }
-    },
     "policies": {
       "title": "Політики",
       "children": {
@@ -124,6 +116,12 @@
         "contributionGuidelines": "Правила внеску"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Світла",
+    "dark": "Темна",
+    "system": "Система",
+    "toggleLabel": "Перемкнути тему"
   },
   "notFound": {
     "code": "Помилка 404",

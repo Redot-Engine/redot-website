@@ -106,14 +106,6 @@
         "rss": "RSS"
       }
     },
-    "betaPrograms": {
-      "title": "Beta Programs",
-      "children": {
-        "launcher": "Launcher",
-        "academy": "Academy",
-        "engineExperimental": "Engine Experimental"
-      }
-    },
     "policies": {
       "title": "Policies",
       "children": {
@@ -124,6 +116,12 @@
         "contributionGuidelines": "Contribution Guidelines"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggleLabel": "Toggle theme"
   },
   "notFound": {
     "code": "404 error",

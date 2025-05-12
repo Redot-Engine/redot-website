@@ -1,12 +1,11 @@
 "use client";
 
-import SectionHeader from "@/components/SectionHeader";
 import { ContactCard } from "@/components/contact/ContactCard";
-import { contactCardsData } from "@/constants/contactCardsData";
+import { CONTACT_CARDS_DATA } from "@/constants/contact/cards";
 import { Start } from "@/components/sections/landing/Start";
 import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
-import { faqList } from "@/constants/faq";
+import { FAQ_LIST } from "@/constants/contact/faq";
 import {
   Accordion,
   AccordionContent,
@@ -14,6 +13,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { useTranslations } from "next-intl";
+import { SectionHero } from "@/components/shared/SectionHero";
+import { cardVariants } from "@/components/shared/animations";
 
 export default function Contact() {
   const { ref, inView } = useInView({
@@ -21,25 +22,14 @@ export default function Contact() {
     triggerOnce: true,
   });
 
-  const cardVariants = {
-    hidden: { opacity: 0, scale: 0.9 },
-    visible: { opacity: 1, scale: 1 },
-  };
-
   const t = useTranslations("contact");
 
   return (
     <div ref={ref}>
-      <div className="relative flex w-full items-start justify-center bg-white bg-grid-black/[0.1] dark:bg-background dark:bg-grid-white/[0.1]">
-        {/* Radial gradient for the container to give a faded look */}
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-background"></div>
-        <div className="relative z-20 px-5 pb-5 pt-10 lg:px-40">
-          <SectionHeader section="contact" />
-        </div>
-      </div>
+      <SectionHero section="contact" />
       <div className="mt-10 px-5 lg:px-40">
         <div className="grid grid-rows-4 gap-8 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1">
-          {contactCardsData.map((card, index) => (
+          {CONTACT_CARDS_DATA.map((card, index) => (
             <motion.div
               key={card.id}
               initial="hidden"
@@ -66,12 +56,12 @@ export default function Contact() {
             {t("faqTitle")}
           </h2>
           <Accordion type="single" className="w-full md:w-[600px]" collapsible>
-            {faqList.map((faq, index) => (
-              <AccordionItem key={faq.question} value={`item-${index + 1}`}>
+            {FAQ_LIST.map((faq, index) => (
+              <AccordionItem key={faq.questionKey} value={`item-${index + 1}`}>
                 <AccordionTrigger className="text-left">
-                  {t(`faq.${faq.question}`)}
+                  {t(`faq.${faq.questionKey}`)}
                 </AccordionTrigger>
-                <AccordionContent> {t(`faq.${faq.answer}`)}</AccordionContent>
+                <AccordionContent>{t(`faq.${faq.answerKey}`)}</AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>

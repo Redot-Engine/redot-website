@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
 import { ReviewCard } from "@/components/landing/ReviewCard";
 import Marquee from "@/components/ui/marquee";
-import SectionHeader from "@/components/SectionHeader";
+import SectionHeader from "@/components/shared/SectionHeader";
 import { useEffect, useState } from "react";
 import { fetchAllReviews } from "@/lib/review";
 import { InterfaceReview } from "@/sanity/schemaTypes/reviewType";

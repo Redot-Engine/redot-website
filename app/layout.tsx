@@ -5,6 +5,7 @@ import { ThemeProvider } from "next-themes";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
+import { getBaseUrl } from "@/lib/base-url";
 
 export const runtime = "edge";
 
@@ -13,8 +14,7 @@ const inter = Inter({
   display: "swap",
 });
 
-const baseUrl =
-  process.env.NEXT_PUBLIC_BASE_URL || "https://www.redotengine.org";
+const baseUrl = getBaseUrl();
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -23,7 +23,11 @@ export const metadata: Metadata = {
     template: "%s - Redot Engine",
   },
   description:
-    "Redot Engine is an open-source game engine that enables developers to create stunning games with ease, offering powerful features, an active community, and a seamless development experience.",
+    "Redot Engine: Open-source, powerful, and easy-to-use for stunning games. Join our active community!",
+  alternates: {
+    canonical: baseUrl,
+  },
+  robots: "index, follow",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -31,13 +35,14 @@ export const metadata: Metadata = {
     siteName: "Redot Engine",
     title: "Redot Engine: Open source game engine for everyone.",
     description:
-      "Redot Engine is an open-source game engine that enables developers to create stunning games with ease, offering powerful features, an active community, and a seamless development experience.",
+      "Redot Engine: Open-source, powerful, and easy-to-use for stunning games. Join our active community!",
     images: [
       {
-        url: "/homepage.webp", //! change image path here to the actual image
+        url: `${baseUrl}/homepage.webp`,
         width: 1200,
         height: 630,
         alt: "Redot Engine - Open source game engine for everyone",
+        type: "image/webp",
       },
     ],
   },
@@ -45,9 +50,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Redot Engine: Open source game engine for everyone.",
     description:
-      "Redot Engine is an open-source game engine that enables developers to create stunning games with ease, offering powerful features, an active community, and a seamless development experience.",
-    images: ["/homepage.webp"], //! change image path here to the actual image
+      "Redot Engine: Open-source, powerful, and easy-to-use for stunning games. Join our active community!",
+    images: [`${baseUrl}/homepage.webp`],
     creator: "@Redot_Engine",
+    site: "@Redot_Engine",
   },
 };
 
