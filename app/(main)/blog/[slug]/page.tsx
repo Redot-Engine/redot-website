@@ -71,7 +71,7 @@ export default async function Article({
 
   const postData = post[0];
   const settings = await getSettings();
-  const layout = settings.blogLayout;
+  const layout = settings.blogLayout ?? "new";
 
   return (
     <div className="px-5 py-12 lg:px-40">
