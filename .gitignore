@@ -9,8 +9,6 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-node_modules/
-package-lock.lock
 package-lock.json
 yarn.lock
 
