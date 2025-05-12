@@ -249,8 +249,8 @@
   "contact": {
     "badge": "",
     "title": "Get in Touch",
-    "description": "We'd love to hear from you! Reach out with your questionKeys, feedback, or collaboration ideas.",
-    "faqTitle": "Frequently asked questionKeys",
+    "description": "We'd love to hear from you! Reach out with your questions, feedback, or collaboration ideas.",
+    "faqTitle": "Frequently asked questions",
     "faq": {
       "whatIsRedot": "What is Redot?",
       "redotExplanation": "Redot is a fork of Godot that is focused on improving the stability and performance of the engine.",
