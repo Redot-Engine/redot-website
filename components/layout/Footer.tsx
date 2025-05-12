@@ -27,17 +27,18 @@ export const Footer = () => {
               <div className="flex flex-row gap-4">
                 {FOOTER_SOCIALS.map((social) => (
                   <Link
-                    key={social.url}
+                    key={social.id}
                     href={social.url}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Image
-                      src={`/socials/${social.icon}`}
-                      alt={`${social.icon} logo`}
+                      src={`/socials/${social.iconSrc}`}
+                      alt={`${social.iconSrc} logo`}
                       width={28}
                       height={28}
                       className="opacity-60 transition-all duration-300 hover:opacity-70"
+                      priority
                     />
                   </Link>
                 ))}

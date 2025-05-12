@@ -2,30 +2,28 @@ import { CommunityCardProps } from "@/components/community/CommunityCard";
 import { LINKS } from "@/constants/common/links";
 
 export interface SocialLink {
+  id: string;
   url: string;
-  icon: string;
+  iconSrc: string;
 }
 
 export const FOOTER_SOCIALS: SocialLink[] = [
+  { id: "x", url: "https://x.com/Redot_Engine", iconSrc: "x.svg" },
+  { id: "discord", url: "https://discord.gg/redot", iconSrc: "discord.svg" },
   {
-    url: "https://x.com/Redot_Engine",
-    icon: "x.svg",
-  },
-  {
-    url: "https://discord.gg/redot",
-    icon: "discord.svg",
-  },
-  {
+    id: "github",
     url: "https://github.com/Redot-Engine",
-    icon: "github.svg",
+    iconSrc: "github.svg",
   },
   {
+    id: "youtube",
     url: "https://www.youtube.com/@RedotEngine",
-    icon: "youtube.svg",
+    iconSrc: "youtube.svg",
   },
   {
+    id: "reddit",
     url: "https://www.reddit.com/r/RedotGameEngineMain",
-    icon: "reddit.svg",
+    iconSrc: "reddit.svg",
   },
 ];
 
@@ -83,7 +81,7 @@ export const COMMUNITY_LINKS: CommunityCardProps[] = [
   },
   {
     imageUrl: "https://image.redotengine.org/socials/tiktok.png",
-    label: "Tiktok",
+    label: "TikTok",
     description: "socialLinks.tiktok",
     href: SOCIALS_LINKS.tiktok,
   },
@@ -99,7 +97,7 @@ export const COMMUNITY_SPACES: CommunityCardProps[] = [
   {
     imageUrl: "https://image.redotengine.org/socials/discordCommunity.png",
     label: "Discord Community",
-    description: "communitySpacesLinks.discord",
+    description: "communitySpacesLinks.discordCommunity",
     href: SOCIALS_LINKS.discordCommunity,
   },
   {
