@@ -1,6 +1,7 @@
 "use server";
 
 import { cookies } from "next/headers";
+import { COOKIE_CONSENT_MAX_AGE } from "@/constants/common/cookie";
 
 export async function setCookieConsent() {
   const cookieStore = await cookies();
@@ -8,7 +9,7 @@ export async function setCookieConsent() {
     name: "cookieConsent",
     value: "true",
     path: "/",
-    maxAge: 60 * 60 * 24 * 365,
+    maxAge: COOKIE_CONSENT_MAX_AGE,
     sameSite: "lax",
   });
 }

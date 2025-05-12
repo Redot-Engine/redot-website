@@ -2,6 +2,7 @@
 
 import { cookies } from "next/headers";
 import { getCookieConsent } from "@/actions/cookieConsent";
+import { SETTINGS_COOKIE_MAX_AGE } from "@/constants/common/cookie";
 
 const SETTINGS_COOKIE = "settings";
 const DEFAULT_SETTINGS = {
@@ -22,7 +23,7 @@ export async function saveSettings(
     path: "/",
   };
   if (consent) {
-    cookieOptions.maxAge = 60 * 60 * 24 * 30; // 30 days
+    cookieOptions.maxAge = SETTINGS_COOKIE_MAX_AGE;
   }
   cookieStore.set(SETTINGS_COOKIE, JSON.stringify(updated), cookieOptions);
 }
