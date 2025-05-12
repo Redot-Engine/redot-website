@@ -42,7 +42,7 @@ export const bannerType = defineType({
       link: "link",
     },
     prepare(selection) {
-      const main = selection.mainMessage?.[0]?.value || "No main message";
+      const main = selection.mainMessage?.[0]?.value ?? "No main message";
       const sub = selection.subMessage?.[0]?.value;
       return {
         title: main,

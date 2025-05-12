@@ -51,7 +51,7 @@ const TextFetcher = ({
 
   if (!textContent) {
     return (
-      loadingComponent || (
+      loadingComponent ?? (
         <div className="py-10 text-center">
           <IconLoader2 className="mx-auto h-6 w-6 animate-spin text-gray-500 dark:text-gray-400" />
         </div>
