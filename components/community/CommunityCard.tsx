@@ -23,6 +23,7 @@ export const CommunityCard = ({
               src={imageUrl}
               alt={label}
               className="h-full w-full rounded-md object-cover"
+              loading="lazy"
               fill
             />
           </div>
