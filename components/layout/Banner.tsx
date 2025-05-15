@@ -15,7 +15,7 @@ export default function Banner({
   if (!mainMessage) return null;
 
   return (
-    <Link href={link} target="_blank" rel="noopener noreferrer">
+    <Link href={link}>
       <div className="group flex select-none items-center justify-center gap-2 bg-gradient-to-r from-pink-500 via-amber-500 to-orange-500 py-2 font-sans text-sm font-medium tracking-tight text-white">
         <p className="hidden md:block">{subMessage}</p>
         <p>{mainMessage}</p>
