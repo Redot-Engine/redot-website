@@ -326,13 +326,13 @@
   },
   "brand": {
     "badge": "",
-    "title": "Prekės ženklo gairės",
-    "description": "Išsamios mūsų prekės ženklo vizualinės tapatybės gairės.",
-    "downloadPressKit": "Atsisiųsti spaudos rinkinį",
+    "title": "Merkrichtlijnen",
+    "description": "Uitgebreide richtlijnen voor onze visuele merkidentiteit.",
+    "downloadPressKit": "Download perskit",
     "logo": {
       "badge": "",
-      "title": "Mūsų logotipas",
-      "description": "Oficialūs Redot logotipai, skirti naudoti jūsų projektuose ir medžiagoje."
+      "title": "Ons logo",
+      "description": "Officiële Redot-logo's voor gebruik in uw projecten en materialen."
     },
     "symbol": {
       "badge": "",
@@ -353,8 +353,8 @@
     },
     "legalGuidelines": {
       "badge": "",
-      "title": "Teisinės prekės ženklo gairės",
-      "description": "Redot Engine logotipas yra autorių teisių saugomas ir licencijuotas. Laikykitės naudojimo taisyklių.",
+      "title": "Juridische merkrichtlijnen",
+      "description": "Het Redot Engine-logo is auteursrechtelijk beschermd en gelicentieerd. Volg de gebruiksregels.",
       "license": {
         "title": "Redot Engine logotipas",
         "copyright": "Autorių teisės (c) 2024 Asrorul Irsyad",

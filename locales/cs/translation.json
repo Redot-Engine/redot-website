@@ -379,10 +379,10 @@
         "donts": {
           "title": "Nedoporučení",
           "items": [
-            "Používejte bez uvedení správného připsání",
-            "Naznačujte schválení tvůrcem",
-            "Přidávejte další právní omezení",
-            "Odstraňujte nebo měňte podmínky licence"
+            "Nepoužívejte bez uvedení správného připsání",
+            "Nenaznačujte schválení tvůrcem",
+            "Nepřidávejte další právní omezení",
+            "Neodstraňujte nebo neměňte podmínky licence"
           ]
         }
       }

@@ -101,7 +101,7 @@
         "blog": "Nyheter",
         "feedback": "Feedback",
         "community": "Community",
-        "brand": "Märke",
+        "brand": "Varumärke",
         "pressKit": "Presskit",
         "contact": "Kontakt",
         "rss": "RSS"
@@ -366,7 +366,7 @@
         "title": "Exempel på attribuering",
         "text": "Redot Engine-logotyp © 2024 Asrorul Irsyad, licensierad under CC BY 4.0"
       },
-      "contact": "För frågor om användning, kontakta Redot-teamet på",
+      "contact": "För frågor om användning, kontakta Redot-teamet på.",
       "guidelines": {
         "dos": {
           "title": "Gör så här",

@@ -324,65 +324,66 @@
     "title": "Palveluehdot",
     "description": "Ymmärrä palvelujemme käyttöä koskevat säännöt ja ohjeet Palveluehdoissamme."
   },
-  "brand": {
+  "branding": {
     "badge": "",
-    "title": "Guía de Marca",
-    "description": "Guía completa de la identidad visual de nuestra marca.",
-    "downloadPressKit": "Descargar Kit de Prensa",
+    "title": "Brändiohjeet",
+    "description": "Kattava opas brändimme visuaaliseen identiteettiin.",
+    "downloadPressKit": "Lataa lehdistöpakkauksen",
+
     "logo": {
       "badge": "",
-      "title": "Nuestro Logo",
-      "description": "Logos oficiales de Redot para usar en tus proyectos y materiales."
+      "title": "Logomme",
+      "description": "Viralliset Redot-logot projekteihisi ja materiaaleihisi."
     },
     "symbol": {
       "badge": "",
-      "title": "Símbolo",
-      "description": "Diseño solo con el ícono de Redot para uso compacto y versátil."
+      "title": "Symboli",
+      "description": "Redot-kuvakkeellinen suunnittelu, kompakti ja monikäyttöinen."
     },
     "clearspace": {
       "badge": "",
-      "title": "Espacio Libre",
-      "description": "Reglas adecuadas de espacio para mantener el logo de Redot limpio y visible.",
-      "logoClearspace": "Espacio Libre del Logo",
-      "symbolClearspace": "Espacio Libre del Símbolo"
+      "title": "Tyhjätila",
+      "description": "Oikeat välisäännöt pitämään Redot-logo puhtaana ja näkyvänä.",
+      "logoClearspace": "Logon tyhjätila",
+      "symbolClearspace": "Symbolin tyhjätila"
     },
     "colors": {
       "badge": "",
-      "title": "Colores",
-      "description": "Paleta oficial de colores de Redot para un brand consistente en medios."
+      "title": "Värit",
+      "description": "Virallinen Redot-väripaletti yhtenäiseen brändäykseen eri medioissa."
     },
     "legalGuidelines": {
       "badge": "",
-      "title": "Guías Legales de Marca",
-      "description": "El logo de Redot Engine está protegido por derechos de autor y licencia. Sigue las pautas de uso.",
+      "title": "Lailliset brändiohjeet",
+      "description": "Redot Engine -logo on tekijänoikeuden alainen ja lisensoitu. Noudata käyttöohjeita.",
       "license": {
-        "title": "Logo Redot Engine",
-        "copyright": "Derechos de autor (c) 2024 Asrorul Irsyad",
-        "description": "Licenciado bajo Creative Commons Attribution 4.0 International (CC BY 4.0)",
-        "viewLicense": "Ver Licencia"
+        "title": "Redot Engine -logo",
+        "copyright": "Tekijänoikeus (c) 2024 Asrorul Irsyad",
+        "description": "Lisensoitu Creative Commons Attribution 4.0 International (CC BY 4.0) mukaisesti",
+        "viewLicense": "Näytä lisenssi"
       },
       "attribution": {
-        "title": "Ejemplo de Atribución",
-        "text": "Logo Redot Engine © 2024 Asrorul Irsyad, licenciado bajo CC BY 4.0"
+        "title": "Esimerkki attribuutiosta",
+        "text": "Redot Engine -logo © 2024 Asrorul Irsyad, lisensoitu CC BY 4.0 -lisenssillä"
       },
-      "contact": "Para preguntas sobre el uso, por favor contacte al equipo de Redot en",
+      "contact": "Käyttöön liittyvissä kysymyksissä ota yhteyttä Redot-tiimiin osoitteessa",
       "guidelines": {
         "dos": {
-          "title": "Lo que se debe hacer",
+          "title": "Sallitut",
           "items": [
-            "Usar para propósitos comerciales y no comerciales",
-            "Modificar, adaptar o basarse en el logo",
-            "Compartir y redistribuir en cualquier medio",
-            "Incluir la atribución adecuada (ver ejemplo abajo)"
+            "Käytä kaupallisiin ja ei-kaupallisiin tarkoituksiin",
+            "Muokkaa, sovita tai kehitä logon pohjalta",
+            "Jaa ja levitä missä tahansa mediassa",
+            "Sisällytä asianmukainen attribuutio (katso esimerkki alla)"
           ]
         },
         "donts": {
-          "title": "Lo que no se debe hacer",
+          "title": "Kielletyt",
           "items": [
-            "Usar sin proporcionar la atribución adecuada",
-            "Implicar respaldo por parte del creador",
-            "Agregar restricciones legales adicionales",
-            "Eliminar o modificar los términos de la licencia"
+            "Älä käytä ilman asianmukaista attribuutiota",
+            "Älä anna ymmärtää, että luoja tukee käyttöäsi",
+            "Älä lisää lisäoikeudellisia rajoituksia",
+            "Älä poista tai muuta lisenssin ehtoja"
           ]
         }
       }
