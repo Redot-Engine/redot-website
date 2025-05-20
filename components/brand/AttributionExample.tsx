@@ -14,7 +14,8 @@ export default function AttributionExample() {
   const copyAttribution = () => {
     navigator.clipboard.writeText(attributionText);
     setShowCheck(true);
-    setTimeout(() => setShowCheck(false), 1500);
+    const timeoutId = setTimeout(() => setShowCheck(false), 1500);
+    return () => clearTimeout(timeoutId);
   };
 
   return (

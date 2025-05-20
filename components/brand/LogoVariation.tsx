@@ -52,7 +52,7 @@ export default function LogoVariation({
             className="flex items-center gap-2 shadow-md"
             asChild
           >
-            <Link href={downloadUrl} download>
+            <Link href={downloadUrl} download aria-label="Download logo">
               <IconDownload size={16} />
             </Link>
           </Button>
