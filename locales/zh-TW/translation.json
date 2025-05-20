@@ -101,6 +101,7 @@
         "blog": "新聞",
         "feedback": "反饋",
         "community": "社群",
+        "brand": "品牌",
         "pressKit": "新聞稿套件",
         "contact": "聯絡",
         "rss": "RSS 訂閱"
@@ -322,5 +323,70 @@
     "badge": "",
     "title": "服務條款",
     "description": "了解如何使用我們的服務以及我們的服務條款中的規則和指南。"
+  },
+  "brand": {
+    "badge": "",
+    "title": "品牌指南",
+    "description": "我们品牌视觉识别的全面指南。",
+    "downloadPressKit": "下载新闻资料包",
+
+    "logo": {
+      "badge": "",
+      "title": "我们的标志",
+      "description": "Redot 官方标志，供您的项目和材料使用。"
+    },
+    "symbol": {
+      "badge": "",
+      "title": "符号",
+      "description": "Redot 仅图标设计，适用于紧凑且多用途的使用场景。"
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "保护空间",
+      "description": "保持 Redot 标志清晰可见的适当间距规则。",
+      "logoClearspace": "标志保护空间",
+      "symbolClearspace": "符号保护空间"
+    },
+    "colors": {
+      "badge": "",
+      "title": "颜色",
+      "description": "Redot 官方色彩调色板，确保跨媒体品牌一致性。"
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "品牌法律指南",
+      "description": "Redot Engine 标志受版权保护和许可。请遵守使用指南。",
+      "license": {
+        "title": "Redot Engine 标志",
+        "copyright": "版权所有 (c) 2024 Asrorul Irsyad",
+        "description": "依据知识共享署名 4.0 国际许可协议 (CC BY 4.0) 授权",
+        "viewLicense": "查看许可协议"
+      },
+      "attribution": {
+        "title": "署名示例",
+        "text": "Redot Engine 标志 © 2024 Asrorul Irsyad，依据 CC BY 4.0 许可"
+      },
+      "contact": "如有使用相关问题，请联系 Redot 团队",
+      "guidelines": {
+        "dos": {
+          "title": "可做事项",
+          "items": [
+            "可用于商业和非商业用途",
+            "可修改、调整或基于标志进行创作",
+            "可在任何媒介上分享和再分发",
+            "请附上适当署名（见以下示例）"
+          ]
+        },
+        "donts": {
+          "title": "禁做事项",
+          "items": [
+            "使用时不提供适当署名",
+            "暗示由创作者认可",
+            "添加额外法律限制",
+            "删除或更改许可条款"
+          ]
+        }
+      }
+    }
   }
 }

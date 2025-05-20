@@ -101,6 +101,7 @@
         "blog": "Tin tức",
         "feedback": "Phản hồi",
         "community": "Cộng đồng",
+        "brand": "Thương hiệu",
         "pressKit": "Bộ công cụ báo chí",
         "contact": "Liên hệ",
         "rss": "RSS"
@@ -322,5 +323,70 @@
     "badge": "",
     "title": "Điều khoản dịch vụ",
     "description": "Hiểu các quy tắc và hướng dẫn sử dụng dịch vụ của chúng tôi trong Điều khoản dịch vụ."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Hướng Dẫn Thương Hiệu",
+    "description": "Hướng dẫn toàn diện về nhận diện thương hiệu của chúng tôi.",
+    "downloadPressKit": "Tải Bộ Tài Liệu Báo Chí",
+
+    "logo": {
+      "badge": "",
+      "title": "Logo Của Chúng Tôi",
+      "description": "Logo chính thức của Redot để sử dụng trong dự án và tài liệu của bạn."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Biểu Tượng",
+      "description": "Thiết kế biểu tượng chỉ có icon của Redot dùng cho các trường hợp nhỏ gọn và linh hoạt."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Khoảng Cách An Toàn",
+      "description": "Quy tắc về khoảng cách để giữ cho logo Redot sạch sẽ và dễ nhìn.",
+      "logoClearspace": "Khoảng Cách Logo",
+      "symbolClearspace": "Khoảng Cách Biểu Tượng"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Màu Sắc",
+      "description": "Bảng màu chính thức của Redot để duy trì sự đồng nhất thương hiệu trên các phương tiện."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Hướng Dẫn Pháp Lý Về Thương Hiệu",
+      "description": "Logo Redot Engine được bảo hộ bản quyền và cấp phép. Vui lòng tuân thủ các hướng dẫn sử dụng.",
+      "license": {
+        "title": "Logo Redot Engine",
+        "copyright": "Bản quyền (c) 2024 Asrorul Irsyad",
+        "description": "Được cấp phép theo Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Xem Giấy Phép"
+      },
+      "attribution": {
+        "title": "Ví Dụ Ghi Nhận",
+        "text": "Logo Redot Engine © 2024 Asrorul Irsyad, được cấp phép theo CC BY 4.0"
+      },
+      "contact": "Nếu có thắc mắc về việc sử dụng, vui lòng liên hệ đội ngũ Redot tại",
+      "guidelines": {
+        "dos": {
+          "title": "Nên Làm",
+          "items": [
+            "Sử dụng cho mục đích thương mại và phi thương mại",
+            "Chỉnh sửa, điều chỉnh hoặc xây dựng dựa trên logo",
+            "Chia sẻ và phân phối lại trên bất kỳ phương tiện nào",
+            "Bao gồm ghi nhận thích hợp (xem ví dụ bên dưới)"
+          ]
+        },
+        "donts": {
+          "title": "Không Nên Làm",
+          "items": [
+            "Sử dụng mà không ghi nhận đúng cách",
+            "Ngụ ý được sự bảo trợ từ tác giả",
+            "Thêm các hạn chế pháp lý khác",
+            "Loại bỏ hoặc thay đổi điều khoản giấy phép"
+          ]
+        }
+      }
+    }
   }
 }

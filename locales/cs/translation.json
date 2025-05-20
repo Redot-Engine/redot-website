@@ -101,6 +101,7 @@
         "blog": "Novinky",
         "feedback": "Zpětná vazba",
         "community": "Komunita",
+        "brand": "Značka",
         "pressKit": "Tiskový balíček",
         "contact": "Kontakt",
         "rss": "RSS"
@@ -322,5 +323,69 @@
     "badge": "",
     "title": "Podmínky služby",
     "description": "Pochopte pravidla a pokyny pro používání našich služeb v našich Podmínkách služby."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Pravidla značky",
+    "description": "Komplexní průvodce vizuální identitou naší značky.",
+    "downloadPressKit": "Stáhnout tiskovou sadu",
+    "logo": {
+      "badge": "",
+      "title": "Naše logo",
+      "description": "Oficiální loga Redot pro použití ve vašich projektech a materiálech."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Symbol",
+      "description": "Pouze ikona Redot pro kompaktní a univerzální použití."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Volný prostor",
+      "description": "Pravidla správného rozestupu, aby bylo logo Redot čisté a viditelné.",
+      "logoClearspace": "Volný prostor okolo loga",
+      "symbolClearspace": "Volný prostor okolo symbolu"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Barvy",
+      "description": "Oficiální barevná paleta Redot pro konzistentní značku napříč médii."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Právní pravidla značky",
+      "description": "Logo Redot Engine je chráněno autorskými právy a licencí. Dodržujte pokyny pro použití.",
+      "license": {
+        "title": "Logo Redot Engine",
+        "copyright": "Copyright (c) 2024 Asrorul Irsyad",
+        "description": "Licencováno pod Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Zobrazit licenci"
+      },
+      "attribution": {
+        "title": "Příklad připsání",
+        "text": "Logo Redot Engine © 2024 Asrorul Irsyad, licencováno pod CC BY 4.0"
+      },
+      "contact": "Pro dotazy ohledně použití kontaktujte tým Redot na",
+      "guidelines": {
+        "dos": {
+          "title": "Doporučení",
+          "items": [
+            "Používejte pro komerční i nekomerční účely",
+            "Upravujte, přizpůsobujte nebo stavějte na logu",
+            "Sdílejte a redistribuujte v jakémkoli médiu",
+            "Uveďte správné připsání (viz příklad níže)"
+          ]
+        },
+        "donts": {
+          "title": "Nedoporučení",
+          "items": [
+            "Používejte bez uvedení správného připsání",
+            "Naznačujte schválení tvůrcem",
+            "Přidávejte další právní omezení",
+            "Odstraňujte nebo měňte podmínky licence"
+          ]
+        }
+      }
+    }
   }
 }
