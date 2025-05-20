@@ -67,8 +67,8 @@
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.7",
-    "@commitlint/cli": "^19.6.0",
-    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20",
     "@types/react": "19.0.2",
