@@ -101,6 +101,7 @@
         "blog": "Notícias",
         "feedback": "Feedback",
         "community": "Comunidade",
+        "brand": "Marca",
         "pressKit": "Kit de Imprensa",
         "contact": "Contato",
         "rss": "RSS"
@@ -322,5 +323,69 @@
     "badge": "",
     "title": "Termos de Serviço",
     "description": "Entenda as regras e diretrizes para usar nossos serviços nos nossos Termos de Serviço."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Diretrizes de Marca",
+    "description": "Guia abrangente para a identidade visual da nossa marca.",
+    "downloadPressKit": "Baixar Kit de Imprensa",
+    "logo": {
+      "badge": "",
+      "title": "Nosso Logo",
+      "description": "Logos oficiais da Redot para uso em seus projetos e materiais."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Símbolo",
+      "description": "Design do ícone Redot para uso compacto e versátil."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Espaçamento",
+      "description": "Regras de espaçamento adequadas para manter o logo Redot limpo e visível.",
+      "logoClearspace": "Espaçamento do Logo",
+      "symbolClearspace": "Espaçamento do Símbolo"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Cores",
+      "description": "Paleta oficial de cores da Redot para uma marca consistente em todos os meios."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Diretrizes Legais da Marca",
+      "description": "O logo Redot Engine é protegido por direitos autorais e licenciado. Siga as diretrizes de uso.",
+      "license": {
+        "title": "Logo Redot Engine",
+        "copyright": "Copyright (c) 2024 Asrorul Irsyad",
+        "description": "Licenciado sob Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Ver Licença"
+      },
+      "attribution": {
+        "title": "Exemplo de Atribuição",
+        "text": "Logo Redot Engine © 2024 Asrorul Irsyad, licenciado sob CC BY 4.0"
+      },
+      "contact": "Para dúvidas sobre o uso, entre em contato com a equipe Redot em",
+      "guidelines": {
+        "dos": {
+          "title": "Faça",
+          "items": [
+            "Use para fins comerciais e não comerciais",
+            "Modifique, adapte ou construa sobre o logo",
+            "Compartilhe e redistribua em qualquer mídia",
+            "Inclua a atribuição adequada (veja o exemplo abaixo)"
+          ]
+        },
+        "donts": {
+          "title": "Não faça",
+          "items": [
+            "Use sem fornecer a atribuição adequada",
+            "Implicar endosso pelo criador",
+            "Adicionar restrições legais adicionais",
+            "Remover ou alterar os termos da licença"
+          ]
+        }
+      }
+    }
   }
 }

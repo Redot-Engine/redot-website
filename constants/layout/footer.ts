@@ -37,6 +37,10 @@ export const footer: Footer[] = [
       },
       { title: "resources.children.community", href: "/community" },
       {
+        title: "resources.children.brand",
+        href: "/branding",
+      },
+      {
         title: "resources.children.pressKit",
         href: LINKS.pressKit,
         newTab: true,

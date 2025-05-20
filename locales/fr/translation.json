@@ -101,6 +101,7 @@
         "blog": "Actualités",
         "feedback": "Retour d'information",
         "community": "Communauté",
+        "brand": "Marque",
         "pressKit": "Kit de presse",
         "contact": "Contact",
         "rss": "RSS"
@@ -322,5 +323,69 @@
     "badge": "",
     "title": "Conditions d'utilisation",
     "description": "Comprenez les règles et les directives d'utilisation de nos services dans nos Conditions d'utilisation."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Guide de la Marque",
+    "description": "Guide complet de l'identité visuelle de notre marque.",
+    "downloadPressKit": "Télécharger le kit presse",
+    "logo": {
+      "badge": "",
+      "title": "Notre Logo",
+      "description": "Logos officiels Redot pour une utilisation dans vos projets et supports."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Symbole",
+      "description": "Design uniquement icône Redot pour un usage compact et polyvalent."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Zone de protection",
+      "description": "Règles d'espacement appropriées pour garder le logo Redot propre et visible.",
+      "logoClearspace": "Zone de protection du logo",
+      "symbolClearspace": "Zone de protection du symbole"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Couleurs",
+      "description": "Palette de couleurs officielle Redot pour un brand cohérent sur tous les médias."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Directives légales de la marque",
+      "description": "Le logo Redot Engine est protégé par des droits d'auteur et sous licence. Respectez les consignes d'utilisation.",
+      "license": {
+        "title": "Logo Redot Engine",
+        "copyright": "Copyright (c) 2024 Asrorul Irsyad",
+        "description": "Licencié sous Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Voir la licence"
+      },
+      "attribution": {
+        "title": "Exemple d'attribution",
+        "text": "Logo Redot Engine © 2024 Asrorul Irsyad, licencié sous CC BY 4.0"
+      },
+      "contact": "Pour toute question concernant l'utilisation, veuillez contacter l'équipe Redot à",
+      "guidelines": {
+        "dos": {
+          "title": "À faire",
+          "items": [
+            "Utiliser à des fins commerciales et non commerciales",
+            "Modifier, adapter ou développer à partir du logo",
+            "Partager et redistribuer sur tout support",
+            "Inclure une attribution appropriée (voir exemple ci-dessous)"
+          ]
+        },
+        "donts": {
+          "title": "À ne pas faire",
+          "items": [
+            "Utiliser sans fournir une attribution appropriée",
+            "Impliquer une approbation du créateur",
+            "Ajouter des restrictions légales supplémentaires",
+            "Supprimer ou modifier les termes de la licence"
+          ]
+        }
+      }
+    }
   }
 }

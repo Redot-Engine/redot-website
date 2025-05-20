@@ -101,6 +101,7 @@
         "blog": "Blog",
         "feedback": "Uwagi",
         "community": "Społeczność",
+        "brand": "Marka",
         "pressKit": "Pakiet prasowy",
         "contact": "Kontakt",
         "rss": "RSS"
@@ -322,5 +323,69 @@
     "badge": "",
     "title": "Warunki usługi",
     "description": "Poznaj zasady i wytyczne dotyczące korzystania z naszych usług w naszych Warunkach Usługi."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Wytyczne dotyczące marki",
+    "description": "Kompleksowy przewodnik po wizualnej tożsamości naszej marki.",
+    "downloadPressKit": "Pobierz pakiet prasowy",
+    "logo": {
+      "badge": "",
+      "title": "Nasze logo",
+      "description": "Oficjalne logo Redot do użytku w Twoich projektach i materiałach."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Symbol",
+      "description": "Ikona Redot bez tekstu, do kompaktowego i wszechstronnego użycia."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Przestrzeń ochronna",
+      "description": "Zasady odpowiedniej przestrzeni, aby logo Redot było czytelne i widoczne.",
+      "logoClearspace": "Przestrzeń ochronna logo",
+      "symbolClearspace": "Przestrzeń ochronna symbolu"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Kolory",
+      "description": "Oficjalna paleta kolorów Redot zapewniająca spójność marki w różnych mediach."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Prawne wytyczne dotyczące marki",
+      "description": "Logo Redot Engine jest chronione prawem autorskim i licencjonowane. Przestrzegaj zasad użytkowania.",
+      "license": {
+        "title": "Logo Redot Engine",
+        "copyright": "Copyright (c) 2024 Asrorul Irsyad",
+        "description": "Licencjonowane na podstawie Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Zobacz licencję"
+      },
+      "attribution": {
+        "title": "Przykład przypisania",
+        "text": "Logo Redot Engine © 2024 Asrorul Irsyad, licencjonowane na podstawie CC BY 4.0"
+      },
+      "contact": "W razie pytań dotyczących użytkowania prosimy o kontakt z zespołem Redot pod adresem",
+      "guidelines": {
+        "dos": {
+          "title": "Dozwolone",
+          "items": [
+            "Używanie do celów komercyjnych i niekomercyjnych",
+            "Modyfikowanie, dostosowywanie lub rozwijanie logo",
+            "Udostępnianie i rozpowszechnianie w dowolnym medium",
+            "Dołączanie odpowiedniego przypisania (patrz przykład poniżej)"
+          ]
+        },
+        "donts": {
+          "title": "Zakazane",
+          "items": [
+            "Używanie bez odpowiedniego przypisania",
+            "Sugestia poparcia przez twórcę",
+            "Dodawanie dodatkowych ograniczeń prawnych",
+            "Usuwanie lub zmienianie warunków licencji"
+          ]
+        }
+      }
+    }
   }
 }

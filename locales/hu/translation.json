@@ -101,6 +101,7 @@
         "blog": "Hírek",
         "feedback": "Visszajelzés",
         "community": "Közösség",
+        "brand": "Márka",
         "pressKit": "Sajtócsomag",
         "contact": "Kapcsolat",
         "rss": "RSS"
@@ -319,5 +320,70 @@
     "badge": "",
     "title": "Szolgáltatási feltételek",
     "description": "Értse meg szolgáltatásaink használatára vonatkozó szabályokat és irányelveket Szolgáltatási feltételeinkben."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Arculati irányelvek",
+    "description": "Átfogó útmutató márkánk vizuális megjelenéséhez.",
+    "downloadPressKit": "Sajtócsomag letöltése",
+
+    "logo": {
+      "badge": "",
+      "title": "Logónk",
+      "description": "Hivatalos Redot logók, melyeket projektjeiben és anyagaiban használhat."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Szimbólum",
+      "description": "Redot ikon-only design kompakt és sokoldalú használatra."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Tiszta tér",
+      "description": "Megfelelő térköz szabályok, hogy a Redot logó tiszta és jól látható legyen.",
+      "logoClearspace": "Logó tiszta tere",
+      "symbolClearspace": "Szimbólum tiszta tere"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Színek",
+      "description": "Hivatalos Redot színpaletta az egységes márkajelzéshez minden médiában."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Jogi márka irányelvek",
+      "description": "A Redot Engine logó szerzői jogvédelem alatt áll és licencelt. Kövesse a használati irányelveket.",
+      "license": {
+        "title": "Redot Engine logó",
+        "copyright": "Szerzői jog (c) 2024 Asrorul Irsyad",
+        "description": "Creative Commons Attribution 4.0 Nemzetközi (CC BY 4.0) licenc alatt",
+        "viewLicense": "Licenc megtekintése"
+      },
+      "attribution": {
+        "title": "Hivatkozási példa",
+        "text": "Redot Engine logó © 2024 Asrorul Irsyad, CC BY 4.0 licenc alatt"
+      },
+      "contact": "Használattal kapcsolatos kérdések esetén kérjük, lépjen kapcsolatba a Redot csapattal a következő címen:",
+      "guidelines": {
+        "dos": {
+          "title": "Teendők",
+          "items": [
+            "Használja kereskedelmi és nem kereskedelmi célokra",
+            "Módosítsa, alakítsa vagy építsen a logóra",
+            "Ossza meg és terjessze bármely médiumban",
+            "Mindig tüntesse fel a megfelelő hivatkozást (lásd az alábbi példát)"
+          ]
+        },
+        "donts": {
+          "title": "Nem szabad",
+          "items": [
+            "Használat hivatkozás nélkül",
+            "A készítő jóváhagyásának sugallása",
+            "További jogi korlátozások hozzáadása",
+            "A licencfeltételek eltávolítása vagy megváltoztatása"
+          ]
+        }
+      }
+    }
   }
 }

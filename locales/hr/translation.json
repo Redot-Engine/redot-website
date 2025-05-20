@@ -101,6 +101,7 @@
         "blog": "Novosti",
         "feedback": "Povratne informacije",
         "community": "Zajednica",
+        "brand": "Marka",
         "pressKit": "Press Kit",
         "contact": "Kontakt",
         "rss": "RSS"
@@ -322,5 +323,70 @@
     "badge": "",
     "title": "Uvjeti usluge",
     "description": "Razumite pravila i smjernice za korištenje naših usluga u našim Uvjetima usluge."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Smjernice za brendiranje",
+    "description": "Sveobuhvatan vodič za vizualni identitet našeg brenda.",
+    "downloadPressKit": "Preuzmi Press Kit",
+
+    "logo": {
+      "badge": "",
+      "title": "Naš logo",
+      "description": "Službeni Redot logotipi za korištenje u vašim projektima i materijalima."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Simbol",
+      "description": "Redot dizajn samo s ikonom za kompaktno i svestrano korištenje."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Jasni prostor",
+      "description": "Pravila pravilnog razmaka kako bi Redot logo bio čist i vidljiv.",
+      "logoClearspace": "Jasni prostor za logo",
+      "symbolClearspace": "Jasni prostor za simbol"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Boje",
+      "description": "Službena paleta boja Redot za dosljedno brendiranje u svim medijima."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Pravne smjernice za brend",
+      "description": "Redot Engine logo je zaštićen autorskim pravima i licenciran. Slijedite pravila korištenja.",
+      "license": {
+        "title": "Redot Engine logo",
+        "copyright": "Autorska prava (c) 2024 Asrorul Irsyad",
+        "description": "Licencirano pod Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Pogledaj licencu"
+      },
+      "attribution": {
+        "title": "Primjer atribucije",
+        "text": "Redot Engine logo © 2024 Asrorul Irsyad, licencirano pod CC BY 4.0"
+      },
+      "contact": "Za pitanja o korištenju, molimo kontaktirajte Redot tim na",
+      "guidelines": {
+        "dos": {
+          "title": "Dozvoljeno",
+          "items": [
+            "Koristite u komercijalne i nekomercijalne svrhe",
+            "Mijenjajte, prilagođavajte ili nadograđujte logo",
+            "Dijelite i redistribuirajte u bilo kojem mediju",
+            "Uključite pravilnu atribuciju (vidi primjer dolje)"
+          ]
+        },
+        "donts": {
+          "title": "Ne smije se",
+          "items": [
+            "Koristiti bez pružanja odgovarajuće atribucije",
+            "Implicirati odobrenje kreatora",
+            "Dodavati dodatna pravna ograničenja",
+            "Uklanjati ili mijenjati uvjete licence"
+          ]
+        }
+      }
+    }
   }
 }

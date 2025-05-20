@@ -101,6 +101,7 @@
         "blog": "Uutiset",
         "feedback": "Palaute",
         "community": "Yhteisö",
+        "brand": "Brändi",
         "pressKit": "Lehdistötiedote",
         "contact": "Yhteydenotto",
         "rss": "RSS"
@@ -322,5 +323,70 @@
     "badge": "",
     "title": "Palveluehdot",
     "description": "Ymmärrä palvelujemme käyttöä koskevat säännöt ja ohjeet Palveluehdoissamme."
+  },
+  "branding": {
+    "badge": "",
+    "title": "Brändiohjeet",
+    "description": "Kattava opas brändimme visuaaliseen identiteettiin.",
+    "downloadPressKit": "Lataa lehdistöpakkauksen",
+
+    "logo": {
+      "badge": "",
+      "title": "Logomme",
+      "description": "Viralliset Redot-logot projekteihisi ja materiaaleihisi."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Symboli",
+      "description": "Redot-kuvakkeellinen suunnittelu, kompakti ja monikäyttöinen."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Tyhjätila",
+      "description": "Oikeat välisäännöt pitämään Redot-logo puhtaana ja näkyvänä.",
+      "logoClearspace": "Logon tyhjätila",
+      "symbolClearspace": "Symbolin tyhjätila"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Värit",
+      "description": "Virallinen Redot-väripaletti yhtenäiseen brändäykseen eri medioissa."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Lailliset brändiohjeet",
+      "description": "Redot Engine -logo on tekijänoikeuden alainen ja lisensoitu. Noudata käyttöohjeita.",
+      "license": {
+        "title": "Redot Engine -logo",
+        "copyright": "Tekijänoikeus (c) 2024 Asrorul Irsyad",
+        "description": "Lisensoitu Creative Commons Attribution 4.0 International (CC BY 4.0) mukaisesti",
+        "viewLicense": "Näytä lisenssi"
+      },
+      "attribution": {
+        "title": "Esimerkki attribuutiosta",
+        "text": "Redot Engine -logo © 2024 Asrorul Irsyad, lisensoitu CC BY 4.0 -lisenssillä"
+      },
+      "contact": "Käyttöön liittyvissä kysymyksissä ota yhteyttä Redot-tiimiin osoitteessa",
+      "guidelines": {
+        "dos": {
+          "title": "Sallitut",
+          "items": [
+            "Käytä kaupallisiin ja ei-kaupallisiin tarkoituksiin",
+            "Muokkaa, sovita tai kehitä logon pohjalta",
+            "Jaa ja levitä missä tahansa mediassa",
+            "Sisällytä asianmukainen attribuutio (katso esimerkki alla)"
+          ]
+        },
+        "donts": {
+          "title": "Kielletyt",
+          "items": [
+            "Älä käytä ilman asianmukaista attribuutiota",
+            "Älä anna ymmärtää, että luoja tukee käyttöäsi",
+            "Älä lisää lisäoikeudellisia rajoituksia",
+            "Älä poista tai muuta lisenssin ehtoja"
+          ]
+        }
+      }
+    }
   }
 }

@@ -101,6 +101,7 @@
         "blog": "Nyheter",
         "feedback": "Tilbakemelding",
         "community": "Samfunn",
+        "brand": "Merke",
         "pressKit": "Pressemateriell",
         "contact": "Kontakt",
         "rss": "RSS"
@@ -322,5 +323,69 @@
     "badge": "",
     "title": "Tjenestevilkår",
     "description": "Forstå reglene og retningslinjene for bruk av våre tjenester i våre Tjenestevilkår."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Merkevareretningslinjer",
+    "description": "Omfattende guide til vårt merkevares visuelle identitet.",
+    "downloadPressKit": "Last ned pressemateriell",
+    "logo": {
+      "badge": "",
+      "title": "Vår logo",
+      "description": "Offisielle Redot-logoer for bruk i dine prosjekter og materialer."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Symbol",
+      "description": "Redot ikon-design for kompakt og allsidig bruk."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Frisone",
+      "description": "Korrekte avstandskrav for å holde Redot-logoen ren og synlig.",
+      "logoClearspace": "Logo frisone",
+      "symbolClearspace": "Symbol frisone"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Farger",
+      "description": "Offisiell Redot-fargepalett for konsistent merkevarebygging på tvers av medier."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Juridiske merkevareretningslinjer",
+      "description": "Redot Engine-logoen er opphavsrettsbeskyttet og lisensiert. Følg bruksreglene.",
+      "license": {
+        "title": "Redot Engine-logo",
+        "copyright": "Opphavsrett (c) 2024 Asrorul Irsyad",
+        "description": "Lisensiert under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Se lisens"
+      },
+      "attribution": {
+        "title": "Eksempel på kreditering",
+        "text": "Redot Engine-logo © 2024 Asrorul Irsyad, lisensiert under CC BY 4.0"
+      },
+      "contact": "For spørsmål om bruk, vennligst kontakt Redot-teamet på",
+      "guidelines": {
+        "dos": {
+          "title": "Gjør dette",
+          "items": [
+            "Bruk for kommersielle og ikke-kommersielle formål",
+            "Modifiser, tilpass eller bygg videre på logoen",
+            "Del og distribuer i alle medier",
+            "Inkluder riktig kreditering (se eksempel nedenfor)"
+          ]
+        },
+        "donts": {
+          "title": "Ikke gjør dette",
+          "items": [
+            "Bruk uten å gi riktig kreditering",
+            "Gi inntrykk av støtte fra skaperen",
+            "Legg til ekstra juridiske restriksjoner",
+            "Fjern eller endre lisensvilkårene"
+          ]
+        }
+      }
+    }
   }
 }

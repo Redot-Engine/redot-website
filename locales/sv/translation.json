@@ -101,6 +101,7 @@
         "blog": "Nyheter",
         "feedback": "Feedback",
         "community": "Community",
+        "brand": "Varumärke",
         "pressKit": "Presskit",
         "contact": "Kontakt",
         "rss": "RSS"
@@ -322,5 +323,70 @@
     "badge": "",
     "title": "Tjänstevillkor",
     "description": "Förstå reglerna och riktlinjerna för att använda våra tjänster i våra Tjänstevillkor."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Varumärkesriktlinjer",
+    "description": "Omfattande guide till vårt varumärkes visuella identitet.",
+    "downloadPressKit": "Ladda ner presskit",
+
+    "logo": {
+      "badge": "",
+      "title": "Vår logotyp",
+      "description": "Officiella Redot-logotyper för användning i dina projekt och material."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Symbol",
+      "description": "Redot ikon-design för kompakt och mångsidig användning."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Fritt utrymme",
+      "description": "Korrekt avståndsregler för att hålla Redot-logotypen ren och synlig.",
+      "logoClearspace": "Logotypens fria utrymme",
+      "symbolClearspace": "Symbolens fria utrymme"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Färger",
+      "description": "Officiell Redot-färgpalett för konsekvent varumärke i olika medier."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Juridiska riktlinjer för varumärket",
+      "description": "Redot Engine-logotypen är upphovsrättsskyddad och licensierad. Följ användningsriktlinjerna.",
+      "license": {
+        "title": "Redot Engine-logotyp",
+        "copyright": "Upphovsrätt (c) 2024 Asrorul Irsyad",
+        "description": "Licensierad under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Visa licens"
+      },
+      "attribution": {
+        "title": "Exempel på attribuering",
+        "text": "Redot Engine-logotyp © 2024 Asrorul Irsyad, licensierad under CC BY 4.0"
+      },
+      "contact": "För frågor om användning, kontakta Redot-teamet på.",
+      "guidelines": {
+        "dos": {
+          "title": "Gör så här",
+          "items": [
+            "Använd för kommersiella och icke-kommersiella ändamål",
+            "Modifiera, anpassa eller bygg vidare på logotypen",
+            "Dela och sprid i vilket medium som helst",
+            "Inkludera korrekt attribuering (se exempel nedan)"
+          ]
+        },
+        "donts": {
+          "title": "Gör inte",
+          "items": [
+            "Använd utan att ge korrekt attribuering",
+            "Ge intryck av att skaparen stöder dig",
+            "Lägg till ytterligare juridiska begränsningar",
+            "Ta bort eller ändra licensvillkoren"
+          ]
+        }
+      }
+    }
   }
 }

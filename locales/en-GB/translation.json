@@ -101,6 +101,7 @@
         "blog": "News",
         "feedback": "Feedback",
         "community": "Community",
+        "brand": "Brand",
         "pressKit": "Press Kit",
         "contact": "Contact",
         "rss": "RSS"
@@ -322,5 +323,69 @@
     "badge": "",
     "title": "Terms of Service",
     "description": "Understand the rules and guidelines for using our services in our Terms of Service."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Brand Guidelines",
+    "description": "Comprehensive guide to our brand's visual identity.",
+    "downloadPressKit": "Download Press Kit",
+    "logo": {
+      "badge": "",
+      "title": "Our Logo",
+      "description": "Official Redot logos for use in your projects and materials."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Symbol",
+      "description": "Redot icon-only design for compact and versatile use."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Clearspace",
+      "description": "Proper spacing rules to keep the Redot logo clean and visible.",
+      "logoClearspace": "Logo Clearspace",
+      "symbolClearspace": "Symbol Clearspace"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Colours",
+      "description": "Official Redot colour palette for consistent brand across media."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Legal Brand Guidelines",
+      "description": "The Redot Engine Logo is copyrighted and licensed. Follow the usage guidelines.",
+      "license": {
+        "title": "Redot Engine Logo",
+        "copyright": "Copyright (c) 2024 Asrorul Irsyad",
+        "description": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "View License"
+      },
+      "attribution": {
+        "title": "Attribution Example",
+        "text": "Redot Engine Logo © 2024 Asrorul Irsyad, licensed under CC BY 4.0"
+      },
+      "contact": "For questions about usage, please contact the Redot team at",
+      "guidelines": {
+        "dos": {
+          "title": "Do's",
+          "items": [
+            "Use for commercial and non-commercial purposes",
+            "Modify, adapt, or build upon the logo",
+            "Share and redistribute in any medium",
+            "Include proper attribution (see example below)"
+          ]
+        },
+        "donts": {
+          "title": "Don'ts",
+          "items": [
+            "Use without providing proper attribution",
+            "Imply endorsement by the creator",
+            "Add additional legal restrictions",
+            "Remove or alter the licence terms"
+          ]
+        }
+      }
+    }
   }
 }

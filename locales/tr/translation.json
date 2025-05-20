@@ -101,6 +101,7 @@
         "blog": "Blog",
         "feedback": "Geri Bildirim",
         "community": "Topluluk",
+        "brand": "Marka",
         "pressKit": "Basın Kiti",
         "contact": "İletişim",
         "rss": "RSS"
@@ -322,5 +323,70 @@
     "badge": "",
     "title": "Hizmet Şartları",
     "description": "Hizmet Şartlarımızda yer alan hizmetlerimizi kullanmaya ilişkin kural ve yönergeleri anlayın."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Marka Kılavuzu",
+    "description": "Markamızın görsel kimliğine dair kapsamlı rehber.",
+    "downloadPressKit": "Basın Kiti İndir",
+
+    "logo": {
+      "badge": "",
+      "title": "Logomuz",
+      "description": "Projelerinizde ve materyallerinizde kullanmanız için resmi Redot logoları."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Sembol",
+      "description": "Kompakt ve çok yönlü kullanım için Redot ikon tasarımı."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Boşluk Alanı",
+      "description": "Redot logosunun temiz ve görünür kalması için doğru boşluk kuralları.",
+      "logoClearspace": "Logo Boşluk Alanı",
+      "symbolClearspace": "Sembol Boşluk Alanı"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Renkler",
+      "description": "Medya genelinde tutarlı marka için resmi Redot renk paleti."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Marka Hukuki Kılavuzu",
+      "description": "Redot Engine Logosu telif hakkına tabidir ve lisanslıdır. Kullanım kurallarına uyunuz.",
+      "license": {
+        "title": "Redot Engine Logosu",
+        "copyright": "Telif Hakkı (c) 2024 Asrorul Irsyad",
+        "description": "Creative Commons Attribution 4.0 International (CC BY 4.0) lisansı altındadır",
+        "viewLicense": "Lisansı Görüntüle"
+      },
+      "attribution": {
+        "title": "Atıf Örneği",
+        "text": "Redot Engine Logosu © 2024 Asrorul Irsyad, CC BY 4.0 lisansı altında"
+      },
+      "contact": "Kullanım ile ilgili sorular için lütfen Redot ekibi ile iletişime geçin:",
+      "guidelines": {
+        "dos": {
+          "title": "Yapılacaklar",
+          "items": [
+            "Ticari ve ticari olmayan amaçlarla kullanın",
+            "Logoyu orijinal haliyle kullanın",
+            "Herhangi bir ortamda paylaşın ve yeniden dağıtın",
+            "Doğru atıf yapın (aşağıdaki örneğe bakınız)"
+          ]
+        },
+        "donts": {
+          "title": "Yapılmayacaklar",
+          "items": [
+            "Doğru atıf yapmadan kullanmayın",
+            "Yaratıcı tarafından onaylandığı izlenimi vermeyin",
+            "Ek yasal kısıtlamalar eklemeyin",
+            "Lisans koşullarını kaldırmayın veya değiştirmeyin"
+          ]
+        }
+      }
+    }
   }
 }
