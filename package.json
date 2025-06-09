@@ -68,7 +68,7 @@
     "@commitlint/config-conventional": "^19.6.0",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20",
-    "@types/react": "19.0.2",
+    "@types/react": "19.1.7",
     "@types/react-dom": "19.0.2",
     "eslint": "^8",
     "eslint-config-next": "15.1.3",
