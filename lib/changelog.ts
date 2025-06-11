@@ -42,7 +42,7 @@ interface TableOfContentsItem {
 export function generateTableOfContents(
   content: PortableTextBlock[]
 ): TableOfContentsItem[] {
-  const toc = content
+  return content
     .filter(
       (block) =>
         block._type === "block" &&
@@ -53,7 +53,7 @@ export function generateTableOfContents(
         block.children
           ?.filter((child) => child._type === "span")
           .map((span) => span.text)
-          .join("") || "";
+          .join("") ?? "";
 
       let level = 1;
       if (block.style === "h2") level = 2;
@@ -65,6 +65,4 @@ export function generateTableOfContents(
         level,
       };
     });
-
-  return toc;
 }

@@ -13,7 +13,7 @@ export function useChangelogData(selectedPlatforms: string[]) {
     getAllChangelogs
   );
 
-  const isLoading = isLoadingPlatforms || isLoadingChangelogs;
+  const isLoading = isLoadingPlatforms ?? isLoadingChangelogs;
 
   const filteredEntries = useMemo(() => {
     if (!changelogEntries) return [];

@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: ChangelogEntryPageProps) {
 
   return {
     title: `${entry.title} (v${entry.version}) | Changelog`,
-    description: entry.summary[0]?.children?.[0]?.text || "",
+    description: entry.summary[0]?.children?.[0]?.text ?? "",
   };
 }
 
