@@ -1,39 +1,36 @@
 import useSWR from "swr";
-import { Platform } from "@/sanity/schemaTypes/platformType";
-import { Changelog } from "@/sanity/schemaTypes/changelogType";
+import { useMemo } from "react";
 import { getAllPlatforms } from "@/lib/platform";
 import { getAllChangelogs } from "@/lib/changelog";
 
-const fetchAllPlatforms = async (): Promise<Platform[] | null> => {
-  return await getAllPlatforms();
-};
-
-const fetchAllChangelogs = async (): Promise<Changelog[] | null> => {
-  return await getAllChangelogs();
-};
-
 export function useChangelogData(selectedPlatforms: string[]) {
-  const { data: platforms } = useSWR("all-platforms", fetchAllPlatforms);
-  const { data: changelogEntries } = useSWR(
+  const { data: platforms, isLoading: isLoadingPlatforms } = useSWR(
+    "all-platforms",
+    getAllPlatforms
+  );
+  const { data: changelogEntries, isLoading: isLoadingChangelogs } = useSWR(
     "all-changelogs",
-    fetchAllChangelogs
+    getAllChangelogs
   );
 
-  let filteredEntries: Changelog[] = [];
+  const isLoading = isLoadingPlatforms || isLoadingChangelogs;
 
-  if (changelogEntries) {
+  const filteredEntries = useMemo(() => {
+    if (!changelogEntries) return [];
+
     if (selectedPlatforms.length === 0) {
-      filteredEntries = changelogEntries;
-    } else {
-      filteredEntries = changelogEntries.filter((entry) =>
-        selectedPlatforms.includes(entry.platform.slug)
-      );
+      return changelogEntries;
     }
-  }
+
+    return changelogEntries.filter((entry) =>
+      selectedPlatforms.includes(entry.platform.slug)
+    );
+  }, [changelogEntries, selectedPlatforms]);
 
   return {
     platforms,
     changelogEntries,
     filteredEntries,
+    isLoading,
   };
 }
