@@ -387,5 +387,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Endringslogg",
+    "description": "Hold deg oppdatert med de nyeste funksjonene, forbedringene og feilrettingene.",
+    "noEntriesFound": "Ingen endringsloggoppføringer funnet som samsvarer med filtrene dine.",
+    "filterByPlatform": "Filtrer etter plattform",
+    "clearAllFilters": "Tøm alle filtre",
+    "onThisPage": "PÅ DENNE SIDEN"
   }
 }

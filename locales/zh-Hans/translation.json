@@ -387,5 +387,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "更新日志",
+    "description": "了解最新的功能、改进和错误修复。",
+    "noEntriesFound": "未找到符合筛选条件的更新日志条目。",
+    "filterByPlatform": "按平台筛选",
+    "clearAllFilters": "清除所有筛选",
+    "onThisPage": "在本页中"
   }
 }

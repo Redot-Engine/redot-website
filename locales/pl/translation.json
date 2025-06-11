@@ -387,5 +387,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Dziennik zmian",
+    "description": "Bądź na bieżąco z najnowszymi funkcjami, usprawnieniami i poprawkami błędów.",
+    "noEntriesFound": "Nie znaleziono wpisów w dzienniku zmian pasujących do Twoich filtrów.",
+    "filterByPlatform": "Filtruj według platformy",
+    "clearAllFilters": "Wyczyść wszystkie filtry",
+    "onThisPage": "NA TEJ STRONIE"
   }
 }

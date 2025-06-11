@@ -387,5 +387,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Záznam změn",
+    "description": "Zůstaňte v obraze o nejnovějších funkcích, vylepšeních a opravách chyb.",
+    "noEntriesFound": "Žádné záznamy o změnách neodpovídají vašim filtrům.",
+    "filterByPlatform": "Filtrovat podle platformy",
+    "clearAllFilters": "Vymazat všechny filtry",
+    "onThisPage": "NA TÉTO STRÁNCE"
   }
 }

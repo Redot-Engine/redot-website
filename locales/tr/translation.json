@@ -388,5 +388,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Değişiklik Günlüğü",
+    "description": "En son özellikler, iyileştirmeler ve hata düzeltmeleriyle güncel kalın.",
+    "noEntriesFound": "Filtrelerinize uyan değişiklik günlüğü girdisi bulunamadı.",
+    "filterByPlatform": "Platforma Göre Filtrele",
+    "clearAllFilters": "Tüm Filtreleri Temizle",
+    "onThisPage": "BU SAYFADA"
   }
 }

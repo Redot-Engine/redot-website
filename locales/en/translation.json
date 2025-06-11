@@ -387,5 +387,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Changelog",
+    "description": "Stay up to date with the latest features, improvements, and bug fixes.",
+    "noEntriesFound": "No changelog entries found matching your filters.",
+    "filterByPlatform": "Filter by Platform",
+    "clearAllFilters": "Clear all filters",
+    "onThisPage": "ON THIS PAGE"
   }
 }

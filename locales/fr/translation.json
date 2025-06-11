@@ -387,5 +387,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Journal des modifications",
+    "description": "Restez informé des dernières fonctionnalités, améliorations et corrections de bugs.",
+    "noEntriesFound": "Aucune entrée de journal correspondant à vos filtres n'a été trouvée.",
+    "filterByPlatform": "Filtrer par plateforme",
+    "clearAllFilters": "Effacer tous les filtres",
+    "onThisPage": "SUR CETTE PAGE"
   }
 }

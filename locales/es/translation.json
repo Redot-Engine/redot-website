@@ -387,5 +387,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Registro de cambios",
+    "description": "Mantente al día con las últimas funciones, mejoras y correcciones de errores.",
+    "noEntriesFound": "No se encontraron entradas del registro de cambios que coincidan con tus filtros.",
+    "filterByPlatform": "Filtrar por plataforma",
+    "clearAllFilters": "Borrar todos los filtros",
+    "onThisPage": "EN ESTA PÁGINA"
   }
 }

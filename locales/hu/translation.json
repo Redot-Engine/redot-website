@@ -385,5 +385,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Változások naplója",
+    "description": "Maradjon naprakész a legújabb funkciókkal, fejlesztésekkel és hibajavításokkal kapcsolatban.",
+    "noEntriesFound": "Nem található a szűrőinek megfelelő változásnapló-bejegyzés.",
+    "filterByPlatform": "Szűrés platform szerint",
+    "clearAllFilters": "Összes szűrő törlése",
+    "onThisPage": "EZEN AZ OLDALON"
   }
 }

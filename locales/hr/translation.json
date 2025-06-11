@@ -388,5 +388,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Dnevnik promjena",
+    "description": "Ostanite u tijeku s najnovijim značajkama, poboljšanjima i ispravcima grešaka.",
+    "noEntriesFound": "Nisu pronađeni unosi u dnevniku promjena koji odgovaraju vašim filtrima.",
+    "filterByPlatform": "Filtriraj po platformi",
+    "clearAllFilters": "Očisti sve filtre",
+    "onThisPage": "NA OVOJ STRANICI"
   }
 }
