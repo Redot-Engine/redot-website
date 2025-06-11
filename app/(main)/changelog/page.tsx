@@ -6,13 +6,25 @@ import { SectionHero } from "@/components/shared/SectionHero";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { useChangelogData } from "@/hooks/use-changelog-data";
 import { useSearchParams } from "next/navigation";
+import { Skeleton } from "@/components/ui/skeleton";
+
+function ChangelogSkeleton() {
+  return (
+    <div className="space-y-4">
+      {[...Array(3)].map(() => (
+        <Skeleton key={self.crypto.randomUUID()} className="h-16 w-full" />
+      ))}
+    </div>
+  );
+}
 
 export default function Changelog() {
   const searchParams = useSearchParams();
   const platformParam = searchParams.get("platforms");
   const selectedPlatforms = platformParam ? platformParam.split(",") : [];
 
-  const { platforms, filteredEntries } = useChangelogData(selectedPlatforms);
+  const { platforms, filteredEntries, isLoading } =
+    useChangelogData(selectedPlatforms);
 
   return (
     <SidebarProvider>
@@ -23,7 +35,11 @@ export default function Changelog() {
         </header>
 
         <main className="w-full max-w-3xl p-6">
-          <ChangelogList entries={filteredEntries} />
+          {isLoading ? (
+            <ChangelogSkeleton />
+          ) : (
+            <ChangelogList entries={filteredEntries} />
+          )}
         </main>
       </div>
     </SidebarProvider>
