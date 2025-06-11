@@ -74,7 +74,7 @@ export const changelogType = defineType({
     prepare({ title, version, publishedAt }) {
       return {
         title: title,
-        subtitle: `v${version} • ${publishedAt ? formatDate(new Date(publishedAt).toLocaleDateString()) : ""}`,
+        subtitle: `v${version} • ${publishedAt ? formatDate(new Date(publishedAt)) : ""}`,
       };
     },
   },
