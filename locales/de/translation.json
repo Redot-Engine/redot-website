@@ -92,7 +92,8 @@
         "status": "Status",
         "donate": "Spenden",
         "documentation": "Dokumentation",
-        "sourceCode": "Quellcode"
+        "sourceCode": "Quellcode",
+        "changelog": "Änderungsprotokoll"
       }
     },
     "resources": {
@@ -387,5 +388,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Änderungsprotokoll",
+    "description": "Bleiben Sie auf dem Laufenden mit den neuesten Funktionen, Verbesserungen und Fehlerbehebungen.",
+    "noEntriesFound": "Keine Einträge im Änderungsprotokoll gefunden, die Ihren Filtern entsprechen.",
+    "filterByPlatform": "Nach Plattform filtern",
+    "clearAllFilters": "Alle Filter löschen",
+    "onThisPage": "AUF DIESER SEITE"
   }
 }

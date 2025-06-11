@@ -92,7 +92,8 @@
         "status": "Stare",
         "donate": "Donează",
         "documentation": "Documentație",
-        "sourceCode": "Cod sursă"
+        "sourceCode": "Cod sursă",
+        "changelog": "Jurnal de modificări"
       }
     },
     "resources": {
@@ -387,5 +388,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Jurnal de modificări",
+    "description": "Rămâi la curent cu cele mai recente funcții, îmbunătățiri și remedieri de erori.",
+    "noEntriesFound": "Nu au fost găsite intrări în jurnalul de modificări care să corespundă filtrelor tale.",
+    "filterByPlatform": "Filtrează după platformă",
+    "clearAllFilters": "Șterge toate filtrele",
+    "onThisPage": "PE ACEASTĂ PAGINĂ"
   }
 }

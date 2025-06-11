@@ -92,7 +92,8 @@
         "status": "Tila",
         "donate": "Lahjoita",
         "documentation": "Dokumentaatio",
-        "sourceCode": "Lähdekoodi"
+        "sourceCode": "Lähdekoodi",
+        "changelog": "Muutosloki"
       }
     },
     "resources": {
@@ -388,5 +389,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Muutosloki",
+    "description": "Pysy ajan tasalla uusimmista ominaisuuksista, parannuksista ja virheenkorjauksista.",
+    "noEntriesFound": "Yhtään suodattimiasi vastaavaa muutosmerkintää ei löytynyt.",
+    "filterByPlatform": "Suodata alustan mukaan",
+    "clearAllFilters": "Tyhjennä kaikki suodattimet",
+    "onThisPage": "TÄLLÄ SIVULLA"
   }
 }

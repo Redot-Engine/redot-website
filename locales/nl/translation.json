@@ -92,7 +92,8 @@
         "status": "Status",
         "donate": "Doneren",
         "documentation": "Documentatie",
-        "sourceCode": "Broncode"
+        "sourceCode": "Broncode",
+        "changelog": "Wijzigingslogboek"
       }
     },
     "resources": {
@@ -387,5 +388,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Wijzigingslogboek",
+    "description": "Blijf op de hoogte van de nieuwste functies, verbeteringen en bugfixes.",
+    "noEntriesFound": "Geen wijzigingenlogboekvermeldingen gevonden die overeenkomen met je filters.",
+    "filterByPlatform": "Filter op platform",
+    "clearAllFilters": "Alle filters wissen",
+    "onThisPage": "OP DEZE PAGINA"
   }
 }

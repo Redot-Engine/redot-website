@@ -92,7 +92,8 @@
         "status": "Status",
         "donate": "Doner",
         "documentation": "Dokumentation",
-        "sourceCode": "Kildekode"
+        "sourceCode": "Kildekode",
+        "changelog": "Ændringslog"
       }
     },
     "resources": {
@@ -387,5 +388,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Ændringslog",
+    "description": "Hold dig opdateret med de nyeste funktioner, forbedringer og fejlrettelser.",
+    "noEntriesFound": "Ingen ændringslogindlæg matcher dine filtre.",
+    "filterByPlatform": "Filtrer efter platform",
+    "clearAllFilters": "Ryd alle filtre",
+    "onThisPage": "PÅ DENNE SIDE"
   }
 }

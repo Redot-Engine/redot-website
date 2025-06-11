@@ -92,7 +92,8 @@
         "status": "Būsena",
         "donate": "Donuoti",
         "documentation": "Dokumentacija",
-        "sourceCode": "Šaltinio kodas"
+        "sourceCode": "Šaltinio kodas",
+        "changelog": "Pakeitimų žurnalas"
       }
     },
     "resources": {
@@ -387,5 +388,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Pakeitimų žurnalas",
+    "description": "Sekite naujausias funkcijas, patobulinimus ir klaidų ištaisymus.",
+    "noEntriesFound": "Filtrus atitinkančių pakeitimų įrašų nerasta.",
+    "filterByPlatform": "Filtruoti pagal platformą",
+    "clearAllFilters": "Išvalyti visus filtrus",
+    "onThisPage": "ŠIAME PUSLAPYJE"
   }
 }

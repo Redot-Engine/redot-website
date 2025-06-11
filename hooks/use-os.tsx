@@ -16,7 +16,7 @@ const getOSFromUserAgent = (): string => {
   return "unknown";
 };
 
-const useOS = () => {
+const useOs = () => {
   const [os, setOS] = useState<string | null>(null);
 
   useEffect(() => {
@@ -29,4 +29,4 @@ const useOS = () => {
   return os;
 };
 
-export default useOS;
+export default useOs;

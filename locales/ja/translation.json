@@ -92,7 +92,8 @@
         "status": "ステータス",
         "donate": "寄付",
         "documentation": "ドキュメント",
-        "sourceCode": "ソースコード"
+        "sourceCode": "ソースコード",
+        "changelog": "変更履歴"
       }
     },
     "resources": {
@@ -388,5 +389,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "変更ログ",
+    "description": "最新の機能、改善、バグ修正についての情報を常に把握しましょう。",
+    "noEntriesFound": "フィルターに一致する変更ログのエントリが見つかりません。",
+    "filterByPlatform": "プラットフォームでフィルタ",
+    "clearAllFilters": "すべてのフィルターをクリア",
+    "onThisPage": "このページに"
   }
 }

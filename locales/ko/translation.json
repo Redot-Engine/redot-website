@@ -92,7 +92,8 @@
         "status": "상태",
         "donate": "기부",
         "documentation": "문서",
-        "sourceCode": "소스 코드"
+        "sourceCode": "소스 코드",
+        "changelog": "변경 로그"
       }
     },
     "resources": {
@@ -388,5 +389,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "변경 로그",
+    "description": "최신 기능, 개선 사항 및 버그 수정 내용을 확인하세요.",
+    "noEntriesFound": "필터에 맞는 변경 로그 항목이 없습니다.",
+    "filterByPlatform": "플랫폼별 필터",
+    "clearAllFilters": "모든 필터 지우기",
+    "onThisPage": "이 페이지에서"
   }
 }

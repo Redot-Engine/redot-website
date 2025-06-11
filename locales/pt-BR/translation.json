@@ -92,7 +92,8 @@
         "status": "Status",
         "donate": "Doar",
         "documentation": "Documentação",
-        "sourceCode": "Código Fonte"
+        "sourceCode": "Código Fonte",
+        "changelog": "Registro de alterações"
       }
     },
     "resources": {
@@ -387,5 +388,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Registro de Alterações",
+    "description": "Fique atualizado com os recursos mais recentes, melhorias e correções de bugs.",
+    "noEntriesFound": "Nenhuma entrada no registro de alterações encontrada correspondendo aos seus filtros.",
+    "filterByPlatform": "Filtrar por Plataforma",
+    "clearAllFilters": "Limpar todos os filtros",
+    "onThisPage": "NESTA PÁGINA"
   }
 }

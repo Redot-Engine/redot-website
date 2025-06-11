@@ -24,6 +24,10 @@ export const footer: Footer[] = [
         href: LINKS.github,
         newTab: true,
       },
+      {
+        title: "product.children.changelog",
+        href: "/changelog",
+      },
     ],
   },
   {

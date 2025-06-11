@@ -92,7 +92,8 @@
         "status": "Status",
         "donate": "Donera",
         "documentation": "Dokumentation",
-        "sourceCode": "Källkod"
+        "sourceCode": "Källkod",
+        "changelog": "Ändringslogg"
       }
     },
     "resources": {
@@ -388,5 +389,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Ändringslogg",
+    "description": "Håll dig uppdaterad med de senaste funktionerna, förbättringarna och buggfixarna.",
+    "noEntriesFound": "Inga ändringsloggsposter hittades som matchar dina filter.",
+    "filterByPlatform": "Filtrera efter plattform",
+    "clearAllFilters": "Rensa alla filter",
+    "onThisPage": "PÅ DENNA SIDA"
   }
 }

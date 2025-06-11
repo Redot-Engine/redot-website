@@ -92,7 +92,8 @@
         "status": "狀態",
         "donate": "捐款",
         "documentation": "文件",
-        "sourceCode": "原始碼"
+        "sourceCode": "原始碼",
+        "changelog": "變更日誌"
       }
     },
     "resources": {
@@ -388,5 +389,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "更新日誌",
+    "description": "了解最新的功能、改進和錯誤修復。",
+    "noEntriesFound": "找不到符合篩選條件的更新日誌條目。",
+    "filterByPlatform": "按平台篩選",
+    "clearAllFilters": "清除所有篩選",
+    "onThisPage": "本頁面"
   }
 }

@@ -92,7 +92,8 @@
         "status": "Trạng thái",
         "donate": "Ủng hộ",
         "documentation": "Tài liệu",
-        "sourceCode": "Mã nguồn"
+        "sourceCode": "Mã nguồn",
+        "changelog": "Nhật ký thay đổi"
       }
     },
     "resources": {
@@ -388,5 +389,14 @@
         }
       }
     }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Nhật ký thay đổi",
+    "description": "Cập nhật các tính năng mới nhất, cải tiến và sửa lỗi.",
+    "noEntriesFound": "Không tìm thấy mục nhật ký thay đổi phù hợp với bộ lọc của bạn.",
+    "filterByPlatform": "Lọc theo nền tảng",
+    "clearAllFilters": "Xóa tất cả bộ lọc",
+    "onThisPage": "TRÊN TRANG NÀY"
   }
 }
