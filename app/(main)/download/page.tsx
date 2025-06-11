@@ -2,11 +2,11 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-import useOS from "@/hooks/useOS";
+import useOs from "@/hooks/use-os";
 
 export default function Download() {
   const router = useRouter();
-  const os = useOS();
+  const os = useOs();
 
   useEffect(() => {
     if (!os) return;
