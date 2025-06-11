@@ -95,7 +95,7 @@ export function ChangelogSidebar({
           </SidebarGroupLabel>
           <SidebarGroupContent className="px-2">
             <SidebarMenu>
-              {platforms?.map((platform) => (
+              {platforms.map((platform) => (
                 <SidebarMenuItem key={platform.id}>
                   <div className="flex items-center gap-1">
                     <Checkbox
