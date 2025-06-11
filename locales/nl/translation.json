@@ -92,7 +92,8 @@
         "status": "Status",
         "donate": "Doneren",
         "documentation": "Documentatie",
-        "sourceCode": "Broncode"
+        "sourceCode": "Broncode",
+        "changelog": "Wijzigingslogboek"
       }
     },
     "resources": {

@@ -92,7 +92,8 @@
         "status": "Статус",
         "donate": "Пожертвувати",
         "documentation": "Документація",
-        "sourceCode": "Джерело коду"
+        "sourceCode": "Джерело коду",
+        "changelog": "Журнал змін"
       }
     },
     "resources": {

@@ -92,7 +92,8 @@
         "status": "Статус",
         "donate": "Дарение",
         "documentation": "Документация",
-        "sourceCode": "Изходен код"
+        "sourceCode": "Изходен код",
+        "changelog": "Дневник на промените"
       }
     },
     "resources": {

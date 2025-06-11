@@ -92,7 +92,8 @@
         "status": "Durum",
         "donate": "Bağış Yap",
         "documentation": "Dokümantasyon",
-        "sourceCode": "Kaynak Kodu"
+        "sourceCode": "Kaynak Kodu",
+        "changelog": "Değişiklik Günlüğü"
       }
     },
     "resources": {

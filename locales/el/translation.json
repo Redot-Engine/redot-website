@@ -92,7 +92,8 @@
         "status": "Κατάσταση",
         "donate": "Δωρεά",
         "documentation": "Τεκμηρίωση",
-        "sourceCode": "Κώδικας Πηγής"
+        "sourceCode": "Κώδικας Πηγής",
+        "changelog": "Αρχείο αλλαγών"
       }
     },
     "resources": {

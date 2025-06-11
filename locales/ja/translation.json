@@ -92,7 +92,8 @@
         "status": "ステータス",
         "donate": "寄付",
         "documentation": "ドキュメント",
-        "sourceCode": "ソースコード"
+        "sourceCode": "ソースコード",
+        "changelog": "変更履歴"
       }
     },
     "resources": {

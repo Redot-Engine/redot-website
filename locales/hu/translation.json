@@ -92,7 +92,8 @@
         "status": "Állapot",
         "donate": "Adományozás",
         "documentation": "Dokumentáció",
-        "sourceCode": "Forráskód"
+        "sourceCode": "Forráskód",
+        "changelog": "Változási napló"
       }
     },
     "resources": {

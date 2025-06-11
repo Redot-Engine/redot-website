@@ -92,7 +92,8 @@
         "status": "Status",
         "donate": "Doar",
         "documentation": "Documentação",
-        "sourceCode": "Código Fonte"
+        "sourceCode": "Código Fonte",
+        "changelog": "Registro de alterações"
       }
     },
     "resources": {

@@ -92,7 +92,8 @@
         "status": "Tila",
         "donate": "Lahjoita",
         "documentation": "Dokumentaatio",
-        "sourceCode": "Lähdekoodi"
+        "sourceCode": "Lähdekoodi",
+        "changelog": "Muutosloki"
       }
     },
     "resources": {

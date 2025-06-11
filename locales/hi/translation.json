@@ -92,7 +92,8 @@
         "status": "स्थिति",
         "donate": "दान करें",
         "documentation": "दस्तावेज़",
-        "sourceCode": "स्रोत कोड"
+        "sourceCode": "स्रोत कोड",
+        "changelog": "परिवर्तन सूची"
       }
     },
     "resources": {

@@ -92,7 +92,8 @@
         "status": "Status",
         "donate": "Donera",
         "documentation": "Dokumentation",
-        "sourceCode": "Källkod"
+        "sourceCode": "Källkod",
+        "changelog": "Ändringslogg"
       }
     },
     "resources": {

@@ -92,7 +92,8 @@
         "status": "상태",
         "donate": "기부",
         "documentation": "문서",
-        "sourceCode": "소스 코드"
+        "sourceCode": "소스 코드",
+        "changelog": "변경 로그"
       }
     },
     "resources": {

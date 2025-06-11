@@ -92,7 +92,8 @@
         "status": "الحالة",
         "donate": "تبرع",
         "documentation": "التوثيق",
-        "sourceCode": "الكود المصدري"
+        "sourceCode": "الكود المصدري",
+        "changelog": "سجل التغييرات"
       }
     },
     "resources": {

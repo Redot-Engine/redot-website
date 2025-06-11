@@ -92,7 +92,8 @@
         "status": "Status",
         "donate": "Donate",
         "documentation": "Documentation",
-        "sourceCode": "Source Code"
+        "sourceCode": "Source Code",
+        "changelog": "Changelog"
       }
     },
     "resources": {

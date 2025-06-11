@@ -92,7 +92,8 @@
         "status": "Status",
         "donate": "Doner",
         "documentation": "Dokumentasjon",
-        "sourceCode": "Kildekode"
+        "sourceCode": "Kildekode",
+        "changelog": "Endringslogg"
       }
     },
     "resources": {

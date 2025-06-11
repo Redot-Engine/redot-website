@@ -92,7 +92,8 @@
         "status": "Estado",
         "donate": "Donar",
         "documentation": "Documentación",
-        "sourceCode": "Código fuente"
+        "sourceCode": "Código fuente",
+        "changelog": "Registro de cambios"
       }
     },
     "resources": {

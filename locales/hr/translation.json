@@ -92,7 +92,8 @@
         "status": "Status",
         "donate": "Doniraj",
         "documentation": "Dokumentacija",
-        "sourceCode": "Izvorni Kod"
+        "sourceCode": "Izvorni Kod",
+        "changelog": "Zapis promjena"
       }
     },
     "resources": {

@@ -92,7 +92,8 @@
         "status": "Būsena",
         "donate": "Donuoti",
         "documentation": "Dokumentacija",
-        "sourceCode": "Šaltinio kodas"
+        "sourceCode": "Šaltinio kodas",
+        "changelog": "Pakeitimų žurnalas"
       }
     },
     "resources": {

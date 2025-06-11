@@ -92,7 +92,8 @@
         "status": "Trạng thái",
         "donate": "Ủng hộ",
         "documentation": "Tài liệu",
-        "sourceCode": "Mã nguồn"
+        "sourceCode": "Mã nguồn",
+        "changelog": "Nhật ký thay đổi"
       }
     },
     "resources": {

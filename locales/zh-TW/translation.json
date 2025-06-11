@@ -92,7 +92,8 @@
         "status": "狀態",
         "donate": "捐款",
         "documentation": "文件",
-        "sourceCode": "原始碼"
+        "sourceCode": "原始碼",
+        "changelog": "變更日誌"
       }
     },
     "resources": {

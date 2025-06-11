@@ -92,7 +92,8 @@
         "status": "Stare",
         "donate": "Donează",
         "documentation": "Documentație",
-        "sourceCode": "Cod sursă"
+        "sourceCode": "Cod sursă",
+        "changelog": "Jurnal de modificări"
       }
     },
     "resources": {

@@ -92,7 +92,8 @@
         "status": "Stav",
         "donate": "Darovat",
         "documentation": "Dokumentace",
-        "sourceCode": "Zdrojový kód"
+        "sourceCode": "Zdrojový kód",
+        "changelog": "Změny"
       }
     },
     "resources": {
