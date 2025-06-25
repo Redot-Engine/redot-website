@@ -1,9 +1,18 @@
-export const PLATFORM_MAPPING = {
-  windows: "windows",
-  macos: "mac",
-  ios: "mac",
-  linux: "linux",
-  androidos: "android",
+export const PLATFORMS = {
+  WINDOWS: "windows",
+  MAC: "mac",
+  LINUX: "linux",
+  ANDROID: "android",
+  UNKNOWN: "unknown",
+} as const;
+
+export type Platform = (typeof PLATFORMS)[keyof typeof PLATFORMS];
+
+export const PLATFORM_MAPPING: Record<string, Platform> = {
+  windows: PLATFORMS.WINDOWS,
+  mac: PLATFORMS.MAC,
+  linux: PLATFORMS.LINUX,
+  android: PLATFORMS.ANDROID,
 };
 
 export const SUPPORTED_PLATFORMS_DATA = [
