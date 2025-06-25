@@ -1,32 +1,31 @@
-"use client";
-
 import { useState, useEffect } from "react";
-import { PLATFORM_MAPPING } from "@/constants/download/platforms";
+import {
+  Platform,
+  PLATFORM_MAPPING,
+  PLATFORMS,
+} from "@/constants/download/platforms";
 
-const getOSFromUserAgent = (): string => {
-  if (typeof window === "undefined") return "unknown";
+const detectOperatingSystem = (): Platform => {
+  if (typeof window === "undefined") return PLATFORMS.UNKNOWN;
   const ua = window.navigator.userAgent.toLowerCase();
-
-  if (ua.includes("windows")) return "windows";
-  if (ua.includes("mac os") || ua.includes("macintosh")) return "macos";
-  if (ua.includes("linux")) return "linux";
-  if (ua.includes("android")) return "androidos";
+  if (ua.includes("android")) return PLATFORMS.ANDROID;
   if (ua.includes("iphone") || ua.includes("ipad") || ua.includes("ios"))
-    return "ios";
-  return "unknown";
+    return PLATFORMS.MAC;
+  if (ua.includes("mac os") || ua.includes("macintosh")) return PLATFORMS.MAC;
+  if (ua.includes("windows")) return PLATFORMS.WINDOWS;
+  if (ua.includes("linux") && !ua.includes("android")) return PLATFORMS.LINUX;
+  return PLATFORMS.UNKNOWN;
 };
 
-const useOs = () => {
-  const [os, setOS] = useState<string | null>(null);
+const useOS = () => {
+  const [os, setOs] = useState<Platform>(PLATFORMS.UNKNOWN);
 
   useEffect(() => {
-    const detectedOS = getOSFromUserAgent();
-    setOS(
-      PLATFORM_MAPPING[detectedOS as keyof typeof PLATFORM_MAPPING] || "unknown"
-    );
+    const detected = detectOperatingSystem();
+    setOs(PLATFORM_MAPPING[detected] || PLATFORMS.WINDOWS);
   }, []);
 
   return os;
 };
 
-export default useOs;
+export default useOS;

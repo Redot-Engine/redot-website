@@ -6,11 +6,11 @@ import Link from "next/link";
 import { motion } from "motion/react";
 import { LINKS } from "@/constants/common/links";
 import { useTranslations } from "next-intl";
-import useOs from "@/hooks/use-os";
+import useOS from "@/hooks/use-os";
 
 export const Hero = () => {
   const t = useTranslations("heroSection");
-  const os = useOs();
+  const os = useOS();
 
   return (
     <section className="bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#FF4E40,#FFFFFF_80%)] pb-20 pt-8 dark:bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#9F1E1E,#09090b_80%)]">
