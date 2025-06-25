@@ -15,7 +15,7 @@ export async function generateMetadata(props: {
   const params = await props.params;
   const platform = params.platform;
 
-  if (!Object.values(PLATFORM_MAPPING).includes(platform)) {
+  if (!Object.keys(PLATFORM_MAPPING).includes(platform)) {
     notFound();
   }
 
