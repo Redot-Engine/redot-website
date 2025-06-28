@@ -11,7 +11,7 @@ export const SYMBOL_VARIATIONS = [
     id: "black",
     imageSrc: "/brand/symbol/redot-symbol-white.svg",
     downloadUrl: "https://image.redotengine.org/Redot_Symbol_Black.zip",
-    bgColor: "bg-zinc-50",
+    bgColor: "bg-white",
     height: 48,
     width: 48,
     invert: true,

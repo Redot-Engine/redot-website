@@ -9,7 +9,7 @@ export const LOGO_VARIATIONS = [
     id: "secondary",
     imageSrc: "/brand/logo/redot-logo-secondary.svg",
     downloadUrl: "https://image.redotengine.org/Redot_Logo_Secondary.zip",
-    bgColor: "bg-zinc-50",
+    bgColor: "bg-white",
   },
   {
     id: "white",
