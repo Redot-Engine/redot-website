@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine이 이제 안정적입니다!"
     },
     "downloadButton": "다운로드",
+    "donateButton": "기부하기",
     "discordButton": "Discord에 참여하기",
     "links": {
       "documentation": "문서",

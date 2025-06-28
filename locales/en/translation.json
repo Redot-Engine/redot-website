@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine is now stable!"
     },
     "downloadButton": "Download",
+    "donateButton": "Donate",
     "discordButton": "Join Discord",
     "links": {
       "documentation": "Documentation",

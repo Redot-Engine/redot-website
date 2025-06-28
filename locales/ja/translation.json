@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engineは現在安定版です！"
     },
     "downloadButton": "ダウンロード",
+    "donateButton": "寄付する",
     "discordButton": "Discordに参加する",
     "links": {
       "documentation": "ドキュメント",
