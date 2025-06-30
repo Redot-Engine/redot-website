@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine ตอนนี้เสถียรแล้ว!"
     },
     "downloadButton": "ดาวน์โหลด",
+    "donateButton": "บริจาค",
     "discordButton": "เข้าร่วม Discord",
     "links": {
       "documentation": "เอกสาร",

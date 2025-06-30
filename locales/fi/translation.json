@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine on nyt vakaa!"
     },
     "downloadButton": "Lataa",
+    "donateButton": "Lahjoita",
     "discordButton": "Liity Discordiin",
     "links": {
       "documentation": "Dokumentaatio",

@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine 现已稳定！"
     },
     "downloadButton": "下载",
+    "donateButton": "捐赠",
     "discordButton": "加入 Discord",
     "links": {
       "documentation": "文档",

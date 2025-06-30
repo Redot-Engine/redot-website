@@ -8,6 +8,7 @@ import { MobileSidebar } from "@/components/layout/MobileSidebar";
 import { useTranslations } from "next-intl";
 import { SharedNavLink } from "@/components/shared/SharedNavLink";
 import LatestBanner from "@/components/layout/LatestBanner";
+import { SOCIALS_LINKS } from "@/constants/common/socials";
 
 export const Header = () => {
   const t = useTranslations("header");
@@ -40,9 +41,14 @@ export const Header = () => {
                     newTab={link.newTab}
                   />
                 ))}
-                <Button asChild>
-                  <Link href="/download">{t("downloadButton")}</Link>
-                </Button>
+                <div className="space-x-2">
+                  <Button variant="outline" asChild>
+                    <Link href={SOCIALS_LINKS.kofi}>{t("donateButton")}</Link>
+                  </Button>
+                  <Button asChild>
+                    <Link href="/download">{t("downloadButton")}</Link>
+                  </Button>
+                </div>
               </nav>
             </div>
             <div className="block md:hidden">
