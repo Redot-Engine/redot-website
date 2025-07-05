@@ -1,13 +1,15 @@
 "use client";
 
 import { visionTool } from "@sanity/vision";
-import { defineConfig, defineField } from "sanity";
+import { defineConfig, defineField, isKeySegment } from "sanity";
 import { structureTool } from "sanity/structure";
 import { internationalizedArray } from "sanity-plugin-internationalized-array";
 import { codeInput } from "@sanity/code-input";
 import { apiVersion, dataset, projectId } from "./sanity/env";
 import { schema } from "./sanity/schemaTypes";
 import { structure } from "./sanity/structure";
+import { SANITY_LANGUAGES } from "@/constants/common/languages";
+import { languageFilter } from "@sanity/language-filter";
 
 export default defineConfig({
   basePath: "/studio",
@@ -18,40 +20,7 @@ export default defineConfig({
     structureTool({ structure }),
     visionTool({ defaultApiVersion: apiVersion }),
     internationalizedArray({
-      languages: [
-        { id: "ar", title: "العربية" },
-        { id: "cs", title: "Čeština" },
-        { id: "da", title: "Dansk" },
-        { id: "de", title: "Deutsch" },
-        { id: "en", title: "English (US)" },
-        { id: "en-GB", title: "English (UK)" },
-        { id: "es", title: "Español" },
-        { id: "es-LA", title: "Español (América Latina)" },
-        { id: "fr", title: "Français" },
-        { id: "hr", title: "Hrvatski" },
-        { id: "it", title: "Italiano" },
-        { id: "lt", title: "lietuvių kalba" },
-        { id: "hu", title: "Magyar" },
-        { id: "nl", title: "Nederlands" },
-        { id: "no", title: "Norsk" },
-        { id: "pl", title: "Polski" },
-        { id: "pt-BR", title: "Português (Brasil)" },
-        { id: "ro", title: "Română" },
-        { id: "fi", title: "Suomi" },
-        { id: "sv", title: "Svenska" },
-        { id: "vi", title: "Tiếng Việt" },
-        { id: "tr", title: "Türkçe" },
-        { id: "el", title: "Ελληνικά" },
-        { id: "bg", title: "български" },
-        { id: "ru", title: "Русский" },
-        { id: "uk", title: "Українська" },
-        { id: "hi", title: "हिंदी" },
-        { id: "th", title: "ไทย" },
-        { id: "ko", title: "한국어" },
-        { id: "zh-Hans", title: "中文" },
-        { id: "zh-TW", title: "中文(繁體)" },
-        { id: "ja", title: "日本語" },
-      ],
+      languages: SANITY_LANGUAGES,
       defaultLanguages: ["en"],
       fieldTypes: [
         "string",
@@ -59,8 +28,40 @@ export default defineConfig({
           name: "Text",
           type: "text",
         }),
+        defineField({
+          name: "BlockContent",
+          type: "blockContent",
+        }),
       ],
     }),
     codeInput(),
+    languageFilter({
+      supportedLanguages: SANITY_LANGUAGES,
+      defaultLanguages: ["en"],
+      documentTypes: ["post"],
+      filterField: (enclosingType, member, selectedLanguageIds) => {
+        if (
+          enclosingType.jsonType === "object" &&
+          enclosingType.name.startsWith("internationalizedArray") &&
+          "kind" in member
+        ) {
+          const pathEnd = member.field.path.slice(-2);
+          const language =
+            pathEnd[1] === "value" && isKeySegment(pathEnd[0])
+              ? pathEnd[0]._key
+              : null;
+
+          return language ? selectedLanguageIds.includes(language) : false;
+        }
+        if (
+          enclosingType.jsonType === "object" &&
+          enclosingType.name.startsWith("locale")
+        ) {
+          return selectedLanguageIds.includes(member.name);
+        }
+
+        return true;
+      },
+    }),
   ],
 });
