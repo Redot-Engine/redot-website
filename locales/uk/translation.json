@@ -231,23 +231,26 @@
     }
   },
   "blog": {
-    "allPosts": "Усі пости",
+    "allPosts": "Всі пости",
+    "selectTags": "Виберіть теги...",
+    "searchTags": "Пошук тегів...",
+    "noTagsFound": "Тегів не знайдено.",
     "searchPlaceholder": "Пошук...",
-    "noPostsFound": {
-      "title": "Стаття не знайдена",
-      "description": "Стаття, яку ви шукаєте, не знайдена."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Усі пости"
-  },
-  "latestBlogHero": {
+    "clearAll": "Очистити все",
+    "tagsSelected": "Вибрано {count} тег",
+    "tagsSelectedPlural": "Вибрано {count} теги",
+    "loadMore": "Завантажити ще",
+    "loading": "Завантаження...",
+    "clearSearch": "Очистити пошук",
+    "velocityScroll": "ОСТАННІ НОВИНИ ТА СТАТТІ -",
+    "notFound": {
+      "title": "Пост не знайдено",
+      "description": "Пост, який ви шукаєте, не знайдено.",
+      "clearSearch": "Очистити",
+      "goBack": "Назад",
+      "goHome": "На головну"
+    },
     "readMore": "Читати далі"
-  },
-  "articleNotFound": {
-    "title": "Статтю не знайдено",
-    "description": "Статтю, яку ви шукаєте, не вдалося знайти.",
-    "backButton": "Назад"
   },
   "contact": {
     "badge": "",

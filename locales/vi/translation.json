@@ -232,22 +232,25 @@
   },
   "blog": {
     "allPosts": "Tất cả bài viết",
+    "selectTags": "Chọn thẻ...",
+    "searchTags": "Tìm thẻ...",
+    "noTagsFound": "Không tìm thấy thẻ nào.",
     "searchPlaceholder": "Tìm kiếm...",
-    "noPostsFound": {
+    "clearAll": "Xóa tất cả",
+    "tagsSelected": "Đã chọn {count} thẻ",
+    "tagsSelectedPlural": "Đã chọn {count} thẻ",
+    "loadMore": "Tải thêm",
+    "loading": "Đang tải...",
+    "clearSearch": "Xóa tìm kiếm",
+    "velocityScroll": "TIN TỨC & BÀI VIẾT MỚI NHẤT -",
+    "notFound": {
       "title": "Không tìm thấy bài viết",
-      "description": "Bài viết bạn đang tìm kiếm không thể tìm thấy."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Tất cả bài viết"
-  },
-  "latestBlogHero": {
+      "description": "Không thể tìm thấy bài viết bạn đang tìm.",
+      "clearSearch": "Xóa",
+      "goBack": "Quay lại",
+      "goHome": "Về trang chủ"
+    },
     "readMore": "Đọc thêm"
-  },
-  "articleNotFound": {
-    "title": "Không tìm thấy bài viết",
-    "description": "Bài viết bạn đang tìm không thể tìm thấy.",
-    "backButton": "Quay lại"
   },
   "contact": {
     "badge": "",

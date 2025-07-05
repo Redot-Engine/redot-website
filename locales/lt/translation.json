@@ -232,22 +232,25 @@
   },
   "blog": {
     "allPosts": "Visi įrašai",
+    "selectTags": "Pasirinkite žymes...",
+    "searchTags": "Ieškoti žymių...",
+    "noTagsFound": "Žymių nerasta.",
     "searchPlaceholder": "Ieškoti...",
-    "noPostsFound": {
-      "title": "Straipsnis nerastas",
-      "description": "Straipsnio, kurio ieškote, nepavyko rasti."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Visi įrašai"
-  },
-  "latestBlogHero": {
+    "clearAll": "Išvalyti viską",
+    "tagsSelected": "Pasirinkta {count} žymė",
+    "tagsSelectedPlural": "Pasirinkta {count} žymių",
+    "loadMore": "Įkelti daugiau",
+    "loading": "Įkeliama...",
+    "clearSearch": "Išvalyti paiešką",
+    "velocityScroll": "NAUJAUSIOS NAUJIENOS IR STRAIPSNIAI -",
+    "notFound": {
+      "title": "Įrašas nerastas",
+      "description": "Įrašas, kurio ieškote, nerastas.",
+      "clearSearch": "Išvalyti",
+      "goBack": "Grįžti atgal",
+      "goHome": "Eiti į pradžią"
+    },
     "readMore": "Skaityti daugiau"
-  },
-  "articleNotFound": {
-    "title": "Straipsnis nerastas",
-    "description": "Straipsnio, kurio ieškote, nepavyko rasti.",
-    "backButton": "Atgal"
   },
   "contact": {
     "badge": "",

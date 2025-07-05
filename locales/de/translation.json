@@ -232,22 +232,25 @@
   },
   "blog": {
     "allPosts": "Alle Beiträge",
+    "selectTags": "Tags auswählen...",
+    "searchTags": "Tags suchen...",
+    "noTagsFound": "Keine Tags gefunden.",
     "searchPlaceholder": "Suchen...",
-    "noPostsFound": {
-      "title": "Artikel Nicht Gefunden",
-      "description": "Der Artikel, den du suchst, konnte nicht gefunden werden."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Alle Beiträge"
-  },
-  "latestBlogHero": {
+    "clearAll": "Alles löschen",
+    "tagsSelected": "{count} Tag ausgewählt",
+    "tagsSelectedPlural": "{count} Tags ausgewählt",
+    "loadMore": "Mehr laden",
+    "loading": "Laden...",
+    "clearSearch": "Suche löschen",
+    "velocityScroll": "AKTUELLE NACHRICHTEN & ARTIKEL -",
+    "notFound": {
+      "title": "Beitrag nicht gefunden",
+      "description": "Der gesuchte Beitrag konnte nicht gefunden werden.",
+      "clearSearch": "Löschen",
+      "goBack": "Zurück",
+      "goHome": "Startseite"
+    },
     "readMore": "Mehr lesen"
-  },
-  "articleNotFound": {
-    "title": "Artikel Nicht Gefunden",
-    "description": "Der Artikel, den du suchst, konnte nicht gefunden werden.",
-    "backButton": "Zurück"
   },
   "contact": {
     "badge": "",

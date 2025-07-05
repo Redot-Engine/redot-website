@@ -232,22 +232,25 @@
   },
   "blog": {
     "allPosts": "Всички публикации",
+    "selectTags": "Изберете тагове...",
+    "searchTags": "Търсене на тагове...",
+    "noTagsFound": "Няма намерени тагове.",
     "searchPlaceholder": "Търсене...",
-    "noPostsFound": {
-      "title": "Статията не е намерена",
-      "description": "Статията, която търсите, не може да бъде намерена."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Всички публикации"
-  },
-  "latestBlogHero": {
-    "readMore": "Прочетете още"
-  },
-  "articleNotFound": {
-    "title": "Статията не е намерена",
-    "description": "Статията, която търсите, не може да бъде намерена.",
-    "backButton": "Назад"
+    "clearAll": "Изчисти всичко",
+    "tagsSelected": "{count} избран таг",
+    "tagsSelectedPlural": "{count} избрани тага",
+    "loadMore": "Зареди още",
+    "loading": "Зареждане...",
+    "clearSearch": "Изчисти търсенето",
+    "velocityScroll": "ПОСЛЕДНИ НОВИНИ И СТАТИИ -",
+    "notFound": {
+      "title": "Публикацията не е намерена",
+      "description": "Публикацията, която търсите, не може да бъде намерена.",
+      "clearSearch": "Изчисти",
+      "goBack": "Върни се",
+      "goHome": "Към началната страница"
+    },
+    "readMore": "Прочети повече"
   },
   "contact": {
     "badge": "",

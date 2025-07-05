@@ -232,22 +232,25 @@
   },
   "blog": {
     "allPosts": "Všechny příspěvky",
+    "selectTags": "Vyberte štítky...",
+    "searchTags": "Hledat štítky...",
+    "noTagsFound": "Nebyly nalezeny žádné štítky.",
     "searchPlaceholder": "Hledat...",
-    "noPostsFound": {
-      "title": "Článek nenalezen",
-      "description": "Článek, který hledáte, nebyl nalezen."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Všechny příspěvky"
-  },
-  "latestBlogHero": {
-    "readMore": "Přečíst více"
-  },
-  "articleNotFound": {
-    "title": "Článek nenalezen",
-    "description": "Článek, který hledáte, nebyl nalezen.",
-    "backButton": "Zpět"
+    "clearAll": "Vymazat vše",
+    "tagsSelected": "{count} vybraný štítek",
+    "tagsSelectedPlural": "{count} vybraných štítků",
+    "loadMore": "Načíst další",
+    "loading": "Načítání...",
+    "clearSearch": "Vymazat hledání",
+    "velocityScroll": "NEJNOVĚJŠÍ ZPRÁVY A ČLÁNKY -",
+    "notFound": {
+      "title": "Příspěvek nenalezen",
+      "description": "Příspěvek, který hledáte, nebyl nalezen.",
+      "clearSearch": "Vymazat",
+      "goBack": "Zpět",
+      "goHome": "Domů"
+    },
+    "readMore": "Číst více"
   },
   "contact": {
     "badge": "",

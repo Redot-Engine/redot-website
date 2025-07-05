@@ -231,23 +231,26 @@
     }
   },
   "blog": {
-    "allPosts": "Όλες οι Αναρτήσεις",
+    "allPosts": "Όλες οι δημοσιεύσεις",
+    "selectTags": "Επιλέξτε ετικέτες...",
+    "searchTags": "Αναζήτηση ετικετών...",
+    "noTagsFound": "Δεν βρέθηκαν ετικέtes.",
     "searchPlaceholder": "Αναζήτηση...",
-    "noPostsFound": {
-      "title": "Άρθρο Δεν Βρέθηκε",
-      "description": "Το άρθρο που αναζητάτε δεν βρέθηκε."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Όλες οι Αναρτήσεις"
-  },
-  "latestBlogHero": {
+    "clearAll": "Καθαρισμός όλων",
+    "tagsSelected": "{count} ετικέτα επιλεγμένη",
+    "tagsSelectedPlural": "{count} ετικέτες επιλεγμένες",
+    "loadMore": "Φόρτωση περισσότερων",
+    "loading": "Φόρτωση...",
+    "clearSearch": "Καθαρισμός αναζήτησης",
+    "velocityScroll": "ΤΕΛΕΥΤΑΙΑ ΝΕΑ & ΑΡΘΡΑ -",
+    "notFound": {
+      "title": "Η δημοσίευση δεν βρέθηκε",
+      "description": "Η δημοσίευση που αναζητάτε δεν βρέθηκε.",
+      "clearSearch": "Καθαρισμός",
+      "goBack": "Πίσω",
+      "goHome": "Αρχική σελίδα"
+    },
     "readMore": "Διαβάστε περισσότερα"
-  },
-  "articleNotFound": {
-    "title": "Άρθρο Δεν Βρέθηκε",
-    "description": "Το άρθρο που αναζητάτε δεν βρέθηκε.",
-    "backButton": "Πίσω"
   },
   "contact": {
     "badge": "",

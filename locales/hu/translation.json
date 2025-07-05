@@ -228,23 +228,26 @@
     }
   },
   "blog": {
-    "allPosts": "Minden bejegyzés",
+    "allPosts": "Összes bejegyzés",
+    "selectTags": "Címkék kiválasztása...",
+    "searchTags": "Címkék keresése...",
+    "noTagsFound": "Nincsenek címkék.",
     "searchPlaceholder": "Keresés...",
-    "noPostsFound": {
-      "title": "Cikk nem található",
-      "description": "A keresett cikk nem található."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Minden bejegyzés"
-  },
-  "latestBlogHero": {
-    "readMore": "Bővebben"
-  },
-  "articleNotFound": {
-    "title": "Cikk nem található",
-    "description": "A keresett cikk nem található.",
-    "backButton": "Vissza"
+    "clearAll": "Összes törlése",
+    "tagsSelected": "{count} címke kiválasztva",
+    "tagsSelectedPlural": "{count} címke kiválasztva",
+    "loadMore": "Több betöltése",
+    "loading": "Betöltés...",
+    "clearSearch": "Keresés törlése",
+    "velocityScroll": "LEGFRISSEBB HÍREK ÉS CIKKEK -",
+    "notFound": {
+      "title": "Bejegyzés nem található",
+      "description": "A keresett bejegyzés nem található.",
+      "clearSearch": "Törlés",
+      "goBack": "Vissza",
+      "goHome": "Kezdőlap"
+    },
+    "readMore": "Tovább olvasom"
   },
   "contact": {
     "badge": "",

@@ -232,22 +232,25 @@
   },
   "blog": {
     "allPosts": "Alla inlägg",
+    "selectTags": "Välj taggar...",
+    "searchTags": "Sök taggar...",
+    "noTagsFound": "Inga taggar hittades.",
     "searchPlaceholder": "Sök...",
-    "noPostsFound": {
-      "title": "Artikel ej funnen",
-      "description": "Artikeln du söker kunde inte hittas."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Alla inlägg"
-  },
-  "latestBlogHero": {
+    "clearAll": "Rensa allt",
+    "tagsSelected": "{count} tagg vald",
+    "tagsSelectedPlural": "{count} taggar valda",
+    "loadMore": "Ladda mer",
+    "loading": "Laddar...",
+    "clearSearch": "Rensa sökning",
+    "velocityScroll": "SENASTE NYHETER & ARTIKLAR -",
+    "notFound": {
+      "title": "Inlägget hittades inte",
+      "description": "Inlägget du letar efter kunde inte hittas.",
+      "clearSearch": "Rensa",
+      "goBack": "Gå tillbaka",
+      "goHome": "Gå till startsidan"
+    },
     "readMore": "Läs mer"
-  },
-  "articleNotFound": {
-    "title": "Artikel inte hittad",
-    "description": "Artikeln du söker kunde inte hittas.",
-    "backButton": "Tillbaka"
   },
   "contact": {
     "badge": "",

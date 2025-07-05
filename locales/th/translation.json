@@ -233,22 +233,25 @@
   },
   "blog": {
     "allPosts": "โพสต์ทั้งหมด",
+    "selectTags": "เลือกแท็ก...",
+    "searchTags": "ค้นหาแท็ก...",
+    "noTagsFound": "ไม่พบแท็ก",
     "searchPlaceholder": "ค้นหา...",
-    "noPostsFound": {
-      "title": "ไม่พบบทความ",
-      "description": "ไม่สามารถหาบทความที่คุณกำลังมองหาได้"
-    }
-  },
-  "tags": {
-    "tagAllPosts": "โพสต์ทั้งหมด"
-  },
-  "latestBlogHero": {
-    "readMore": "อ่านเพิ่มเติม"
-  },
-  "articleNotFound": {
-    "title": "ไม่พบบทความ",
-    "description": "ไม่พบบทความที่คุณกำลังค้นหา",
-    "backButton": "กลับ"
+    "clearAll": "ล้างทั้งหมด",
+    "tagsSelected": "เลือกแล้ว {count} แท็ก",
+    "tagsSelectedPlural": "เลือกแล้ว {count} แท็ก",
+    "loadMore": "โหลดเพิ่มเติม",
+    "loading": "กำลังโหลด...",
+    "clearSearch": "ล้างการค้นหา",
+    "velocityScroll": "ข่าวสารและบทความล่าสุด -",
+    "notFound": {
+      "title": "ไม่พบโพสต์",
+      "description": "ไม่พบโพสต์ที่คุณกำลังมองหา",
+      "clearSearch": "ล้าง",
+      "goBack": "กลับ",
+      "goHome": "ไปหน้าแรก"
+    },
+    "readMore": "อ่านต่อ"
   },
   "contact": {
     "badge": "",
