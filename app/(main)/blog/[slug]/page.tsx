@@ -65,7 +65,7 @@ export async function generateMetadata(props: {
   };
 }
 
-export default async function Article({
+export default async function BlogPost({
   params,
 }: {
   readonly params: Promise<{ slug: string }>;
