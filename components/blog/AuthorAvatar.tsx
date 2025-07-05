@@ -23,7 +23,7 @@ export const AuthorAvatar = ({
     </Avatar>
     <div className="flex flex-row items-center gap-1">
       <p className="text-sm font-medium after:content-['_・']">
-        {name || "Unknown Author"}
+        {name ?? "Unknown Author"}
       </p>
       {publishedAt && (
         <time
