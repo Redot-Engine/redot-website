@@ -38,3 +38,10 @@ export const languages: Language[] = [
   { value: "zh-TW", label: "中文(繁體)", code: "TW" },
   { value: "ja", label: "日本語", code: "JP" },
 ];
+
+export const SANITY_LANGUAGES = languages.map((lang) => ({
+  id: lang.value,
+  title: lang.label,
+}));
+
+export const DEFAULT_LANGUAGE = "en";
