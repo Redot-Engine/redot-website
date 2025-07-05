@@ -1,18 +1,22 @@
 import { getPostBySlug, getPosts } from "@/lib/blog";
-import { ArticleSplashNew } from "@/components/blog/ArticleSplashNew";
+import { PostSplash } from "@/components/sections/blog/PostSplash";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ArticleContent } from "@/components/blog/ArticleContent";
+import { PostContentLegacy } from "@/components/sections/blog/PostContentLegacy";
 import { Post } from "@/sanity/schemaTypes/postType";
 import { getLanguage } from "@/actions/language";
 import { getSettings } from "@/actions/settings";
-import { ArticleSplashOld } from "@/components/blog/ArticleSplashOld";
+import { PostSplashLegacy } from "@/components/sections/blog/PostSplashLegacy";
+import { GoToTop } from "@/components/blog/GoToTop";
+import CustomPortableText from "@/components/shared/PortableText";
+import { getBaseUrl } from "@/lib/base-url";
+import { Tag } from "@/sanity/schemaTypes/tagType";
 
 export async function generateStaticParams() {
   const posts = await getPosts();
 
   return posts.map((post: Post) => ({
-    slug: post.slug.current,
+    slug: post.slug,
   }));
 }
 
@@ -20,38 +24,43 @@ export async function generateMetadata(props: {
   readonly params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const params = await props.params;
-  const slug = await params.slug;
+  const slug = params.slug;
+
   const post = await getPostBySlug(slug, "en");
 
   if (!post || post.length === 0) {
     return {
       title: "Post Not Found",
-      description: "The requested post could not be found.",
     };
   }
 
-  const postData = post[0];
+  const postUrl = `${getBaseUrl()}/blog/${slug}`;
 
   return {
-    title: postData.title ?? "Untitled Post",
-    description: postData.excerpt ?? "No description provided.",
+    title: post.title,
+    description: post.excerpt,
+    keywords: post.tags?.map((tag: Tag) => tag.name).join(", "),
+    authors: post.author ? [{ name: post.author.name }] : [],
+    creator: post.author?.name,
+    publisher: "Redot Engine",
     openGraph: {
-      title: postData.title.value,
-      description: postData.excerpt,
-      images: postData.imageUrl ? [{ url: postData.imageUrl }] : [],
-      url: `https://www.redotengine.org//blog/${slug}`,
+      title: post.title,
+      description: post.excerpt,
+      images: post.imageUrl ? [{ url: post.imageUrl }] : [],
+      url: postUrl,
       type: "article",
       siteName: "Redot Engine",
-      publishedTime: postData.publishedAt
-        ? new Date(postData.publishedAt).toISOString()
+      publishedTime: post.publishedAt
+        ? new Date(post.publishedAt).toISOString()
         : undefined,
-      authors: postData.author ? [postData.author.name] : [],
+      authors: post.author ? [post.author.name] : [],
+      tags: post.tags?.map((tag: Tag) => tag.name),
     },
     twitter: {
       card: "summary_large_image",
-      title: postData.title.value,
-      description: postData.excerpt,
-      images: postData.imageUrl ? [postData.imageUrl] : [],
+      title: post.title,
+      description: post.excerpt,
+      images: post.imageUrl ? [post.imageUrl] : [],
     },
   };
 }
@@ -63,26 +72,34 @@ export default async function Article({
 }) {
   const slug = (await params).slug;
 
-  const post = await getPostBySlug(slug, await getLanguage());
+  const [post, settings] = await Promise.all([
+    getPostBySlug(slug, await getLanguage()),
+    getSettings(),
+  ]);
 
   if (!post || post.length === 0) {
     notFound();
   }
-
-  const postData = post[0];
-  const settings = await getSettings();
   const layout = settings.blogLayout ?? "new";
 
   return (
     <div className="px-5 py-12 lg:px-40">
       <div className="flex flex-col items-center justify-center">
         {layout === "new" ? (
-          <ArticleSplashNew article={postData} />
+          <PostSplash {...post} />
         ) : (
-          <ArticleSplashOld article={postData} />
+          <PostSplashLegacy {...post} />
         )}
         <div className="max-w-[720px] md:w-[720px]">
-          <ArticleContent article={postData} />
+          {post.isLegacy ? (
+            <PostContentLegacy {...post} />
+          ) : (
+            <CustomPortableText
+              className="first-letter:text-3xl sm:first-letter:text-5xl"
+              value={post.content}
+            />
+          )}
+          <GoToTop />
         </div>
       </div>
     </div>
