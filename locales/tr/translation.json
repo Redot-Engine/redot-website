@@ -233,22 +233,25 @@
   },
   "blog": {
     "allPosts": "Tüm Gönderiler",
+    "selectTags": "Etiket seç...",
+    "searchTags": "Etiket ara...",
+    "noTagsFound": "Etiket bulunamadı.",
     "searchPlaceholder": "Ara...",
-    "noPostsFound": {
-      "title": "Makale Bulunamadı",
-      "description": "Aradığınız makale bulunamadı."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Tüm Gönderiler"
-  },
-  "latestBlogHero": {
-    "readMore": "Daha fazla oku"
-  },
-  "articleNotFound": {
-    "title": "Makale Bulunamadı",
-    "description": "Aradığınız makale bulunamadı.",
-    "backButton": "Geri"
+    "clearAll": "Tümünü temizle",
+    "tagsSelected": "{count} etiket seçildi",
+    "tagsSelectedPlural": "{count} etiket seçildi",
+    "loadMore": "Daha Fazla Yükle",
+    "loading": "Yükleniyor...",
+    "clearSearch": "Aramayı Temizle",
+    "velocityScroll": "SON HABERLER & MAKALELER -",
+    "notFound": {
+      "title": "Gönderi Bulunamadı",
+      "description": "Aradığınız gönderi bulunamadı.",
+      "clearSearch": "Temizle",
+      "goBack": "Geri dön",
+      "goHome": "Ana sayfaya git"
+    },
+    "readMore": "Devamını oku"
   },
   "contact": {
     "badge": "",

@@ -233,22 +233,25 @@
   },
   "blog": {
     "allPosts": "所有文章",
+    "selectTags": "选择标签...",
+    "searchTags": "搜索标签...",
+    "noTagsFound": "未找到标签。",
     "searchPlaceholder": "搜索...",
-    "noPostsFound": {
-      "title": "文章未找到",
-      "description": "找不到您正在寻找的文章。"
-    }
-  },
-  "tags": {
-    "tagAllPosts": "所有文章"
-  },
-  "latestBlogHero": {
+    "clearAll": "全部清除",
+    "tagsSelected": "已选择 {count} 个标签",
+    "tagsSelectedPlural": "已选择 {count} 个标签",
+    "loadMore": "加载更多",
+    "loading": "加载中...",
+    "clearSearch": "清除搜索",
+    "velocityScroll": "最新新闻与文章 -",
+    "notFound": {
+      "title": "未找到文章",
+      "description": "您正在查找的文章无法找到。",
+      "clearSearch": "清除",
+      "goBack": "返回",
+      "goHome": "返回首页"
+    },
     "readMore": "阅读更多"
-  },
-  "articleNotFound": {
-    "title": "文章未找到",
-    "description": "您正在寻找的文章未能找到。",
-    "backButton": "返回"
   },
   "contact": {
     "badge": "",

@@ -231,23 +231,26 @@
     }
   },
   "blog": {
-    "allPosts": "جميع المنشورات",
-    "searchPlaceholder": "بحث...",
-    "noPostsFound": {
-      "title": "لم يتم العثور على المقال",
-      "description": "لم يتم العثور على المقال الذي تبحث عنه."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "جميع المنشورات"
-  },
-  "latestBlogHero": {
+    "allPosts": "كل المشاركات",
+    "selectTags": "اختر الوسوم...",
+    "searchTags": "ابحث في الوسوم...",
+    "noTagsFound": "لم يتم العثور على وسوم.",
+    "searchPlaceholder": "ابحث...",
+    "clearAll": "مسح الكل",
+    "tagsSelected": "تم تحديد وسم واحد ({count})",
+    "tagsSelectedPlural": "تم تحديد {count} وسوم",
+    "loadMore": "تحميل المزيد",
+    "loading": "جاري التحميل...",
+    "clearSearch": "مسح البحث",
+    "velocityScroll": "أحدث الأخبار والمقالات -",
+    "notFound": {
+      "title": "المشاركة غير موجودة",
+      "description": "لا يمكن العثور على المشاركة التي تبحث عنها.",
+      "clearSearch": "مسح",
+      "goBack": "العودة",
+      "goHome": "الذهاب إلى الصفحة الرئيسية"
+    },
     "readMore": "اقرأ المزيد"
-  },
-  "articleNotFound": {
-    "title": "لم يتم العثور على المقال",
-    "description": "لم يتم العثور على المقال الذي تبحث عنه.",
-    "backButton": "رجوع"
   },
   "contact": {
     "badge": "",

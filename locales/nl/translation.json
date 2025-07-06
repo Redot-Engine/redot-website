@@ -233,22 +233,25 @@
   },
   "blog": {
     "allPosts": "Alle berichten",
+    "selectTags": "Selecteer tags...",
+    "searchTags": "Zoek tags...",
+    "noTagsFound": "Geen tags gevonden.",
     "searchPlaceholder": "Zoeken...",
-    "noPostsFound": {
-      "title": "Artikel niet gevonden",
-      "description": "Het artikel dat je zoekt kon niet worden gevonden."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Alle berichten"
-  },
-  "latestBlogHero": {
+    "clearAll": "Alles wissen",
+    "tagsSelected": "{count} tag geselecteerd",
+    "tagsSelectedPlural": "{count} tags geselecteerd",
+    "loadMore": "Meer laden",
+    "loading": "Laden...",
+    "clearSearch": "Zoekopdracht wissen",
+    "velocityScroll": "LAATSTE NIEUWS & ARTIKELEN -",
+    "notFound": {
+      "title": "Bericht niet gevonden",
+      "description": "Het bericht dat je zoekt, kon niet worden gevonden.",
+      "clearSearch": "Wissen",
+      "goBack": "Ga terug",
+      "goHome": "Naar home"
+    },
     "readMore": "Lees meer"
-  },
-  "articleNotFound": {
-    "title": "Artikel niet gevonden",
-    "description": "Het artikel dat je zoekt kon niet gevonden worden.",
-    "backButton": "Terug"
   },
   "contact": {
     "badge": "",

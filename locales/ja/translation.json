@@ -233,22 +233,25 @@
   },
   "blog": {
     "allPosts": "すべての投稿",
+    "selectTags": "タグを選択...",
+    "searchTags": "タグを検索...",
+    "noTagsFound": "タグが見つかりません。",
     "searchPlaceholder": "検索...",
-    "noPostsFound": {
-      "title": "記事が見つかりません",
-      "description": "お探しの記事が見つかりませんでした。"
-    }
-  },
-  "tags": {
-    "tagAllPosts": "すべての投稿"
-  },
-  "latestBlogHero": {
+    "clearAll": "すべてクリア",
+    "tagsSelected": "{count}個のタグが選択されました",
+    "tagsSelectedPlural": "{count}個のタグが選択されました",
+    "loadMore": "もっと読み込む",
+    "loading": "読み込み中...",
+    "clearSearch": "検索をクリア",
+    "velocityScroll": "最新ニュース＆記事 -",
+    "notFound": {
+      "title": "投稿が見つかりません",
+      "description": "お探しの投稿は見つかりませんでした。",
+      "clearSearch": "クリア",
+      "goBack": "戻る",
+      "goHome": "ホームへ"
+    },
     "readMore": "続きを読む"
-  },
-  "articleNotFound": {
-    "title": "記事が見つかりません",
-    "description": "お探しの記事は見つかりませんでした。",
-    "backButton": "戻る"
   },
   "contact": {
     "badge": "",

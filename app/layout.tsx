@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { inter } from "@/app/fonts";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { GoogleTagManager } from "@next/third-parties/google";
@@ -8,11 +8,6 @@ import { getLocale, getMessages } from "next-intl/server";
 import { getBaseUrl } from "@/lib/base-url";
 
 export const runtime = "edge";
-
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-});
 
 const baseUrl = getBaseUrl();
 

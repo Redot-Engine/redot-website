@@ -232,23 +232,26 @@
     }
   },
   "blog": {
-    "allPosts": "Toate Postările",
-    "searchPlaceholder": "Căutare...",
-    "noPostsFound": {
-      "title": "Articolul nu a fost găsit",
-      "description": "Articolul pe care îl căutați nu a fost găsit."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Toate Postările"
-  },
-  "latestBlogHero": {
+    "allPosts": "Toate postările",
+    "selectTags": "Selectează etichete...",
+    "searchTags": "Caută etichete...",
+    "noTagsFound": "Nicio etichetă găsită.",
+    "searchPlaceholder": "Caută...",
+    "clearAll": "Șterge tot",
+    "tagsSelected": "{count} etichetă selectată",
+    "tagsSelectedPlural": "{count} etichete selectate",
+    "loadMore": "Încarcă mai mult",
+    "loading": "Se încarcă...",
+    "clearSearch": "Golește căutarea",
+    "velocityScroll": "ULTIMELE ȘTIRI ȘI ARTICOLE -",
+    "notFound": {
+      "title": "Postare negăsită",
+      "description": "Postarea pe care o căutați nu a putut fi găsită.",
+      "clearSearch": "Golește",
+      "goBack": "Înapoi",
+      "goHome": "Acasă"
+    },
     "readMore": "Citește mai mult"
-  },
-  "articleNotFound": {
-    "title": "Articolul Nu A Fost Găsit",
-    "description": "Articolul pe care îl căutați nu a fost găsit.",
-    "backButton": "Înapoi"
   },
   "contact": {
     "badge": "",

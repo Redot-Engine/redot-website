@@ -232,23 +232,26 @@
     }
   },
   "blog": {
-    "allPosts": "Все записи",
+    "allPosts": "Все посты",
+    "selectTags": "Выберите теги...",
+    "searchTags": "Поиск тегов...",
+    "noTagsFound": "Теги не найдены.",
     "searchPlaceholder": "Поиск...",
-    "noPostsFound": {
-      "title": "Статья не найдена",
-      "description": "Статья, которую вы ищете, не найдена."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Все записи"
-  },
-  "latestBlogHero": {
+    "clearAll": "Очистить все",
+    "tagsSelected": "Выбран {count} тег",
+    "tagsSelectedPlural": "Выбрано {count} тегов",
+    "loadMore": "Загрузить еще",
+    "loading": "Загрузка...",
+    "clearSearch": "Очистить поиск",
+    "velocityScroll": "ПОСЛЕДНИЕ НОВОСТИ И СТАТЬИ -",
+    "notFound": {
+      "title": "Пост не найден",
+      "description": "Пост, который вы ищете, не найден.",
+      "clearSearch": "Очистить",
+      "goBack": "Назад",
+      "goHome": "На главную"
+    },
     "readMore": "Читать далее"
-  },
-  "articleNotFound": {
-    "title": "Статья не найдена",
-    "description": "Статья, которую вы ищете, не найдена.",
-    "backButton": "Назад"
   },
   "contact": {
     "badge": "",

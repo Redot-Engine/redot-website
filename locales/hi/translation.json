@@ -233,22 +233,25 @@
   },
   "blog": {
     "allPosts": "सभी पोस्ट",
+    "selectTags": "टैग चुनें...",
+    "searchTags": "टैग खोजें...",
+    "noTagsFound": "कोई टैग नहीं मिला।",
     "searchPlaceholder": "खोजें...",
-    "noPostsFound": {
-      "title": "लेख नहीं मिला",
-      "description": "जिस लेख को आप ढूंढ रहे हैं, वह नहीं मिला।"
-    }
-  },
-  "tags": {
-    "tagAllPosts": "सभी पोस्ट"
-  },
-  "latestBlogHero": {
+    "clearAll": "सब साफ़ करें",
+    "tagsSelected": "{count} टैग चुना गया",
+    "tagsSelectedPlural": "{count} टैग चुने गए",
+    "loadMore": "और लोड करें",
+    "loading": "लोड हो रहा है...",
+    "clearSearch": "खोज साफ़ करें",
+    "velocityScroll": "नवीनतम समाचार और लेख -",
+    "notFound": {
+      "title": "पोस्ट नहीं मिली",
+      "description": "आप जिस पोस्ट को खोज रहे हैं वह नहीं मिली।",
+      "clearSearch": "साफ़ करें",
+      "goBack": "वापस जाएं",
+      "goHome": "होम पर जाएं"
+    },
     "readMore": "और पढ़ें"
-  },
-  "articleNotFound": {
-    "title": "लेख नहीं मिला",
-    "description": "आप जो लेख ढूंढ रहे हैं, वह नहीं मिल पाया।",
-    "backButton": "वापस"
   },
   "contact": {
     "badge": "",

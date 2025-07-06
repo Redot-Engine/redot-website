@@ -232,23 +232,26 @@
     }
   },
   "blog": {
-    "allPosts": "Kaikki artikkelit",
-    "searchPlaceholder": "Etsi...",
-    "noPostsFound": {
-      "title": "Artikkelia ei löytynyt",
-      "description": "Etsimääsi artikkelia ei löytynyt."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Kaikki artikkelit"
-  },
-  "latestBlogHero": {
+    "allPosts": "Kaikki julkaisut",
+    "selectTags": "Valitse tunnisteita...",
+    "searchTags": "Hae tunnisteita...",
+    "noTagsFound": "Tunnisteita ei löytynyt.",
+    "searchPlaceholder": "Hae...",
+    "clearAll": "Tyhjennä kaikki",
+    "tagsSelected": "{count} tunniste valittu",
+    "tagsSelectedPlural": "{count} tunnistetta valittu",
+    "loadMore": "Lataa lisää",
+    "loading": "Ladataan...",
+    "clearSearch": "Tyhjennä haku",
+    "velocityScroll": "UUSIMMAT UUTISET & ARTIKKELIT -",
+    "notFound": {
+      "title": "Julkaisua ei löytynyt",
+      "description": "Etsimääsi julkaisua ei löytynyt.",
+      "clearSearch": "Tyhjennä",
+      "goBack": "Takaisin",
+      "goHome": "Etusivulle"
+    },
     "readMore": "Lue lisää"
-  },
-  "articleNotFound": {
-    "title": "Artikkelia ei löydy",
-    "description": "Etsimääsi artikkelia ei löydy.",
-    "backButton": "Takaisin"
   },
   "contact": {
     "badge": "",

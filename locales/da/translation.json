@@ -233,22 +233,25 @@
   },
   "blog": {
     "allPosts": "Alle indlæg",
+    "selectTags": "Vælg tags...",
+    "searchTags": "Søg i tags...",
+    "noTagsFound": "Ingen tags fundet.",
     "searchPlaceholder": "Søg...",
-    "noPostsFound": {
-      "title": "Artikel ikke fundet",
-      "description": "Den artikel, du leder efter, kunne ikke findes."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Alle indlæg"
-  },
-  "latestBlogHero": {
+    "clearAll": "Ryd alt",
+    "tagsSelected": "{count} tag valgt",
+    "tagsSelectedPlural": "{count} tags valgt",
+    "loadMore": "Indlæs mere",
+    "loading": "Indlæser...",
+    "clearSearch": "Ryd søgning",
+    "velocityScroll": "SENESTE NYHEDER & ARTIKLER -",
+    "notFound": {
+      "title": "Indlæg ikke fundet",
+      "description": "Indlægget, du leder efter, kunne ikke findes.",
+      "clearSearch": "Ryd",
+      "goBack": "Gå tilbage",
+      "goHome": "Gå til forsiden"
+    },
     "readMore": "Læs mere"
-  },
-  "articleNotFound": {
-    "title": "Artikel ikke fundet",
-    "description": "Den artikel, du leder efter, kunne ikke findes.",
-    "backButton": "Tilbage"
   },
   "contact": {
     "badge": "",

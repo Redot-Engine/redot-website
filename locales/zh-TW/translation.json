@@ -233,22 +233,25 @@
   },
   "blog": {
     "allPosts": "所有文章",
+    "selectTags": "選擇標籤...",
+    "searchTags": "搜尋標籤...",
+    "noTagsFound": "找不到標籤。",
     "searchPlaceholder": "搜尋...",
-    "noPostsFound": {
-      "title": "文章未找到",
-      "description": "找不到您正在尋找的文章。"
-    }
-  },
-  "tags": {
-    "tagAllPosts": "所有文章"
-  },
-  "latestBlogHero": {
+    "clearAll": "全部清除",
+    "tagsSelected": "已選擇 {count} 個標籤",
+    "tagsSelectedPlural": "已選擇 {count} 個標籤",
+    "loadMore": "載入更多",
+    "loading": "載入中...",
+    "clearSearch": "清除搜尋",
+    "velocityScroll": "最新新聞與文章 -",
+    "notFound": {
+      "title": "找不到文章",
+      "description": "找不到您正在尋找的文章。",
+      "clearSearch": "清除",
+      "goBack": "返回",
+      "goHome": "回到首頁"
+    },
     "readMore": "閱讀更多"
-  },
-  "articleNotFound": {
-    "title": "文章未找到",
-    "description": "您搜尋的文章無法找到。",
-    "backButton": "返回"
   },
   "contact": {
     "badge": "",

@@ -232,23 +232,26 @@
     }
   },
   "blog": {
-    "allPosts": "Svi postovi",
+    "allPosts": "Sve objave",
+    "selectTags": "Odaberite oznake...",
+    "searchTags": "Pretraži oznake...",
+    "noTagsFound": "Nisu pronađene oznake.",
     "searchPlaceholder": "Pretraži...",
-    "noPostsFound": {
-      "title": "Članak nije pronađen",
-      "description": "Članak koji tražite nije pronađen."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Svi postovi"
-  },
-  "latestBlogHero": {
+    "clearAll": "Očisti sve",
+    "tagsSelected": "{count} oznaka odabrana",
+    "tagsSelectedPlural": "{count} oznaka odabrano",
+    "loadMore": "Učitaj još",
+    "loading": "Učitavanje...",
+    "clearSearch": "Očisti pretragu",
+    "velocityScroll": "NAJNOVIJE VIJESTI I ČLANCI -",
+    "notFound": {
+      "title": "Objava nije pronađena",
+      "description": "Objava koju tražite nije pronađena.",
+      "clearSearch": "Očisti",
+      "goBack": "Natrag",
+      "goHome": "Početna"
+    },
     "readMore": "Pročitaj više"
-  },
-  "articleNotFound": {
-    "title": "Članak nije pronađen",
-    "description": "Članak koji tražite nije moguće pronaći.",
-    "backButton": "Natrag"
   },
   "contact": {
     "badge": "",
