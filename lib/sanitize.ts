@@ -166,8 +166,8 @@ export function containsDangerousContent(
     /data:text\/html/i,
     /vbscript:/i,
     /file:/i,
-    /\{\{.*\}\}/g,
-    /\$\{.*\}/g,
+    /\{\{[^}{]{0,100}\}\}/g,
+    /\$\{[^}{]{0,100}\}/g,
   ];
 
   return dangerousPatterns.some((pattern) => pattern.test(input));
