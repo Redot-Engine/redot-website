@@ -8,6 +8,7 @@ import { Tag } from "@/sanity/schemaTypes/tagType";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { IconArrowRight } from "@tabler/icons-react";
+import { useTranslations } from "next-intl";
 
 const colors: string[] = [
   "#DCEDB9",
@@ -20,6 +21,7 @@ const colors: string[] = [
 export const BlogRandomQuote = () => {
   const [post, setPost] = useState<Post | null>(null);
   const [bgColor, setBgColor] = useState<string>("");
+  const t = useTranslations("blog");
 
   useEffect(() => {
     const fetchQuote = async () => {
@@ -51,7 +53,7 @@ export const BlogRandomQuote = () => {
           </div>
           <Button variant="secondary" size="sm" asChild>
             <Link href={`/blog/${post.slug}`}>
-              Read more <IconArrowRight />
+              {t("readMore")} <IconArrowRight />
             </Link>
           </Button>
         </div>
