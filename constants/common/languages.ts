@@ -39,7 +39,12 @@ export const languages: Language[] = [
   { value: "ja", label: "日本語", code: "JP" },
 ];
 
-export const SANITY_LANGUAGES = languages.map((lang) => ({
+export interface SanityLanguage {
+  id: string;
+  title: string;
+}
+
+export const SANITY_LANGUAGES: SanityLanguage[] = languages.map((lang) => ({
   id: lang.value,
   title: lang.label,
 }));
