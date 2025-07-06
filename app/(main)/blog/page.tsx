@@ -10,7 +10,9 @@ export const metadata: Metadata = {
 };
 
 export default async function Blog() {
-  const searchParams = new URLSearchParams();
+  const searchParams = new URLSearchParams(
+    typeof window !== "undefined" ? window.location.search : ""
+  );
 
   const language = await getLanguage();
   const selectedTagsParam = searchParams.get("tags") ?? "";

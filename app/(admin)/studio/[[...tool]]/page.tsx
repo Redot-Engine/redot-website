@@ -1,15 +1,9 @@
 import { NextStudio } from "next-sanity/studio";
 import config from "../../../../sanity.config";
-import { Metadata } from "next";
 
-export const runtime = "nodejs";
+export const dynamic = "force-static";
 
-export const metadata: Metadata = {
-  robots: {
-    index: false,
-    follow: true,
-  },
-};
+export { metadata, viewport } from "next-sanity/studio";
 
 export default function StudioPage() {
   return <NextStudio config={config} />;
