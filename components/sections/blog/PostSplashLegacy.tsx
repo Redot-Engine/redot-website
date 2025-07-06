@@ -18,7 +18,7 @@ export const PostSplashLegacy = ({
   publishedAt,
 }: Post) => {
   return (
-    <div className="md:w-[720px flex max-w-[720px] flex-col gap-5 pb-12 md:w-[720px]">
+    <div className="flex max-w-[720px] flex-col gap-5 pb-12 md:w-[720px]">
       <div className="relative aspect-video w-full">
         <Image
           src={imageUrl}

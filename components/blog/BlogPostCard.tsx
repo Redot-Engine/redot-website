@@ -10,10 +10,13 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { IconCalendar } from "@tabler/icons-react";
 import { useState } from "react";
 
-interface BlogPostCardProps extends Post {
+type BlogPostCardProps = Pick<
+  Post,
+  "title" | "excerpt" | "slug" | "imageUrl" | "tags" | "author" | "publishedAt"
+> & {
   className?: string;
   priority?: boolean;
-}
+};
 
 export const BlogPostCard = ({
   title,
@@ -48,7 +51,7 @@ export const BlogPostCard = ({
             )}
             {!imageError && imageUrl ? (
               <Image
-                src={imageUrl || "/placeholder.svg"}
+                src={imageUrl}
                 alt={`Cover image for ${title}`}
                 className={cn(
                   "object-cover object-center transition-all duration-500 group-hover:scale-[1.02]",
