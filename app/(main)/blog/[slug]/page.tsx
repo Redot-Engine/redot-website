@@ -31,6 +31,46 @@ export async function generateMetadata(props: {
   if (!post || post.length === 0) {
     return {
       title: "Post Not Found",
+      description:
+        "The blog post you are looking for does not exist or has been moved. It might have been relocated, deleted, or the URL might be incorrect. Browse our latest blog posts or return to the homepage.",
+      robots: {
+        index: false,
+        follow: false,
+        noarchive: true,
+        nosnippet: true,
+        noimageindex: true,
+      },
+      openGraph: {
+        title: "Post Not Found",
+        description:
+          "The blog post you are looking for does not exist or has been moved.",
+        siteName: "Redot Engine",
+        type: "website",
+        url: "https://www.redotengine.org/blog/404",
+        images: [
+          {
+            url: "https://image.redotengine.org/not-found.png",
+            width: 1200,
+            height: 630,
+            alt: "Redot Engine - Blog Post Not Found",
+          },
+        ],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "Post Not Found",
+        description:
+          "The blog post you are looking for does not exist or has been moved.",
+        site: "@Redot_Engine",
+        images: ["https://image.redotengine.org/not-found.png"],
+      },
+      alternates: {
+        canonical: "https://www.redotengine.org/blog/404",
+      },
+      other: {
+        "revisit-after": "30 days",
+        "content-language": "en",
+      },
     };
   }
 
