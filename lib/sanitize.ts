@@ -1,8 +1,8 @@
 const GROQ_DANGEROUS_CHARS = /["[\]{}()\\|&<>]/g;
 const SEARCH_UNSAFE_CHARS = /[<>"'&]/g;
 const XSS_PATTERNS = [
-  /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi,
-  /<iframe\b[^<]*(?:(?!<\/iframe>)<[^<]*)*<\/iframe>/gi,
+  /<script[^>]*>[\s\S]*?<\/script>/gi,
+  /<iframe[^>]*>[\s\S]*?<\/iframe>/gi,
   /javascript:/gi,
   /on\w+\s*=/gi,
   /<[^>]*>/g,
@@ -19,9 +19,9 @@ export function sanitizeInput(input: string | null | undefined): string {
 
   return input
     .trim()
-    .replace(SEARCH_UNSAFE_CHARS, "") // Remove basic unsafe characters
-    .replace(/\s+/g, " ") // Normalize whitespace
-    .slice(0, 1000); // Limit length to prevent abuse
+    .replace(SEARCH_UNSAFE_CHARS, "")
+    .replace(/\s+/g, " ")
+    .slice(0, 1000);
 }
 
 /**
