@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine hiện đã ổn định!"
     },
     "downloadButton": "Tải xuống",
+    "donateButton": "Quyên góp",
     "discordButton": "Tham gia Discord",
     "links": {
       "documentation": "Tài liệu",
@@ -92,7 +93,8 @@
         "status": "Trạng thái",
         "donate": "Ủng hộ",
         "documentation": "Tài liệu",
-        "sourceCode": "Mã nguồn"
+        "sourceCode": "Mã nguồn",
+        "changelog": "Nhật ký thay đổi"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "Tin tức",
         "feedback": "Phản hồi",
         "community": "Cộng đồng",
+        "brand": "Thương hiệu",
         "pressKit": "Bộ công cụ báo chí",
         "contact": "Liên hệ",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "Chương Trình Beta",
-      "children": {
-        "launcher": "Trình khởi động",
-        "academy": "Học viện",
-        "engineExperimental": "Engine Experimental"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "Hướng dẫn đóng góp"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống",
+    "toggleLabel": "Chuyển đổi chủ đề"
   },
   "notFound": {
     "code": "Lỗi 404",
@@ -151,8 +152,10 @@
   },
   "downloadDialog": {
     "downloadButton": "Tải xuống ngay",
+    "downloading": "Đang tải xuống...",
     "title": "Chọn phiên bản tải xuống",
     "description": "Chọn phiên bản phù hợp nhất với nhu cầu của bạn.",
+    "currentVersions": "Phiên bản hiện tại",
     "stable": {
       "name": "Phiên bản ổn định",
       "description": "Khuyến nghị cho hầu hết người dùng"
@@ -164,6 +167,12 @@
     "mono": {
       "name": "Phiên bản Mono",
       "description": "Bao gồm hỗ trợ C#"
+    },
+    "archive": {
+      "name": "Lưu trữ",
+      "note": "Lưu ý: Các phiên bản lưu trữ có thể không có các tính năng và cập nhật bảo mật mới nhất.",
+      "loadError": "Không thể tải thông tin phiên bản",
+      "downloadArchive": "Tải xuống {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +211,16 @@
     "title": "Các nền tảng hỗ trợ",
     "description": "Redot Engine hoạt động mượt mà trên nhiều nền tảng, đảm bảo tính tương thích."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Yêu cầu hệ thống Redot Engine",
-      "description": {
-        "general": "Khuyến nghị: Phần cứng tương thích Vulkan 1.0. Tối thiểu: Phần cứng tương thích OpenGL 3.3 / OpenGL ES 3.0.",
-        "dotnet": "Yêu cầu bổ sung cho phiên bản .NET:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Yêu cầu hệ thống cho Redot Engine",
+      "description": "Khuyến nghị: Phần cứng tương thích Vulkan 1.0. Tối thiểu: Phần cứng tương thích OpenGL 3.3 / OpenGL ES 3.0. Yêu cầu bổ sung cho phiên bản .NET:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Redot Engine là gì?",
-      "description": "Redot Engine là một nền tảng phát triển game mã nguồn mở miễn phí dành cho các dự án 2D và 3D. Dựa trên Godot, nó cung cấp tính linh hoạt và dễ sử dụng cho các nhà phát triển ở mọi cấp độ, với hỗ trợ đa nền tảng và cộng đồng hợp tác.",
-      "learnMoreButton": "Tìm hiểu thêm về Redot Engine"
+      "description": "Redot Engine là một nền tảng mã nguồn mở miễn phí dành cho phát triển game 2D và 3D, dựa trên Godot, cung cấp tính linh hoạt, dễ sử dụng và hỗ trợ đa nền tảng.",
+      "learnMoreButton": "Về Redot Engine"
     }
   },
   "downloadHelp": {
@@ -227,22 +233,25 @@
   },
   "blog": {
     "allPosts": "Tất cả bài viết",
+    "selectTags": "Chọn thẻ...",
+    "searchTags": "Tìm thẻ...",
+    "noTagsFound": "Không tìm thấy thẻ nào.",
     "searchPlaceholder": "Tìm kiếm...",
-    "noPostsFound": {
+    "clearAll": "Xóa tất cả",
+    "tagsSelected": "Đã chọn {count} thẻ",
+    "tagsSelectedPlural": "Đã chọn {count} thẻ",
+    "loadMore": "Tải thêm",
+    "loading": "Đang tải...",
+    "clearSearch": "Xóa tìm kiếm",
+    "velocityScroll": "TIN TỨC & BÀI VIẾT MỚI NHẤT -",
+    "notFound": {
       "title": "Không tìm thấy bài viết",
-      "description": "Bài viết bạn đang tìm kiếm không thể tìm thấy."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Tất cả bài viết"
-  },
-  "latestBlogHero": {
+      "description": "Không thể tìm thấy bài viết bạn đang tìm.",
+      "clearSearch": "Xóa",
+      "goBack": "Quay lại",
+      "goHome": "Về trang chủ"
+    },
     "readMore": "Đọc thêm"
-  },
-  "articleNotFound": {
-    "title": "Không tìm thấy bài viết",
-    "description": "Bài viết bạn đang tìm không thể tìm thấy.",
-    "backButton": "Quay lại"
   },
   "contact": {
     "badge": "",
@@ -319,5 +328,79 @@
     "badge": "",
     "title": "Điều khoản dịch vụ",
     "description": "Hiểu các quy tắc và hướng dẫn sử dụng dịch vụ của chúng tôi trong Điều khoản dịch vụ."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Hướng Dẫn Thương Hiệu",
+    "description": "Hướng dẫn toàn diện về nhận diện thương hiệu của chúng tôi.",
+    "downloadPressKit": "Tải Bộ Tài Liệu Báo Chí",
+
+    "logo": {
+      "badge": "",
+      "title": "Logo Của Chúng Tôi",
+      "description": "Logo chính thức của Redot để sử dụng trong dự án và tài liệu của bạn."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Biểu Tượng",
+      "description": "Thiết kế biểu tượng chỉ có icon của Redot dùng cho các trường hợp nhỏ gọn và linh hoạt."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Khoảng Cách An Toàn",
+      "description": "Quy tắc về khoảng cách để giữ cho logo Redot sạch sẽ và dễ nhìn.",
+      "logoClearspace": "Khoảng Cách Logo",
+      "symbolClearspace": "Khoảng Cách Biểu Tượng"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Màu Sắc",
+      "description": "Bảng màu chính thức của Redot để duy trì sự đồng nhất thương hiệu trên các phương tiện."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Hướng Dẫn Pháp Lý Về Thương Hiệu",
+      "description": "Logo Redot Engine được bảo hộ bản quyền và cấp phép. Vui lòng tuân thủ các hướng dẫn sử dụng.",
+      "license": {
+        "title": "Logo Redot Engine",
+        "copyright": "Bản quyền (c) 2024 Asrorul Irsyad",
+        "description": "Được cấp phép theo Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Xem Giấy Phép"
+      },
+      "attribution": {
+        "title": "Ví Dụ Ghi Nhận",
+        "text": "Logo Redot Engine © 2024 Asrorul Irsyad, được cấp phép theo CC BY 4.0"
+      },
+      "contact": "Nếu có thắc mắc về việc sử dụng, vui lòng liên hệ đội ngũ Redot tại",
+      "guidelines": {
+        "dos": {
+          "title": "Nên Làm",
+          "items": [
+            "Sử dụng cho mục đích thương mại và phi thương mại",
+            "Chỉnh sửa, điều chỉnh hoặc xây dựng dựa trên logo",
+            "Chia sẻ và phân phối lại trên bất kỳ phương tiện nào",
+            "Bao gồm ghi nhận thích hợp (xem ví dụ bên dưới)"
+          ]
+        },
+        "donts": {
+          "title": "Không Nên Làm",
+          "items": [
+            "Sử dụng mà không ghi nhận đúng cách",
+            "Ngụ ý được sự bảo trợ từ tác giả",
+            "Thêm các hạn chế pháp lý khác",
+            "Loại bỏ hoặc thay đổi điều khoản giấy phép"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Nhật ký thay đổi",
+    "description": "Cập nhật các tính năng mới nhất, cải tiến và sửa lỗi.",
+    "noEntriesFound": "Không tìm thấy mục nhật ký thay đổi phù hợp với bộ lọc của bạn.",
+    "filterByPlatform": "Lọc theo nền tảng",
+    "clearAllFilters": "Xóa tất cả bộ lọc",
+    "onThisPage": "TRÊN TRANG NÀY"
   }
 }

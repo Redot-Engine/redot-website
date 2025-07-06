@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import bundleAnalyzer from "@next/bundle-analyzer";
 
 import createNextIntlPlugin from "next-intl/plugin";
 import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
@@ -6,19 +7,9 @@ import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
 initOpenNextCloudflareForDev();
 const withNextIntl = createNextIntlPlugin();
 
-const cspHeader = `
-    default-src 'self';
-    script-src 'self' 'unsafe-eval' 'unsafe-inline';
-    style-src 'self' 'unsafe-inline';
-    img-src 'self' blob: data: https://*.sanity.io https://*.cloudflare.com https://image.redotengine.org;
-    connect-src 'self' https://*.sanity.io https://*.cloudflare.com;
-    font-src 'self';
-    object-src 'none';
-    base-uri 'self';
-    form-action 'self';
-    frame-ancestors 'none';
-    upgrade-insecure-requests;
-`;
+const withBundleAnalyzer = bundleAnalyzer({
+  enabled: process.env.ANALYZE === "true",
+});
 
 const nextConfig: NextConfig = {
   images: {
@@ -42,6 +33,11 @@ const nextConfig: NextConfig = {
         destination: "/blog/:slug",
         permanent: true,
       },
+      {
+        source: "/donate",
+        destination: "https://ko-fi.com/redotengine",
+        permanent: false,
+      },
     ];
   },
   experimental: {
@@ -49,11 +45,12 @@ const nextConfig: NextConfig = {
       dynamic: 30,
       static: 180,
     },
+    optimizePackageImports: ["@tabler/icons-react", "lucide-react"],
   },
   async headers() {
     return [
       {
-        source: "/(.*)", // Apply to all routes
+        source: "/(.*)",
         headers: [
           {
             key: "Strict-Transport-Security",
@@ -67,11 +64,6 @@ const nextConfig: NextConfig = {
             key: "X-Content-Type-Options",
             value: "nosniff",
           },
-          // TODO: Implement a robust Content-Security-Policy (CSP) header to enhance application security.
-          // {
-          //   key: "Content-Security-Policy",
-          //   value: cspHeader.replace(/\n/g, ""),
-          // },
           {
             key: "Permissions-Policy",
             value:
@@ -87,4 +79,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withNextIntl(nextConfig);
+export default withBundleAnalyzer(withNextIntl(nextConfig));

@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine is nu stabiel!"
     },
     "downloadButton": "Downloaden",
+    "donateButton": "Doneren",
     "discordButton": "Word lid van Discord",
     "links": {
       "documentation": "Documentatie",
@@ -92,7 +93,8 @@
         "status": "Status",
         "donate": "Doneren",
         "documentation": "Documentatie",
-        "sourceCode": "Broncode"
+        "sourceCode": "Broncode",
+        "changelog": "Wijzigingslogboek"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "Nieuws",
         "feedback": "Feedback",
         "community": "Gemeenschap",
+        "brand": "Merk",
         "pressKit": "Perskit",
         "contact": "Contact",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "Beta Programma's",
-      "children": {
-        "launcher": "Launcher",
-        "academy": "Academy",
-        "engineExperimental": "Engine Experimenteel"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "Bijdrage Richtlijnen"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Licht",
+    "dark": "Donker",
+    "system": "Systeem",
+    "toggleLabel": "Thema wisselen"
   },
   "notFound": {
     "code": "404 fout",
@@ -151,19 +152,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Nu downloaden",
+    "downloading": "Bezig met downloaden...",
     "title": "Kies downloadversie",
-    "description": "Kies de versie die het beste bij uw behoeften past.",
+    "description": "Selecteer de versie die het beste bij uw behoeften past.",
+    "currentVersions": "Huidige versies",
     "stable": {
       "name": "Stabiele versie",
       "description": "Aanbevolen voor de meeste gebruikers"
     },
     "latest": {
       "name": "Laatste versie",
-      "description": "Nieuwste functies, kunnen bugs bevatten"
+      "description": "Nieuwe functies, kan bugs bevatten"
     },
     "mono": {
-      "name": "Mono versie",
+      "name": "Mono-versie",
       "description": "Bevat ondersteuning voor C#"
+    },
+    "archive": {
+      "name": "Archief",
+      "note": "Opmerking: Gearchiveerde versies bevatten mogelijk niet de nieuwste functies en beveiligingsupdates.",
+      "loadError": "Kan versie-informatie niet laden",
+      "downloadArchive": "Download {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +211,16 @@
     "title": "Ondersteunde platforms",
     "description": "Redot Engine draait soepel op verschillende platforms, wat compatibiliteit garandeert."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Systeemvereisten Redot Engine",
-      "description": {
-        "general": "Aanbevolen: Vulkan 1.0 compatibel hardware. Minimaal: OpenGL 3.3 / OpenGL ES 3.0 compatibel hardware.",
-        "dotnet": "Aanvullende vereisten voor de .NET-versie:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Systeemvereisten voor Redot Engine",
+      "description": "Aanbevolen: Vulkan 1.0 compatibele hardware. Minimaal: OpenGL 3.3 / OpenGL ES 3.0 compatibele hardware. Extra vereisten voor de .NET versie:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Wat is Redot Engine?",
-      "description": "Redot Engine is een gratis, open-source game-ontwikkelingsplatform voor 2D- en 3D-projecten. Gebaseerd op Godot, biedt het flexibiliteit en gebruiksgemak voor ontwikkelaars van alle niveaus, met ondersteuning voor meerdere platforms en een samenwerkende gemeenschap.",
-      "learnMoreButton": "Leer meer over Redot Engine"
+      "description": "Redot Engine is een gratis open-source platform voor de ontwikkeling van 2D- en 3D-games, gebaseerd op Godot, dat flexibiliteit, gebruiksvriendelijkheid en cross-platform ondersteuning biedt.",
+      "learnMoreButton": "Over Redot Engine"
     }
   },
   "downloadHelp": {
@@ -227,22 +233,25 @@
   },
   "blog": {
     "allPosts": "Alle berichten",
+    "selectTags": "Selecteer tags...",
+    "searchTags": "Zoek tags...",
+    "noTagsFound": "Geen tags gevonden.",
     "searchPlaceholder": "Zoeken...",
-    "noPostsFound": {
-      "title": "Artikel niet gevonden",
-      "description": "Het artikel dat je zoekt kon niet worden gevonden."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Alle berichten"
-  },
-  "latestBlogHero": {
+    "clearAll": "Alles wissen",
+    "tagsSelected": "{count} tag geselecteerd",
+    "tagsSelectedPlural": "{count} tags geselecteerd",
+    "loadMore": "Meer laden",
+    "loading": "Laden...",
+    "clearSearch": "Zoekopdracht wissen",
+    "velocityScroll": "LAATSTE NIEUWS & ARTIKELEN -",
+    "notFound": {
+      "title": "Bericht niet gevonden",
+      "description": "Het bericht dat je zoekt, kon niet worden gevonden.",
+      "clearSearch": "Wissen",
+      "goBack": "Ga terug",
+      "goHome": "Naar home"
+    },
     "readMore": "Lees meer"
-  },
-  "articleNotFound": {
-    "title": "Artikel niet gevonden",
-    "description": "Het artikel dat je zoekt kon niet gevonden worden.",
-    "backButton": "Terug"
   },
   "contact": {
     "badge": "",
@@ -319,5 +328,78 @@
     "badge": "",
     "title": "Servicevoorwaarden",
     "description": "Begrijp de regels en richtlijnen voor het gebruik van onze diensten in onze Servicevoorwaarden."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Merkrichtlijnen",
+    "description": "Uitgebreide richtlijnen voor onze visuele merkidentiteit.",
+    "downloadPressKit": "Download perskit",
+    "logo": {
+      "badge": "",
+      "title": "Ons logo",
+      "description": "Officiële Redot-logo's voor gebruik in uw projecten en materialen."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Simbolis",
+      "description": "Redot ikona be teksto – kompaktiškam ir universaliam naudojimui."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Tarpas aplink logotipą",
+      "description": "Teisingos erdvės taisyklės, kad Redot logotipas būtų aiškus ir matomas.",
+      "logoClearspace": "Logotipo tarpas",
+      "symbolClearspace": "Simbolio tarpas"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Spalvos",
+      "description": "Oficiali Redot spalvų paletė, užtikrinanti nuoseklų prekės ženklo vaizdą visose medijose."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Juridische merkrichtlijnen",
+      "description": "Het Redot Engine-logo is auteursrechtelijk beschermd en gelicentieerd. Volg de gebruiksregels.",
+      "license": {
+        "title": "Redot Engine logotipas",
+        "copyright": "Autorių teisės (c) 2024 Asrorul Irsyad",
+        "description": "Licencijuota pagal Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Peržiūrėti licenciją"
+      },
+      "attribution": {
+        "title": "Pavyzdys kaip nurodyti autorystę",
+        "text": "Redot Engine logotipas © 2024 Asrorul Irsyad, licencijuota pagal CC BY 4.0"
+      },
+      "contact": "Dėl naudojimo klausimų prašome kreiptis į Redot komandą adresu",
+      "guidelines": {
+        "dos": {
+          "title": "Leidžiama",
+          "items": [
+            "Naudoti komerciniais ir nekomerciniais tikslais",
+            "Modifikuoti, pritaikyti ar kurti pagrindu logotipą",
+            "Dalintis ir platinti bet kurioje terpėje",
+            "Įtraukti tinkamą autorystės nurodymą (žr. pavyzdį žemiau)"
+          ]
+        },
+        "donts": {
+          "title": "Negalima",
+          "items": [
+            "Naudoti be tinkamo autorystės nurodymo",
+            "Pateikti kūrėją kaip remiantį",
+            "Pridėti papildomų teisių apribojimų",
+            "Šalinti ar keisti licencijos sąlygas"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Wijzigingslogboek",
+    "description": "Blijf op de hoogte van de nieuwste functies, verbeteringen en bugfixes.",
+    "noEntriesFound": "Geen wijzigingenlogboekvermeldingen gevonden die overeenkomen met je filters.",
+    "filterByPlatform": "Filter op platform",
+    "clearAllFilters": "Alle filters wissen",
+    "onThisPage": "OP DEZE PAGINA"
   }
 }

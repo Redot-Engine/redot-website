@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine이 이제 안정적입니다!"
     },
     "downloadButton": "다운로드",
+    "donateButton": "기부하기",
     "discordButton": "Discord에 참여하기",
     "links": {
       "documentation": "문서",
@@ -92,7 +93,8 @@
         "status": "상태",
         "donate": "기부",
         "documentation": "문서",
-        "sourceCode": "소스 코드"
+        "sourceCode": "소스 코드",
+        "changelog": "변경 로그"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "뉴스",
         "feedback": "피드백",
         "community": "커뮤니티",
+        "brand": "브랜드",
         "pressKit": "보도 자료",
         "contact": "연락처",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "베타 프로그램",
-      "children": {
-        "launcher": "런처",
-        "academy": "아카데미",
-        "engineExperimental": "엔진 실험적"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "기여 지침"
       }
     }
+  },
+  "themeToggle": {
+    "light": "밝게",
+    "dark": "어둡게",
+    "system": "시스템",
+    "toggleLabel": "테마 전환"
   },
   "notFound": {
     "code": "404 오류",
@@ -151,19 +152,27 @@
   },
   "downloadDialog": {
     "downloadButton": "지금 다운로드",
-    "title": "다운로드 버전 선택",
-    "description": "귀하의 요구에 가장 적합한 버전을 선택하십시오.",
+    "downloading": "다운로드 중...",
+    "title": "다운로드할 버전 선택",
+    "description": "필요에 가장 적합한 버전을 선택하세요.",
+    "currentVersions": "현재 버전",
     "stable": {
       "name": "안정 버전",
       "description": "대부분의 사용자에게 권장됨"
     },
     "latest": {
       "name": "최신 버전",
-      "description": "최신 기능, 버그가 있을 수 있음"
+      "description": "최신 기능 포함, 버그가 있을 수 있음"
     },
     "mono": {
       "name": "모노 버전",
       "description": "C# 지원 포함"
+    },
+    "archive": {
+      "name": "아카이브",
+      "note": "참고: 아카이브된 버전은 최신 기능 및 보안 업데이트를 포함하지 않을 수 있습니다.",
+      "loadError": "버전 정보를 로드할 수 없음",
+      "downloadArchive": "{version} 다운로드"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +211,16 @@
     "title": "지원되는 플랫폼",
     "description": "Redot Engine은 다양한 플랫폼에서 원활하게 실행되어 호환성을 보장합니다."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
       "title": "Redot Engine 시스템 요구 사항",
-      "description": {
-        "general": "권장: Vulkan 1.0 호환 하드웨어. 최소: OpenGL 3.3 / OpenGL ES 3.0 호환 하드웨어.",
-        "dotnet": ".NET 버전에 대한 추가 요구 사항:",
-        "dotnetLink": ".NET SDK"
-      }
+      "description": "권장: Vulkan 1.0 호환 하드웨어. 최소: OpenGL 3.3 / OpenGL ES 3.0 호환 하드웨어. .NET 버전의 추가 요구 사항:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Redot Engine이란?",
-      "description": "Redot Engine은 2D 및 3D 프로젝트를 위한 무료 오픈 소스 게임 개발 플랫폼입니다. Godot을 기반으로 하여 개발자에게 유연성과 사용 용이성을 제공하며, 크로스 플랫폼 지원과 협업 커뮤니티를 갖추고 있습니다.",
-      "learnMoreButton": "Redot Engine에 대해 더 알아보기"
+      "description": "Redot Engine은 Godot을 기반으로 한 무료 오픈소스 2D 및 3D 게임 개발 플랫폼으로, 유연성, 사용 용이성 및 크로스 플랫폼 지원을 제공합니다.",
+      "learnMoreButton": "Redot Engine에 대해"
     }
   },
   "downloadHelp": {
@@ -227,22 +233,25 @@
   },
   "blog": {
     "allPosts": "모든 게시물",
+    "selectTags": "태그 선택...",
+    "searchTags": "태그 검색...",
+    "noTagsFound": "태그를 찾을 수 없습니다.",
     "searchPlaceholder": "검색...",
-    "noPostsFound": {
+    "clearAll": "모두 지우기",
+    "tagsSelected": "{count}개의 태그 선택됨",
+    "tagsSelectedPlural": "{count}개의 태그 선택됨",
+    "loadMore": "더 보기",
+    "loading": "로드 중...",
+    "clearSearch": "검색 지우기",
+    "velocityScroll": "최신 뉴스 및 기사 -",
+    "notFound": {
       "title": "게시물을 찾을 수 없음",
-      "description": "찾고 있는 게시물을 찾을 수 없습니다."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "모든 게시물"
-  },
-  "latestBlogHero": {
+      "description": "찾으시는 게시물을 찾을 수 없습니다.",
+      "clearSearch": "지우기",
+      "goBack": "뒤로 가기",
+      "goHome": "홈으로 가기"
+    },
     "readMore": "더 읽기"
-  },
-  "articleNotFound": {
-    "title": "게시물을 찾을 수 없습니다",
-    "description": "찾고 있는 게시물을 찾을 수 없습니다.",
-    "backButton": "뒤로 가기"
   },
   "contact": {
     "badge": "",
@@ -319,5 +328,79 @@
     "badge": "",
     "title": "이용 약관",
     "description": "이용 약관에서 서비스 사용 규칙과 지침을 이해하세요."
+  },
+  "brand": {
+    "badge": "",
+    "title": "브랜드 가이드라인",
+    "description": "우리 브랜드의 시각적 정체성에 대한 포괄적인 가이드입니다.",
+    "downloadPressKit": "보도 자료 키트 다운로드",
+
+    "logo": {
+      "badge": "",
+      "title": "로고",
+      "description": "프로젝트 및 자료에 사용할 공식 Redot 로고입니다."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "심볼",
+      "description": "컴팩트하고 다용도로 사용할 수 있는 Redot 아이콘 전용 디자인입니다."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "여백",
+      "description": "Redot 로고를 깨끗하고 잘 보이도록 유지하는 적절한 여백 규칙입니다.",
+      "logoClearspace": "로고 여백",
+      "symbolClearspace": "심볼 여백"
+    },
+    "colors": {
+      "badge": "",
+      "title": "색상",
+      "description": "모든 매체에서 일관된 브랜딩을 위한 공식 Redot 색상 팔레트입니다."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "법적 브랜드 가이드라인",
+      "description": "Redot Engine 로고는 저작권 및 라이선스가 적용됩니다. 사용 지침을 준수하세요.",
+      "license": {
+        "title": "Redot Engine 로고",
+        "copyright": "저작권 (c) 2024 Asrorul Irsyad",
+        "description": "Creative Commons Attribution 4.0 International (CC BY 4.0) 라이선스 하에 제공",
+        "viewLicense": "라이선스 보기"
+      },
+      "attribution": {
+        "title": "출처 예시",
+        "text": "Redot Engine 로고 (c) 2024 Asrorul Irsyad, CC BY 4.0 라이선스 하에 제공"
+      },
+      "contact": "사용 관련 문의는 Redot 팀으로 연락해 주세요",
+      "guidelines": {
+        "dos": {
+          "title": "허용 사항",
+          "items": [
+            "상업적 및 비상업적 목적으로 사용 가능",
+            "로고를 수정, 적응 또는 변경 가능",
+            "어떤 매체에서든 공유 및 재배포 가능",
+            "적절한 출처 표기 포함 (아래 예시 참고)"
+          ]
+        },
+        "donts": {
+          "title": "금지 사항",
+          "items": [
+            "적절한 출처 표기 없이 사용 금지",
+            "제작자의 승인으로 오해할 수 있는 사용 금지",
+            "추가 법적 제한 조건 추가 금지",
+            "라이선스 조건 제거 또는 변경 금지"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "변경 로그",
+    "description": "최신 기능, 개선 사항 및 버그 수정 내용을 확인하세요.",
+    "noEntriesFound": "필터에 맞는 변경 로그 항목이 없습니다.",
+    "filterByPlatform": "플랫폼별 필터",
+    "clearAllFilters": "모든 필터 지우기",
+    "onThisPage": "이 페이지에서"
   }
 }

@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine är nu stabil!"
     },
     "downloadButton": "Ladda ner",
+    "donateButton": "Donera",
     "discordButton": "Gå med i Discord",
     "links": {
       "documentation": "Dokumentation",
@@ -92,7 +93,8 @@
         "status": "Status",
         "donate": "Donera",
         "documentation": "Dokumentation",
-        "sourceCode": "Källkod"
+        "sourceCode": "Källkod",
+        "changelog": "Ändringslogg"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "Nyheter",
         "feedback": "Feedback",
         "community": "Community",
+        "brand": "Varumärke",
         "pressKit": "Presskit",
         "contact": "Kontakt",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "Beta-program",
-      "children": {
-        "launcher": "Launcher",
-        "academy": "Academy",
-        "engineExperimental": "Engine Experimental"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "Bidragsriktlinjer"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Ljus",
+    "dark": "Mörk",
+    "system": "System",
+    "toggleLabel": "Byt tema"
   },
   "notFound": {
     "code": "404-fel",
@@ -151,19 +152,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Ladda ner nu",
+    "downloading": "Laddar ner...",
     "title": "Välj nedladdningsversion",
     "description": "Välj den version som bäst passar dina behov.",
+    "currentVersions": "Nuvarande versioner",
     "stable": {
       "name": "Stabil version",
       "description": "Rekommenderas för de flesta användare"
     },
     "latest": {
       "name": "Senaste versionen",
-      "description": "Banbrytande funktioner, kan innehålla buggar"
+      "description": "Avancerade funktioner, kan ha buggar"
     },
     "mono": {
-      "name": "Mono version",
-      "description": "Inkluderar stöd för C#"
+      "name": "Mono-version",
+      "description": "Innehåller stöd för C#"
+    },
+    "archive": {
+      "name": "Arkiv",
+      "note": "Obs: Arkiverade versioner kanske inte har de senaste funktionerna och säkerhetsuppdateringarna.",
+      "loadError": "Kunde inte ladda versionsinformation",
+      "downloadArchive": "Ladda ner {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +211,16 @@
     "title": "Stödda plattformar",
     "description": "Redot Engine körs smidigt på olika plattformar och säkerställer kompatibilitet."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Redot Engine Systemkrav",
-      "description": {
-        "general": "Rekommenderat: Vulkan 1.0-kompatibel hårdvara. Minimal: OpenGL 3.3 / OpenGL ES 3.0-kompatibel hårdvara.",
-        "dotnet": "Ytterligare krav för .NET-versionen:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Systemkrav för Redot Engine",
+      "description": "Rekommenderat: Vulkan 1.0 kompatibel hårdvara. Minimal: OpenGL 3.3 / OpenGL ES 3.0 kompatibel hårdvara. Ytterligare krav för .NET-versionen:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Vad är Redot Engine?",
-      "description": "Redot Engine är en gratis, öppen källkod spelutvecklingsplattform för 2D- och 3D-projekt. Byggd på Godot, erbjuder den flexibilitet och användarvänlighet för utvecklare på alla nivåer, med plattformsoberoende stöd och ett samarbetsvilligt community.",
-      "learnMoreButton": "Lär dig mer om Redot Engine"
+      "description": "Redot Engine är en gratis, öppen källkod plattform för utveckling av 2D och 3D-spel, baserat på Godot, som erbjuder flexibilitet, användarvänlighet och plattformsoberoende stöd.",
+      "learnMoreButton": "Om Redot Engine"
     }
   },
   "downloadHelp": {
@@ -227,22 +233,25 @@
   },
   "blog": {
     "allPosts": "Alla inlägg",
+    "selectTags": "Välj taggar...",
+    "searchTags": "Sök taggar...",
+    "noTagsFound": "Inga taggar hittades.",
     "searchPlaceholder": "Sök...",
-    "noPostsFound": {
-      "title": "Artikel ej funnen",
-      "description": "Artikeln du söker kunde inte hittas."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Alla inlägg"
-  },
-  "latestBlogHero": {
+    "clearAll": "Rensa allt",
+    "tagsSelected": "{count} tagg vald",
+    "tagsSelectedPlural": "{count} taggar valda",
+    "loadMore": "Ladda mer",
+    "loading": "Laddar...",
+    "clearSearch": "Rensa sökning",
+    "velocityScroll": "SENASTE NYHETER & ARTIKLAR -",
+    "notFound": {
+      "title": "Inlägget hittades inte",
+      "description": "Inlägget du letar efter kunde inte hittas.",
+      "clearSearch": "Rensa",
+      "goBack": "Gå tillbaka",
+      "goHome": "Gå till startsidan"
+    },
     "readMore": "Läs mer"
-  },
-  "articleNotFound": {
-    "title": "Artikel inte hittad",
-    "description": "Artikeln du söker kunde inte hittas.",
-    "backButton": "Tillbaka"
   },
   "contact": {
     "badge": "",
@@ -319,5 +328,79 @@
     "badge": "",
     "title": "Tjänstevillkor",
     "description": "Förstå reglerna och riktlinjerna för att använda våra tjänster i våra Tjänstevillkor."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Varumärkesriktlinjer",
+    "description": "Omfattande guide till vårt varumärkes visuella identitet.",
+    "downloadPressKit": "Ladda ner presskit",
+
+    "logo": {
+      "badge": "",
+      "title": "Vår logotyp",
+      "description": "Officiella Redot-logotyper för användning i dina projekt och material."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Symbol",
+      "description": "Redot ikon-design för kompakt och mångsidig användning."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Fritt utrymme",
+      "description": "Korrekt avståndsregler för att hålla Redot-logotypen ren och synlig.",
+      "logoClearspace": "Logotypens fria utrymme",
+      "symbolClearspace": "Symbolens fria utrymme"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Färger",
+      "description": "Officiell Redot-färgpalett för konsekvent varumärke i olika medier."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Juridiska riktlinjer för varumärket",
+      "description": "Redot Engine-logotypen är upphovsrättsskyddad och licensierad. Följ användningsriktlinjerna.",
+      "license": {
+        "title": "Redot Engine-logotyp",
+        "copyright": "Upphovsrätt (c) 2024 Asrorul Irsyad",
+        "description": "Licensierad under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Visa licens"
+      },
+      "attribution": {
+        "title": "Exempel på attribuering",
+        "text": "Redot Engine-logotyp © 2024 Asrorul Irsyad, licensierad under CC BY 4.0"
+      },
+      "contact": "För frågor om användning, kontakta Redot-teamet på.",
+      "guidelines": {
+        "dos": {
+          "title": "Gör så här",
+          "items": [
+            "Använd för kommersiella och icke-kommersiella ändamål",
+            "Modifiera, anpassa eller bygg vidare på logotypen",
+            "Dela och sprid i vilket medium som helst",
+            "Inkludera korrekt attribuering (se exempel nedan)"
+          ]
+        },
+        "donts": {
+          "title": "Gör inte",
+          "items": [
+            "Använd utan att ge korrekt attribuering",
+            "Ge intryck av att skaparen stöder dig",
+            "Lägg till ytterligare juridiska begränsningar",
+            "Ta bort eller ändra licensvillkoren"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Ändringslogg",
+    "description": "Håll dig uppdaterad med de senaste funktionerna, förbättringarna och buggfixarna.",
+    "noEntriesFound": "Inga ändringsloggsposter hittades som matchar dina filter.",
+    "filterByPlatform": "Filtrera efter plattform",
+    "clearAllFilters": "Rensa alla filter",
+    "onThisPage": "PÅ DENNA SIDA"
   }
 }

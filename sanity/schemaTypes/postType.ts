@@ -1,17 +1,23 @@
 import { defineField, defineType } from "sanity";
 import { Tag } from "@/sanity/schemaTypes/tagType";
 import { Author } from "@/sanity/schemaTypes/authorType";
+import { formatDate } from "@/lib/utils";
+import { DocumentTextIcon } from "@sanity/icons";
 
 export interface Post {
   title: string;
-  slug: { current: string };
+  slug: string;
   publishedAt: string;
   image?: any;
   imageUrl: string;
   excerpt: string;
-  body: string;
-  tags: Array<Tag>;
+  isLegacy: boolean;
+  body?: string;
+  content: any[] | string;
+  tags: Tag[];
   author: Author;
+  quote?: string;
+  includeInQuoteSelection?: boolean;
   _id: string;
 }
 
@@ -19,6 +25,7 @@ export const postType = defineType({
   name: "post",
   title: "Post",
   type: "document",
+  icon: DocumentTextIcon,
   fields: [
     defineField({
       name: "name",
@@ -42,7 +49,7 @@ export const postType = defineType({
       title: "Slug",
       description:
         "The unique URL-friendly identifier for this post, generated from the title.",
-      options: { source: "title" },
+      options: { source: "name" },
       validation: (rule) => rule.required(),
     }),
     defineField({
@@ -73,16 +80,26 @@ export const postType = defineType({
       description:
         "The main content of the post. Supports **Markdown** formatting for rich text.",
       type: "internationalizedArrayText",
+      deprecated: {
+        reason: 'Use the "Content" field instead.',
+      },
+      readOnly: true,
+    }),
+    defineField({
+      name: "content",
+      title: "Content",
+      description: "The main content of the post.",
+      type: "internationalizedArrayBlockContent",
       validation: (rule) => rule.required(),
     }),
     defineField({
       name: "tags",
       title: "Tags",
       description:
-        "A list of tags associated with this post. Tags help categorize and organize content.",
+        "A list of tags associated with this post. Tags help categorize and organize content (maximum 3).",
       type: "array",
       of: [{ type: "reference", to: [{ type: "tag" }] }],
-      validation: (rule) => rule.required(),
+      validation: (rule) => rule.required().max(3),
     }),
     defineField({
       name: "author",
@@ -93,5 +110,72 @@ export const postType = defineType({
       to: [{ type: "author" }],
       validation: (rule) => rule.required(),
     }),
+    defineField({
+      name: "quote",
+      title: "Quote",
+      description:
+        "A quote from the post to be displayed on the main blog page. Do not include quotation marks.",
+      type: "text",
+      validation: (rule) =>
+        rule.custom((quote, context) => {
+          if (context.document?.includeInQuoteSelection && !quote) {
+            return "Quote is required when 'Include in Quote Selection' is enabled.";
+          }
+          return true;
+        }),
+      readOnly: ({ document }) => !document?.includeInQuoteSelection,
+    }),
+    defineField({
+      name: "includeInQuoteSelection",
+      title: "Include in Quote Selection",
+      description:
+        "Toggle to include this quote in the blog's quote selection.",
+      type: "boolean",
+      initialValue: false,
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
+      name: "contributors",
+      title: "Contributors",
+      description: "List of contributors to this post along with their roles.",
+      type: "array",
+      readOnly: true,
+      of: [
+        {
+          type: "object",
+          fields: [
+            {
+              name: "contributor",
+              title: "Contributor",
+              type: "reference",
+              to: [{ type: "author" }],
+              validation: (rule) => rule.required(),
+            },
+            {
+              name: "role",
+              title: "Role",
+              type: "string",
+              validation: (rule) => rule.required(),
+            },
+          ],
+        },
+      ],
+    }),
   ],
+  preview: {
+    select: {
+      title: "name",
+      author: "author.name",
+      date: "publishedAt",
+      media: "image",
+    },
+    prepare({ title, media, author, date }) {
+      const subtitles = [
+        author && `by ${author}`,
+        date && `on ${formatDate(date)}`,
+      ].filter(Boolean);
+
+      return { title, media, subtitle: subtitles.join(" ") };
+    },
+  },
 });

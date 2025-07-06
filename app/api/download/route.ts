@@ -11,8 +11,8 @@ function getAssetPattern(
 ): RegExp {
   if (platform === "mac") {
     return channel === "mono"
-      ? /_mono_macos(\.[^\.]+)?\.zip$/i
-      : /_macos(\.[^\.]+)?\.zip$/i;
+      ? /_mono_macos(\.[^.]+)?\.zip$/i
+      : /_macos(\.[^.]+)?\.zip$/i;
   }
 
   if (platform === "android") {
@@ -49,15 +49,24 @@ export async function GET(request: NextRequest) {
   const platform = searchParams.get("platform");
   const arch = searchParams.get("arch");
 
-  if (!channel || !platform || !arch) {
-    return new NextResponse("Missing parameters", { status: 400 });
+  if (!platform || !arch || !channel) {
+    return NextResponse.json(
+      { error: "Platform, architecture, and channel are required" },
+      { status: 400 }
+    );
   }
 
   try {
     let release;
     if (channel === "latest") {
       const response = await axios.get(
-        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases`
+        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases`,
+        {
+          headers: {
+            Accept: "application/vnd.github.v3+json",
+            Authorization: `Bearer ${process.env.GITHUB_ACCESS_TOKEN}`,
+          },
+        }
       );
       const allReleases = response.data;
 
@@ -74,7 +83,13 @@ export async function GET(request: NextRequest) {
       release = allReleases[0];
     } else {
       const response = await axios.get(
-        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases`
+        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases`,
+        {
+          headers: {
+            Accept: "application/vnd.github.v3+json",
+            Authorization: `Bearer ${process.env.GITHUB_ACCESS_TOKEN}`,
+          },
+        }
       );
       const stableReleases = response.data
         .filter((r: any) => r.tag_name.endsWith("-stable"))

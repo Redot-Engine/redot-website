@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine ตอนนี้เสถียรแล้ว!"
     },
     "downloadButton": "ดาวน์โหลด",
+    "donateButton": "บริจาค",
     "discordButton": "เข้าร่วม Discord",
     "links": {
       "documentation": "เอกสาร",
@@ -92,7 +93,8 @@
         "status": "สถานะ",
         "donate": "บริจาค",
         "documentation": "เอกสาร",
-        "sourceCode": "โค้ดแหล่งที่มา"
+        "sourceCode": "โค้ดแหล่งที่มา",
+        "changelog": "บันทึกการเปลี่ยนแปลง"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "ข่าว",
         "feedback": "ข้อเสนอแนะ",
         "community": "ชุมชน",
+        "brand": "แบรนด์",
         "pressKit": "ชุดสื่อ",
         "contact": "ติดต่อ",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "โปรแกรมเบต้า",
-      "children": {
-        "launcher": "ตัวโหลด",
-        "academy": "อคาเดมี",
-        "engineExperimental": "เอนจินทดลอง"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "แนวทางการมีส่วนร่วม"
       }
     }
+  },
+  "themeToggle": {
+    "light": "สว่าง",
+    "dark": "มืด",
+    "system": "ระบบ",
+    "toggleLabel": "เปลี่ยนธีม"
   },
   "notFound": {
     "code": "ข้อผิดพลาด 404",
@@ -151,19 +152,27 @@
   },
   "downloadDialog": {
     "downloadButton": "ดาวน์โหลดตอนนี้",
+    "downloading": "กำลังดาวน์โหลด...",
     "title": "เลือกเวอร์ชันดาวน์โหลด",
-    "description": "เลือกเวอร์ชันที่เหมาะสมที่สุดกับความต้องการของคุณ",
+    "description": "เลือกเวอร์ชันที่เหมาะสมกับความต้องการของคุณ",
+    "currentVersions": "เวอร์ชันปัจจุบัน",
     "stable": {
       "name": "เวอร์ชันเสถียร",
       "description": "แนะนำสำหรับผู้ใช้ส่วนใหญ่"
     },
     "latest": {
       "name": "เวอร์ชันล่าสุด",
-      "description": "คุณสมบัติที่ล้ำสมัย อาจมีข้อบกพร่อง"
+      "description": "คุณสมบัติใหม่ล่าสุด อาจมีข้อผิดพลาด"
     },
     "mono": {
       "name": "เวอร์ชัน Mono",
-      "description": "รองรับ C#"
+      "description": "รวมการสนับสนุนสำหรับ C#"
+    },
+    "archive": {
+      "name": "คลังข้อมูล",
+      "note": "หมายเหตุ: เวอร์ชันที่ถูกจัดเก็บอาจไม่มีคุณสมบัติใหม่ล่าสุดและการอัปเดตความปลอดภัย",
+      "loadError": "ไม่สามารถโหลดข้อมูลเวอร์ชัน",
+      "downloadArchive": "ดาวน์โหลด {version}"
     }
   },
   "downloadThreeSteps": {
@@ -203,19 +212,16 @@
     "title": "แพลตฟอร์มที่รองรับ",
     "description": "Redot Engine ทำงานได้อย่างราบรื่นบนหลายแพลตฟอร์มเพื่อให้แน่ใจว่าเข้ากันได้"
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "ข้อกำหนดระบบสำหรับ Redot Engine",
-      "description": {
-        "general": "แนะนำ: ฮาร์ดแวร์ที่รองรับ Vulkan 1.0. ขั้นต่ำ: ฮาร์ดแวร์ที่รองรับ OpenGL 3.3 / OpenGL ES 3.0",
-        "dotnet": "ข้อกำหนดเพิ่มเติมสำหรับเวอร์ชัน .NET:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "ข้อกำหนดของระบบสำหรับ Redot Engine",
+      "description": "แนะนำ: ฮาร์ดแวร์ที่รองรับ Vulkan 1.0. ขั้นต่ำ: ฮาร์ดแวร์ที่รองรับ OpenGL 3.3 / OpenGL ES 3.0. ข้อกำหนดเพิ่มเติมสำหรับเวอร์ชัน .NET:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Redot Engine คืออะไร?",
-      "description": "Redot Engine คือแพลตฟอร์มพัฒนาเกมโอเพ่นซอร์สฟรีสำหรับโปรเจ็กต์ 2D และ 3D. อิงจาก Godot มันมอบความยืดหยุ่นและความง่ายในการใช้งานสำหรับนักพัฒนาทุกระดับ, พร้อมรองรับหลายแพลตฟอร์มและชุมชนที่ร่วมมือกัน",
-      "learnMoreButton": "เรียนรู้เพิ่มเติมเกี่ยวกับ Redot Engine"
+      "description": "Redot Engine เป็นแพลตฟอร์มโอเพนซอร์สฟรีสำหรับการพัฒนาเกม 2D และ 3D ที่สร้างจาก Godot ซึ่งมีความยืดหยุ่น ใช้งานง่าย และรองรับหลายแพลตฟอร์ม",
+      "learnMoreButton": "เกี่ยวกับ Redot Engine"
     }
   },
   "downloadHelp": {
@@ -228,22 +234,25 @@
   },
   "blog": {
     "allPosts": "โพสต์ทั้งหมด",
+    "selectTags": "เลือกแท็ก...",
+    "searchTags": "ค้นหาแท็ก...",
+    "noTagsFound": "ไม่พบแท็ก",
     "searchPlaceholder": "ค้นหา...",
-    "noPostsFound": {
-      "title": "ไม่พบบทความ",
-      "description": "ไม่สามารถหาบทความที่คุณกำลังมองหาได้"
-    }
-  },
-  "tags": {
-    "tagAllPosts": "โพสต์ทั้งหมด"
-  },
-  "latestBlogHero": {
-    "readMore": "อ่านเพิ่มเติม"
-  },
-  "articleNotFound": {
-    "title": "ไม่พบบทความ",
-    "description": "ไม่พบบทความที่คุณกำลังค้นหา",
-    "backButton": "กลับ"
+    "clearAll": "ล้างทั้งหมด",
+    "tagsSelected": "เลือกแล้ว {count} แท็ก",
+    "tagsSelectedPlural": "เลือกแล้ว {count} แท็ก",
+    "loadMore": "โหลดเพิ่มเติม",
+    "loading": "กำลังโหลด...",
+    "clearSearch": "ล้างการค้นหา",
+    "velocityScroll": "ข่าวสารและบทความล่าสุด -",
+    "notFound": {
+      "title": "ไม่พบโพสต์",
+      "description": "ไม่พบโพสต์ที่คุณกำลังมองหา",
+      "clearSearch": "ล้าง",
+      "goBack": "กลับ",
+      "goHome": "ไปหน้าแรก"
+    },
+    "readMore": "อ่านต่อ"
   },
   "contact": {
     "badge": "",
@@ -320,5 +329,79 @@
     "badge": "",
     "title": "ข้อกำหนดในการให้บริการ",
     "description": "ทำความเข้าใจกฎและแนวทางในการใช้บริการของเราภายใต้ข้อกำหนดในการให้บริการ"
+  },
+  "brand": {
+    "badge": "",
+    "title": "แนวทางแบรนด์",
+    "description": "คู่มือครบวงจรเกี่ยวกับเอกลักษณ์ภาพลักษณ์ของแบรนด์ของเรา",
+    "downloadPressKit": "ดาวน์โหลดชุดสื่อ",
+
+    "logo": {
+      "badge": "",
+      "title": "โลโก้ของเรา",
+      "description": "โลโก้ Redot อย่างเป็นทางการสำหรับใช้ในโปรเจกต์และสื่อของคุณ"
+    },
+    "symbol": {
+      "badge": "",
+      "title": "สัญลักษณ์",
+      "description": "ดีไซน์ไอคอน Redot สำหรับการใช้งานที่กะทัดรัดและหลากหลาย"
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "ระยะห่างที่เหมาะสม",
+      "description": "กฎระเบียบเกี่ยวกับการเว้นระยะห่างเพื่อให้โลโก้ Redot ดูสะอาดและชัดเจน",
+      "logoClearspace": "ระยะห่างโลโก้",
+      "symbolClearspace": "ระยะห่างสัญลักษณ์"
+    },
+    "colors": {
+      "badge": "",
+      "title": "สี",
+      "description": "ชุดสีอย่างเป็นทางการของ Redot เพื่อความสม่ำเสมอของแบรนด์ในสื่อต่างๆ"
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "แนวทางด้านกฎหมายของแบรนด์",
+      "description": "โลโก้ Redot Engine มีลิขสิทธิ์และได้รับอนุญาต กรุณาปฏิบัติตามแนวทางการใช้งาน",
+      "license": {
+        "title": "โลโก้ Redot Engine",
+        "copyright": "ลิขสิทธิ์ (c) 2024 Asrorul Irsyad",
+        "description": "ได้รับอนุญาตภายใต้ Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "ดูใบอนุญาต"
+      },
+      "attribution": {
+        "title": "ตัวอย่างการให้เครดิต",
+        "text": "โลโก้ Redot Engine © 2024 Asrorul Irsyad ได้รับอนุญาตภายใต้ CC BY 4.0"
+      },
+      "contact": "สำหรับคำถามเกี่ยวกับการใช้งาน กรุณาติดต่อทีม Redot ที่",
+      "guidelines": {
+        "dos": {
+          "title": "ข้อควรทำ",
+          "items": [
+            "ใช้เพื่อวัตถุประสงค์ทางการค้าและไม่ใช่ทางการค้า",
+            "แก้ไข ปรับแต่ง หรือสร้างสรรค์เพิ่มเติมจากโลโก้",
+            "แชร์และแจกจ่ายในสื่อใดก็ได้",
+            "รวมการให้เครดิตที่ถูกต้อง (ดูตัวอย่างด้านล่าง)"
+          ]
+        },
+        "donts": {
+          "title": "ข้อไม่ควรทำ",
+          "items": [
+            "ใช้งานโดยไม่ให้เครดิตที่ถูกต้อง",
+            "สื่อถึงการรับรองโดยผู้สร้าง",
+            "เพิ่มข้อจำกัดทางกฎหมายเพิ่มเติม",
+            "ลบหรือแก้ไขเงื่อนไขของใบอนุญาต"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "บันทึกการเปลี่ยนแปลง",
+    "description": "ติดตามฟีเจอร์ใหม่ การปรับปรุง และการแก้ไขข้อบกพร่องล่าสุดได้ที่นี่",
+    "noEntriesFound": "ไม่พบรายการบันทึกการเปลี่ยนแปลงที่ตรงกับตัวกรองของคุณ",
+    "filterByPlatform": "กรองตามแพลตฟอร์ม",
+    "clearAllFilters": "ล้างตัวกรองทั้งหมด",
+    "onThisPage": "ในหน้านี้"
   }
 }

@@ -2,36 +2,26 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-import { detect } from "detect-browser";
-import { platformMapping } from "@/constants/platformMapping";
+import useOS from "@/hooks/use-os";
 
 export default function Download() {
   const router = useRouter();
-
-  const browser = detect();
+  const os = useOS();
 
   useEffect(() => {
-    if (!browser) {
-      console.error("Unable to detect browser");
-      return;
-    }
+    if (!os) return;
+    if (os === "unknown") return;
+    router.push(`/download/${os}`);
+  }, [os, router]);
 
-    const rawPlatform =
-      browser.os
-        ?.toLowerCase()
-        .replace(/\d+/g, "")
-        .trim()
-        .replace(/\s+/g, "") || "";
-    const detectedPlatform =
-      platformMapping[rawPlatform as keyof typeof platformMapping] ||
-      rawPlatform;
+  if (os === "unknown") {
+    return (
+      <div>
+        We couldn&#39;t detect your platform. Please select your download
+        manually.
+      </div>
+    );
+  }
 
-    if (detectedPlatform) {
-      router.push(`/download/${detectedPlatform}`);
-    } else {
-      console.error("Unable to determine platform");
-    }
-  }, [browser, router]);
-
-  return <></>;
+  return null;
 }

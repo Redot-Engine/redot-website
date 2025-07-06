@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
-import { ArticleCard } from "@/components/blog/ArticleCard";
+import { BlogPostCard } from "@/components/blog/BlogPostCard";
 import { useInView } from "react-intersection-observer";
 import { getPosts } from "@/lib/blog";
 import { useEffect, useState } from "react";
@@ -75,7 +75,7 @@ export const Blog = () => {
               ))
             : posts.slice(0, 3).map((post: Post, index) => (
                 <motion.div
-                  key={post.slug?.current}
+                  key={post.slug}
                   initial={{ opacity: 0 }}
                   animate={inView ? { opacity: 1 } : {}}
                   transition={{
@@ -83,7 +83,7 @@ export const Blog = () => {
                     delay: index * 0.2,
                   }}
                 >
-                  <ArticleCard article={post} />
+                  <BlogPostCard {...post} />
                 </motion.div>
               ))}
         </div>

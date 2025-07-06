@@ -1,0 +1,7 @@
+"use client";
+
+import { DefaultNotFound } from "@/components/shared/DefaultNotFound";
+
+export default function NotFound() {
+  return <DefaultNotFound showHeader={false} showFooter={false} />;
+}

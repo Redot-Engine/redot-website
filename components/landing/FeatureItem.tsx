@@ -1,6 +1,6 @@
-import { FeaturesList } from "@/constants/featuresList";
+import { Features } from "@/constants/landing/features";
 
-export const FeatureItem = ({ icon, label }: FeaturesList) => {
+export const FeatureItem = ({ icon, label }: Features) => {
   return (
     <figure className="relative w-fit">
       <div className="flex flex-row items-center gap-2">

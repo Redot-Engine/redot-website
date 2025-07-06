@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine è ora stabile!"
     },
     "downloadButton": "Scarica",
+    "donateButton": "Dona",
     "discordButton": "Unisciti a Discord",
     "links": {
       "documentation": "Documentazione",
@@ -92,7 +93,8 @@
         "status": "Stato",
         "donate": "Dona",
         "documentation": "Documentazione",
-        "sourceCode": "Codice Sorgente"
+        "sourceCode": "Codice Sorgente",
+        "changelog": "Registro delle modifiche"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "Notizie",
         "feedback": "Feedback",
         "community": "Community",
+        "brand": "Marchio",
         "pressKit": "Press Kit",
         "contact": "Contatto",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "Programmi Beta",
-      "children": {
-        "launcher": "Launcher",
-        "academy": "Academy",
-        "engineExperimental": "Engine Sperimentale"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "Linee guida per il contributo"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Chiaro",
+    "dark": "Scuro",
+    "system": "Sistema",
+    "toggleLabel": "Cambia tema"
   },
   "notFound": {
     "code": "Errore 404",
@@ -151,19 +152,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Scarica ora",
-    "title": "Scegli la versione da scaricare",
-    "description": "Seleziona la versione che meglio soddisfa le tue esigenze.",
+    "downloading": "Download in corso...",
+    "title": "Seleziona versione di download",
+    "description": "Scegli la versione che meglio soddisfa le tue esigenze.",
+    "currentVersions": "Versioni attuali",
     "stable": {
       "name": "Versione stabile",
-      "description": "Consigliato per la maggior parte degli utenti"
+      "description": "Consigliata per la maggior parte degli utenti"
     },
     "latest": {
       "name": "Ultima versione",
-      "description": "Funzionalità all'avanguardia, potrebbero esserci bug"
+      "description": "Funzionalità più recenti, potrebbero esserci bug"
     },
     "mono": {
       "name": "Versione Mono",
       "description": "Include supporto per C#"
+    },
+    "archive": {
+      "name": "Archivio",
+      "note": "Nota: Le versioni archiviate potrebbero non includere le funzionalità più recenti e gli aggiornamenti di sicurezza.",
+      "loadError": "Impossibile caricare le informazioni sulla versione",
+      "downloadArchive": "Scarica {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +211,16 @@
     "title": "Piattaforme supportate",
     "description": "Redot Engine funziona senza problemi su varie piattaforme, garantendo compatibilità."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Requisiti di sistema di Redot Engine",
-      "description": {
-        "general": "Raccomandato: hardware compatibile con Vulkan 1.0. Minimo: hardware compatibile con OpenGL 3.3 / OpenGL ES 3.0.",
-        "dotnet": "Requisiti aggiuntivi per la versione .NET:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Requisiti di sistema per Redot Engine",
+      "description": "Raccomandato: Hardware compatibile con Vulkan 1.0. Minimo: Hardware compatibile con OpenGL 3.3 / OpenGL ES 3.0. Requisiti aggiuntivi per la versione .NET:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Cos'è Redot Engine?",
-      "description": "Redot Engine è una piattaforma gratuita e open-source per lo sviluppo di giochi 2D e 3D. Basato su Godot, offre flessibilità e facilità d'uso per sviluppatori di tutti i livelli, con supporto cross-platform e una comunità collaborativa.",
-      "learnMoreButton": "Scopri di più su Redot Engine"
+      "description": "Redot Engine è una piattaforma gratuita e open-source per lo sviluppo di giochi 2D e 3D, basata su Godot, che offre flessibilità, facilità d'uso e supporto multipiattaforma.",
+      "learnMoreButton": "Informazioni su Redot Engine"
     }
   },
   "downloadHelp": {
@@ -227,22 +233,25 @@
   },
   "blog": {
     "allPosts": "Tutti i post",
+    "selectTags": "Seleziona tag...",
+    "searchTags": "Cerca tag...",
+    "noTagsFound": "Nessun tag trovato.",
     "searchPlaceholder": "Cerca...",
-    "noPostsFound": {
-      "title": "Articolo non trovato",
-      "description": "L'articolo che stai cercando non è stato trovato."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Tutti i post"
-  },
-  "latestBlogHero": {
+    "clearAll": "Pulisci tutto",
+    "tagsSelected": "{count} tag selezionato",
+    "tagsSelectedPlural": "{count} tag selezionati",
+    "loadMore": "Carica altro",
+    "loading": "Caricamento...",
+    "clearSearch": "Cancella ricerca",
+    "velocityScroll": "ULTIME NOTIZIE E ARTICOLI -",
+    "notFound": {
+      "title": "Post non trovato",
+      "description": "Il post che stai cercando non è stato trovato.",
+      "clearSearch": "Pulisci",
+      "goBack": "Indietro",
+      "goHome": "Vai alla home"
+    },
     "readMore": "Leggi di più"
-  },
-  "articleNotFound": {
-    "title": "Articolo non trovato",
-    "description": "L'articolo che stai cercando non può essere trovato.",
-    "backButton": "Indietro"
   },
   "contact": {
     "badge": "",
@@ -319,5 +328,79 @@
     "badge": "",
     "title": "Termini di servizio",
     "description": "Comprendi le regole e le linee guida per l'utilizzo dei nostri servizi nei nostri Termini di servizio."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Linee guida del marchio",
+    "description": "Guida completa all'identità visiva del nostro marchio.",
+    "downloadPressKit": "Scarica Press Kit",
+
+    "logo": {
+      "badge": "",
+      "title": "Il nostro logo",
+      "description": "Loghi ufficiali Redot da utilizzare nei tuoi progetti e materiali."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Simbolo",
+      "description": "Design dell'icona Redot per un uso compatto e versatile."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Spazio libero",
+      "description": "Regole di spaziatura corrette per mantenere il logo Redot pulito e visibile.",
+      "logoClearspace": "Spazio libero per il logo",
+      "symbolClearspace": "Spazio libero per il simbolo"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Colori",
+      "description": "Palette colori ufficiale Redot per un brand coerente su tutti i media."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Linee guida legali del marchio",
+      "description": "Il logo Redot Engine è protetto da copyright e licenza. Seguire le linee guida per l'uso.",
+      "license": {
+        "title": "Logo Redot Engine",
+        "copyright": "Copyright (c) 2024 Asrorul Irsyad",
+        "description": "Licenziato sotto Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Visualizza licenza"
+      },
+      "attribution": {
+        "title": "Esempio di attribuzione",
+        "text": "Logo Redot Engine © 2024 Asrorul Irsyad, concesso in licenza sotto CC BY 4.0"
+      },
+      "contact": "Per domande sull'utilizzo, contatta il team Redot a",
+      "guidelines": {
+        "dos": {
+          "title": "Cosa fare",
+          "items": [
+            "Usare per scopi commerciali e non commerciali",
+            "Modificare, adattare o costruire sul logo",
+            "Condividere e ridistribuire in qualsiasi mezzo",
+            "Includere l'attribuzione corretta (vedi esempio sotto)"
+          ]
+        },
+        "donts": {
+          "title": "Cosa non fare",
+          "items": [
+            "Usare senza fornire la corretta attribuzione",
+            "Far intendere un'approvazione da parte del creatore",
+            "Aggiungere restrizioni legali aggiuntive",
+            "Rimuovere o alterare i termini della licenza"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Registro delle modifiche",
+    "description": "Rimani aggiornato con le ultime funzionalità, miglioramenti e correzioni di bug.",
+    "noEntriesFound": "Nessuna voce del registro trovata corrispondente ai tuoi filtri.",
+    "filterByPlatform": "Filtra per piattaforma",
+    "clearAllFilters": "Cancella tutti i filtri",
+    "onThisPage": "IN QUESTA PAGINA"
   }
 }

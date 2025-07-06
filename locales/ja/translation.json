@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engineは現在安定版です！"
     },
     "downloadButton": "ダウンロード",
+    "donateButton": "寄付する",
     "discordButton": "Discordに参加する",
     "links": {
       "documentation": "ドキュメント",
@@ -92,7 +93,8 @@
         "status": "ステータス",
         "donate": "寄付",
         "documentation": "ドキュメント",
-        "sourceCode": "ソースコード"
+        "sourceCode": "ソースコード",
+        "changelog": "変更履歴"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "ニュース",
         "feedback": "フィードバック",
         "community": "コミュニティ",
+        "brand": "ブランド",
         "pressKit": "プレスキット",
         "contact": "お問い合わせ",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "ベータプログラム",
-      "children": {
-        "launcher": "ランチャー",
-        "academy": "アカデミー",
-        "engineExperimental": "エンジン実験"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "貢献ガイドライン"
       }
     }
+  },
+  "themeToggle": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム",
+    "toggleLabel": "テーマを切り替える"
   },
   "notFound": {
     "code": "404 エラー",
@@ -151,19 +152,27 @@
   },
   "downloadDialog": {
     "downloadButton": "今すぐダウンロード",
-    "title": "ダウンロードバージョンを選択",
-    "description": "ニーズに最も適したバージョンを選択してください。",
+    "downloading": "ダウンロード中...",
+    "title": "ダウンロードするバージョンを選択",
+    "description": "ニーズに最適なバージョンを選択してください。",
+    "currentVersions": "現在のバージョン",
     "stable": {
       "name": "安定版",
-      "description": "ほとんどのユーザーに推奨されます"
+      "description": "ほとんどのユーザーに推奨"
     },
     "latest": {
       "name": "最新バージョン",
-      "description": "最先端の機能、不具合がある可能性があります"
+      "description": "最先端の機能、バグがある可能性があります"
     },
     "mono": {
-      "name": "モノバージョン",
-      "description": "C# のサポートを含みます"
+      "name": "Monoバージョン",
+      "description": "C# のサポートを含む"
+    },
+    "archive": {
+      "name": "アーカイブ",
+      "note": "注意: アーカイブされたバージョンには最新の機能やセキュリティ更新が含まれない場合があります。",
+      "loadError": "バージョン情報を読み込めませんでした",
+      "downloadArchive": "{version} をダウンロード"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +211,16 @@
     "title": "サポートされているプラットフォーム",
     "description": "Redot Engineはさまざまなプラットフォームでスムーズに動作し、互換性を確保します。"
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Redot Engineシステム要件",
-      "description": {
-        "general": "推奨: Vulkan 1.0対応ハードウェア。最小: OpenGL 3.3 / OpenGL ES 3.0対応ハードウェア。",
-        "dotnet": ".NETバージョンの追加要件:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Redot Engine システム要件",
+      "description": "推奨：Vulkan 1.0 互換のハードウェア。最小：OpenGL 3.3 / OpenGL ES 3.0 互換のハードウェア。 .NET バージョンの追加要件：",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Redot Engineとは？",
-      "description": "Redot Engineは、2Dおよび3Dプロジェクト用の無料オープンソースゲーム開発プラットフォームです。Godotをベースにしており、すべての開発者に柔軟性と使いやすさを提供し、クロスプラットフォーム対応と共同作業のコミュニティが特徴です。",
-      "learnMoreButton": "Redot Engineについてもっと学ぶ"
+      "description": "Redot Engineは、Godotをベースにした無料でオープンソースの2Dおよび3Dゲーム開発プラットフォームで、柔軟性、使いやすさ、クロスプラットフォーム対応を提供します。",
+      "learnMoreButton": "Redot Engineについて"
     }
   },
   "downloadHelp": {
@@ -227,22 +233,25 @@
   },
   "blog": {
     "allPosts": "すべての投稿",
+    "selectTags": "タグを選択...",
+    "searchTags": "タグを検索...",
+    "noTagsFound": "タグが見つかりません。",
     "searchPlaceholder": "検索...",
-    "noPostsFound": {
-      "title": "記事が見つかりません",
-      "description": "お探しの記事が見つかりませんでした。"
-    }
-  },
-  "tags": {
-    "tagAllPosts": "すべての投稿"
-  },
-  "latestBlogHero": {
+    "clearAll": "すべてクリア",
+    "tagsSelected": "{count}個のタグが選択されました",
+    "tagsSelectedPlural": "{count}個のタグが選択されました",
+    "loadMore": "もっと読み込む",
+    "loading": "読み込み中...",
+    "clearSearch": "検索をクリア",
+    "velocityScroll": "最新ニュース＆記事 -",
+    "notFound": {
+      "title": "投稿が見つかりません",
+      "description": "お探しの投稿は見つかりませんでした。",
+      "clearSearch": "クリア",
+      "goBack": "戻る",
+      "goHome": "ホームへ"
+    },
     "readMore": "続きを読む"
-  },
-  "articleNotFound": {
-    "title": "記事が見つかりません",
-    "description": "お探しの記事は見つかりませんでした。",
-    "backButton": "戻る"
   },
   "contact": {
     "badge": "",
@@ -319,5 +328,79 @@
     "badge": "",
     "title": "サービス利用規約",
     "description": "私たちのサービスを利用するためのルールとガイドラインをサービス利用規約で理解しましょう。"
+  },
+  "brand": {
+    "badge": "",
+    "title": "ブランドガイドライン",
+    "description": "当ブランドの視覚的アイデンティティに関する包括的なガイド。",
+    "downloadPressKit": "プレスキットをダウンロード",
+
+    "logo": {
+      "badge": "",
+      "title": "ロゴ",
+      "description": "プロジェクトや資料で使用する公式Redotロゴ。"
+    },
+    "symbol": {
+      "badge": "",
+      "title": "シンボル",
+      "description": "コンパクトで多用途に使えるRedotのアイコンのみのデザイン。"
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "クリアスペース",
+      "description": "Redotロゴを清潔で見やすく保つための適切なスペースルール。",
+      "logoClearspace": "ロゴのクリアスペース",
+      "symbolClearspace": "シンボルのクリアスペース"
+    },
+    "colors": {
+      "badge": "",
+      "title": "カラー",
+      "description": "メディア全体で一貫したブランド化のための公式Redotカラーパレット。"
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "ブランドに関する法的ガイドライン",
+      "description": "Redot Engineロゴは著作権で保護されており、ライセンスされています。使用ガイドラインに従ってください。",
+      "license": {
+        "title": "Redot Engineロゴ",
+        "copyright": "著作権 (c) 2024 Asrorul Irsyad",
+        "description": "クリエイティブ・コモンズ 表示 4.0 国際 (CC BY 4.0) ライセンスの下で提供されています",
+        "viewLicense": "ライセンスを見る"
+      },
+      "attribution": {
+        "title": "帰属の例",
+        "text": "Redot Engineロゴ © 2024 Asrorul Irsyad、CC BY 4.0ライセンスの下で提供"
+      },
+      "contact": "使用に関する質問は、Redotチームまでお問い合わせください",
+      "guidelines": {
+        "dos": {
+          "title": "して良いこと",
+          "items": [
+            "商用および非商用の目的で使用する",
+            "ロゴを修正、適応、または拡張する",
+            "あらゆる媒体で共有および再配布する",
+            "適切な帰属を含める（以下の例を参照）"
+          ]
+        },
+        "donts": {
+          "title": "してはいけないこと",
+          "items": [
+            "適切な帰属を提供せずに使用する",
+            "作者の承認を示唆する",
+            "追加の法的制限を加える",
+            "ライセンス条件を削除または変更する"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "変更ログ",
+    "description": "最新の機能、改善、バグ修正についての情報を常に把握しましょう。",
+    "noEntriesFound": "フィルターに一致する変更ログのエントリが見つかりません。",
+    "filterByPlatform": "プラットフォームでフィルタ",
+    "clearAllFilters": "すべてのフィルターをクリア",
+    "onThisPage": "このページに"
   }
 }

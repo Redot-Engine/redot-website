@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine अब स्थिर है!"
     },
     "downloadButton": "डाउनलोड",
+    "donateButton": "दान करें",
     "discordButton": "डिस्कॉर्ड से जुड़ें",
     "links": {
       "documentation": "दस्तावेज़",
@@ -92,7 +93,8 @@
         "status": "स्थिति",
         "donate": "दान करें",
         "documentation": "दस्तावेज़",
-        "sourceCode": "स्रोत कोड"
+        "sourceCode": "स्रोत कोड",
+        "changelog": "परिवर्तन सूची"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "समाचार",
         "feedback": "प्रतिक्रिया",
         "community": "समुदाय",
+        "brand": "ब्रांड",
         "pressKit": "प्रेस किट",
         "contact": "संपर्क",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "बीटा कार्यक्रम",
-      "children": {
-        "launcher": "लॉन्चर",
-        "academy": "अकादमी",
-        "engineExperimental": "इंजन एक्सपेरिमेंटल"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "योगदान दिशानिर्देश"
       }
     }
+  },
+  "themeToggle": {
+    "light": "हल्का",
+    "dark": "गहरा",
+    "system": "प्रणाली",
+    "toggleLabel": "थीम बदलें"
   },
   "notFound": {
     "code": "404 त्रुटि",
@@ -151,19 +152,27 @@
   },
   "downloadDialog": {
     "downloadButton": "अभी डाउनलोड करें",
+    "downloading": "डाउनलोड हो रहा है...",
     "title": "डाउनलोड संस्करण चुनें",
     "description": "उस संस्करण का चयन करें जो आपकी आवश्यकताओं के लिए सबसे उपयुक्त हो।",
+    "currentVersions": "वर्तमान संस्करण",
     "stable": {
       "name": "स्थिर संस्करण",
       "description": "अधिकांश उपयोगकर्ताओं के लिए अनुशंसित"
     },
     "latest": {
       "name": "नवीनतम संस्करण",
-      "description": "अत्याधुनिक सुविधाएँ, बग हो सकते हैं"
+      "description": "नवीनतम विशेषताएँ, इसमें बग हो सकते हैं"
     },
     "mono": {
       "name": "मोनो संस्करण",
       "description": "C# के लिए समर्थन शामिल है"
+    },
+    "archive": {
+      "name": "संग्रह",
+      "note": "नोट: संग्रहित संस्करणों में नवीनतम सुविधाएँ और सुरक्षा अपडेट नहीं हो सकते।",
+      "loadError": "संस्करण जानकारी लोड नहीं की जा सकी",
+      "downloadArchive": "{version} डाउनलोड करें"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +211,16 @@
     "title": "समर्थित प्लेटफ़ॉर्म",
     "description": "Redot Engine विभिन्न प्लेटफार्मों पर smoothly चलता है, जिससे संगतता सुनिश्चित होती है।"
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Redot Engine सिस्टम आवश्यकताएँ",
-      "description": {
-        "general": "सुझाए गए: Vulkan 1.0 संगत हार्डवेयर। न्यूनतम: OpenGL 3.3 / OpenGL ES 3.0 संगत हार्डवेयर।",
-        "dotnet": ".NET संस्करण के लिए अतिरिक्त आवश्यकताएँ:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Redot Engine सिस्टम की आवश्यकताएँ",
+      "description": "सिफारिश की जाती है: Vulkan 1.0 संगत हार्डवेयर। न्यूनतम: OpenGL 3.3 / OpenGL ES 3.0 संगत हार्डवेयर। .NET संस्करण के लिए अतिरिक्त आवश्यकताएँ:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Redot Engine क्या है?",
-      "description": "Redot Engine एक मुफ्त, ओपन-सोर्स गेम विकास प्लेटफॉर्म है जो 2D और 3D प्रोजेक्ट्स के लिए है। Godot पर आधारित, यह सभी स्तरों के डेवलपर्स के लिए लचीलापन और उपयोग में आसानी प्रदान करता है, क्रॉस-प्लेटफॉर्म समर्थन और सहयोगी समुदाय के साथ।",
-      "learnMoreButton": "Redot Engine के बारे में अधिक जानें"
+      "description": "Redot Engine एक मुफ्त, ओपन-सोर्स प्लेटफ़ॉर्म है जो 2D और 3D गेम विकास के लिए है, जो Godot पर आधारित है और लचीलापन, उपयोग में आसानी और क्रॉस-प्लेटफ़ॉर्म समर्थन प्रदान करता है।",
+      "learnMoreButton": "Redot Engine के बारे में"
     }
   },
   "downloadHelp": {
@@ -227,22 +233,25 @@
   },
   "blog": {
     "allPosts": "सभी पोस्ट",
+    "selectTags": "टैग चुनें...",
+    "searchTags": "टैग खोजें...",
+    "noTagsFound": "कोई टैग नहीं मिला।",
     "searchPlaceholder": "खोजें...",
-    "noPostsFound": {
-      "title": "लेख नहीं मिला",
-      "description": "जिस लेख को आप ढूंढ रहे हैं, वह नहीं मिला।"
-    }
-  },
-  "tags": {
-    "tagAllPosts": "सभी पोस्ट"
-  },
-  "latestBlogHero": {
+    "clearAll": "सब साफ़ करें",
+    "tagsSelected": "{count} टैग चुना गया",
+    "tagsSelectedPlural": "{count} टैग चुने गए",
+    "loadMore": "और लोड करें",
+    "loading": "लोड हो रहा है...",
+    "clearSearch": "खोज साफ़ करें",
+    "velocityScroll": "नवीनतम समाचार और लेख -",
+    "notFound": {
+      "title": "पोस्ट नहीं मिली",
+      "description": "आप जिस पोस्ट को खोज रहे हैं वह नहीं मिली।",
+      "clearSearch": "साफ़ करें",
+      "goBack": "वापस जाएं",
+      "goHome": "होम पर जाएं"
+    },
     "readMore": "और पढ़ें"
-  },
-  "articleNotFound": {
-    "title": "लेख नहीं मिला",
-    "description": "आप जो लेख ढूंढ रहे हैं, वह नहीं मिल पाया।",
-    "backButton": "वापस"
   },
   "contact": {
     "badge": "",
@@ -319,5 +328,78 @@
     "badge": "",
     "title": "सेवा की शर्तें",
     "description": "हमारी सेवाओं का उपयोग करने के नियमों और दिशानिर्देशों को हमारी सेवा की शर्तों में समझें।"
+  },
+  "brand": {
+    "badge": "",
+    "title": "ब्रांड दिशानिर्देश",
+    "description": "हमारे ब्रांड की दृश्य पहचान के लिए व्यापक मार्गदर्शिका।",
+    "downloadPressKit": "प्रेस किट डाउनलोड करें",
+    "logo": {
+      "badge": "",
+      "title": "हमारा लोगो",
+      "description": "आपकी परियोजनाओं और सामग्रियों में उपयोग के लिए आधिकारिक Redot लोगो।"
+    },
+    "symbol": {
+      "badge": "",
+      "title": "प्रतीक",
+      "description": "संकुचित और बहुमुखी उपयोग के लिए केवल Redot आइकन डिज़ाइन।"
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "स्पष्ट स्थान",
+      "description": "Redot लोगो को साफ और स्पष्ट रखने के लिए उचित दूरी के नियम।",
+      "logoClearspace": "लोगो स्पष्ट स्थान",
+      "symbolClearspace": "प्रतीक स्पष्ट स्थान"
+    },
+    "colors": {
+      "badge": "",
+      "title": "रंग",
+      "description": "मीडिया में सुसंगत ब्रांडिंग के लिए आधिकारिक Redot रंग पैलेट।"
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "कानूनी ब्रांड दिशानिर्देश",
+      "description": "Redot Engine लोगो कॉपीराइटेड और लाइसेंस प्राप्त है। उपयोग के दिशानिर्देशों का पालन करें।",
+      "license": {
+        "title": "Redot Engine लोगो",
+        "copyright": "कॉपीराइट (c) 2024 असरूल ईरस्याद",
+        "description": "Creative Commons Attribution 4.0 International (CC BY 4.0) के तहत लाइसेंस प्राप्त",
+        "viewLicense": "लाइसेंस देखें"
+      },
+      "attribution": {
+        "title": "अट्रिब्यूशन उदाहरण",
+        "text": "Redot Engine लोगो © 2024 असरूल ईरस्याद, CC BY 4.0 के तहत लाइसेंस प्राप्त"
+      },
+      "contact": "उपयोग के बारे में प्रश्नों के लिए, कृपया Redot टीम से संपर्क करें",
+      "guidelines": {
+        "dos": {
+          "title": "करें",
+          "items": [
+            "व्यावसायिक और गैर-व्यावसायिक उद्देश्यों के लिए उपयोग करें",
+            "लोगो में संशोधन, अनुकूलन या निर्माण करें",
+            "किसी भी माध्यम में साझा और पुनः वितरित करें",
+            "उचित अट्रिब्यूशन शामिल करें (नीचे उदाहरण देखें)"
+          ]
+        },
+        "donts": {
+          "title": "न करें",
+          "items": [
+            "उचित अट्रिब्यूशन के बिना उपयोग न करें",
+            "निर्माता द्वारा समर्थन का संकेत न दें",
+            "अतिरिक्त कानूनी प्रतिबंध न जोड़ें",
+            "लाइसेंस शर्तों को न हटाएं या बदलें"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "परिवर्तन लॉग",
+    "description": "नवीनतम विशेषताओं, सुधारों और बग सुधारों के साथ अपडेट रहें।",
+    "noEntriesFound": "आपके फिल्टर से मेल खाते हुए कोई परिवर्तन लॉग प्रविष्टियाँ नहीं मिलीं।",
+    "filterByPlatform": "प्लेटफ़ॉर्म के अनुसार फ़िल्टर करें",
+    "clearAllFilters": "सभी फ़िल्टर साफ़ करें",
+    "onThisPage": "इस पृष्ठ पर"
   }
 }

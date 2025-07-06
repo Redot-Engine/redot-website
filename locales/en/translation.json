@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine is now stable!"
     },
     "downloadButton": "Download",
+    "donateButton": "Donate",
     "discordButton": "Join Discord",
     "links": {
       "documentation": "Documentation",
@@ -92,7 +93,8 @@
         "status": "Status",
         "donate": "Donate",
         "documentation": "Documentation",
-        "sourceCode": "Source Code"
+        "sourceCode": "Source Code",
+        "changelog": "Changelog"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "Blog",
         "feedback": "Feedback",
         "community": "Community",
+        "brand": "Brand",
         "pressKit": "Press Kit",
         "contact": "Contact",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "Beta Programs",
-      "children": {
-        "launcher": "Launcher",
-        "academy": "Academy",
-        "engineExperimental": "Engine Experimental"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "Contribution Guidelines"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggleLabel": "Toggle theme"
   },
   "notFound": {
     "code": "404 error",
@@ -149,9 +150,11 @@
     "description": "Download Redot Engine, the powerful platform for building 2D and 3D cross-platform games and interactive experiences."
   },
   "downloadDialog": {
-    "downloadButton": "Download now",
+    "downloadButton": "Download Now",
+    "downloading": "Downloading...",
     "title": "Choose Download Version",
     "description": "Select the version that best suits your needs.",
+    "currentVersions": "Current Versions",
     "stable": {
       "name": "Stable Version",
       "description": "Recommended for most users"
@@ -163,6 +166,12 @@
     "mono": {
       "name": "Mono Version",
       "description": "Includes support for C#"
+    },
+    "archive": {
+      "name": "Archive",
+      "note": "Note: Archived versions may not have the latest features and security updates.",
+      "loadError": "Unable to load version information",
+      "downloadArchive": "Download {version}"
     }
   },
   "downloadThreeSteps": {
@@ -198,22 +207,19 @@
   },
   "downloadSupportedPlatform": {
     "badge": "",
-    "title": "Supported platforms",
+    "title": "Supported Platforms",
     "description": "Redot Engine runs smoothly on various platforms, ensuring compatibility."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
       "title": "Redot Engine System Requirements",
-      "description": {
-        "general": "Recommended: Vulkan 1.0 compatible hardware. Minimal: OpenGL 3.3 / OpenGL ES 3.0 compatible hardware.",
-        "dotnet": "Additional requirements for the .NET version:",
-        "dotnetLink": ".NET SDK"
-      }
+      "description": "Recommended: Vulkan 1.0 compatible hardware. Minimal: OpenGL 3.3 / OpenGL ES 3.0 compatible hardware. Additional requirements for the .NET version:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "What is Redot Engine?",
-      "description": "Redot Engine is a free, open-source game development platform for 2D and 3D projects. Based on Godot, it offers flexibility and ease of use for developers of all levels, with cross-platform support and a collaborative community.",
-      "learnMoreButton": "Learn More About Redot Engine"
+      "description": "Redot Engine is a free, open-source platform for 2D and 3D game development, based on Godot, offering flexibility, ease of use, and cross-platform support.",
+      "learnMoreButton": "About Redot Engine"
     }
   },
   "downloadHelp": {
@@ -226,22 +232,25 @@
   },
   "blog": {
     "allPosts": "All Posts",
+    "selectTags": "Select tags...",
+    "searchTags": "Search tags...",
+    "noTagsFound": "No tags found.",
     "searchPlaceholder": "Search...",
-    "noPostsFound": {
-      "title": "Article Not Found",
-      "description": "The article you are looking for could not be found."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "All Posts"
-  },
-  "latestBlogHero": {
+    "clearAll": "Clear all",
+    "tagsSelected": "{count} tag selected",
+    "tagsSelectedPlural": "{count} tags selected",
+    "loadMore": "Load More",
+    "loading": "Loading...",
+    "clearSearch": "Clear Search",
+    "velocityScroll": "LATEST NEWS & ARTICLES -",
+    "notFound": {
+      "title": "Post Not Found",
+      "description": "The post you are looking for could not be found.",
+      "clearSearch": "Clear",
+      "goBack": "Go back",
+      "goHome": "Go home"
+    },
     "readMore": "Read more"
-  },
-  "articleNotFound": {
-    "title": "Article Not Found",
-    "description": "The article you are looking for could not be found.",
-    "backButton": "Back"
   },
   "contact": {
     "badge": "",
@@ -318,5 +327,79 @@
     "badge": "",
     "title": "Terms of Service",
     "description": "Understand the rules and guidelines for using our services in our Terms of Service."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Brand Guidelines",
+    "description": "Comprehensive guide to our brand's visual identity.",
+    "downloadPressKit": "Download Press Kit",
+
+    "logo": {
+      "badge": "",
+      "title": "Our Logo",
+      "description": "Official Redot logos for use in your projects and materials."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Symbol",
+      "description": "Redot icon-only design for compact and versatile use."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Clearspace",
+      "description": "Proper spacing rules to keep the Redot logo clean and visible.",
+      "logoClearspace": "Logo Clearspace",
+      "symbolClearspace": "Symbol Clearspace"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Colors",
+      "description": "Official Redot color palette for consistent brand across media."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Legal Brand Guidelines",
+      "description": "The Redot Engine Logo is copyrighted and licensed. Follow the usage guidelines.",
+      "license": {
+        "title": "Redot Engine Logo",
+        "copyright": "Copyright (c) 2024 Asrorul Irsyad",
+        "description": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "View License"
+      },
+      "attribution": {
+        "title": "Attribution Example",
+        "text": "Redot Engine Logo © 2024 Asrorul Irsyad, licensed under CC BY 4.0"
+      },
+      "contact": "For questions about usage, please contact the Redot team at",
+      "guidelines": {
+        "dos": {
+          "title": "Do's",
+          "items": [
+            "Use for commercial and non-commercial purposes",
+            "Modify, adapt, or build upon the logo",
+            "Share and redistribute in any medium",
+            "Include proper attribution (see example below)"
+          ]
+        },
+        "donts": {
+          "title": "Don'ts",
+          "items": [
+            "Use without providing proper attribution",
+            "Imply endorsement by the creator",
+            "Add additional legal restrictions",
+            "Remove or alter the license terms"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Changelog",
+    "description": "Stay up to date with the latest features, improvements, and bug fixes.",
+    "noEntriesFound": "No changelog entries found matching your filters.",
+    "filterByPlatform": "Filter by Platform",
+    "clearAllFilters": "Clear all filters",
+    "onThisPage": "ON THIS PAGE"
   }
 }

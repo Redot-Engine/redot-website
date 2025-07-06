@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine 现已稳定！"
     },
     "downloadButton": "下载",
+    "donateButton": "捐赠",
     "discordButton": "加入 Discord",
     "links": {
       "documentation": "文档",
@@ -92,7 +93,8 @@
         "status": "状态",
         "donate": "捐赠",
         "documentation": "文档",
-        "sourceCode": "源代码"
+        "sourceCode": "源代码",
+        "changelog": "变更日志"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "新闻",
         "feedback": "反馈",
         "community": "社区",
+        "brand": "品牌",
         "pressKit": "新闻稿",
         "contact": "联系我们",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "Beta 程序",
-      "children": {
-        "launcher": "启动器",
-        "academy": "学院",
-        "engineExperimental": "引擎实验版"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "贡献指南"
       }
     }
+  },
+  "themeToggle": {
+    "light": "浅色",
+    "dark": "深色",
+    "system": "系统",
+    "toggleLabel": "切换主题"
   },
   "notFound": {
     "code": "404 错误",
@@ -151,19 +152,27 @@
   },
   "downloadDialog": {
     "downloadButton": "立即下载",
+    "downloading": "正在下载...",
     "title": "选择下载版本",
     "description": "选择最适合您需求的版本。",
+    "currentVersions": "当前版本",
     "stable": {
       "name": "稳定版本",
-      "description": "推荐给大多数用户"
+      "description": "推荐大多数用户使用"
     },
     "latest": {
       "name": "最新版本",
-      "description": "前沿功能，可能有错误"
+      "description": "尖端功能，可能存在问题"
     },
     "mono": {
-      "name": "Mono版本",
-      "description": "包括对C#的支持"
+      "name": "Mono 版本",
+      "description": "包括对 C# 的支持"
+    },
+    "archive": {
+      "name": "存档",
+      "note": "注意：存档版本可能没有最新功能和安全更新。",
+      "loadError": "无法加载版本信息",
+      "downloadArchive": "下载 {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +211,16 @@
     "title": "支持的平台",
     "description": "Redot Engine 在各种平台上运行流畅，确保兼容性。"
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
       "title": "Redot Engine 系统要求",
-      "description": {
-        "general": "推荐：支持 Vulkan 1.0 的硬件。最低：支持 OpenGL 3.3 / OpenGL ES 3.0 的硬件。",
-        "dotnet": "额外要求：.NET 版本的要求：",
-        "dotnetLink": ".NET SDK"
-      }
+      "description": "推荐：支持 Vulkan 1.0 的硬件。最低：支持 OpenGL 3.3 / OpenGL ES 3.0 的硬件。 .NET 版本的附加要求：",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "什么是 Redot Engine？",
-      "description": "Redot Engine 是一个免费的开源游戏开发平台，适用于 2D 和 3D 项目。基于 Godot，它为各级开发者提供灵活性和易用性，支持跨平台开发，并拥有一个协作社区。",
-      "learnMoreButton": "了解更多关于 Redot Engine"
+      "description": "Redot Engine 是一个免费的开源 2D 和 3D 游戏开发平台，基于 Godot，提供灵活性、易用性和跨平台支持。",
+      "learnMoreButton": "关于 Redot Engine"
     }
   },
   "downloadHelp": {
@@ -227,22 +233,25 @@
   },
   "blog": {
     "allPosts": "所有文章",
+    "selectTags": "选择标签...",
+    "searchTags": "搜索标签...",
+    "noTagsFound": "未找到标签。",
     "searchPlaceholder": "搜索...",
-    "noPostsFound": {
-      "title": "文章未找到",
-      "description": "找不到您正在寻找的文章。"
-    }
-  },
-  "tags": {
-    "tagAllPosts": "所有文章"
-  },
-  "latestBlogHero": {
+    "clearAll": "全部清除",
+    "tagsSelected": "已选择 {count} 个标签",
+    "tagsSelectedPlural": "已选择 {count} 个标签",
+    "loadMore": "加载更多",
+    "loading": "加载中...",
+    "clearSearch": "清除搜索",
+    "velocityScroll": "最新新闻与文章 -",
+    "notFound": {
+      "title": "未找到文章",
+      "description": "您正在查找的文章无法找到。",
+      "clearSearch": "清除",
+      "goBack": "返回",
+      "goHome": "返回首页"
+    },
     "readMore": "阅读更多"
-  },
-  "articleNotFound": {
-    "title": "文章未找到",
-    "description": "您正在寻找的文章未能找到。",
-    "backButton": "返回"
   },
   "contact": {
     "badge": "",
@@ -319,5 +328,78 @@
     "badge": "",
     "title": "服务条款",
     "description": "了解如何使用我们的服务以及我们的服务条款中的规则和指南。"
+  },
+  "brand": {
+    "badge": "",
+    "title": "品牌指南",
+    "description": "我们品牌视觉识别的全面指南。",
+    "downloadPressKit": "下载新闻资料包",
+    "logo": {
+      "badge": "",
+      "title": "我们的标志",
+      "description": "Redot 官方标志，供您的项目和材料使用。"
+    },
+    "symbol": {
+      "badge": "",
+      "title": "符号",
+      "description": "Redot 仅图标设计，适用于紧凑且多用途的使用场景。"
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "保护空间",
+      "description": "保持 Redot 标志清晰可见的适当间距规则。",
+      "logoClearspace": "标志保护空间",
+      "symbolClearspace": "符号保护空间"
+    },
+    "colors": {
+      "badge": "",
+      "title": "颜色",
+      "description": "Redot 官方色彩调色板，确保跨媒体品牌一致性。"
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "品牌法律指南",
+      "description": "Redot Engine 标志受版权保护和许可。请遵守使用指南。",
+      "license": {
+        "title": "Redot Engine 标志",
+        "copyright": "版权所有 (c) 2024 Asrorul Irsyad",
+        "description": "依据知识共享署名 4.0 国际许可协议 (CC BY 4.0) 授权",
+        "viewLicense": "查看许可协议"
+      },
+      "attribution": {
+        "title": "署名示例",
+        "text": "Redot Engine 标志 © 2024 Asrorul Irsyad，依据 CC BY 4.0 许可"
+      },
+      "contact": "如有使用相关问题，请联系 Redot 团队",
+      "guidelines": {
+        "dos": {
+          "title": "可做事项",
+          "items": [
+            "可用于商业和非商业用途",
+            "可修改、调整或基于标志进行创作",
+            "可在任何媒介上分享和再分发",
+            "请附上适当署名（见以下示例）"
+          ]
+        },
+        "donts": {
+          "title": "禁做事项",
+          "items": [
+            "使用时不提供适当署名",
+            "暗示由创作者认可",
+            "添加额外法律限制",
+            "删除或更改许可条款"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "更新日志",
+    "description": "了解最新的功能、改进和错误修复。",
+    "noEntriesFound": "未找到符合筛选条件的更新日志条目。",
+    "filterByPlatform": "按平台筛选",
+    "clearAllFilters": "清除所有筛选",
+    "onThisPage": "在本页中"
   }
 }

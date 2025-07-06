@@ -1,100 +1,60 @@
 "use client";
 
 import { motion } from "motion/react";
-import { useInView } from "react-intersection-observer";
-import SectionHeader from "@/components/SectionHeader";
-import { ThreeStepsItem } from "@/components/download/ThreeStepsItem";
-import { links } from "@/constants/links";
-import { socialsLinks } from "@/constants/socials";
-import { getPlatformDownloadLink } from "@/lib/platformDownloadLink";
+import SectionHeader from "@/components/shared/SectionHeader";
+import { StepsItem } from "@/components/download/StepsItem";
 import { useTranslations } from "next-intl";
+import { Separator } from "@/components/ui/separator";
+import { STEPS_DATA } from "@/constants/download/steps";
+import {
+  containerVariants,
+  itemVariants,
+} from "@/components/shared/animations";
+import { MotionSection } from "@/components/shared/MotionSection";
 
 export const DownloadThreeSteps = () => {
-  const { ref, inView } = useInView({
-    threshold: 0.1,
-    triggerOnce: true,
-  });
-
   const t = useTranslations("downloadThreeSteps");
 
   return (
-    <section ref={ref} className="overflow-x-clip bg-background pt-24">
+    <MotionSection className="pt-24">
+      <SectionHeader section="downloadThreeSteps" id="download-steps-header" />
       <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.6 }}
-        className="px-5 lg:px-40"
+        variants={containerVariants}
+        className="mx-auto mt-10 flex max-w-7xl flex-col gap-4 md:flex-row md:items-stretch lg:gap-8"
       >
-        <SectionHeader section="downloadThreeSteps" />
+        {STEPS_DATA.flatMap((step, index) => {
+          const stepElement = (
+            <motion.div
+              key={`step-${step.titleKey}`}
+              custom={index}
+              variants={itemVariants}
+              className="flex flex-1"
+            >
+              <StepsItem
+                title={t(step.titleKey)}
+                description={t(step.descriptionKey)}
+                links={step.links.map((link, linkIndex) => ({
+                  key: `step-${index}-link-${linkIndex}`,
+                  icon: link.icon,
+                  text: t(link.textKey),
+                  url: link.url,
+                }))}
+              />
+            </motion.div>
+          );
 
-        <div className="mt-10 grid grid-cols-12 gap-4 md:gap-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="col-span-12 md:col-span-6 lg:col-span-4"
-          >
-            <ThreeStepsItem
-              title={t("steps.step1.title")}
-              description={t("steps.step1.description")}
-              links={[
-                {
-                  text: t("steps.step1.links.archive"),
-                  url: links.releasePage,
-                },
-              ]}
-            />
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="col-span-12 md:col-span-6 lg:col-span-4"
-          >
-            <ThreeStepsItem
-              title={t("steps.step2.title")}
-              description={t("steps.step2.description")}
-              links={[
-                {
-                  text: t("steps.step2.links.windows"),
-                  url: getPlatformDownloadLink("windows"),
-                },
-                {
-                  text: t("steps.step2.links.mac"),
-                  url: getPlatformDownloadLink("mac"),
-                },
-                {
-                  text: t("steps.step2.links.linux"),
-                  url: getPlatformDownloadLink("linux"),
-                },
-                {
-                  text: t("steps.step2.links.android"),
-                  url: getPlatformDownloadLink("android"),
-                },
-              ]}
-            />
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.6 }}
-            className="col-span-12 md:col-span-6 lg:col-span-4"
-          >
-            <ThreeStepsItem
-              title={t("steps.step3.title")}
-              description={t("steps.step3.description")}
-              links={[
-                {
-                  text: t("steps.step3.links.discord"),
-                  url: socialsLinks.discord,
-                },
-              ]}
-            />
-          </motion.div>
-        </div>
+          const separatorElement = index < STEPS_DATA.length - 1 && (
+            <div
+              key={`separator-${step.titleKey}`}
+              className="hidden items-center justify-center md:flex"
+              aria-hidden="true"
+            >
+              <Separator orientation="vertical" className="h-full bg-border" />
+            </div>
+          );
+          return [stepElement, separatorElement];
+        }).filter(Boolean)}
       </motion.div>
-    </section>
+    </MotionSection>
   );
 };

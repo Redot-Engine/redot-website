@@ -5,6 +5,7 @@
       "mainMessage": "محرك Redot مستقر الآن!"
     },
     "downloadButton": "تحميل",
+    "donateButton": "تبرع",
     "discordButton": "انضم إلى ديسكورد",
     "links": {
       "documentation": "التوثيق",
@@ -92,7 +93,8 @@
         "status": "الحالة",
         "donate": "تبرع",
         "documentation": "التوثيق",
-        "sourceCode": "الكود المصدري"
+        "sourceCode": "الكود المصدري",
+        "changelog": "سجل التغييرات"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "المدونة",
         "feedback": "التعليقات",
         "community": "المجتمع",
+        "brand": "العلامة التجارية",
         "pressKit": "المجموعة الصحفية",
         "contact": "اتصل بنا",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "برامج بيتا",
-      "children": {
-        "launcher": "المشغل",
-        "academy": "الأكاديمية",
-        "engineExperimental": "المحرك التجريبي"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "إرشادات المساهمة"
       }
     }
+  },
+  "themeToggle": {
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام",
+    "toggleLabel": "تبديل السمة"
   },
   "notFound": {
     "code": "خطأ 404",
@@ -150,19 +151,27 @@
   },
   "downloadDialog": {
     "downloadButton": "تحميل الآن",
-    "title": "اختر إصدار التحميل",
-    "description": "اختر الإصدار الذي يناسب احتياجاتك.",
+    "downloading": "جارٍ التنزيل...",
+    "title": "اختر إصدار التنزيل",
+    "description": "حدد الإصدار الذي يناسب احتياجاتك.",
+    "currentVersions": "الإصدارات الحالية",
     "stable": {
       "name": "الإصدار المستقر",
       "description": "موصى به لمعظم المستخدمين"
     },
     "latest": {
       "name": "أحدث إصدار",
-      "description": "ميزات متطورة، قد تحتوي على أخطاء"
+      "description": "ميزات جديدة قد تحتوي على أخطاء"
     },
     "mono": {
-      "name": "إصدار مونو",
+      "name": "إصدار Mono",
       "description": "يتضمن دعم C#"
+    },
+    "archive": {
+      "name": "الأرشيف",
+      "note": "ملاحظة: قد لا تحتوي الإصدارات المؤرشفة على أحدث الميزات والتحديثات الأمنية.",
+      "loadError": "تعذر تحميل معلومات الإصدار",
+      "downloadArchive": "تحميل {version}"
     }
   },
   "downloadThreeSteps": {
@@ -201,19 +210,16 @@
     "title": "المنصات المدعومة",
     "description": "يعمل محرك Redot بسلاسة على منصات متنوعة، مما يضمن التوافق."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "متطلبات النظام لمحرك Redot",
-      "description": {
-        "general": "الموصى به: أجهزة متوافقة مع Vulkan 1.0. الحد الأدنى: أجهزة متوافقة مع OpenGL 3.3 / OpenGL ES 3.0.",
-        "dotnet": "متطلبات إضافية لإصدار .NET:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "متطلبات نظام Redot Engine",
+      "description": "موصى به: أجهزة متوافقة مع Vulkan 1.0. الحد الأدنى: أجهزة متوافقة مع OpenGL 3.3 / OpenGL ES 3.0. متطلبات إضافية لإصدار .NET:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
-      "title": "ما هو محرك Redot؟",
-      "description": "محرك Redot هو منصة تطوير ألعاب مجانية ومفتوحة المصدر للمشاريع ثنائية وثلاثية الأبعاد. مبني على جودوت، يوفر المرونة وسهولة الاستخدام للمطورين من جميع المستويات، مع دعم متعدد المنصات ومجتمع تعاوني.",
-      "learnMoreButton": "تعرف أكثر على محرك Redot"
+      "title": "ما هو Redot Engine؟",
+      "description": "Redot Engine هو منصة مجانية ومفتوحة المصدر لتطوير الألعاب ثنائية وثلاثية الأبعاد، مبنية على Godot، وتوفر المرونة وسهولة الاستخدام ودعم متعدد الأنظمة.",
+      "learnMoreButton": "حول Redot Engine"
     }
   },
   "downloadHelp": {
@@ -225,23 +231,26 @@
     }
   },
   "blog": {
-    "allPosts": "جميع المنشورات",
-    "searchPlaceholder": "بحث...",
-    "noPostsFound": {
-      "title": "لم يتم العثور على المقال",
-      "description": "لم يتم العثور على المقال الذي تبحث عنه."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "جميع المنشورات"
-  },
-  "latestBlogHero": {
+    "allPosts": "كل المشاركات",
+    "selectTags": "اختر الوسوم...",
+    "searchTags": "ابحث في الوسوم...",
+    "noTagsFound": "لم يتم العثور على وسوم.",
+    "searchPlaceholder": "ابحث...",
+    "clearAll": "مسح الكل",
+    "tagsSelected": "تم تحديد وسم واحد ({count})",
+    "tagsSelectedPlural": "تم تحديد {count} وسوم",
+    "loadMore": "تحميل المزيد",
+    "loading": "جاري التحميل...",
+    "clearSearch": "مسح البحث",
+    "velocityScroll": "أحدث الأخبار والمقالات -",
+    "notFound": {
+      "title": "المشاركة غير موجودة",
+      "description": "لا يمكن العثور على المشاركة التي تبحث عنها.",
+      "clearSearch": "مسح",
+      "goBack": "العودة",
+      "goHome": "الذهاب إلى الصفحة الرئيسية"
+    },
     "readMore": "اقرأ المزيد"
-  },
-  "articleNotFound": {
-    "title": "لم يتم العثور على المقال",
-    "description": "لم يتم العثور على المقال الذي تبحث عنه.",
-    "backButton": "رجوع"
   },
   "contact": {
     "badge": "",
@@ -318,5 +327,78 @@
     "badge": "",
     "title": "شروط الخدمة",
     "description": "افهم القواعد والإرشادات لاستخدام خدماتنا في شروط الخدمة الخاصة بنا."
+  },
+  "brand": {
+    "badge": "",
+    "title": "إرشادات العلامة التجارية",
+    "description": "دليل شامل لهوية العلامة التجارية البصرية.",
+    "downloadPressKit": "تحميل مجموعة الإعلام",
+    "logo": {
+      "badge": "",
+      "title": "شعارنا",
+      "description": "الشعارات الرسمية لريدوت للاستخدام في مشاريعك وموادك."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "الرمز",
+      "description": "تصميم أيقونة ريدوت فقط للاستخدام المدمج والمتنوع."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "المساحة الواضحة",
+      "description": "قواعد التباعد الصحيحة للحفاظ على الشعار واضحًا ومرئيًا.",
+      "logoClearspace": "مساحة الشعار الواضحة",
+      "symbolClearspace": "مساحة الرمز الواضحة"
+    },
+    "colors": {
+      "badge": "",
+      "title": "الألوان",
+      "description": "لوحة ألوان ريدوت الرسمية لتوحيد العلامة التجارية عبر الوسائط."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "إرشادات العلامة التجارية القانونية",
+      "description": "شعار ريدوت إنجين محمي بحقوق النشر ومُرخص. اتبع إرشادات الاستخدام.",
+      "license": {
+        "title": "شعار ريدوت إنجين",
+        "copyright": "حقوق النشر (c) 2024 Asrorul Irsyad",
+        "description": "مرخص بموجب رخصة المشاع الإبداعي النسبة 4.0 الدولية (CC BY 4.0)",
+        "viewLicense": "عرض الترخيص"
+      },
+      "attribution": {
+        "title": "مثال الإسناد",
+        "text": "شعار ريدوت إنجين © 2024 Asrorul Irsyad، مرخص بموجب CC BY 4.0"
+      },
+      "contact": "لأي استفسارات حول الاستخدام، يرجى الاتصال بفريق ريدوت على",
+      "guidelines": {
+        "dos": {
+          "title": "المسموحات",
+          "items": [
+            "الاستخدام للأغراض التجارية وغير التجارية",
+            "التعديل أو التكييف أو البناء على الشعار",
+            "المشاركة وإعادة التوزيع في أي وسيط",
+            "تضمين الإسناد الصحيح (راجع المثال أدناه)"
+          ]
+        },
+        "donts": {
+          "title": "الممنوعات",
+          "items": [
+            "الاستخدام دون توفير الإسناد الصحيح",
+            "الإيحاء بالتأييد من قبل المنشئ",
+            "إضافة قيود قانونية إضافية",
+            "إزالة أو تعديل شروط الترخيص"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "سجل التغييرات",
+    "description": "ابقَ على اطلاع بأحدث الميزات والتحسينات وإصلاحات الأخطاء.",
+    "noEntriesFound": "لم يتم العثور على مدخلات سجل التغييرات التي تطابق الفلاتر الخاصة بك.",
+    "filterByPlatform": "تصفية حسب المنصة",
+    "clearAllFilters": "مسح جميع الفلاتر",
+    "onThisPage": "في هذه الصفحة"
   }
 }

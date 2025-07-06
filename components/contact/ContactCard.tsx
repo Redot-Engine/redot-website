@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { cn } from "@/lib/utils";
+import { GlowingEffect } from "@/components/ui/glowing-effect";
 
 interface ContactCardProps {
   icon: React.ReactNode;
@@ -23,27 +24,40 @@ export const ContactCard = ({
   });
 
   return (
-    <div className="border-gray-250 flex h-[15rem] flex-col justify-between rounded-xl border bg-card p-4">
-      <div className="border-gray-250 flex h-[36px] w-[36px] items-center justify-center rounded-lg border">
-        {icon}
-      </div>
-      <div className="flex flex-col gap-4">
-        <div className="flex flex-col">
-          <p className="text-lg font-medium">{title}</p>
-          <p className="text-base text-muted-foreground">{description}</p>
+    <div className="relative h-full rounded-2xl border p-2 md:rounded-3xl md:p-3">
+      <GlowingEffect
+        spread={40}
+        glow={true}
+        disabled={false}
+        proximity={64}
+        inactiveZone={0.01}
+      />
+      <div className="relative flex h-full flex-col justify-between gap-8 overflow-hidden rounded-xl border p-6 dark:shadow-[0px_0px_27px_0px_#2D2D2D]">
+        <div className="relative flex flex-1 flex-col justify-between gap-3">
+          <div className="w-fit rounded-lg border border-gray-600 p-2">
+            {icon}
+          </div>
         </div>
-        <div className={cn("flex flex-wrap gap-2", directionClass)}>
-          {links.map(({ label, url }) => (
-            <Link
-              key={label}
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-medium underline"
-            >
-              {label}
-            </Link>
-          ))}
+        <div className="space-y-4">
+          <div className="space-y-2">
+            <h3 className="text-balance text-lg font-semibold tracking-tighter">
+              {title}
+            </h3>
+            <p className="text-balance text-muted-foreground">{description}</p>
+          </div>
+          <div className={cn("flex flex-wrap gap-2", directionClass)}>
+            {links.map(({ label, url }) => (
+              <Link
+                key={label}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-orange-400 underline-offset-4 hover:underline"
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ export const LicenseContent = ({
   <div className="flex flex-col gap-4">
     <h3 className="text-xl font-medium">{type}</h3>
     {isLoading ? (
-      <Skeleton className="h-40 w-full" />
+      <Skeleton className="h-10 w-full" />
     ) : (
       <pre className="whitespace-pre-wrap break-words">{content}</pre>
     )}

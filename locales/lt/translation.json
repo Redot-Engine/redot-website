@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine dabar stabilus!"
     },
     "downloadButton": "Atsisiųsti",
+    "donateButton": "Paaukoti",
     "discordButton": "Prisijunkite prie Discord",
     "links": {
       "documentation": "Dokumentacija",
@@ -92,7 +93,8 @@
         "status": "Būsena",
         "donate": "Donuoti",
         "documentation": "Dokumentacija",
-        "sourceCode": "Šaltinio kodas"
+        "sourceCode": "Šaltinio kodas",
+        "changelog": "Pakeitimų žurnalas"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "Naujienos",
         "feedback": "Atsiliepimai",
         "community": "Bendruomenė",
+        "brand": "Prekės ženklas",
         "pressKit": "Spaudos rinkinys",
         "contact": "Kontaktai",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "Beta programos",
-      "children": {
-        "launcher": "Paleidimo programa",
-        "academy": "Akademija",
-        "engineExperimental": "Eksperimentinis variklis"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "Indėlio gairės"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Šviesi",
+    "dark": "Tamsi",
+    "system": "Sistema",
+    "toggleLabel": "Keisti temą"
   },
   "notFound": {
     "code": "404 klaida",
@@ -151,19 +152,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Atsisiųsti dabar",
+    "downloading": "Atsisiunčiama...",
     "title": "Pasirinkite atsisiuntimo versiją",
     "description": "Pasirinkite versiją, kuri geriausiai atitinka jūsų poreikius.",
+    "currentVersions": "Dabartinės versijos",
     "stable": {
       "name": "Stabili versija",
-      "description": "Rekomenduojama daugeliui vartotojų"
+      "description": "Rekomenduojama daugumai vartotojų"
     },
     "latest": {
       "name": "Naujausia versija",
-      "description": "Pirmaujančios funkcijos, gali turėti klaidų"
+      "description": "Naujausios funkcijos, gali būti klaidų"
     },
     "mono": {
       "name": "Mono versija",
-      "description": "Apima C# palaikymą"
+      "description": "Įtraukia C# palaikymą"
+    },
+    "archive": {
+      "name": "Archyvas",
+      "note": "Pastaba: Archyvinės versijos gali neturėti naujausių funkcijų ir saugos atnaujinimų.",
+      "loadError": "Nepavyko įkelti versijos informacijos",
+      "downloadArchive": "Atsisiųsti {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +211,16 @@
     "title": "Palaikomos platformos",
     "description": "Redot Engine veikia sklandžiai įvairiose platformose, užtikrinant suderinamumą."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Redot Engine sistemos reikalavimai",
-      "description": {
-        "general": "Rekomenduojama: Vulkan 1.0 suderinama aparatinė įranga. Minimalūs reikalavimai: OpenGL 3.3 / OpenGL ES 3.0 suderinama aparatinė įranga.",
-        "dotnet": "Papildomi reikalavimai .NET versijai:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Redot Engine Sistemos reikalavimai",
+      "description": "Rekomenduojama: Vulkan 1.0 suderinama aparatinė įranga. Minimalūs reikalavimai: OpenGL 3.3 / OpenGL ES 3.0 suderinama aparatinė įranga. Papildomi reikalavimai .NET versijai:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Kas yra Redot Engine?",
-      "description": "Redot Engine yra nemokama, atvirojo kodo žaidimų kūrimo platforma 2D ir 3D projektams. Pagal Godot variklį, jis suteikia lankstumą ir lengvumą visiems kūrėjams, su kryžminiu palaikymu ir bendradarbiavimo bendruomene.",
-      "learnMoreButton": "Sužinokite daugiau apie Redot Engine"
+      "description": "Redot Engine yra nemokama atviro kodo platforma 2D ir 3D žaidimų kūrimui, pagrįsta Godot, siūlanti lankstumą, lengvumą naudoti ir kryžminę platformų palaikymą.",
+      "learnMoreButton": "Apie Redot Engine"
     }
   },
   "downloadHelp": {
@@ -227,22 +233,25 @@
   },
   "blog": {
     "allPosts": "Visi įrašai",
+    "selectTags": "Pasirinkite žymes...",
+    "searchTags": "Ieškoti žymių...",
+    "noTagsFound": "Žymių nerasta.",
     "searchPlaceholder": "Ieškoti...",
-    "noPostsFound": {
-      "title": "Straipsnis nerastas",
-      "description": "Straipsnio, kurio ieškote, nepavyko rasti."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Visi įrašai"
-  },
-  "latestBlogHero": {
+    "clearAll": "Išvalyti viską",
+    "tagsSelected": "Pasirinkta {count} žymė",
+    "tagsSelectedPlural": "Pasirinkta {count} žymių",
+    "loadMore": "Įkelti daugiau",
+    "loading": "Įkeliama...",
+    "clearSearch": "Išvalyti paiešką",
+    "velocityScroll": "NAUJAUSIOS NAUJIENOS IR STRAIPSNIAI -",
+    "notFound": {
+      "title": "Įrašas nerastas",
+      "description": "Įrašas, kurio ieškote, nerastas.",
+      "clearSearch": "Išvalyti",
+      "goBack": "Grįžti atgal",
+      "goHome": "Eiti į pradžią"
+    },
     "readMore": "Skaityti daugiau"
-  },
-  "articleNotFound": {
-    "title": "Straipsnis nerastas",
-    "description": "Straipsnio, kurio ieškote, nepavyko rasti.",
-    "backButton": "Atgal"
   },
   "contact": {
     "badge": "",
@@ -319,5 +328,78 @@
     "badge": "",
     "title": "Paslaugų teikimo sąlygos",
     "description": "Supraskite taisykles ir gaires, kaip naudotis mūsų paslaugomis mūsų Paslaugų teikimo sąlygose."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Prekės ženklo gairės",
+    "description": "Išsamios mūsų prekės ženklo vizualinės tapatybės gairės.",
+    "downloadPressKit": "Atsisiųsti spaudos rinkinį",
+    "logo": {
+      "badge": "",
+      "title": "Mūsų logotipas",
+      "description": "Oficialūs Redot logotipai, skirti naudoti jūsų projektuose ir medžiagoje."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Simbolis",
+      "description": "Redot ikona be teksto – kompaktiškam ir universaliam naudojimui."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Tarpas aplink logotipą",
+      "description": "Teisingos erdvės taisyklės, kad Redot logotipas būtų aiškus ir matomas.",
+      "logoClearspace": "Logotipo tarpas",
+      "symbolClearspace": "Simbolio tarpas"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Spalvos",
+      "description": "Oficiali Redot spalvų paletė, užtikrinanti nuoseklų prekės ženklo vaizdą visose medijose."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Teisinės prekės ženklo gairės",
+      "description": "Redot Engine logotipas yra autorių teisių saugomas ir licencijuotas. Laikykitės naudojimo taisyklių.",
+      "license": {
+        "title": "Redot Engine logotipas",
+        "copyright": "Autorių teisės (c) 2024 Asrorul Irsyad",
+        "description": "Licencijuota pagal Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Peržiūrėti licenciją"
+      },
+      "attribution": {
+        "title": "Pavyzdys kaip nurodyti autorystę",
+        "text": "Redot Engine logotipas © 2024 Asrorul Irsyad, licencijuota pagal CC BY 4.0"
+      },
+      "contact": "Dėl naudojimo klausimų prašome kreiptis į Redot komandą adresu",
+      "guidelines": {
+        "dos": {
+          "title": "Leidžiama",
+          "items": [
+            "Naudoti komerciniais ir nekomerciniais tikslais",
+            "Modifikuoti, pritaikyti ar kurti pagrindu logotipą",
+            "Dalintis ir platinti bet kurioje terpėje",
+            "Įtraukti tinkamą autorystės nurodymą (žr. pavyzdį žemiau)"
+          ]
+        },
+        "donts": {
+          "title": "Negalima",
+          "items": [
+            "Naudoti be tinkamo autorystės nurodymo",
+            "Pateikti kūrėją kaip remiantį",
+            "Pridėti papildomų teisių apribojimų",
+            "Šalinti ar keisti licencijos sąlygas"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Pakeitimų žurnalas",
+    "description": "Sekite naujausias funkcijas, patobulinimus ir klaidų ištaisymus.",
+    "noEntriesFound": "Filtrus atitinkančių pakeitimų įrašų nerasta.",
+    "filterByPlatform": "Filtruoti pagal platformą",
+    "clearAllFilters": "Išvalyti visus filtrus",
+    "onThisPage": "ŠIAME PUSLAPYJE"
   }
 }

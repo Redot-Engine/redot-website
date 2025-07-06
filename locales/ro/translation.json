@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine este acum stabil!"
     },
     "downloadButton": "Descarcă",
+    "donateButton": "Donează",
     "discordButton": "Alăturați-vă Discord",
     "links": {
       "documentation": "Documentație",
@@ -92,7 +93,8 @@
         "status": "Stare",
         "donate": "Donează",
         "documentation": "Documentație",
-        "sourceCode": "Cod sursă"
+        "sourceCode": "Cod sursă",
+        "changelog": "Jurnal de modificări"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "Știri",
         "feedback": "Feedback",
         "community": "Comunitate",
+        "brand": "Marcă",
         "pressKit": "Kit de presă",
         "contact": "Contact",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "Programe Beta",
-      "children": {
-        "launcher": "Lansator",
-        "academy": "Academie",
-        "engineExperimental": "Motor Experimental"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "Ghiduri de contribuție"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Luminos",
+    "dark": "Întunecat",
+    "system": "Sistem",
+    "toggleLabel": "Schimbă tema"
   },
   "notFound": {
     "code": "Eroare 404",
@@ -151,19 +152,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Descarcă acum",
-    "title": "Alege versiunea de descărcat",
-    "description": "Selectează versiunea care se potrivește cel mai bine nevoilor tale.",
+    "downloading": "Se descarcă...",
+    "title": "Alege versiunea de descărcare",
+    "description": "Selectați versiunea care se potrivește cel mai bine nevoilor dvs.",
+    "currentVersions": "Versiuni curente",
     "stable": {
       "name": "Versiune stabilă",
-      "description": "Recomandat pentru majoritatea utilizatorilor"
+      "description": "Recomandată pentru majoritatea utilizatorilor"
     },
     "latest": {
-      "name": "Ultima versiune",
-      "description": "Funcții de ultimă oră, poate conține erori"
+      "name": "Cea mai recentă versiune",
+      "description": "Funcții de ultimă generație, pot exista erori"
     },
     "mono": {
       "name": "Versiune Mono",
       "description": "Include suport pentru C#"
+    },
+    "archive": {
+      "name": "Arhivă",
+      "note": "Notă: Versiunile arhivate pot să nu conțină cele mai recente funcții și actualizări de securitate.",
+      "loadError": "Nu s-a putut încărca informația despre versiune",
+      "downloadArchive": "Descarcă {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +211,16 @@
     "title": "Platforme suportate",
     "description": "Redot Engine rulează perfect pe diverse platforme, asigurând compatibilitatea."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Cerințe de sistem Redot Engine",
-      "description": {
-        "general": "Recomandat: Hardware compatibil Vulkan 1.0. Minim: Hardware compatibil OpenGL 3.3 / OpenGL ES 3.0.",
-        "dotnet": "Cerințe suplimentare pentru versiunea .NET:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Cerințe de sistem pentru Redot Engine",
+      "description": "Recomandat: Hardware compatibil cu Vulkan 1.0. Minim: Hardware compatibil cu OpenGL 3.3 / OpenGL ES 3.0. Cerințe suplimentare pentru versiunea .NET:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Ce este Redot Engine?",
-      "description": "Redot Engine este o platformă de dezvoltare de jocuri gratuită și open-source pentru proiecte 2D și 3D. Bazată pe Godot, oferă flexibilitate și ușurință în utilizare pentru dezvoltatori de toate nivelele, cu suport cross-platform și o comunitate colaborativă.",
-      "learnMoreButton": "Află mai multe despre Redot Engine"
+      "description": "Redot Engine este o platformă gratuită și open-source pentru dezvoltarea de jocuri 2D și 3D, bazată pe Godot, oferind flexibilitate, ușurință în utilizare și suport multi-platformă.",
+      "learnMoreButton": "Despre Redot Engine"
     }
   },
   "downloadHelp": {
@@ -226,23 +232,26 @@
     }
   },
   "blog": {
-    "allPosts": "Toate Postările",
-    "searchPlaceholder": "Căutare...",
-    "noPostsFound": {
-      "title": "Articolul nu a fost găsit",
-      "description": "Articolul pe care îl căutați nu a fost găsit."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Toate Postările"
-  },
-  "latestBlogHero": {
+    "allPosts": "Toate postările",
+    "selectTags": "Selectează etichete...",
+    "searchTags": "Caută etichete...",
+    "noTagsFound": "Nicio etichetă găsită.",
+    "searchPlaceholder": "Caută...",
+    "clearAll": "Șterge tot",
+    "tagsSelected": "{count} etichetă selectată",
+    "tagsSelectedPlural": "{count} etichete selectate",
+    "loadMore": "Încarcă mai mult",
+    "loading": "Se încarcă...",
+    "clearSearch": "Golește căutarea",
+    "velocityScroll": "ULTIMELE ȘTIRI ȘI ARTICOLE -",
+    "notFound": {
+      "title": "Postare negăsită",
+      "description": "Postarea pe care o căutați nu a putut fi găsită.",
+      "clearSearch": "Golește",
+      "goBack": "Înapoi",
+      "goHome": "Acasă"
+    },
     "readMore": "Citește mai mult"
-  },
-  "articleNotFound": {
-    "title": "Articolul Nu A Fost Găsit",
-    "description": "Articolul pe care îl căutați nu a fost găsit.",
-    "backButton": "Înapoi"
   },
   "contact": {
     "badge": "",
@@ -319,5 +328,78 @@
     "badge": "",
     "title": "Termeni și condiții",
     "description": "Înțelegeți regulile și ghidurile pentru utilizarea serviciilor noastre în Termenii și condițiile noastre."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Ghidul de brand",
+    "description": "Ghid complet pentru identitatea vizuală a brandului nostru.",
+    "downloadPressKit": "Descarcă kitul de presă",
+    "logo": {
+      "badge": "",
+      "title": "Logo-ul nostru",
+      "description": "Logourile oficiale Redot pentru utilizare în proiectele și materialele dvs."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Simbol",
+      "description": "Designul pictogramei Redot pentru utilizare compactă și versatilă."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Spațiu liber",
+      "description": "Reguli corecte de spațiere pentru a menține logo-ul Redot curat și vizibil.",
+      "logoClearspace": "Spațiu liber pentru logo",
+      "symbolClearspace": "Spațiu liber pentru simbol"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Culori",
+      "description": "Paleta oficială de culori Redot pentru o marcă consistentă în toate mediile."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Ghiduri legale de brand",
+      "description": "Logo-ul Redot Engine este protejat prin drepturi de autor și licențiat. Urmați regulile de utilizare.",
+      "license": {
+        "title": "Logo Redot Engine",
+        "copyright": "Drepturi de autor (c) 2024 Asrorul Irsyad",
+        "description": "Licențiat sub Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Vezi licența"
+      },
+      "attribution": {
+        "title": "Exemplu de atribuire",
+        "text": "Logo Redot Engine © 2024 Asrorul Irsyad, licențiat sub CC BY 4.0"
+      },
+      "contact": "Pentru întrebări legate de utilizare, vă rugăm să contactați echipa Redot la",
+      "guidelines": {
+        "dos": {
+          "title": "Permis",
+          "items": [
+            "Folosiți pentru scopuri comerciale și non-comerciale",
+            "Modificați, adaptați sau construiți pe baza logo-ului",
+            "Distribuiți și redistribuiți în orice mediu",
+            "Includeți atribuire corectă (vedeți exemplul de mai jos)"
+          ]
+        },
+        "donts": {
+          "title": "Interzis",
+          "items": [
+            "Folosește fără a oferi atribuire corectă",
+            "Sugerează aprobarea de către creator",
+            "Adaugă restricții legale suplimentare",
+            "Înlătură sau modifică termenii licenței"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Jurnal de modificări",
+    "description": "Rămâi la curent cu cele mai recente funcții, îmbunătățiri și remedieri de erori.",
+    "noEntriesFound": "Nu au fost găsite intrări în jurnalul de modificări care să corespundă filtrelor tale.",
+    "filterByPlatform": "Filtrează după platformă",
+    "clearAllFilters": "Șterge toate filtrele",
+    "onThisPage": "PE ACEASTĂ PAGINĂ"
   }
 }

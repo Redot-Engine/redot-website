@@ -5,6 +5,7 @@
       "mainMessage": "Redot Engine je nyní stabilní!"
     },
     "downloadButton": "Stáhnout",
+    "donateButton": "Darovat",
     "discordButton": "Připojte se na Discord",
     "links": {
       "documentation": "Dokumentace",
@@ -92,7 +93,8 @@
         "status": "Stav",
         "donate": "Darovat",
         "documentation": "Dokumentace",
-        "sourceCode": "Zdrojový kód"
+        "sourceCode": "Zdrojový kód",
+        "changelog": "Změny"
       }
     },
     "resources": {
@@ -101,17 +103,10 @@
         "blog": "Novinky",
         "feedback": "Zpětná vazba",
         "community": "Komunita",
+        "brand": "Značka",
         "pressKit": "Tiskový balíček",
         "contact": "Kontakt",
         "rss": "RSS"
-      }
-    },
-    "betaPrograms": {
-      "title": "Beta programy",
-      "children": {
-        "launcher": "Spouštěč",
-        "academy": "Akademie",
-        "engineExperimental": "Experimentální engine"
       }
     },
     "policies": {
@@ -124,6 +119,12 @@
         "contributionGuidelines": "Pokyny pro přispěvatele"
       }
     }
+  },
+  "themeToggle": {
+    "light": "Světlý",
+    "dark": "Tmavý",
+    "system": "Systém",
+    "toggleLabel": "Přepnout téma"
   },
   "notFound": {
     "code": "Chyba 404",
@@ -151,19 +152,27 @@
   },
   "downloadDialog": {
     "downloadButton": "Stáhnout nyní",
+    "downloading": "Stahování...",
     "title": "Vyberte verzi ke stažení",
     "description": "Vyberte verzi, která nejlépe vyhovuje vašim potřebám.",
+    "currentVersions": "Aktuální verze",
     "stable": {
       "name": "Stabilní verze",
       "description": "Doporučeno pro většinu uživatelů"
     },
     "latest": {
       "name": "Nejnovější verze",
-      "description": "Nejnovější funkce, může obsahovat chyby"
+      "description": "Nejnovější funkce, mohou obsahovat chyby"
     },
     "mono": {
       "name": "Mono verze",
-      "description": "Obsahuje podporu pro C#"
+      "description": "Zahrnuje podporu pro C#"
+    },
+    "archive": {
+      "name": "Archiv",
+      "note": "Poznámka: Archivované verze nemusí obsahovat nejnovější funkce a bezpečnostní aktualizace.",
+      "loadError": "Nepodařilo se načíst informace o verzi",
+      "downloadArchive": "Stáhnout {version}"
     }
   },
   "downloadThreeSteps": {
@@ -202,19 +211,16 @@
     "title": "Podporované platformy",
     "description": "Redot Engine běží plynule na různých platformách, zajišťující kompatibilitu."
   },
-  "downloadInformation": {
+  "downloadOverview": {
     "systemRequirements": {
-      "title": "Požadavky na systém Redot Engine",
-      "description": {
-        "general": "Doporučeno: Hardware kompatibilní s Vulkan 1.0. Minimálně: Hardware kompatibilní s OpenGL 3.3 / OpenGL ES 3.0.",
-        "dotnet": "Další požadavky pro .NET verzi:",
-        "dotnetLink": ".NET SDK"
-      }
+      "title": "Systémové požadavky Redot Engine",
+      "description": "Doporučeno: Hardware kompatibilní s Vulkan 1.0. Minimálně: Hardware kompatibilní s OpenGL 3.3 / OpenGL ES 3.0. Další požadavky pro verzi .NET:",
+      "dotnetLink": ".NET SDK"
     },
     "about": {
       "title": "Co je Redot Engine?",
-      "description": "Redot Engine je zdarma, open-source herní vývojová platforma pro 2D a 3D projekty. Založen na Godot, nabízí flexibilitu a snadnost použití pro vývojáře všech úrovní, s podporou napříč platformami a komunitou pro spolupráci.",
-      "learnMoreButton": "Zjistit více o Redot Engine"
+      "description": "Redot Engine je bezplatná open-source platforma pro vývoj 2D a 3D her, založená na Godot, která nabízí flexibilitu, snadné použití a podporu napříč platformami.",
+      "learnMoreButton": "O Redot Engine"
     }
   },
   "downloadHelp": {
@@ -227,22 +233,25 @@
   },
   "blog": {
     "allPosts": "Všechny příspěvky",
+    "selectTags": "Vyberte štítky...",
+    "searchTags": "Hledat štítky...",
+    "noTagsFound": "Nebyly nalezeny žádné štítky.",
     "searchPlaceholder": "Hledat...",
-    "noPostsFound": {
-      "title": "Článek nenalezen",
-      "description": "Článek, který hledáte, nebyl nalezen."
-    }
-  },
-  "tags": {
-    "tagAllPosts": "Všechny příspěvky"
-  },
-  "latestBlogHero": {
-    "readMore": "Přečíst více"
-  },
-  "articleNotFound": {
-    "title": "Článek nenalezen",
-    "description": "Článek, který hledáte, nebyl nalezen.",
-    "backButton": "Zpět"
+    "clearAll": "Vymazat vše",
+    "tagsSelected": "{count} vybraný štítek",
+    "tagsSelectedPlural": "{count} vybraných štítků",
+    "loadMore": "Načíst další",
+    "loading": "Načítání...",
+    "clearSearch": "Vymazat hledání",
+    "velocityScroll": "NEJNOVĚJŠÍ ZPRÁVY A ČLÁNKY -",
+    "notFound": {
+      "title": "Příspěvek nenalezen",
+      "description": "Příspěvek, který hledáte, nebyl nalezen.",
+      "clearSearch": "Vymazat",
+      "goBack": "Zpět",
+      "goHome": "Domů"
+    },
+    "readMore": "Číst více"
   },
   "contact": {
     "badge": "",
@@ -319,5 +328,78 @@
     "badge": "",
     "title": "Podmínky služby",
     "description": "Pochopte pravidla a pokyny pro používání našich služeb v našich Podmínkách služby."
+  },
+  "brand": {
+    "badge": "",
+    "title": "Pravidla značky",
+    "description": "Komplexní průvodce vizuální identitou naší značky.",
+    "downloadPressKit": "Stáhnout tiskovou sadu",
+    "logo": {
+      "badge": "",
+      "title": "Naše logo",
+      "description": "Oficiální loga Redot pro použití ve vašich projektech a materiálech."
+    },
+    "symbol": {
+      "badge": "",
+      "title": "Symbol",
+      "description": "Pouze ikona Redot pro kompaktní a univerzální použití."
+    },
+    "clearspace": {
+      "badge": "",
+      "title": "Volný prostor",
+      "description": "Pravidla správného rozestupu, aby bylo logo Redot čisté a viditelné.",
+      "logoClearspace": "Volný prostor okolo loga",
+      "symbolClearspace": "Volný prostor okolo symbolu"
+    },
+    "colors": {
+      "badge": "",
+      "title": "Barvy",
+      "description": "Oficiální barevná paleta Redot pro konzistentní značku napříč médii."
+    },
+    "legalGuidelines": {
+      "badge": "",
+      "title": "Právní pravidla značky",
+      "description": "Logo Redot Engine je chráněno autorskými právy a licencí. Dodržujte pokyny pro použití.",
+      "license": {
+        "title": "Logo Redot Engine",
+        "copyright": "Copyright (c) 2024 Asrorul Irsyad",
+        "description": "Licencováno pod Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "viewLicense": "Zobrazit licenci"
+      },
+      "attribution": {
+        "title": "Příklad připsání",
+        "text": "Logo Redot Engine © 2024 Asrorul Irsyad, licencováno pod CC BY 4.0"
+      },
+      "contact": "Pro dotazy ohledně použití kontaktujte tým Redot na",
+      "guidelines": {
+        "dos": {
+          "title": "Doporučení",
+          "items": [
+            "Používejte pro komerční i nekomerční účely",
+            "Upravujte, přizpůsobujte nebo stavějte na logu",
+            "Sdílejte a redistribuujte v jakémkoli médiu",
+            "Uveďte správné připsání (viz příklad níže)"
+          ]
+        },
+        "donts": {
+          "title": "Nedoporučení",
+          "items": [
+            "Nepoužívejte bez uvedení správného připsání",
+            "Nenaznačujte schválení tvůrcem",
+            "Nepřidávejte další právní omezení",
+            "Neodstraňujte nebo neměňte podmínky licence"
+          ]
+        }
+      }
+    }
+  },
+  "changelog": {
+    "badge": "",
+    "title": "Záznam změn",
+    "description": "Zůstaňte v obraze o nejnovějších funkcích, vylepšeních a opravách chyb.",
+    "noEntriesFound": "Žádné záznamy o změnách neodpovídají vašim filtrům.",
+    "filterByPlatform": "Filtrovat podle platformy",
+    "clearAllFilters": "Vymazat všechny filtry",
+    "onThisPage": "NA TÉTO STRÁNCE"
   }
 }
