@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { IconChevronUp } from "@tabler/icons-react";
@@ -15,18 +15,25 @@ export function GoToTop({
   className,
 }: Readonly<GoToTopProps>) {
   const [isVisible, setIsVisible] = useState(false);
+  const ticking = useRef(false);
 
   useEffect(() => {
-    const toggleVisibility = () => {
-      if (window.scrollY > threshold) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
+    const handleScroll = () => {
+      if (!ticking.current) {
+        window.requestAnimationFrame(() => {
+          if (window.scrollY > threshold) {
+            setIsVisible(true);
+          } else {
+            setIsVisible(false);
+          }
+          ticking.current = false;
+        });
+        ticking.current = true;
       }
     };
 
-    window.addEventListener("scroll", toggleVisibility);
-    return () => window.removeEventListener("scroll", toggleVisibility);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [threshold]);
 
   const scrollToTop = () => {
