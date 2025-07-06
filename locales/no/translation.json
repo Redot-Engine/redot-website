@@ -246,9 +246,9 @@
     "notFound": {
       "title": "Innlegg ikke funnet",
       "description": "Innlegget du leter etter, ble ikke funnet.",
-      "clearSearch": "Tøm",
+      "clearSearch": "Nullstill",
       "goBack": "Gå tilbake",
-      "goHome": "Gå til hjem"
+      "goHome": "Gå til forsiden"
     },
     "readMore": "Les mer"
   },
