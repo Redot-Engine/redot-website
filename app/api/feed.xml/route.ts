@@ -30,7 +30,7 @@ function escapeXml(text: string | null | undefined): string {
 }
 
 function generateGuid(post: Post): string {
-  return `${getBaseUrl()}/${post.slug}#${new Date(post.publishedAt).getTime()}`;
+  return `${getBaseUrl()}/${encodeURIComponent(post.slug)}#${new Date(post.publishedAt).getTime()}`;
 }
 
 function formatRFC822Date(date: string | Date): string {
@@ -43,7 +43,7 @@ function formatRFC822Date(date: string | Date): string {
 
 function generateFeedItem(post: Post): string {
   const baseUrl = getBaseUrl();
-  const postUrl = `${baseUrl}/${post.slug}`;
+  const postUrl = `${baseUrl}/blog/${post.slug}`;
   const guid = generateGuid(post);
 
   return `    <item>
