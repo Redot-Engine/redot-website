@@ -2,7 +2,9 @@ import type { NextConfig } from "next";
 import bundleAnalyzer from "@next/bundle-analyzer";
 
 import createNextIntlPlugin from "next-intl/plugin";
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
 
+initOpenNextCloudflareForDev();
 const withNextIntl = createNextIntlPlugin();
 
 const withBundleAnalyzer = bundleAnalyzer({

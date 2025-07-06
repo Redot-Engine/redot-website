@@ -23,11 +23,16 @@
     "lint:strict": "next lint '*/**/*.{js,jsx,ts,tsx}'",
     "format": "prettier -c --cache .",
     "format:fix": "prettier -w . --cache",
-    "prepare": "husky"
+    "prepare": "husky",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^15.3.2",
     "@next/third-parties": "15.1.3",
+    "@opennextjs/cloudflare": "^1.3.1",
     "@radix-ui/react-accordion": "^1.2.2",
     "@radix-ui/react-avatar": "^1.1.2",
     "@radix-ui/react-checkbox": "^1.3.2",
@@ -49,10 +54,11 @@
     "axios": "^1.7.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "cmdk": "1.0.0",
+    "cmdk": "^1.1.1",
+    "detect-browser": "^5.3.0",
     "lenis": "^1.1.20",
-    "lodash": "^4.17.21",
     "lucide-react": "^0.511.0",
+    "lodash": "^4.17.21",
     "mini-svg-data-uri": "^1.4.4",
     "motion": "^12.0.5",
     "next": "15.1.3",
@@ -72,7 +78,6 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.7",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@tailwindcss/typography": "^0.5.16",
@@ -90,6 +95,7 @@
     "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwind-scrollbar": "^3.1.0",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^4.22.0"
   }
 }

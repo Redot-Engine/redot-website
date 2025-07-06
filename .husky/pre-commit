@@ -16,15 +16,6 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Stage changes made by Prettier
-echo "📂 Staging formatting changes..."
-git add .
-
-# Ensure there are staged changes before proceeding
-if git diff --cached --quiet; then
-    echo "❌ No changes to commit."
-    exit 1
-fi
 
 echo "✅ All pre-commit checks passed! 🎉"
 exit 0

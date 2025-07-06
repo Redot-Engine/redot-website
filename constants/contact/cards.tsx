@@ -1,9 +1,4 @@
-import {
-  IconBrandDiscord,
-  IconBrandThreads,
-  IconMail,
-  IconSend,
-} from "@tabler/icons-react";
+import { IconMail, IconBrandDiscord, IconSend } from "@tabler/icons-react";
 import React from "react";
 
 interface ContactCardLink {
@@ -54,6 +49,7 @@ export const CONTACT_CARDS_DATA: ContactCardData[] = [
       },
     ],
   },
+  /* Forum temporarily disabled
   {
     id: "forum",
     icon: <IconBrandThreads className="h-5 w-5" />,
@@ -63,4 +59,5 @@ export const CONTACT_CARDS_DATA: ContactCardData[] = [
       { label: "Visit the Forum", url: "https://forum.redotengine.org/" },
     ],
   },
+  */
 ];

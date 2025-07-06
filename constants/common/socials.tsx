@@ -100,12 +100,14 @@ export const COMMUNITY_SPACES: CommunityCardProps[] = [
     description: "communitySpacesLinks.discordCommunity",
     href: SOCIALS_LINKS.discordCommunity,
   },
+  /* Forum temporarily disabled
   {
     imageUrl: "https://image.redotengine.org/socials/forum.png",
     label: "Forum",
     description: "communitySpacesLinks.forum",
     href: LINKS.forum,
   },
+  */
 ];
 
 export const SUPPORT_CONTRIBUTIONS: CommunityCardProps[] = [

@@ -7,8 +7,6 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import { getBaseUrl } from "@/lib/base-url";
 
-export const runtime = "edge";
-
 const baseUrl = getBaseUrl();
 
 export const metadata: Metadata = {

@@ -28,7 +28,7 @@ export default function Contact() {
     <div ref={ref}>
       <SectionHero section="contact" />
       <div className="mt-10 px-5 lg:px-40">
-        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-rows-3 gap-8 md:grid-cols-1 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1">
           {CONTACT_CARDS_DATA.map((card, index) => (
             <motion.div
               key={card.id}

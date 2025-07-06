@@ -34,11 +34,13 @@ export const footer: Footer[] = [
     title: "resources.title",
     children: [
       { title: "resources.children.blog", href: "/blog" },
+      /* Forum temporarily disabled
       {
         title: "resources.children.feedback",
         href: LINKS.feedback,
         newTab: true,
       },
+      */
       { title: "resources.children.community", href: "/community" },
       {
         title: "resources.children.brand",
