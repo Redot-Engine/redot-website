@@ -4,6 +4,8 @@ import axios from "axios";
 const GITHUB_OWNER = "Redot-Engine";
 const GITHUB_REPO = "redot-engine";
 
+export const runtime = "edge";
+
 function getAssetPattern(
   platform: string,
   arch: string,
@@ -43,6 +45,24 @@ function getAssetPattern(
   return new RegExp(`_${platform}\\.${arch}\\.zip$`, "i");
 }
 
+async function findAssetInReleases(
+  releases: any[],
+  platform: string,
+  arch: string,
+  channel: string
+): Promise<{ asset: any; release: any } | null> {
+  const assetPattern = getAssetPattern(platform, arch, channel);
+
+  for (const release of releases) {
+    const asset = release.assets.find((a: any) => assetPattern.test(a.name));
+    if (asset) {
+      return { asset, release };
+    }
+  }
+
+  return null;
+}
+
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
   const channel = searchParams.get("channel");
@@ -54,29 +74,24 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    let release;
+    const response = await axios.get(
+      `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases`
+    );
+    const allReleases = response.data;
+
+    if (!allReleases.length) {
+      return new NextResponse("No releases found", { status: 404 });
+    }
+
+    let releases;
     if (channel === "latest") {
-      const response = await axios.get(
-        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases`
-      );
-      const allReleases = response.data;
-
-      if (!allReleases.length) {
-        return new NextResponse("No releases found", { status: 404 });
-      }
-
-      allReleases.sort(
+      releases = allReleases.sort(
         (a: any, b: any) =>
           new Date(b.published_at).getTime() -
           new Date(a.published_at).getTime()
       );
-
-      release = allReleases[0];
     } else {
-      const response = await axios.get(
-        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases`
-      );
-      const stableReleases = response.data
+      releases = allReleases
         .filter((r: any) => r.tag_name.endsWith("-stable"))
         .sort(
           (a: any, b: any) =>
@@ -84,23 +99,24 @@ export async function GET(request: NextRequest) {
             new Date(a.published_at).getTime()
         );
 
-      if (!stableReleases.length) {
+      if (!releases.length) {
         return new NextResponse("Stable release not found", { status: 404 });
       }
-      release = stableReleases[0];
     }
 
-    const assetPattern = getAssetPattern(platform, arch, channel);
-    const asset = release.assets.find((a: any) => assetPattern.test(a.name));
+    // Ищем asset в релизах
+    const result = await findAssetInReleases(releases, platform, arch, channel);
 
-    if (!asset) {
+    if (!result) {
       return new NextResponse("Asset not found", { status: 404 });
     }
 
     return NextResponse.json({
-      url: asset.browser_download_url,
-      name: asset.name,
-      size: asset.size,
+      url: result.asset.browser_download_url,
+      name: result.asset.name,
+      size: result.asset.size,
+      release_tag: result.release.tag_name,
+      release_published_at: result.release.published_at,
     });
   } catch (error) {
     console.error("GitHub API Error:", error);

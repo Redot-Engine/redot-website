@@ -6,6 +6,8 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 
+export const runtime = "edge";
+
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
