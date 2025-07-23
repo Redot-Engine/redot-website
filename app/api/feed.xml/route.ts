@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { getPosts } from "@/lib/blog";
 
+export const runtime = "edge";
+
 export async function GET() {
   const posts = await getPosts();
 

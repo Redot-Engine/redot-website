@@ -6,36 +6,20 @@ import { ProductShowcase } from "@/components/sections/landing/ProductShowcase";
 import { TextReveal } from "@/components/ui/text-reveal";
 import { useTranslations } from "next-intl";
 
-const Features = dynamic(
-  () =>
-    import("@/components/sections/landing/Features").then(
-      (mod) => mod.Features
-    ),
-  {
-    ssr: false,
-  }
+const Features = dynamic(() =>
+  import("@/components/sections/landing/Features").then((mod) => mod.Features)
 );
 
-const Review = dynamic(
-  () =>
-    import("@/components/sections/landing/Review").then((mod) => mod.Review),
-  {
-    ssr: false,
-  }
+const Review = dynamic(() =>
+  import("@/components/sections/landing/Review").then((mod) => mod.Review)
 );
 
-const Blog = dynamic(
-  () => import("@/components/sections/landing/Blog").then((mod) => mod.Blog),
-  {
-    ssr: false,
-  }
+const Blog = dynamic(() =>
+  import("@/components/sections/landing/Blog").then((mod) => mod.Blog)
 );
 
-const Start = dynamic(
-  () => import("@/components/sections/landing/Start").then((mod) => mod.Start),
-  {
-    ssr: false,
-  }
+const Start = dynamic(() =>
+  import("@/components/sections/landing/Start").then((mod) => mod.Start)
 );
 
 export default function Landing() {
