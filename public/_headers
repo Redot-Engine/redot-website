@@ -1,2 +1,5 @@
 /_next/static/*
   Cache-Control: public,max-age=31536000,immutable
+
+https://redot-website.pages.dev/*
+  X-Robots-Tag: noindex
