@@ -13,8 +13,8 @@ function getAssetPattern(
 ): RegExp {
   if (platform === "mac") {
     return channel === "mono"
-      ? /_mono_macos(\.[^\.]+)?\.zip$/i
-      : /_macos(\.[^\.]+)?\.zip$/i;
+      ? /_mono_macos(\.[^.]+)?\.zip$/i
+      : /_macos(\.[^.]+)?\.zip$/i;
   }
 
   if (platform === "android") {
@@ -90,6 +90,12 @@ export async function GET(request: NextRequest) {
           new Date(b.published_at).getTime() -
           new Date(a.published_at).getTime()
       );
+    } else if (channel === "mono") {
+      releases = allReleases.sort(
+        (a: any, b: any) =>
+          new Date(b.published_at).getTime() -
+          new Date(a.published_at).getTime()
+      );
     } else {
       releases = allReleases
         .filter((r: any) => r.tag_name.endsWith("-stable"))
@@ -104,7 +110,6 @@ export async function GET(request: NextRequest) {
       }
     }
 
-    // Ищем asset в релизах
     const result = await findAssetInReleases(releases, platform, arch, channel);
 
     if (!result) {
