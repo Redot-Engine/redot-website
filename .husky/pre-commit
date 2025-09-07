@@ -18,7 +18,7 @@ fi
 
 # Stage changes made by Prettier
 echo "📂 Staging formatting changes..."
-git add -u
+git add .
 
 # Ensure there are staged changes before proceeding
 if git diff --cached --quiet; then
