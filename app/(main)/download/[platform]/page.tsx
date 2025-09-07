@@ -1,5 +1,4 @@
 import { DownloadHero } from "@/components/sections/download/DownloadHero";
-import { DownloadThreeSteps } from "@/components/sections/download/DownloadThreeSteps";
 import { DownloadSupportedPlatform } from "@/components/sections/download/DownloadSupportedPlatform";
 import { DownloadInformation } from "@/components/sections/download/DownloadInformation";
 import { Metadata } from "next";
@@ -31,7 +30,6 @@ export default async function DownloadPlatform({
   return (
     <div>
       <DownloadHero platform={platform} />
-      <DownloadThreeSteps />
       <DownloadSupportedPlatform />
       <DownloadInformation />
       <CTA
