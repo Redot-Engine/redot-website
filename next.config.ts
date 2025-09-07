@@ -42,11 +42,6 @@ const nextConfig: NextConfig = {
         destination: "/blog/:slug",
         permanent: true,
       },
-      {
-        source: "/donate",
-        destination: "https://ko-fi.com/redotengine",
-        permanent: true,
-      },
     ];
   },
   experimental: {
