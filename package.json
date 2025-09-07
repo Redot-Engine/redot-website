@@ -23,6 +23,7 @@
     "format": "prettier -c --cache .",
     "format:fix": "prettier -w . --cache",
     "prepare": "husky",
+    "cfbuild": "opennextjs-cloudflare build",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
