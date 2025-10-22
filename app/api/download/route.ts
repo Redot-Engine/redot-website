@@ -4,7 +4,7 @@ import axios from "axios";
 const GITHUB_OWNER = "Redot-Engine";
 const GITHUB_REPO = "redot-engine";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
 
 function getAssetPattern(
   platform: string,

@@ -22,6 +22,8 @@ const Start = dynamic(() =>
   import("@/components/sections/landing/Start").then((mod) => mod.Start)
 );
 
+export const runtime = "nodejs";
+
 export default function Landing() {
   const t = useTranslations("textRevealSection");
 

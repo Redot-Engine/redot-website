@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   title: "Settings",
 };
 
+export const runtime = "nodejs";
+
 export default function Layout({
   children,
 }: Readonly<{

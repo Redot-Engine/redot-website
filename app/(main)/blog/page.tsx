@@ -7,6 +7,8 @@ export const metadata: Metadata = {
   title: "Blog",
 };
 
+export const runtime = "nodejs";
+
 export default async function Blog() {
   const tags = await getUsedTags();
 

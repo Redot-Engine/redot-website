@@ -18,6 +18,8 @@ export const metadata: Metadata = {
   },
 };
 
+export const runtime = "nodejs";
+
 export default function StudioPage() {
   return <NextStudio config={config} />;
 }

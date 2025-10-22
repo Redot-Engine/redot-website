@@ -56,6 +56,8 @@ export async function generateMetadata(props: {
   };
 }
 
+export const runtime = "nodejs";
+
 export default async function Article({
   params,
 }: {
